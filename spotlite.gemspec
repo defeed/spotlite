@@ -1,0 +1,19 @@
+# -*- encoding: utf-8 -*-
+lib = File.expand_path('../lib', __FILE__)
+$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+require 'spotlite/version'
+
+Gem::Specification.new do |gem|
+  gem.name          = "spotlite"
+  gem.version       = Spotlite::VERSION
+  gem.authors       = ["Artem Pakk"]
+  gem.email         = ["apakk@me.com"]
+  gem.description   = %q{Ruby gem to fetch publicly available information about movies from IMDb}
+  gem.homepage      = "http://github.com/defeed/spotlite"
+
+  gem.files         = `git ls-files`.split($/)
+  gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
+  gem.require_paths = ["lib"]
+  
+  gem.add_dependency "nokogiri", "~> 1.5.6"
+end
