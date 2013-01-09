@@ -1,5 +1,9 @@
-require "spotlite/version"
+$:.unshift(File.dirname(__FILE__)) unless
+  $:.include?(File.dirname(__FILE__)) || $:.include?(File.expand_path(File.dirname(__FILE__)))
 
-module Spotlite
-  # Your code goes here...
-end
+require "ruby gems"
+require "open-uri"
+require "nokogiri"
+
+require "spotlite/version"
+require "spotlite/movie"
