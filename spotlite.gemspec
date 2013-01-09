@@ -8,7 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = Spotlite::VERSION
   gem.authors       = ["Artem Pakk"]
   gem.email         = ["apakk@me.com"]
-  gem.description   = %q{Ruby gem to fetch publicly available information about movies from IMDb}
+  gem.description   = %q{Spotlite gem helps you fetch all kinds of publicly available information about movies and people from IMDb movie website, including title, year, genres, directors, writers, actors, runtime, countries, poster, keywords, etc.}
+  gem.summary       = %q{Ruby gem to fetch publicly available information about movies from IMDb}
   gem.homepage      = "http://github.com/defeed/spotlite"
 
   gem.files         = `git ls-files`.split($/)
