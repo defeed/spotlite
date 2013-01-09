@@ -28,19 +28,19 @@ module Spotlite
     private
     
     def combined
-      Nokogiri::HTML(open_page(@imdb_id, "combined"))
+      @combined ||= Nokogiri::HTML(open_page(@imdb_id, "combined"))
     end
     
     def release_info
-      Nokogiri::HTML(open_page(@imdb_id, "releaseinfo"))
+      @release_info ||= Nokogiri::HTML(open_page(@imdb_id, "releaseinfo"))
     end
     
     def full_credits
-      Nokogiri::HTML(open_page(@imdb_id, "fullcredits"))
+      @full_credits ||= Nokogiri::HTML(open_page(@imdb_id, "fullcredits"))
     end
     
     def plot_keywords
-      Nokogiri::HTML(open_page(@imdb_id, "keywords"))
+      @plot_keywords ||= Nokogiri::HTML(open_page(@imdb_id, "keywords"))
     end
     
     def open_page(imdb_id, page)
