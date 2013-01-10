@@ -25,6 +25,10 @@ module Spotlite
       combined.css("div.starbar-meta a.tn15more").text.gsub(/[^\d+]/, "").to_i rescue nil
     end
     
+    def genres
+      combined.css("div.info-content").search("a[href^='/Sections/Genres/']").map { |genre| genre.text } rescue []
+    end
+    
     private
     
     def combined
