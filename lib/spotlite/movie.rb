@@ -33,6 +33,19 @@ module Spotlite
       combined.css("h5[text()='Runtime:']").first.parent.last_element_child.text.to_i rescue nil
     end
     
+    def poster_url
+      src = combined.at("a[name='poster'] img")["src"]
+      
+      case src
+      when /^(http:.+@@)/
+        $1 + '.jpg'
+      when /^(http:.+?)\.[^\/]+$/
+        $1 + '.jpg'
+      else
+        nil
+      end
+    end
+    
     private
     
     def combined
