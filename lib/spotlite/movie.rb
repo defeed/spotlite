@@ -26,7 +26,11 @@ module Spotlite
     end
     
     def genres
-      combined.css("div.info-content").search("a[href^='/Sections/Genres/']").map { |genre| genre.text } rescue []
+      combined.css("h5[text()='Genre:']").first.parent.css("a[href^='/Sections/Genres/']").map { |genre| genre.text } rescue []
+    end
+    
+    def runtime
+      combined.css("h5[text()='Runtime:']").first.parent.last_element_child.text.to_i rescue nil
     end
     
     private
