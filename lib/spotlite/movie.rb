@@ -14,7 +14,7 @@ module Spotlite
     end
     
     def year
-      combined.search('a[href^="/year/"]').text.to_i rescue nil
+      combined.search("a[href^='/year/']").text.to_i rescue nil
     end
     
     def rating
