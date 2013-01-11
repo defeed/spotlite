@@ -26,7 +26,7 @@ module Spotlite
     end
     
     def description
-      details.at("p[itemprop='description']").text.strip rescue nil
+      details.at("p[itemprop='description']").children.first.text.strip rescue nil
     end
     
     def genres
