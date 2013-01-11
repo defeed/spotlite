@@ -25,8 +25,20 @@ module Spotlite
       details.at("div.star-box span[itemprop='ratingCount']").text.gsub(/[^\d+]/, "").to_i rescue nil
     end
     
+    def description
+      details.at("p[itemprop='description']").text.strip rescue nil
+    end
+    
     def genres
       details.css("div.infobar a[href^='/genre/']").map { |genre| genre.text } rescue []
+    end
+    
+    def countries
+      details.css("#maindetails_center_bottom .txt-block a[href^='/country/']").map { |country| country.text } rescue []
+    end
+    
+    def languages
+      details.css("#maindetails_center_bottom .txt-block a[href^='/language/']").map { |language| language.text } rescue []
     end
     
     def runtime
