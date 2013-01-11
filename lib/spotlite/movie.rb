@@ -63,7 +63,7 @@ module Spotlite
     end
     
     def open_page(imdb_id, page = nil)
-      open("http://akas.imdb.com/title/tt#{imdb_id}/#{page}")
+      open("http://www.imdb.com/title/tt#{imdb_id}/#{page}")
     end
   end
 
