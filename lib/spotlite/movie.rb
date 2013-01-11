@@ -10,46 +10,44 @@ module Spotlite
     end
     
     def title
-      @title ||= combined.css("#tn15title h1").children.first.text.strip
+      @title ||= details.at("h1[itemprop='name']").children.first.text.strip
     end
     
     def year
-      combined.search("a[href^='/year/']").text.to_i rescue nil
+      details.at("h1[itemprop='name'] a[href^='/year/']").text.to_i rescue nil
     end
     
     def rating
-      combined.css("div.starbar-meta b").children.first.text.split("/").first.to_f rescue nil
+      details.at("div.star-box span[itemprop='ratingValue']").text.to_f rescue nil
     end
     
     def votes
-      combined.css("div.starbar-meta a.tn15more").text.gsub(/[^\d+]/, "").to_i rescue nil
+      details.at("div.star-box span[itemprop='ratingCount']").text.gsub(/[^\d+]/, "").to_i rescue nil
     end
     
     def genres
-      combined.css("h5[text()='Genre:']").first.parent.css("a[href^='/Sections/Genres/']").map { |genre| genre.text } rescue []
+      details.css("div.infobar a[href^='/genre/']").map { |genre| genre.text } rescue []
     end
     
     def runtime
-      combined.css("h5[text()='Runtime:']").first.parent.last_element_child.text.to_i rescue nil
+      details.at("time[itemprop='duration']").text.to_i rescue nil
     end
     
     def poster_url
-      src = combined.at("a[name='poster'] img")["src"]
+      src = details.at("#img_primary img")["src"] rescue nil
       
       case src
       when /^(http:.+@@)/
         $1 + '.jpg'
       when /^(http:.+?)\.[^\/]+$/
         $1 + '.jpg'
-      else
-        nil
       end
     end
     
     private
     
-    def combined
-      @combined ||= Nokogiri::HTML(open_page(@imdb_id, "combined"))
+    def details
+      @details ||= Nokogiri::HTML(open_page(@imdb_id))
     end
     
     def release_info
@@ -64,7 +62,7 @@ module Spotlite
       @plot_keywords ||= Nokogiri::HTML(open_page(@imdb_id, "keywords"))
     end
     
-    def open_page(imdb_id, page)
+    def open_page(imdb_id, page = nil)
       open("http://akas.imdb.com/title/tt#{imdb_id}/#{page}")
     end
   end
