@@ -56,6 +56,10 @@ module Spotlite
       end
     end
     
+    def keywords
+      plot_keywords.css("li b.keyword").map { |keyword| keyword.text.strip } rescue []
+    end
+    
     private
     
     def details
