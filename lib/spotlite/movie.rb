@@ -42,7 +42,8 @@ module Spotlite
     end
     
     def runtime
-      details.at("time[itemprop='duration']").text.to_i rescue nil
+      details.at("time[itemprop='duration']").text.to_i rescue nil ||
+      details.at("#overview-top .infobar").text.strip[/\d{2,3} min/].to_i rescue nil
     end
     
     def poster_url
