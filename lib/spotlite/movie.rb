@@ -14,7 +14,7 @@ module Spotlite
     end
     
     def original_title
-      details.at("h1[itemprop='name'] span.title-extra").children.first.text.strip
+      details.at("h1[itemprop='name'] span.title-extra").children.first.text.strip rescue nil
     end
     
     def year
