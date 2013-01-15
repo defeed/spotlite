@@ -13,6 +13,10 @@ module Spotlite
       @title ||= details.at("h1[itemprop='name']").children.first.text.strip
     end
     
+    def original_title
+      details.at("h1[itemprop='name'] span.title-extra").children.first.text.strip
+    end
+    
     def year
       details.at("h1[itemprop='name'] a[href^='/year/']").text.to_i rescue nil
     end
