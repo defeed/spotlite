@@ -108,6 +108,21 @@ module Spotlite
       array
     end
     
+    def cast
+      table = full_credits.css("table.cast")
+      names = table.css("td.nm").map { |node| node.text } rescue []
+      links = table.css("td.nm a").map { |node| node["href"] } rescue []
+      imdb_ids = links.map { |link| link[/\d+/] } unless links.empty?
+      characters = table.css("td.char").map { |node| node.text }
+      
+      array = []
+      0.upto(names.size - 1) do |i|
+        array << {:imdb_id => imdb_ids[i], :name => names[i], :character => characters[i]}
+      end
+      
+      array
+    end
+    
     private
     
     def details
