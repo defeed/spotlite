@@ -61,6 +61,19 @@ module Spotlite
       plot_keywords.css("li b.keyword").map { |keyword| keyword.text.strip } rescue []
     end
     
+    def directors
+      names = full_credits.at("a[name='directors']").parent.parent.parent.parent.css("a[href^='/name/nm']").map { |node| node.text } rescue []
+      links = full_credits.at("a[name='directors']").parent.parent.parent.parent.css("a[href^='/name/nm']").map { |node| node["href"]} rescue []
+      imdb_ids = links.map { |link| link[/\d+/] } unless links.empty?
+      
+      array = []
+      0.upto(names.size - 1) do |i|
+        array << {:imdb_id => imdb_ids[i], :name => names[i]}
+      end
+      
+      array
+    end
+    
     private
     
     def details
