@@ -65,6 +65,10 @@ module Spotlite
       plot_keywords.css("li b.keyword").map { |keyword| keyword.text.strip } rescue []
     end
     
+    def trivia
+      movie_trivia.css("div.sodatext").map { |node| node.text.strip } rescue []
+    end
+    
     def directors
       names = full_credits.at("a[name='directors']").parent.parent.parent.parent.css("a[href^='/name/nm']").map { |node| node.text } rescue []
       links = full_credits.at("a[name='directors']").parent.parent.parent.parent.css("a[href^='/name/nm']").map { |node| node["href"]} rescue []
@@ -120,6 +124,10 @@ module Spotlite
     
     def plot_keywords
       @plot_keywords ||= Nokogiri::HTML(open_page(@imdb_id, "keywords"))
+    end
+    
+    def movie_trivia
+      @movie_trivia ||= Nokogiri::HTML(open_page(@imdb_id, "trivia"))
     end
     
     def open_page(imdb_id, page = nil)
