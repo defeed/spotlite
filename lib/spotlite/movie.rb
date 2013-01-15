@@ -74,6 +74,32 @@ module Spotlite
       array
     end
     
+    def writers
+      names = full_credits.at("a[name='writers']").parent.parent.parent.parent.css("a[href^='/name/nm']").map { |node| node.text } rescue []
+      links = full_credits.at("a[name='writers']").parent.parent.parent.parent.css("a[href^='/name/nm']").map { |node| node["href"]} rescue []
+      imdb_ids = links.map { |link| link[/\d+/] } unless links.empty?
+      
+      array = []
+      0.upto(names.size - 1) do |i|
+        array << {:imdb_id => imdb_ids[i], :name => names[i]}
+      end
+      
+      array
+    end
+    
+    def producers
+      names = full_credits.at("a[name='producers']").parent.parent.parent.parent.css("a[href^='/name/nm']").map { |node| node.text } rescue []
+      links = full_credits.at("a[name='producers']").parent.parent.parent.parent.css("a[href^='/name/nm']").map { |node| node["href"]} rescue []
+      imdb_ids = links.map { |link| link[/\d+/] } unless links.empty?
+      
+      array = []
+      0.upto(names.size - 1) do |i|
+        array << {:imdb_id => imdb_ids[i], :name => names[i]}
+      end
+      
+      array
+    end
+    
     private
     
     def details
