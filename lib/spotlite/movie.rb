@@ -52,7 +52,17 @@ module Spotlite
     end
     
     def languages
-      details.css("#maindetails_center_bottom .txt-block a[href^='/language/']").map { |language| language.text } rescue []
+      block = details.at("#maindetails_center_bottom .txt-block a[href^='/language/']").parent
+      names = block.css("a[href^='/language/']").map { |node| node.text } rescue []
+      links = block.css("a[href^='/language/']").map { |node| node["href"] } rescue []
+      codes = links.map { |link| link.split("/").last } unless links.empty?
+      
+      array = []
+      0.upto(names.size - 1) do |i|
+        array << {:code => codes[i], :name => names[i]}
+      end
+      
+      array
     end
     
     def runtime
