@@ -38,7 +38,17 @@ module Spotlite
     end
     
     def countries
-      details.css("#maindetails_center_bottom .txt-block a[href^='/country/']").map { |country| country.text } rescue []
+      block = details.at("#maindetails_center_bottom .txt-block a[href^='/country/']").parent
+      names = block.css("a[href^='/country/']").map { |node| node.text } rescue []
+      links = block.css("a[href^='/country/']").map { |node| node["href"] } rescue []
+      codes = links.map { |link| link.split("/").last } unless links.empty?
+      
+      array = []
+      0.upto(names.size - 1) do |i|
+        array << {:code => codes[i], :name => names[i]}
+      end
+      
+      array
     end
     
     def languages
@@ -71,7 +81,7 @@ module Spotlite
     
     def directors
       names = full_credits.at("a[name='directors']").parent.parent.parent.parent.css("a[href^='/name/nm']").map { |node| node.text } rescue []
-      links = full_credits.at("a[name='directors']").parent.parent.parent.parent.css("a[href^='/name/nm']").map { |node| node["href"]} rescue []
+      links = full_credits.at("a[name='directors']").parent.parent.parent.parent.css("a[href^='/name/nm']").map { |node| node["href"] } rescue []
       imdb_ids = links.map { |link| link[/\d+/] } unless links.empty?
       
       array = []
@@ -84,7 +94,7 @@ module Spotlite
     
     def writers
       names = full_credits.at("a[name='writers']").parent.parent.parent.parent.css("a[href^='/name/nm']").map { |node| node.text } rescue []
-      links = full_credits.at("a[name='writers']").parent.parent.parent.parent.css("a[href^='/name/nm']").map { |node| node["href"]} rescue []
+      links = full_credits.at("a[name='writers']").parent.parent.parent.parent.css("a[href^='/name/nm']").map { |node| node["href"] } rescue []
       imdb_ids = links.map { |link| link[/\d+/] } unless links.empty?
       
       array = []
@@ -97,7 +107,7 @@ module Spotlite
     
     def producers
       names = full_credits.at("a[name='producers']").parent.parent.parent.parent.css("a[href^='/name/nm']").map { |node| node.text } rescue []
-      links = full_credits.at("a[name='producers']").parent.parent.parent.parent.css("a[href^='/name/nm']").map { |node| node["href"]} rescue []
+      links = full_credits.at("a[name='producers']").parent.parent.parent.parent.css("a[href^='/name/nm']").map { |node| node["href"] } rescue []
       imdb_ids = links.map { |link| link[/\d+/] } unless links.empty?
       
       array = []
