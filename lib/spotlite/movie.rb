@@ -143,6 +143,21 @@ module Spotlite
       array
     end
     
+    def release_dates
+      table = release_info.at("a[href^='/calendar/?region']").parent.parent.parent.parent rescue nil
+      regions = table.css("b a[href^='/calendar/?region']").map { |node| node.text } rescue []
+      links = table.css("b a[href^='/calendar/?region']").map { |node| node["href"] } rescue []
+      codes = links.map { |link| link.split("=").last.downcase } unless links.empty?
+      dates = table.css("td[align='right']").map { |node| node.text.strip }
+      
+      array = []
+      0.upto(regions.size - 1) do |i|
+        array << {:code => codes[i], :region => regions[i], :date => parse_date(dates[i])}
+      end
+      
+      array
+    end
+    
     private
     
     def details
@@ -167,6 +182,14 @@ module Spotlite
     
     def open_page(imdb_id, page = nil)
       open("http://www.imdb.com/title/tt#{imdb_id}/#{page}")
+    end
+    
+    def parse_date(date)
+      begin
+        date.length > 4 ? Date.parse(date) : Date.new(date.to_i)
+      rescue
+        nil
+      end
     end
   end
 
