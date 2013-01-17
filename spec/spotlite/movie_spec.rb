@@ -73,7 +73,7 @@ describe "Spotlite::Movie" do
     end
     
     it "should return plot keywords" do
-      @movie.keywords.should be_a(Array)
+      @movie.keywords.should be_an(Array)
       @movie.keywords.size.should be_within(50).of(250)
       @movie.keywords.should include("Computer")
       @movie.keywords.should include("Artificial Reality")
