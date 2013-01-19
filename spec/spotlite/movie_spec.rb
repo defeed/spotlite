@@ -90,6 +90,40 @@ describe "Spotlite::Movie" do
       @movie.trivia.should include("Gary Oldman was considered as Morpheus at one point, as well as Samuel L. Jackson.")
     end
     
+    it "should return directors" do
+      @movie.directors.should be_an(Array)
+      @movie.directors.size.should eql(2)
+      @movie.directors.should include({:imdb_id => "0905152", :name => "Andy Wachowski"})
+      @movie.directors.should include({:imdb_id => "0905154", :name => "Lana Wachowski"})
+    end
+    
+    it "should return writers" do
+      @movie.writers.should be_an(Array)
+      @movie.writers.size.should eql(2)
+      @movie.writers.should include({:imdb_id => "0905152", :name => "Andy Wachowski"})
+      @movie.writers.should include({:imdb_id => "0905154", :name => "Lana Wachowski"})
+    end
+    
+    it "should return producers" do
+      @movie.producers.should be_an(Array)
+      @movie.producers.size.should eql(10)
+      @movie.producers.should include({:imdb_id => "0075732", :name => "Bruce Berman"})
+      @movie.producers.should include({:imdb_id => "0185621", :name => "Dan Cracchiolo"})
+      @movie.producers.should include({:imdb_id => "0400492", :name => "Carol Hughes"})
+      @movie.producers.should include({:imdb_id => "0905152", :name => "Andy Wachowski"})
+      @movie.producers.should include({:imdb_id => "0905154", :name => "Lana Wachowski"})
+    end
+    
+    it "should return cast members and characters" do
+      @movie.cast.should be_an(Array)
+      @movie.cast.size.should eql(37)
+      @movie.cast.should include({:imdb_id => "0000206", :name => "Keanu Reeves", :character => "Neo"})
+      @movie.cast.should include({:imdb_id => "0000401", :name => "Laurence Fishburne", :character => "Morpheus"})
+      @movie.cast.should include({:imdb_id => "0005251", :name => "Carrie-Anne Moss", :character => "Trinity"})
+      @movie.cast.should include({:imdb_id => "0915989", :name => "Hugo Weaving", :character => "Agent Smith"})
+      @movie.cast.should include({:imdb_id => "3269395", :name => "Rana Morrison", :character => "Shaylae - Woman in Office (uncredited)"})
+    end
+    
   end
   
 end
