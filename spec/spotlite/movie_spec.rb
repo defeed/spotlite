@@ -124,6 +124,17 @@ describe "Spotlite::Movie" do
       @movie.cast.should include({:imdb_id => "3269395", :name => "Rana Morrison", :character => "Shaylae - Woman in Office (uncredited)"})
     end
     
+    it "should return release dates" do
+      # Rear Window
+      @movie = Spotlite::Movie.new("0047396")
+      @movie.release_dates.should be_an(Array)
+      @movie.release_dates.size.should eql(42)
+      @movie.release_dates.should include({:code => "jp", :region => "Japan", :date => Date.new(1955,1,14)})
+      @movie.release_dates.should include({:code => "tr", :region => "Turkey", :date => Date.new(1956,4,1)})
+      @movie.release_dates.should include({:code => "us", :region => "USA", :date => Date.new(1968,1,1)})
+      @movie.release_dates.detect{ |r| r[:region] == "France" }.should eql({:code => "fr", :region => "France", :date => Date.new(1955,4,1)})
+    end
+    
   end
   
 end
