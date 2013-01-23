@@ -70,6 +70,13 @@ module Spotlite
       details.at("#overview-top .infobar").text.strip[/\d{2,3} min/].to_i rescue nil
     end
     
+    def content_rating
+      code = details.at("div.infobar span.titlePageSprite.absmiddle")['title'] rescue nil
+      description = details.at("span[itemprop='contentRating']").text.strip rescue nil
+      
+      hash = {:code => code, :description => description} if code
+    end
+    
     def poster_url
       src = details.at("#img_primary img")["src"] rescue nil
       
