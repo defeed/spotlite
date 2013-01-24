@@ -80,11 +80,8 @@ module Spotlite
     def poster_url
       src = details.at("#img_primary img")["src"] rescue nil
       
-      case src
-      when /^(http:.+@@)/
-        $1 + '.jpg'
-      when /^(http:.+?)\.[^\/]+$/
-        $1 + '.jpg'
+      if src =~ /^(http:.+@@)/ || src =~ /^(http:.+?)\.[^\/]+$/
+        $1 + ".jpg"
       end
     end
     
