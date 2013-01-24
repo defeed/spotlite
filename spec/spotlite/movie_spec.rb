@@ -5,7 +5,7 @@ describe "Spotlite::Movie" do
   describe "valid movie" do
     
     before(:each) do
-      # The Matrix
+      # The Matrix (1999)
       @movie = Spotlite::Movie.new("0133093")
     end
     
@@ -13,10 +13,16 @@ describe "Spotlite::Movie" do
       @movie.title.should eql("The Matrix")
     end
     
-    it "should return original title" do
-      # City of God (Cidade de Deus)
-      @movie = Spotlite::Movie.new("0317248")
-      @movie.original_title.should eql("Cidade de Deus")
+    describe "original title" do
+      it "should return original title if it exists" do
+        # City of God (2002)
+        @movie = Spotlite::Movie.new("0317248")
+        @movie.original_title.should eql("Cidade de Deus")
+      end
+      
+      it "should return nil if it doesn't exist" do
+        @movie.original_title.should be_nil
+      end
     end
     
     it "should return original release year" do
@@ -56,7 +62,7 @@ describe "Spotlite::Movie" do
       @movie.languages.should include({:code => "en", :name => "English"})
     end
     
-    it "should return runtime" do
+    it "should return runtime in minutes" do
       @movie.runtime.should eql(136)
     end
     
@@ -70,9 +76,15 @@ describe "Spotlite::Movie" do
       end
       
       it "should return new style poster URL" do
-        # American Beauty
+        # American Beauty (1999)
         @movie = Spotlite::Movie.new("0169547")
         @movie.poster_url.should eql("http://ia.media-imdb.com/images/M/MV5BOTU1MzExMDg3N15BMl5BanBnXkFtZTcwODExNDg3OA@@.jpg")
+      end
+      
+      it "should return nil if poster doesn't exist" do
+        # The Flying Circus (1912)
+        @movie = Spotlite::Movie.new("0002186")
+        @movie.poster_url.should be_nil
       end
     end
     
@@ -129,7 +141,7 @@ describe "Spotlite::Movie" do
     end
     
     it "should return release dates" do
-      # Rear Window
+      # Rear Window (1954)
       @movie = Spotlite::Movie.new("0047396")
       @movie.release_dates.should be_an(Array)
       @movie.release_dates.size.should eql(42)

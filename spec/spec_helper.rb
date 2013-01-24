@@ -19,6 +19,7 @@ IMDB_SAMPLES = {
   "http://www.imdb.com/title/tt0317248/"            => "tt0317248/index",
   "http://www.imdb.com/title/tt0169547/"            => "tt0169547/index",
   "http://www.imdb.com/title/tt0047396/releaseinfo" => "tt0047396/releaseinfo",
+  "http://www.imdb.com/title/tt0002186/"            => "tt0002186/index"
 }
 
 unless ENV['LIVE_TEST']
