@@ -81,10 +81,10 @@ Sometimes IMDb makes changes to its HTML layout. When this happens, Spotlite wil
 expected data, or more likely, methods will return nil or empty arrays.
 First, run tests with `LIVE_TEST=true` environment variable:
 
-   $ LIVE_TEST=true rake
+    $ LIVE_TEST=true rake
    
 Adjust methods that are failing, according to the new layout. And refresh fixtures:
 
-   $ rake fixtures:refresh
+    $ rake fixtures:refresh
 
 It will run through all elements of `IMDB_SAMPLES` hash to get fresh data.
