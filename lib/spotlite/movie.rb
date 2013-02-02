@@ -57,14 +57,9 @@ module Spotlite
     # Returns a list of countries as an array of hashes
     # with keys: +code+ (string) and +name+ (string)
     def countries
-      block = details.at("#maindetails_center_bottom .txt-block a[href^='/country/']").parent
-      names = block.css("a[href^='/country/']").map { |node| node.text } rescue []
-      links = block.css("a[href^='/country/']").map { |node| node["href"] } rescue []
-      codes = links.map { |link| link.split("/").last } unless links.empty?
-      
       array = []
-      0.upto(names.size - 1) do |i|
-        array << {:code => codes[i], :name => names[i]}
+      details.css("div.txt-block a[href^='/country/']").each do |node|
+        array << {:code => clean_href(node["href"]), :name => node.text.strip}
       end
       
       array
@@ -73,14 +68,9 @@ module Spotlite
     # Returns a list of languages as an array of hashes
     # with keys: +code+ (string) and +name+ (string)
     def languages
-      block = details.at("#maindetails_center_bottom .txt-block a[href^='/language/']").parent
-      names = block.css("a[href^='/language/']").map { |node| node.text } rescue []
-      links = block.css("a[href^='/language/']").map { |node| node["href"] } rescue []
-      codes = links.map { |link| link.split("/").last } unless links.empty?
-      
       array = []
-      0.upto(names.size - 1) do |i|
-        array << {:code => codes[i], :name => names[i]}
+      details.css("div.txt-block a[href^='/language/']").each do |node|
+        array << {:code => clean_href(node["href"]), :name => node.text.strip}
       end
       
       array
@@ -234,6 +224,13 @@ module Spotlite
       rescue
         nil
       end
+    end
+    
+    def clean_href(href) # :nodoc:
+      href = href.gsub(/\?ref.+/, "")
+      href = href.gsub("/country/", "")
+      href = href.gsub("/language/", "")
+      href = href.gsub("/name/nm", "")
     end
   end
 
