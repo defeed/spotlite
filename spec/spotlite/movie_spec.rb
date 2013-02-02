@@ -66,10 +66,6 @@ describe "Spotlite::Movie" do
       @movie.runtime.should eql(136)
     end
     
-    it "should return MPAA content rating" do
-      @movie.content_rating.should eql({:code => "R", :description => "Rated R for sci-fi violence and brief language"})
-    end
-    
     describe "poster URL" do
       it "should return old style poster URL" do
         @movie.poster_url.should eql("http://ia.media-imdb.com/images/M/MV5BMjEzNjg1NTg2NV5BMl5BanBnXkFtZTYwNjY3MzQ5.jpg")
