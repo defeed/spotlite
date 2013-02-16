@@ -31,7 +31,7 @@ module Spotlite
     
     # Returns year of original release as an integer
     def year
-      details.at("h1[itemprop='name'] a[href^='/year/']").text.to_i rescue nil
+      details.at("h1[itemprop='name'] a[href^='/year/']").text.parse_year rescue nil
     end
     
     # Returns IMDb rating as a float
@@ -59,7 +59,7 @@ module Spotlite
     def countries
       array = []
       details.css("div.txt-block a[href^='/country/']").each do |node|
-        array << {:code => clean_href(node["href"]), :name => node.text.strip}
+        array << {:code => node["href"].clean_href, :name => node.text.strip}
       end
       
       array
@@ -70,7 +70,7 @@ module Spotlite
     def languages
       array = []
       details.css("div.txt-block a[href^='/language/']").each do |node|
-        array << {:code => clean_href(node["href"]), :name => node.text.strip}
+        array << {:code => node["href"].clean_href, :name => node.text.strip}
       end
       
       array
@@ -106,7 +106,7 @@ module Spotlite
     def directors
       names = full_credits.at("a[name='directors']").parent.parent.parent.parent.css("a[href^='/name/nm']").map { |node| node.text } rescue []
       links = full_credits.at("a[name='directors']").parent.parent.parent.parent.css("a[href^='/name/nm']").map { |node| node["href"] } rescue []
-      imdb_ids = links.map { |link| link[/\d+/] } unless links.empty?
+      imdb_ids = links.map { |link| link.parse_imdb_id } unless links.empty?
       
       array = []
       0.upto(names.size - 1) do |i|
@@ -121,7 +121,7 @@ module Spotlite
     def writers
       names = full_credits.at("a[name='writers']").parent.parent.parent.parent.css("a[href^='/name/nm']").map { |node| node.text } rescue []
       links = full_credits.at("a[name='writers']").parent.parent.parent.parent.css("a[href^='/name/nm']").map { |node| node["href"] } rescue []
-      imdb_ids = links.map { |link| link[/\d+/] } unless links.empty?
+      imdb_ids = links.map { |link| link.parse_imdb_id } unless links.empty?
       
       array = []
       0.upto(names.size - 1) do |i|
@@ -136,7 +136,7 @@ module Spotlite
     def producers
       names = full_credits.at("a[name='producers']").parent.parent.parent.parent.css("a[href^='/name/nm']").map { |node| node.text } rescue []
       links = full_credits.at("a[name='producers']").parent.parent.parent.parent.css("a[href^='/name/nm']").map { |node| node["href"] } rescue []
-      imdb_ids = links.map { |link| link[/\d+/] } unless links.empty?
+      imdb_ids = links.map { |link| link.parse_imdb_id } unless links.empty?
       
       array = []
       0.upto(names.size - 1) do |i|
@@ -152,7 +152,7 @@ module Spotlite
       table = full_credits.css("table.cast")
       names = table.css("td.nm").map { |node| node.text } rescue []
       links = table.css("td.nm a").map { |node| node["href"] } rescue []
-      imdb_ids = links.map { |link| link[/\d+/] } unless links.empty?
+      imdb_ids = links.map { |link| link.parse_imdb_id } unless links.empty?
       characters = table.css("td.char").map { |node| node.text }
       
       array = []
@@ -177,7 +177,7 @@ module Spotlite
       
       array = []
       0.upto(regions.size - 1) do |i|
-        array << {:code => codes[i], :region => regions[i], :date => parse_date(dates[i])}
+        array << {:code => codes[i], :region => regions[i], :date => dates[i].parse_date}
       end
       
       array
@@ -207,21 +207,6 @@ module Spotlite
     
     def open_page(imdb_id, page = nil)  # :nodoc:
       open("http://www.imdb.com/title/tt#{imdb_id}/#{page}")
-    end
-    
-    def parse_date(date) # :nodoc:
-      begin
-        date.length > 4 ? Date.parse(date) : Date.new(date.to_i)
-      rescue
-        nil
-      end
-    end
-    
-    def clean_href(href) # :nodoc:
-      href = href.gsub(/\?ref.+/, "")
-      href = href.gsub("/country/", "")
-      href = href.gsub("/language/", "")
-      href = href.gsub("/name/nm", "")
     end
   end
 
