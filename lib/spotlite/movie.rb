@@ -2,7 +2,7 @@ module Spotlite
 
   # Represents a movie on IMDb.com
   class Movie
-    attr_accessor :imdb_id, :title, :url
+    attr_accessor :imdb_id, :title, :year
     
     # Initialize a new movie object by its IMDb ID as a string
     #
@@ -13,9 +13,10 @@ module Spotlite
     # be performed once when you use a method that needs remote data
     # Currently, all data is spead across 5 pages: main movie page,
     # /releaseinfo, /fullcredits, /keywords, and /trivia
-    def initialize(imdb_id, title = nil, url = nil)
+    def initialize(imdb_id, title = nil, year = nil)
       @imdb_id = imdb_id
       @title   = title
+      @year    = year
       @url     = "http://www.imdb.com/title/tt#{imdb_id}/"
     end
     
@@ -31,7 +32,7 @@ module Spotlite
     
     # Returns year of original release as an integer
     def year
-      details.at("h1[itemprop='name'] a[href^='/year/']").text.parse_year rescue nil
+      @year ||= details.at("h1[itemprop='name'] a[href^='/year/']").text.parse_year rescue nil
     end
     
     # Returns IMDb rating as a float
