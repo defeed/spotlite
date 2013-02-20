@@ -12,12 +12,12 @@ module Spotlite
     
     private
     
-    def document
-      @document ||= Nokogiri::HTML(open("http://www.imdb.com/find?q=#{CGI::escape(@query)}&s=all", "Accept-Language" => "en-us"))
+    def page
+      @page ||= open_page
     end
     
     def parse_movies
-      document.at("table.findList").css("td.result_text").reject do |node|
+      page.at("table.findList").css("td.result_text").reject do |node|
         # search results will only include movies
         SKIP.any? { |skipped| node.text.include? skipped }
       end.map do |node|
@@ -29,7 +29,13 @@ module Spotlite
       end.map do |values|
         Spotlite::Movie.new(*values)
       end
-
+    end
+    
+    private
+    
+    def open_page
+      Nokogiri::HTML(open("http://www.imdb.com/find?q=#{CGI::escape(@query)}&s=all",
+                          "Accept-Language" => "en-us"))
     end
   end
 
