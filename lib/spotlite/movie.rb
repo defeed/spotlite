@@ -187,27 +187,28 @@ module Spotlite
     private
     
     def details # :nodoc:
-      @details ||= Nokogiri::HTML(open_page(@imdb_id))
+      @details ||= open_page
     end
     
     def release_info # :nodoc:
-      @release_info ||= Nokogiri::HTML(open_page(@imdb_id, "releaseinfo"))
+      @release_info ||= open_page("releaseinfo")
     end
     
     def full_credits # :nodoc:
-      @full_credits ||= Nokogiri::HTML(open_page(@imdb_id, "fullcredits"))
+      @full_credits ||= open_page("fullcredits")
     end
     
     def plot_keywords # :nodoc:
-      @plot_keywords ||= Nokogiri::HTML(open_page(@imdb_id, "keywords"))
+      @plot_keywords ||= open_page("keywords")
     end
     
     def movie_trivia # :nodoc:
-      @movie_trivia ||= Nokogiri::HTML(open_page(@imdb_id, "trivia"))
+      @movie_trivia ||= open_page("trivia")
     end
     
-    def open_page(imdb_id, page = nil)  # :nodoc:
-      open("http://www.imdb.com/title/tt#{imdb_id}/#{page}")
+    def open_page(page = nil) # :nodoc:
+      Nokogiri::HTML(open("http://www.imdb.com/title/tt#{@imdb_id}/#{page}",
+                          "Accept-Language" => "en-us"))
     end
   end
 
