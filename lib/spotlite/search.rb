@@ -31,8 +31,6 @@ module Spotlite
       end
     end
     
-    private
-    
     def open_page
       Nokogiri::HTML(open("http://www.imdb.com/find?q=#{CGI::escape(@query)}&s=all",
                           "Accept-Language" => "en-us"))
