@@ -11,7 +11,7 @@ module Spotlite
     # Spotlite::Movie class objects are lazy loading. No HTTP request
     # will be performed upon object initialization. HTTP request will
     # be performed once when you use a method that needs remote data
-    # Currently, all data is spead across 5 pages: main movie page,
+    # Currently, all data is spread across 5 pages: main movie page,
     # /releaseinfo, /fullcredits, /keywords, and /trivia
     def initialize(imdb_id, title = nil, year = nil)
       @imdb_id = imdb_id
