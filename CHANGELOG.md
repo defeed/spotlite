@@ -1,3 +1,8 @@
+## v0.2.0 22-Feb-2013
+* Added search
+* Refreshed fixtures
+* Fixed title, original title, and year methods due to IMDb layout changes
+
 ## v0.1.1 12-Feb-2013
 
 * Fixed countries, languages, and rating methods due to IMDb layout changes
