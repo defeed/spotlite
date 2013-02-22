@@ -5,8 +5,8 @@ describe "Spotlite::Search" do
     @search = Spotlite::Search.new("the core")
   end
   
-  it "should return 8 results" do
-    @search.movies.size.should eql(8)
+  it "should return 7 results" do
+    @search.movies.size.should eql(7)
   end
   
   it "should return Spotlite::Movie objects" do
