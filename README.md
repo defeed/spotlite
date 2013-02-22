@@ -19,7 +19,11 @@ Or install it yourself as:
 ## Usage
 
     > require 'spotlite'
+    # Access movie directly by its IMDb ID
     > movie = Spotlite::Movie.new("0133093")
+    # Or use search instead
+    > list = Spotlite::Search.new("the matrix").movies
+    > movie = list.first
     > movie.title
     => "The Matrix"
     > movie.runtime
@@ -68,11 +72,11 @@ Install FakeWeb gem:
 If you want to make a new feature that uses data from a page which is not stubbed out yet:
 
     $ cd spotlite
-    $ curl -is http://www.imdb.com/title/tt[IMDB_ID]/ --header "Accept-Language: en-us" > spec/fixtures/tt[IMDB_ID]/index
+    $ curl -isH "Accept-Language: en-us" http://www.imdb.com/title/tt[IMDB_ID]/ > spec/fixtures/tt[IMDB_ID]/index
     
 or, for example:
 
-    $ curl -is http://www.imdb.com/title/tt[IMDB_ID]/fullcredits --header "Accept-Language: en-us" > spec/fixtures/tt[IMDB_ID]/fullcredits
+    $ curl -isH "Accept-Language: en-us" http://www.imdb.com/title/tt[IMDB_ID]/fullcredits > spec/fixtures/tt[IMDB_ID]/fullcredits
 
 You get the idea. And don't forget to add corresponding line to `IMDB_SAMPLES`
 hash in `spec/spec_helper.rb` file.
