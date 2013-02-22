@@ -22,17 +22,17 @@ module Spotlite
     
     # Returns title as a string
     def title
-      @title ||= details.at("h1[itemprop='name']").children.first.text.strip
+      @title ||= details.at("h1.header span[itemprop='name']").text.strip
     end
     
     # Returns original non-english title as a string
     def original_title
-      details.at("h1[itemprop='name'] span.title-extra").children.first.text.strip rescue nil
+      details.at("h1.header span.title-extra[itemprop='name']").children.first.text.strip rescue nil
     end
     
     # Returns year of original release as an integer
     def year
-      @year ||= details.at("h1[itemprop='name'] a[href^='/year/']").text.parse_year rescue nil
+      @year ||= details.at("h1.header a[href^='/year/']").text.parse_year rescue nil
     end
     
     # Returns IMDb rating as a float
