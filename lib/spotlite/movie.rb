@@ -164,6 +164,20 @@ module Spotlite
       array
     end
     
+    # Returns a list of starred actors as an array of hashes
+    # with keys: +imdb_id+ (string) and +name+ (string)
+    def stars
+      array = []
+      details.css("td#overview-top div[itemprop='actors'] a[href^='/name/nm']").map do |node|
+        name = node.text.strip
+        imdb_id = node["href"].parse_imdb_id
+        
+        array << {:name => name, :imdb_id => imdb_id}
+      end
+      
+      array
+    end
+    
     # Returns a list of regions and corresponding release dates
     # as an array of hashes with keys:
     # region +code+ (string), +region+ name (string), and +date+ (date)

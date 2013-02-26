@@ -136,6 +136,14 @@ describe "Spotlite::Movie" do
       @movie.cast.should include({:imdb_id => "3269395", :name => "Rana Morrison", :character => "Shaylae - Woman in Office (uncredited)"})
     end
     
+    it "should return starred actors" do
+      @movie.stars.should be_an(Array)
+      @movie.stars.size.should eql(3)
+      @movie.stars.should include({:imdb_id => "0000206", :name => "Keanu Reeves"})
+      @movie.stars.should include({:imdb_id => "0000401", :name => "Laurence Fishburne"})
+      @movie.stars.should include({:imdb_id => "0005251", :name => "Carrie-Anne Moss"})
+    end
+    
     it "should return release dates" do
       # Rear Window (1954)
       @movie = Spotlite::Movie.new("0047396")
