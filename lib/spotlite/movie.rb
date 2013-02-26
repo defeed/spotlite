@@ -172,7 +172,7 @@ module Spotlite
         name = node.text.strip
         imdb_id = node["href"].parse_imdb_id
         
-        array << {:name => name, :imdb_id => imdb_id}
+        array << {:imdb_id => imdb_id, :name => name}
       end
       
       array
