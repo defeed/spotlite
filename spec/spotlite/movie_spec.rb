@@ -116,6 +116,12 @@ describe "Spotlite::Movie" do
       @movie.writers.should include({:imdb_id => "0905154", :name => "Lana Wachowski"})
     end
     
+    it "should return only unique writers" do
+      # The Private Lives of Pippa Lee (2009) 
+      @movie = Spotlite::Movie.new("1134629")
+      @movie.writers.size.should eql(1)
+    end
+    
     it "should return producers" do
       @movie.producers.should be_an(Array)
       @movie.producers.size.should eql(10)

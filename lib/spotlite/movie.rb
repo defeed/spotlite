@@ -120,16 +120,16 @@ module Spotlite
     # Returns a list of writers as an array of hashes
     # with keys: +imdb_id+ (string) and +name+ (string)
     def writers
-      names = full_credits.at("a[name='writers']").parent.parent.parent.parent.css("a[href^='/name/nm']").map { |node| node.text } rescue []
-      links = full_credits.at("a[name='writers']").parent.parent.parent.parent.css("a[href^='/name/nm']").map { |node| node["href"] } rescue []
-      imdb_ids = links.map { |link| link.parse_imdb_id } unless links.empty?
-      
       array = []
-      0.upto(names.size - 1) do |i|
-        array << {:imdb_id => imdb_ids[i], :name => names[i]}
+      table = full_credits.at("a[name='writers']").parent.parent.parent.parent
+      table.css("a[href^='/name/nm']").map do |node|
+        imdb_id = node["href"].parse_imdb_id
+        name = node.text.strip
+        
+        array << {:imdb_id => imdb_id, :name => name}
       end
       
-      array
+      array.uniq
     end
     
     # Returns a list of producers as an array of hashes

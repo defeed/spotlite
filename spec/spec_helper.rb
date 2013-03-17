@@ -20,6 +20,7 @@ IMDB_SAMPLES = {
   "http://www.imdb.com/title/tt0169547/"            => "tt0169547/index",
   "http://www.imdb.com/title/tt0047396/releaseinfo" => "tt0047396/releaseinfo",
   "http://www.imdb.com/title/tt0002186/"            => "tt0002186/index",
+  "http://www.imdb.com/title/tt1134629/fullcredits" => "tt1134629/fullcredits",
   "http://www.imdb.com/find?q=the+core&s=all"       => "search_the_core"
 }
 
