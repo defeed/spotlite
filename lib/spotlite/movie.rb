@@ -105,46 +105,19 @@ module Spotlite
     # Returns a list of directors as an array of hashes
     # with keys: +imdb_id+ (string) and +name+ (string)
     def directors
-      array = []
-      table = full_credits.at("a[name='directors']").parent.parent.parent.parent
-      table.css("a[href^='/name/nm']").map do |node|
-        imdb_id = node["href"].parse_imdb_id
-        name = node.text.strip
-        
-        array << {:imdb_id => imdb_id, :name => name}
-      end
-      
-      array.uniq
+      parse_staff(:directors)
     end
     
     # Returns a list of writers as an array of hashes
     # with keys: +imdb_id+ (string) and +name+ (string)
     def writers
-      array = []
-      table = full_credits.at("a[name='writers']").parent.parent.parent.parent
-      table.css("a[href^='/name/nm']").map do |node|
-        imdb_id = node["href"].parse_imdb_id
-        name = node.text.strip
-        
-        array << {:imdb_id => imdb_id, :name => name}
-      end
-      
-      array.uniq
+      parse_staff(:writers)
     end
     
     # Returns a list of producers as an array of hashes
     # with keys: +imdb_id+ (string) and +name+ (string)
     def producers
-      array = []
-      table = full_credits.at("a[name='producers']").parent.parent.parent.parent
-      table.css("a[href^='/name/nm']").map do |node|
-        imdb_id = node["href"].parse_imdb_id
-        name = node.text.strip
-        
-        array << {:imdb_id => imdb_id, :name => name}
-      end
-      
-      array.uniq
+      parse_staff(:producers)
     end
     
     # Returns a list of actors as an array of hashes
@@ -223,6 +196,19 @@ module Spotlite
     def open_page(page = nil) # :nodoc:
       Nokogiri::HTML(open("http://www.imdb.com/title/tt#{@imdb_id}/#{page}",
                           "Accept-Language" => "en-us"))
+    end
+    
+    def parse_staff(name) # :nodoc:
+      array = []
+      table = full_credits.at("a[name='#{name}']").parent.parent.parent.parent
+      table.css("a[href^='/name/nm']").map do |node|
+        imdb_id = node["href"].parse_imdb_id
+        name = node.text.strip
+        
+        array << {:imdb_id => imdb_id, :name => name}
+      end
+      
+      array.uniq
     end
   end
 
