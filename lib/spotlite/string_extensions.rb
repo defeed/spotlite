@@ -1,4 +1,5 @@
 class String
+  require 'date' # for Ruby 1.9.2
   
   def parse_date # :nodoc:
     begin
