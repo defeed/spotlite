@@ -27,7 +27,7 @@ module Spotlite
     
     # Returns original non-english title as a string
     def original_title
-      details.at("h1.header span.title-extra[itemprop='name']").children.first.text.strip rescue nil
+      details.at("h1.header span.title-extra[itemprop='name']").children.first.text.gsub('"', "").strip rescue nil
     end
     
     # Returns year of original release as an integer
