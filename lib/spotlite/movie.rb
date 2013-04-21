@@ -157,17 +157,18 @@ module Spotlite
     # If day is unknown, 1st day of month is assigned
     # If day and month are unknown, 1st of January is assigned
     def release_dates
-      table = release_info.at("a[href^='/calendar/?region']").parent.parent.parent.parent rescue nil
-      regions = table.css("b a[href^='/calendar/?region']").map { |node| node.text } rescue []
-      links = table.css("b a[href^='/calendar/?region']").map { |node| node["href"] } rescue []
-      codes = links.map { |link| link.split("=").last.downcase } unless links.empty?
-      dates = table.css("td[align='right']").map { |node| node.text.strip }
-      
       array = []
-      0.upto(regions.size - 1) do |i|
-        array << {:code => codes[i], :region => regions[i], :date => dates[i].parse_date}
+      table = release_info.at("a[href^='/calendar/?region']").parent.parent.parent.parent rescue nil
+      table.css("tr").map do |row|
+        code = row.at("a[href^='/calendar/?region']")["href"].split("=").last.downcase rescue nil
+        region = row.at("a[href^='/calendar/?region']").text rescue nil
+        date = row.at("td[align='right']").text.strip.parse_date rescue nil
+        
+        array << {:code => code, :region => region, :date => date}
       end
       
+      # Delete first element with nil values (header row)
+      array.delete_at 0
       array
     end
     
