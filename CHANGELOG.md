@@ -1,3 +1,8 @@
+## v0.2.1 21-Apr-2013
+* Added `stars` method to get starred actors
+* Refactored code
+* Fixed issue when original non-english titles were returned in quotes
+
 ## v0.2.0 22-Feb-2013
 * Added search
 * Refreshed fixtures
