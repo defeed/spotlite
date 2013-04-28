@@ -1,3 +1,7 @@
+## v0.3.0 28-Apr-2013
+* Added IMDb Top 250 page parser
+* Updated `keywords` method following movie keywords page changes on IMDb
+
 ## v0.2.1 21-Apr-2013
 * Added `stars` method to get starred actors
 * Refactored code
