@@ -87,11 +87,11 @@ describe "Spotlite::Movie" do
     it "should return plot keywords" do
       @movie.keywords.should be_an(Array)
       @movie.keywords.size.should be_within(50).of(250)
-      @movie.keywords.should include("Computer")
-      @movie.keywords.should include("Artificial Reality")
-      @movie.keywords.should include("Hand To Hand Combat")
-      @movie.keywords.should include("White Rabbit")
-      @movie.keywords.should include("Chosen One")
+      @movie.keywords.should include("computer")
+      @movie.keywords.should include("artificial reality")
+      @movie.keywords.should include("hand to hand combat")
+      @movie.keywords.should include("white rabbit")
+      @movie.keywords.should include("chosen one")
     end
     
     it "should return trivia" do

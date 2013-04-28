@@ -94,7 +94,7 @@ module Spotlite
     
     # Returns a list of keywords as an array of strings
     def keywords
-      plot_keywords.css("li b.keyword").map { |keyword| keyword.text.strip } rescue []
+      plot_keywords.css("a[href^='/keyword/']").map { |keyword| keyword.text.strip } rescue []
     end
     
     # Returns a list of trivia facts as an array of strings
