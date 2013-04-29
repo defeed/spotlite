@@ -154,15 +154,21 @@ describe "Spotlite::Movie" do
       @movie.stars.should include({:imdb_id => "0005251", :name => "Carrie-Anne Moss"})
     end
     
-    it "should return release dates" do
-      # Rear Window (1954)
-      @movie = Spotlite::Movie.new("0047396")
-      @movie.release_dates.should be_an(Array)
-      @movie.release_dates.size.should eql(43)
-      @movie.release_dates.should include({:code => "jp", :region => "Japan", :date => Date.new(1955,1,14)})
-      @movie.release_dates.should include({:code => "tr", :region => "Turkey", :date => Date.new(1956,4,1)})
-      @movie.release_dates.should include({:code => "us", :region => "USA", :date => Date.new(1968,1,1)})
-      @movie.release_dates.detect{ |r| r[:region] == "France" }.should eql({:code => "fr", :region => "France", :date => Date.new(1955,4,1)})
+    describe "release dates" do
+      it "should return release dates" do
+        # Rear Window (1954)
+        @movie = Spotlite::Movie.new("0047396")
+        @movie.release_dates.should be_an(Array)
+        @movie.release_dates.size.should eql(43)
+        @movie.release_dates.should include({:code => "jp", :region => "Japan", :date => Date.new(1955,1,14)})
+        @movie.release_dates.should include({:code => "tr", :region => "Turkey", :date => Date.new(1956,4,1)})
+        @movie.release_dates.should include({:code => "us", :region => "USA", :date => Date.new(1968,1,1)})
+        @movie.release_dates.detect{ |r| r[:region] == "France" }.should eql({:code => "fr", :region => "France", :date => Date.new(1955,4,1)})
+      end
+    
+      it "should return original release date" do
+        @movie.release_date.should eql(Date.new(1999,3,31))
+      end
     end
     
     it "should return critic reviews" do

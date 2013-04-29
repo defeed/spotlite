@@ -177,6 +177,11 @@ module Spotlite
       array
     end
     
+    # Returns original release date as a date
+    def release_date
+      release_dates.first[:date] rescue nil
+    end
+    
     # Returns a list of critic reviews as an array of hashes
     # with keys: +source+ (string), +author+ (string), +excerpt+ (string), and +score+ (integer)
     def critic_reviews
