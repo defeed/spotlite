@@ -37,6 +37,10 @@ describe "Spotlite::Movie" do
       @movie.votes.should be_within(50000).of(700000)
     end
     
+    it "should return Metascore rating" do
+      @movie.metascore.should eql(73)
+    end
+    
     it "should return description" do
       @movie.description.should match(/A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers./)
     end

@@ -40,6 +40,11 @@ module Spotlite
       details.at("div.star-box-details span[itemprop='ratingValue']").text.to_f rescue nil
     end
     
+    # Returns Metascore rating as an integer
+    def metascore
+      details.at("div.star-box-details a[href^=criticreviews]").text.strip.split("/").first.to_i rescue nil
+    end
+    
     # Returns number of votes as an integer
     def votes
       details.at("div.star-box-details span[itemprop='ratingCount']").text.gsub(/[^\d+]/, "").to_i rescue nil
