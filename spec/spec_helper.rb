@@ -11,18 +11,19 @@ def read_fixture(path)
 end
 
 IMDB_SAMPLES = {
-  "http://www.imdb.com/title/tt0133093/"            => "tt0133093/index",
-  "http://www.imdb.com/title/tt0133093/fullcredits" => "tt0133093/fullcredits",
-  "http://www.imdb.com/title/tt0133093/keywords"    => "tt0133093/keywords",
-  "http://www.imdb.com/title/tt0133093/releaseinfo" => "tt0133093/releaseinfo",
-  "http://www.imdb.com/title/tt0133093/trivia"      => "tt0133093/trivia",
-  "http://www.imdb.com/title/tt0317248/"            => "tt0317248/index",
-  "http://www.imdb.com/title/tt0169547/"            => "tt0169547/index",
-  "http://www.imdb.com/title/tt0047396/releaseinfo" => "tt0047396/releaseinfo",
-  "http://www.imdb.com/title/tt0002186/"            => "tt0002186/index",
-  "http://www.imdb.com/title/tt1134629/fullcredits" => "tt1134629/fullcredits",
-  "http://www.imdb.com/find?q=the+core&s=all"       => "search_the_core",
-  "http://www.imdb.com/chart/top"                   => "top"
+  "http://www.imdb.com/title/tt0133093/"              => "tt0133093/index",
+  "http://www.imdb.com/title/tt0133093/fullcredits"   => "tt0133093/fullcredits",
+  "http://www.imdb.com/title/tt0133093/keywords"      => "tt0133093/keywords",
+  "http://www.imdb.com/title/tt0133093/releaseinfo"   => "tt0133093/releaseinfo",
+  "http://www.imdb.com/title/tt0133093/trivia"        => "tt0133093/trivia",
+  "http://www.imdb.com/title/tt0133093/criticreviews" => "tt0133093/criticreviews",
+  "http://www.imdb.com/title/tt0317248/"              => "tt0317248/index",
+  "http://www.imdb.com/title/tt0169547/"              => "tt0169547/index",
+  "http://www.imdb.com/title/tt0047396/releaseinfo"   => "tt0047396/releaseinfo",
+  "http://www.imdb.com/title/tt0002186/"              => "tt0002186/index",
+  "http://www.imdb.com/title/tt1134629/fullcredits"   => "tt1134629/fullcredits",
+  "http://www.imdb.com/find?q=the+core&s=all"         => "search_the_core",
+  "http://www.imdb.com/chart/top"                     => "top"
 }
 
 unless ENV['LIVE_TEST']

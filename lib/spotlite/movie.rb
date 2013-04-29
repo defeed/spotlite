@@ -177,6 +177,22 @@ module Spotlite
       array
     end
     
+    # Returns a list of critic reviews as an array of hashes
+    # with keys: +source+ (string), +author+ (string), +excerpt+ (string), and +score+ (integer)
+    def critic_reviews
+      array = []
+      reviews.css("tr[itemprop='reviews']").map do |review|
+        source = review.at("b[itemprop='publisher'] span[itemprop='name']").text
+        author = review.at("span[itemprop='author'] span[itemprop='name']").text
+        excerpt = review.at("div[itemprop='reviewbody']").text.strip
+        score = review.at("span[itemprop='ratingValue']").text.to_i
+        
+        array << {:source => source, :author => author, :excerpt => excerpt, :score => score}
+      end
+      
+      array
+    end
+    
     private
     
     def details # :nodoc:
@@ -197,6 +213,10 @@ module Spotlite
     
     def movie_trivia # :nodoc:
       @movie_trivia ||= open_page("trivia")
+    end
+    
+    def reviews
+      @reviews ||= open_page("criticreviews")
     end
     
     def open_page(page = nil) # :nodoc:

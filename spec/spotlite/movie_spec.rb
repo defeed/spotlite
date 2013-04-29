@@ -165,6 +165,36 @@ describe "Spotlite::Movie" do
       @movie.release_dates.detect{ |r| r[:region] == "France" }.should eql({:code => "fr", :region => "France", :date => Date.new(1955,4,1)})
     end
     
+    it "should return critic reviews" do
+      @movie.critic_reviews.should be_an(Array)
+      @movie.critic_reviews.size.should eql(11)
+      @movie.critic_reviews.should include(
+        {
+          :source => "Chicago Sun-Times",
+          :author => "Roger Ebert",
+          :excerpt => "A visually dazzling cyberadventure, full of kinetic excitement, but it retreats to formula just when it's getting interesting.",
+          :score => 75
+        }
+      )
+      @movie.critic_reviews.should include(
+        {
+          :source => "Chicago Tribune",
+          :author => "",
+          :excerpt => "The writing remains more intelligent than most thrillers, and the action is executed with such panache that even if you don't buy the reality of The Matrix, it's a helluva place to visit.",
+          :score => 75
+        }
+      )
+      
+      @movie.critic_reviews.should include(
+        {
+          :source => "Los Angeles Times",
+          :author => "Kenneth Turan",
+          :excerpt => "A wildly cinematic futuristic thriller that is determined to overpower the imagination, The Matrix combines traditional science-fiction premises with spanking new visual technology in a way that almost defies description.",
+          :score => 90
+        }
+      )
+    end
+    
   end
   
 end
