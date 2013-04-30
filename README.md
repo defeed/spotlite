@@ -42,6 +42,12 @@ Or install it yourself as:
     {:imdb_id=>"0915989", :name=>"Hugo Weaving", :character=>"Agent Smith"},
     {:imdb_id=>"0287825", :name=>"Gloria Foster", :character=>"Oracle"}]
 
+## Important notice
+
+Movie titles will be localized if movie has an alternative title specific to your country.
+Example: _The Great Gatsby_ (http://www.imdb.com/title/tt1343092) has an alternative title _Gatsby le magnifique_ `France (imdb display title)` and will be localized accordingly based on your IP address, if you reside in France.
+Sorry, there is nothing I can do about it at the moment.
+
 ## Contributing
 
 1. Fork it
