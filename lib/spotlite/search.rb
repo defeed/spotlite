@@ -6,16 +6,20 @@ module Spotlite
     
     SKIP = ["(TV Episode)", "(TV Series)", "(TV Movie)", "(Video)", "(Short)", "(Video Game)"]
     
+    # Initialize a +Search+ object with string search query
     def initialize(query)
       @query = query
     end
     
     private
     
-    def page
+    def page # :nodoc:
       @page ||= open_page
     end
     
+    # Searches for a table containing movie titles and parses it.
+    # Returns an array of +Spotlite::Movie+ objects
+    # Returns empty array if no results found
     def parse_movies
       table = page.at("a[name='tt']").parent.parent.at("table.findList") rescue nil
       if !table.nil?
@@ -36,7 +40,7 @@ module Spotlite
       end
     end
     
-    def open_page
+    def open_page # :nodoc:
       Nokogiri::HTML(open("http://www.imdb.com/find?q=#{CGI::escape(@query)}&s=all",
                           "Accept-Language" => "en-us"))
     end

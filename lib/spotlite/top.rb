@@ -2,10 +2,11 @@ module Spotlite
   class Top < List
     private
     
-    def page
+    def page # :nodoc:
       @page ||= open_page
     end
     
+    # Returns an array of +Spotlite::Movie+ objects
     def parse_movies
       page.css("table a[href^='/title/tt']").map do |node|
         imdb_id = node['href'].parse_imdb_id
@@ -17,7 +18,7 @@ module Spotlite
       end
     end
     
-    def open_page
+    def open_page # :nodoc:
       Nokogiri::HTML(open("http://www.imdb.com/chart/top",
                           "Accept-Language" => "en-us"))
     end
