@@ -2,10 +2,6 @@ module Spotlite
   class Top < List
     private
     
-    def page # :nodoc:
-      @page ||= open_page
-    end
-    
     # Returns an array of +Spotlite::Movie+ objects
     def parse_movies
       page.css("table a[href^='/title/tt']").map do |node|

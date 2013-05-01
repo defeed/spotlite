@@ -13,6 +13,10 @@ class String
     year = self[/\d{4}/].to_i
     year > 0 ? year : nil
   end
+  
+  def strip_year
+    gsub(/\s\((\d{4})\)/, "")
+  end
 
   def clean_href # :nodoc:
     gsub(/\?ref.+/, "").gsub("/country/", "").gsub("/language/", "")

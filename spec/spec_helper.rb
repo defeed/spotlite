@@ -24,7 +24,8 @@ IMDB_SAMPLES = {
   "http://www.imdb.com/title/tt1134629/fullcredits"          => "tt1134629/fullcredits",
   "http://www.imdb.com/find?q=the+core&s=all"                => "search_the_core",
   "http://www.imdb.com/find?q=wappadoozle+swambling&s=all"   => "search_no_results",
-  "http://www.imdb.com/chart/top"                            => "top"
+  "http://www.imdb.com/chart/top"                            => "top",
+  "http://www.imdb.com/movies-in-theaters/"                  => "movies_in_theaters"
 }
 
 unless ENV['LIVE_TEST']

@@ -13,10 +13,6 @@ module Spotlite
     
     private
     
-    def page # :nodoc:
-      @page ||= open_page
-    end
-    
     # Searches for a table containing movie titles and parses it.
     # Returns an array of +Spotlite::Movie+ objects
     # Returns empty array if no results found

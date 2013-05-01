@@ -7,6 +7,12 @@ module Spotlite
     def movies
       @movies ||= parse_movies
     end
+    
+    private
+    
+    def page # :nodoc:
+      @page ||= open_page
+    end
   end
 
 end

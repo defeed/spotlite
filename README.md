@@ -48,6 +48,18 @@ Movie titles will be localized if movie has an alternative title specific to you
 Example: _The Great Gatsby_ (http://www.imdb.com/title/tt1343092) has an alternative title _Gatsby le magnifique_ `France (imdb display title)` and will be localized accordingly based on your IP address, if you reside in France. Non-localized title is still avaliable with `original_title` method.
 Sorry, there is nothing I can do about it at the moment.
 
+## Class tree
+    
+    Spotlite
+    |
+    |- Movie
+    `- List
+       |- Search
+       |- Top
+       `- InTheaters
+          |- OpeningThisWeek
+          `- BoxOfficeTop
+
 ## Contributing
 
 1. Fork it
