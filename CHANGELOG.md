@@ -1,8 +1,18 @@
+## v0.4.0
+
+* Added `metascore` method to `Movie` class
+* Added `critic_reviews` method to `Movie` class
+* Added parsers for movies opening this week, and this week's box office top 10 (http://www.imdb.com/movies-in-theaters/)
+* `Spotlite::Search` now can handle empty search results
+* Fixed issue with movie titles not necessarily being in the first table on search results page
+
 ## v0.3.0 28-Apr-2013
+
 * Added IMDb Top 250 page parser
 * Updated `keywords` method following movie keywords page changes on IMDb
 
 ## v0.2.1 21-Apr-2013
+
 * Added `stars` method to get starred actors
 * Refactored code
 * Fixed issue when original non-english titles were returned in quotes
