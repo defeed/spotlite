@@ -1,4 +1,8 @@
-## v0.4.0
+## v0.5.0 03-May-2013
+
+* Added parser for movies coming soon (http://www.imdb.com/movies-coming-soon/)
+
+## v0.4.0 03-May-2013
 
 * Added `metascore` method to `Movie` class
 * Added `critic_reviews` method to `Movie` class
