@@ -54,6 +54,10 @@ Or install it yourself as:
 
     > list = Spotlite::BoxOfficeTop.new.movies
 
+### Movies that are coming soon
+
+    > list = Spotlite::ComingSoon.new.movies
+
 ## Important notice
 
 Movie titles will be localized if movie has an alternative title specific to your country.
