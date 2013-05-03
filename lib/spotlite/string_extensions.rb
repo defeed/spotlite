@@ -19,7 +19,7 @@ class String
   
   # Strips 4 digits in braces and a single space before from a string like 'Movie Title (2013)'
   def strip_year
-    gsub(/\s\((\d{4})\)/, "")
+    gsub(/\s\(\d{4}\)/, "")
   end
 
   # Cleans 'href' param of an <a> tag
