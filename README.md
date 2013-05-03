@@ -41,6 +41,18 @@ Or install it yourself as:
     {:imdb_id=>"0005251", :name=>"Carrie-Anne Moss", :character=>"Trinity"},
     {:imdb_id=>"0915989", :name=>"Hugo Weaving", :character=>"Agent Smith"},
     {:imdb_id=>"0287825", :name=>"Gloria Foster", :character=>"Oracle"}]
+    
+### IMDb Top 250
+
+    > list = Spotlite::Top.new.movies
+
+### Movies opening this week
+
+    > list = Spotlite::OpeningThisWeek.new.movies
+
+### This week's box office top 10
+
+    > list = Spotlite::BoxOfficeTop.new.movies
 
 ## Important notice
 
