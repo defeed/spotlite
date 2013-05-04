@@ -7,6 +7,7 @@ require "nokogiri"
 
 require "spotlite/version"
 require "spotlite/movie"
+require "spotlite/person"
 require "spotlite/list"
 require "spotlite/search"
 require "spotlite/top"

@@ -27,6 +27,9 @@ IMDB_SAMPLES = {
   "http://www.imdb.com/chart/top"                            => "top",
   "http://www.imdb.com/movies-in-theaters/"                  => "movies_in_theaters",
   "http://www.imdb.com/movies-coming-soon/"                  => "movies_coming_soon",
+  "http://www.imdb.com/name/nm0005132/"                      => "nm0005132/index",
+  "http://www.imdb.com/name/nm1659547/"                      => "nm1659547/index",
+  "http://www.imdb.com/name/nm0864666/"                      => "nm0864666/index"
 }
 
 unless ENV['LIVE_TEST']

@@ -31,5 +31,10 @@ class String
   def parse_imdb_id
     self[/\d{7}/] unless self.nil?
   end
+  
+  # Strip all extra text from person's name node
+  def clean_name
+    gsub(/\n.+$/, "")
+  end
 
 end
