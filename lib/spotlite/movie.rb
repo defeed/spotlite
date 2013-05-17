@@ -55,6 +55,11 @@ module Spotlite
       details.at("p[itemprop='description']").children.first.text.strip rescue nil
     end
     
+    # Returns storyline as a string
+    def storyline
+      details.at("#titleStoryLine div[itemprop='description'] p").children.first.text.strip rescue nil
+    end
+    
     # Returns a list of genres as an array of strings
     def genres
       details.css("div.infobar a[href^='/genre/']").map { |genre| genre.text } rescue []
