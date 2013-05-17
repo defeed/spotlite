@@ -60,6 +60,11 @@ module Spotlite
       details.at("#titleStoryLine div[itemprop='description'] p").children.first.text.strip rescue nil
     end
     
+    # Returns content rating as a string
+    def content_rating
+      details.at(".infobar span[itemprop='contentRating']")['title'] rescue nil
+    end
+    
     # Returns a list of genres as an array of strings
     def genres
       details.css("div.infobar a[href^='/genre/']").map { |genre| genre.text } rescue []
