@@ -55,7 +55,7 @@ module Spotlite
       details.at("p[itemprop='description']").children.first.text.strip rescue nil
     end
     
-    # Returns storyline as a string
+    # Returns storyline as a string. Often is the same as description
     def storyline
       details.at("#titleStoryLine div[itemprop='description'] p").children.first.text.strip rescue nil
     end
