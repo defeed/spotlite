@@ -1,3 +1,11 @@
+## v0.6.0 19-June-2013
+
+* Added `Person` class
+* Added `storyline` method to `Movie` class
+* Added `content_rating` method to `Movie` class
+* Fixed `release_dates` method following IMDb layout changes
+* Added `comment` field to `release_dates` method output
+
 ## v0.5.0 03-May-2013
 
 * Added parser for movies coming soon (http://www.imdb.com/movies-coming-soon/)
