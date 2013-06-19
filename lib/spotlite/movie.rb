@@ -168,22 +168,21 @@ module Spotlite
     
     # Returns a list of regions and corresponding release dates
     # as an array of hashes with keys:
-    # region +code+ (string), +region+ name (string), and +date+ (date)
+    # region +code+ (string), +region+ name (string), +date+ (date), and +comment+ (string)
     # If day is unknown, 1st day of month is assigned
     # If day and month are unknown, 1st of January is assigned
     def release_dates
       array = []
-      table = release_info.at("a[href^='/calendar/?region']").parent.parent.parent.parent rescue nil
-      table.css("tr").map do |row|
-        code = row.at("a[href^='/calendar/?region']")["href"].split("=").last.downcase rescue nil
-        region = row.at("a[href^='/calendar/?region']").text rescue nil
-        date = row.at("td[align='right']").text.strip.parse_date rescue nil
+      release_info.at("#release_dates").css("tr").map do |row|
+        code = row.at("a")["href"].clean_href.split("=").last.downcase rescue nil
+        region = row.at("a").text rescue nil
+        date = row.at("td.release_date").text.strip.parse_date rescue nil
+        comment = row.css("td").last.text.strip.clean_release_comment rescue nil
+        comment = nil if comment.empty?
         
-        array << {:code => code, :region => region, :date => date}
+        array << {:code => code, :region => region, :date => date, :comment => comment}
       end
       
-      # Delete first element with nil values (header row)
-      array.delete_at 0
       array
     end
     

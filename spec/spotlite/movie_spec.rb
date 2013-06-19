@@ -176,10 +176,10 @@ describe "Spotlite::Movie" do
         @movie = Spotlite::Movie.new("0047396")
         @movie.release_dates.should be_an(Array)
         @movie.release_dates.size.should be_within(10).of(50)
-        @movie.release_dates.should include({:code => "jp", :region => "Japan", :date => Date.new(1955,1,14)})
-        @movie.release_dates.should include({:code => "tr", :region => "Turkey", :date => Date.new(1956,4,1)})
-        @movie.release_dates.should include({:code => "us", :region => "USA", :date => Date.new(1968,1,1)})
-        @movie.release_dates.detect{ |r| r[:region] == "France" }.should eql({:code => "fr", :region => "France", :date => Date.new(1955,4,1)})
+        @movie.release_dates.should include({:code => "us", :region => "USA", :date => Date.new(1954,8,1), :comment => "premiere, New York City, New York"})
+        @movie.release_dates.should include({:code => "jp", :region => "Japan", :date => Date.new(1955,1,14), :comment => nil})
+        @movie.release_dates.should include({:code => "tr", :region => "Turkey", :date => Date.new(1956,4,1), :comment => nil})
+        @movie.release_dates.detect{ |r| r[:region] == "France" }.should eql({:code => "fr", :region => "France", :date => Date.new(1955,4,1), :comment => nil})
       end
     
       it "should return original release date" do

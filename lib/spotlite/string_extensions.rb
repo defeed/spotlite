@@ -24,7 +24,7 @@ class String
 
   # Cleans 'href' param of an <a> tag
   def clean_href
-    gsub(/\?ref.+/, "").gsub("/country/", "").gsub("/language/", "")
+    gsub(/(\?|&)ref.+/, "").gsub("/country/", "").gsub("/language/", "")
   end
     
   # Parses 7-digit IMDb ID, usually from a URL
@@ -35,6 +35,11 @@ class String
   # Strip all extra text from person's name node
   def clean_name
     gsub(/\n.+$/, "")
+  end
+  
+  # Strips parantheses from release date's comment
+  def clean_release_comment
+    gsub(") (", ", ").gsub("(", "").gsub(")", "")
   end
 
 end
