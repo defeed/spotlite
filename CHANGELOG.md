@@ -1,4 +1,8 @@
-## v0.6.0 19-June-2013
+## v0.6.1 24-Jul-2013
+
+* Fixed issue with new line character in release comments
+
+## v0.6.0 19-Jun-2013
 
 * Added `Person` class
 * Added `storyline` method to `Movie` class
