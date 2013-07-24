@@ -39,7 +39,7 @@ class String
   
   # Strips parantheses from release date's comment
   def clean_release_comment
-    gsub(") (", ", ").gsub("(", "").gsub(")", "")
+    gsub("\n", "").gsub(") (", ", ").gsub("(", "").gsub(")", "")
   end
 
 end

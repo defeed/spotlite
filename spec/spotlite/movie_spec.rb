@@ -176,8 +176,8 @@ describe "Spotlite::Movie" do
         @movie = Spotlite::Movie.new("0047396")
         @movie.release_dates.should be_an(Array)
         @movie.release_dates.size.should be_within(10).of(50)
-        @movie.release_dates.should include({:code => "us", :region => "USA", :date => Date.new(1954,8,1), :comment => "premiere, New York City, New York"})
-        @movie.release_dates.should include({:code => "jp", :region => "Japan", :date => Date.new(1955,1,14), :comment => nil})
+        @movie.release_dates.should include({:code => "us", :region => "USA", :date => Date.new(1954,8,1), :comment => "New York City, New York, premiere"})
+        @movie.release_dates.should include({:code => "jp", :region => "Japan", :date => Date.new(1955,1,29), :comment => nil})
         @movie.release_dates.should include({:code => "tr", :region => "Turkey", :date => Date.new(1956,4,1), :comment => nil})
         @movie.release_dates.detect{ |r| r[:region] == "France" }.should eql({:code => "fr", :region => "France", :date => Date.new(1955,4,1), :comment => nil})
       end
@@ -189,7 +189,7 @@ describe "Spotlite::Movie" do
     
     it "should return critic reviews" do
       @movie.critic_reviews.should be_an(Array)
-      @movie.critic_reviews.size.should eql(11)
+      @movie.critic_reviews.size.should be_within(5).of(15)
       @movie.critic_reviews.should include(
         {
           :source => "Chicago Sun-Times",
