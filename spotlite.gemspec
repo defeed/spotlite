@@ -6,6 +6,7 @@ require 'spotlite/version'
 Gem::Specification.new do |gem|
   gem.name          = "spotlite"
   gem.version       = Spotlite::VERSION
+  gem.license       = "MIT"
   gem.authors       = ["Artem Pakk"]
   gem.email         = ["apakk@me.com"]
   gem.description   = %q{Spotlite gem helps you fetch all kinds of publicly available information about movies and people from IMDb movie website, including title, year, genres, directors, writers, actors, runtime, countries, poster, keywords, etc.}
