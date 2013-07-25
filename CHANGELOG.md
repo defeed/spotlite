@@ -1,3 +1,8 @@
+## v0.6.2 25-Jul-2013
+
+* Fixed issue when movie description and storyline are cut after a link inside them
+* Specified license in gemspec
+
 ## v0.6.1 24-Jul-2013
 
 * Fixed issue with new line character in release comments
