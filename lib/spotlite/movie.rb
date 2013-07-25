@@ -52,12 +52,12 @@ module Spotlite
     
     # Returns short description as a string
     def description
-      details.at("p[itemprop='description']").children.first.text.strip rescue nil
+      details.at("p[itemprop='description']").text.strip.clean_description rescue nil
     end
     
     # Returns storyline as a string. Often is the same as description
     def storyline
-      details.at("#titleStoryLine div[itemprop='description'] p").children.first.text.strip rescue nil
+      details.at("#titleStoryLine div[itemprop='description'] p").text.strip.clean_description rescue nil
     end
     
     # Returns content rating as a string
