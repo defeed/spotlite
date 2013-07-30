@@ -238,9 +238,9 @@ module Spotlite
                           "Accept-Language" => "en-us"))
     end
     
-    def parse_staff(name) # :nodoc:
+    def parse_staff(staff) # :nodoc:
       array = []
-      table = full_credits.at("a[name='#{name}']").parent.parent.parent.parent
+      table = full_credits.at("a[name='#{staff}']").parent.parent.parent.parent
       table.css("a[href^='/name/nm']").map do |node|
         imdb_id = node["href"].parse_imdb_id
         name = node.text.strip
