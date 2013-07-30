@@ -240,12 +240,14 @@ module Spotlite
     
     def parse_staff(staff) # :nodoc:
       array = []
-      table = full_credits.at("a[name='#{staff}']").parent.parent.parent.parent
-      table.css("a[href^='/name/nm']").map do |node|
-        imdb_id = node["href"].parse_imdb_id
-        name = node.text.strip
+      table = full_credits.at("a[name='#{staff}']").parent.parent.parent.parent rescue nil
+      if table
+        table.css("a[href^='/name/nm']").map do |node|
+          imdb_id = node["href"].parse_imdb_id
+          name = node.text.strip
         
-        array << {:imdb_id => imdb_id, :name => name}
+          array << {:imdb_id => imdb_id, :name => name}
+        end
       end
       
       array.uniq
