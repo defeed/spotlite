@@ -106,6 +106,15 @@ describe "Spotlite::Movie" do
       end
     end
     
+    it "should return an array of recommended movies as an array of initialized objects of Movie class" do
+      @movie.recommended_movies.should be_an(Array)
+      @movie.recommended_movies.size.should eql(12)
+      @movie.recommended_movies.each {|movie| movie.should be_a(Spotlite::Movie)}
+      @movie.recommended_movies.first.imdb_id.should eql("0234215")
+      @movie.recommended_movies.first.title.should eql("The Matrix Reloaded")
+      @movie.recommended_movies.first.year.should eql(2003)
+    end
+    
     it "should return plot keywords" do
       @movie.keywords.should be_an(Array)
       @movie.keywords.size.should be_within(50).of(250)

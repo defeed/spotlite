@@ -107,6 +107,19 @@ module Spotlite
       end
     end
     
+    # Returns an array of recommended movies as an array of initialized objects of +Movie+ class
+    def recommended_movies
+      details.css(".rec-title").map do |node|
+        imdb_id = node.at("a[href^='/title/tt']")['href'].parse_imdb_id
+        title   = node.at("a").text.strip
+        year    = node.at("span").text.parse_year
+      
+        [imdb_id, title, year]
+      end.map do |values|
+        Spotlite::Movie.new(*values)
+      end
+    end
+    
     # Returns a list of keywords as an array of strings
     def keywords
       plot_keywords.css("a[href^='/keyword/']").map { |keyword| keyword.text.strip } rescue []
