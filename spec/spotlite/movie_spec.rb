@@ -219,6 +219,15 @@ describe "Spotlite::Movie" do
       )
     end
     
+    it "should return an array of still frames URLs" do
+      @movie.images.should be_an(Array)
+      @movie.images.size.should eql(12)
+      @movie.images.should include(
+        "http://ia.media-imdb.com/images/M/MV5BMjQ4NTAzNTE2OV5BMl5BanBnXkFtZTcwMjU3MTIxNA@@.jpg",
+        "http://ia.media-imdb.com/images/M/MV5BMTAyMDc1MTU0MDBeQTJeQWpwZ15BbWU2MDI5MzU3Nw@@.jpg"
+      )
+    end
+    
   end
   
 end

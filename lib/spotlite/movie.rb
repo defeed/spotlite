@@ -207,6 +207,20 @@ module Spotlite
       array
     end
     
+    # Returns URLs of movie still frames as an array of strings
+    def images
+      array = []
+      still_frames.css(".thumb_list img").map do |image|
+        src = image["src"] rescue nil
+      
+        if src =~ /^(http:.+@@)/ || src =~ /^(http:.+?)\.[^\/]+$/
+          array << $1 + ".jpg"
+        end
+      end
+      
+      array
+    end
+    
     private
     
     def details # :nodoc:
@@ -231,6 +245,10 @@ module Spotlite
     
     def reviews
       @reviews ||= open_page("criticreviews")
+    end
+    
+    def still_frames
+      @still_frames ||= open_page("mediaindex?refine=still_frame")
     end
     
     def open_page(page = nil) # :nodoc:

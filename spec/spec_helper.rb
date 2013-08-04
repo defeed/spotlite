@@ -30,7 +30,8 @@ IMDB_SAMPLES = {
   "http://www.imdb.com/movies-coming-soon/"                  => "movies_coming_soon",
   "http://www.imdb.com/name/nm0005132/"                      => "nm0005132/index",
   "http://www.imdb.com/name/nm1659547/"                      => "nm1659547/index",
-  "http://www.imdb.com/name/nm0864666/"                      => "nm0864666/index"
+  "http://www.imdb.com/name/nm0864666/"                      => "nm0864666/index",
+  "http://www.imdb.com/title/tt0133093/mediaindex?refine=still_frame" => "tt0133093/mediaindex_still_frame"
 }
 
 unless ENV['LIVE_TEST']
