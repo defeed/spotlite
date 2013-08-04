@@ -1,3 +1,9 @@
+## v0.7.0 04-Aug-2013
+
+* Added `images` method to `Movie` class to fetch still frames from media index page
+* Added `recommended_movies` method to `Movie` class that returns a list of, well, recommended movies
+* Moved license from LICENSE to README file
+
 ## v0.6.2 25-Jul-2013
 
 * Fixed issue when movie description and storyline are cut after a link inside them
