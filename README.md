@@ -1,3 +1,5 @@
+[![Gem Version](https://badge.fury.io/rb/spotlite.png)](http://badge.fury.io/rb/spotlite)
+
 # Spotlite
 
 Spotlite is a ruby gem to retrieve movie information from IMDb.
