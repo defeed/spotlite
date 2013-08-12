@@ -223,7 +223,7 @@ module Spotlite
     # Returns URLs of movie still frames as an array of strings
     def images
       array = []
-      still_frames.css(".thumb_list img").map do |image|
+      still_frames.css("#media_index_thumbnail_grid img").map do |image|
         src = image["src"] rescue nil
       
         if src =~ /^(http:.+@@)/ || src =~ /^(http:.+?)\.[^\/]+$/
