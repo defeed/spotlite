@@ -1,3 +1,7 @@
+## v0.7.1 12-Aug-2013
+
+* Updated `images` method following IMDb mediaindex page layout changes
+
 ## v0.7.0 04-Aug-2013
 
 * Added `images` method to `Movie` class to fetch still frames from media index page
