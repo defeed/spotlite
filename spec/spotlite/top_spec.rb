@@ -16,5 +16,6 @@ describe "Spotlite::Top" do
   it "should return IMDb ID and title" do
     @top.first.imdb_id.should eql("0111161")
     @top.first.title.should eql("The Shawshank Redemption")
+    @top.first.year.should eql(1994)
   end  
 end

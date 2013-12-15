@@ -4,11 +4,12 @@ module Spotlite
     
     # Returns an array of +Spotlite::Movie+ objects
     def parse_movies
-      page.css("table a[href^='/title/tt']").map do |node|
-        imdb_id = node['href'].parse_imdb_id
-        title   = node.text.strip
+      page.css("table.chart td.titleColumn").map do |cell|
+        imdb_id = cell.at("a[href^='/title/tt']")['href'].parse_imdb_id
+        title   = cell.at("a[href^='/title/tt']").text.strip
+        year    = cell.at("span.secondaryInfo").text.parse_year
         
-        [imdb_id, title]
+        [imdb_id, title, year]
       end.map do |values|
         Spotlite::Movie.new(*values)
       end
