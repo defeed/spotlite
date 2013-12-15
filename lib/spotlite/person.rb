@@ -19,12 +19,12 @@ module Spotlite
     
     # Returns name as a string
     def name
-      @name ||= details.at("h1.header[itemprop='name']").text.strip.clean_name
+      @name ||= details.at("h1.header span[itemprop='name']").text.strip.clean_name
     end
     
     # Returns name at birth as a string
     def birth_name
-      details.at("#overview-top .txt-block a[href='bio']").text.strip rescue nil
+      details.at("#name-born-info a[href^='/name/']").text.strip rescue nil
     end
     
     # Returns birth date as a date
