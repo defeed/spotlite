@@ -271,7 +271,6 @@ module Spotlite
     
     def parse_staff(staff) # :nodoc:
       array = []
-      # table = full_credits.at("a[name='#{staff}']").parent.parent.parent.parent rescue nil
       table = full_credits.search("[text()*='#{staff}']").first.next_element rescue nil
       if table && table.name == "table"
         table.css("a[href^='/name/nm']").map do |node|
