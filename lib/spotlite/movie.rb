@@ -133,29 +133,29 @@ module Spotlite
     # Returns a list of directors as an array of hashes
     # with keys: +imdb_id+ (string) and +name+ (string)
     def directors
-      parse_staff(:directors)
+      parse_staff("Directed by")
     end
     
     # Returns a list of writers as an array of hashes
     # with keys: +imdb_id+ (string) and +name+ (string)
     def writers
-      parse_staff(:writers)
+      parse_staff("Writing Credits")
     end
     
     # Returns a list of producers as an array of hashes
     # with keys: +imdb_id+ (string) and +name+ (string)
     def producers
-      parse_staff(:producers)
+      parse_staff("Produced by")
     end
     
     # Returns a list of actors as an array of hashes
     # with keys: +imdb_id+ (string), +name+ (string), and +character+ (string)
     def cast
-      table = full_credits.css("table.cast")
-      names = table.css("td.nm").map { |node| node.text } rescue []
-      links = table.css("td.nm a").map { |node| node["href"] } rescue []
+      table = full_credits.css("table.cast_list")
+      names = table.css("td[itemprop='actor']").map { |node| node.text.strip } rescue []
+      links = table.css("td[itemprop='actor'] a").map { |node| node["href"].clean_href } rescue []
       imdb_ids = links.map { |link| link.parse_imdb_id } unless links.empty?
-      characters = table.css("td.char").map { |node| node.text }
+      characters = table.css("td.character").map { |node| node.text.clean_character }
       
       array = []
       0.upto(names.size - 1) do |i|
@@ -271,8 +271,9 @@ module Spotlite
     
     def parse_staff(staff) # :nodoc:
       array = []
-      table = full_credits.at("a[name='#{staff}']").parent.parent.parent.parent rescue nil
-      if table
+      # table = full_credits.at("a[name='#{staff}']").parent.parent.parent.parent rescue nil
+      table = full_credits.search("[text()*='#{staff}']").first.next_element rescue nil
+      if table && table.name == "table"
         table.css("a[href^='/name/nm']").map do |node|
           imdb_id = node["href"].parse_imdb_id
           name = node.text.strip

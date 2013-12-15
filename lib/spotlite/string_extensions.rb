@@ -37,6 +37,10 @@ class String
     gsub(/\n.+$/, "")
   end
   
+  def clean_character
+    strip.gsub(/ \n /, "")
+  end
+  
   # Strips parantheses from release date's comment
   def clean_release_comment
     gsub("\n", "").gsub(") (", ", ").gsub("(", "").gsub(")", "")
