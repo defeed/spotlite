@@ -34,7 +34,7 @@ describe "Spotlite::Movie" do
     end
     
     it "should return number of votes" do
-      @movie.votes.should be_within(50000).of(700000)
+      @movie.votes.should be_within(150000).of(900000)
     end
     
     it "should return Metascore rating" do
