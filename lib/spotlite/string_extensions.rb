@@ -37,6 +37,7 @@ class String
     gsub(/\n.+$/, "")
   end
   
+  # Strip all extra white space from character's name node
   def clean_character
     strip.gsub(/ \n /, "")
   end
