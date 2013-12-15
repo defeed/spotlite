@@ -1,3 +1,9 @@
+## v0.7.2 15-Dec-2013
+
+* Fixes for updated Top 250 page
+* Fixes for updated person page
+* Fixes for updated movie credits page
+
 ## v0.7.1 12-Aug-2013
 
 * Updated `images` method following IMDb mediaindex page layout changes
