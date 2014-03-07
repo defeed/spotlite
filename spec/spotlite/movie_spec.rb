@@ -90,13 +90,13 @@ describe "Spotlite::Movie" do
     
     describe "poster URL" do
       it "should return old style poster URL" do
-        @movie.poster_url.should eql("http://ia.media-imdb.com/images/M/MV5BMjEzNjg1NTg2NV5BMl5BanBnXkFtZTYwNjY3MzQ5.jpg")
+        @movie.poster_url.should eql("http://ia.media-imdb.com/images/M/MV5BMTkxNDYxOTA4M15BMl5BanBnXkFtZTgwNTk0NzQxMTE@.jpg")
       end
       
       it "should return new style poster URL" do
         # American Beauty (1999)
         @movie = Spotlite::Movie.new("0169547")
-        @movie.poster_url.should eql("http://ia.media-imdb.com/images/M/MV5BOTU1MzExMDg3N15BMl5BanBnXkFtZTcwODExNDg3OA@@.jpg")
+        @movie.poster_url.should eql("http://ia.media-imdb.com/images/M/MV5BMjM4NTI5NzYyNV5BMl5BanBnXkFtZTgwNTkxNTYxMTE@.jpg")
       end
       
       it "should return nil if poster doesn't exist" do
