@@ -67,7 +67,6 @@ describe "Spotlite::Movie" do
       @movie.genres.should be_an(Array)
       @movie.genres.size.should eql(3)
       @movie.genres.should include("Action")
-      @movie.genres.should include("Adventure")
       @movie.genres.should include("Sci-Fi")
     end
     
