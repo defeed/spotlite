@@ -65,7 +65,7 @@ describe "Spotlite::Movie" do
     
     it "should return genres" do
       @movie.genres.should be_an(Array)
-      @movie.genres.size.should eql(3)
+      @movie.genres.size.should eql(2)
       @movie.genres.should include("Action")
       @movie.genres.should include("Sci-Fi")
     end
