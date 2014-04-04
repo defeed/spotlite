@@ -1,8 +1,8 @@
 module Spotlite
   
-  # Represent a person on IMDb.com
+  # Represents a person on IMDb.com
   class Person
-    attr_accessor :imdb_id, :name
+    attr_accessor :imdb_id, :name, :url, :credits_category, :credits_text
     
     # Initialize a new person object by its IMDb ID as a string
     #
@@ -11,10 +11,12 @@ module Spotlite
     # Spotlite::Person class objects are lazy loading. No HTTP request
     # will be performed upon object initialization. HTTP request will
     # be performed once when you use a method that needs remote data
-    def initialize(imdb_id, name = nil)
-      @imdb_id = imdb_id
-      @name    = name
-      @url     = "http://www.imdb.com/name/nm#{imdb_id}"
+    def initialize(imdb_id, name = nil, credits_category = nil, credits_text = nil)
+      @imdb_id = "%07d" % imdb_id.to_i
+      @name = name
+      @url = "http://www.imdb.com/name/nm#{@imdb_id}/"
+      @credits_category = credits_category
+      @credits_text = credits_text
     end
     
     # Returns name as a string
@@ -53,8 +55,7 @@ module Spotlite
     end
     
     def open_page(page = nil) # :nodoc:
-      Nokogiri::HTML(open("http://www.imdb.com/name/nm#{@imdb_id}/#{page}",
-                          "Accept-Language" => "en-us"))
+      Nokogiri::HTML open("#{@url}#{page}", "Accept-Language" => "en-us")
     end
   end
 end

@@ -1,15 +1,15 @@
 HTTP/1.1 200 OK
-Date: Sun, 15 Dec 2013 14:04:38 GMT
+Date: Fri, 04 Apr 2014 14:10:51 GMT
 Server: Server
+X-Frame-Options: SAMEORIGIN
 Content-Type: text/html;charset=UTF-8
 Content-Language: en-US
 Vary: Accept-Encoding,User-Agent
-Set-Cookie: uu=BCYh4LIHPZhUXmULokh4LMICnrvGcDXoWX%2B7m2N%2BuKlGL8RuuXL2AwrasMz6hngT7TnGLX9bOOcv%0D%0A79kKHBbdSyG2ZVxsqhke3HuKgiBHQFBUAmrDhDrei1BC8Mr1oQMCDT732ZSEPQksOH9xVERQDkJp%0D%0A%2FeJJ89Z2aY4waaFupL2Riy4kgmwn8Ic4PQAMdY5KwQzumKJW5BWOKBC%2BhaQ9Hyy46rF%2FHCkdawRU%0D%0Av7HvtOyZjqxa1qYtaB%2FfCxFpqY0bV3Jk%2FV3kvqJy63tExDh2A9PNCQ%3D%3D%0D%0A; Domain=.imdb.com; Expires=Fri, 02-Jan-2082 17:18:46 GMT; Path=/
-Set-Cookie: session-id=000-0000000-0000000; Domain=.imdb.com; Expires=Fri, 02-Jan-2082 17:18:46 GMT; Path=/
-Set-Cookie: session-id-time=1544796279; Domain=.imdb.com; Expires=Fri, 02-Jan-2082 17:18:46 GMT; Path=/
+Set-Cookie: uu=BCYkfEZHTX7QdW6Ef5hQeFNFUjyMvS25v78EmJKYRQZl1TykIwdjKr0iidLyVifqog1dKfp6JhaL%0D%0A0qNh7OTZGT1nSGVGizXoZ87x4BQAb4g9zWXH6Bf203oFDlTk3zXAFfYwmLcuRe9w7DSN7etFrYNx%0D%0AcfnpwMQ1es0pFUS73KNZKRZBFVLk-LY4JDWV-BviWgJX8Ay6MsWQ_wkdAoNg_a3ig0KNUGTlKCdb%0D%0AC816QpwaNL0rTUUJUCmS2Ar-gPZlsshQZLcDw_KZoRaG_7NWSsVuYA%0D%0A; Domain=.imdb.com; Expires=Wed, 22-Apr-2082 17:24:58 GMT; Path=/
+Set-Cookie: session-id=000-0000000-0000000; Domain=.imdb.com; Expires=Wed, 22-Apr-2082 17:24:58 GMT; Path=/
+Set-Cookie: session-id-time=1554300651; Domain=.imdb.com; Expires=Wed, 22-Apr-2082 17:24:58 GMT; Path=/
 P3P: policyref="http://i.imdb.com/images/p3p.xml",CP="CAO DSP LAW CUR ADM IVAo IVDo CONo OTPo OUR DELi PUBi OTRi BUS PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA HEA PRE LOC GOV OTC "
 Transfer-Encoding: chunked
-
 
 
 
@@ -22,15 +22,15 @@ Transfer-Encoding: chunked
 xmlns:og="http://ogp.me/ns#"
 xmlns:fb="http://www.facebook.com/2008/fbml">
     <head>
-                <script type="text/javascript">var ue_t0=window.ue_t0||+new Date();</script>
-                <script type="text/javascript">
-                    var ue_mid = "A1EVAM02EL8SFB"; 
-                    var ue_sn = "www.imdb.com";  
-                    var ue_furl = "fls-na.amazon.com";
-                    var ue_sid = "000-0000000-0000000";
-                    var ue_id = "1VDH1RNMFPHKJCR3Q704";
-                    (function(e){var c=e,a={main_scope:"mainscopecsm",q:[],t0:c.ue_t0||+new Date(),d:g};function g(h){return +new Date()-(h?0:a.t0)}function d(h){return function(){a.q.push({n:h,a:arguments,t:a.d()})}}function b(k,j,h){var i={m:k,f:j,l:h,fromOnError:1,args:arguments};c.ueLogError(i);return false}b.skipTrace=1;e.onerror=b;function f(){c.uex("ld")}if(e.addEventListener){e.addEventListener("load",f,false)}else{if(e.attachEvent){e.attachEvent("onload",f)}}a.tag=d("tag");a.log=d("log");a.reset=d("rst");c.ue_csm=c;c.ue=a;c.ueLogError=d("err");c.ues=d("ues");c.uet=d("uet");c.uex=d("uex");c.uet("ue")})(window);(function(e,d){var a=e.ue||{};function c(g){if(!g){return}var f=d.head||d.getElementsByTagName("head")[0]||d.documentElement,h=d.createElement("script");h.async="async";h.src=g;f.insertBefore(h,f.firstChild)}function b(){var k=e.ue_cdn||"z-ecx.images-amazon.com",g=e.ue_cdns||"images-na.ssl-images-amazon.com",j="/images/G/01/csminstrumentation/",h=e.ue_file||"ue-full-ef584a44e8ea58e3d4d928956600a9b6._V1_.js",f,i;if(h.indexOf("NSTRUMENTATION_FIL")>=0){return}if("ue_https" in e){f=e.ue_https}else{f=e.location&&e.location.protocol=="https:"?1:0}i=f?"https://":"http://";i+=f?g:k;i+=j;i+=h;c(i)}if(!e.ue_inline){b()}a.uels=c;e.ue=a})(window,document);
-                </script>
+            <script type="text/javascript">var ue_t0=window.ue_t0||+new Date();</script>
+            <script type="text/javascript">
+                var ue_mid = "A1EVAM02EL8SFB"; 
+                var ue_sn = "www.imdb.com";  
+                var ue_furl = "fls-na.amazon.com";
+                var ue_sid = "000-0000000-0000000";
+                var ue_id = "0CZGVV07Y11AHNVGGAFA";
+                (function(e){var c=e,a={main_scope:"mainscopecsm",q:[],t0:c.ue_t0||+new Date(),d:g};function g(h){return +new Date()-(h?0:a.t0)}function d(h){return function(){a.q.push({n:h,a:arguments,t:a.d()})}}function b(k,j,h){var i={m:k,f:j,l:h,fromOnError:1,args:arguments};c.ueLogError(i);return false}b.skipTrace=1;e.onerror=b;function f(){c.uex("ld")}if(e.addEventListener){e.addEventListener("load",f,false)}else{if(e.attachEvent){e.attachEvent("onload",f)}}a.tag=d("tag");a.log=d("log");a.reset=d("rst");c.ue_csm=c;c.ue=a;c.ueLogError=d("err");c.ues=d("ues");c.uet=d("uet");c.uex=d("uex");c.uet("ue")})(window);(function(e,d){var a=e.ue||{};function c(g){if(!g){return}var f=d.head||d.getElementsByTagName("head")[0]||d.documentElement,h=d.createElement("script");h.async="async";h.src=g;f.insertBefore(h,f.firstChild)}function b(){var k=e.ue_cdn||"z-ecx.images-amazon.com",g=e.ue_cdns||"images-na.ssl-images-amazon.com",j="/images/G/01/csminstrumentation/",h=e.ue_file||"ue-full-ef584a44e8ea58e3d4d928956600a9b6._V1_.js",f,i;if(h.indexOf("NSTRUMENTATION_FIL")>=0){return}if("ue_https" in e){f=e.ue_https}else{f=e.location&&e.location.protocol=="https:"?1:0}i=f?"https://":"http://";i+=f?g:k;i+=j;i+=h;c(i)}if(!e.ue_inline){b()}a.uels=c;e.ue=a})(window,document);
+            </script>
  
 
         
@@ -47,28 +47,31 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
   <script>(function(t){ (t.events = t.events || {})["csm_head_pre_icon"] = new Date().getTime(); })(IMDbTimer);</script>
         <link rel="icon" type="image/ico" href="http://ia.media-imdb.com/images/G/01/imdb/images/favicon-2165806970._V379387995_.ico" />
         <link rel="shortcut icon" type="image/x-icon" href="http://ia.media-imdb.com/images/G/01/imdb/images/desktop-favicon-2165806970._V379390718_.ico" />
-        <link rel="apple-touch-icon" href="http://ia.media-imdb.com/images/G/01/imdb/images/apple-touch-icon-3173846443._V379391250_.png" />
+        <link href="http://ia.media-imdb.com/images/G/01/imdb/images/mobile/apple-touch-icon-web-4151659188._V361295786_.png" rel="apple-touch-icon"> 
+        <link href="http://ia.media-imdb.com/images/G/01/imdb/images/mobile/apple-touch-icon-web-76x76-53536248._V361295462_.png" rel="apple-touch-icon" sizes="76x76"> 
+        <link href="http://ia.media-imdb.com/images/G/01/imdb/images/mobile/apple-touch-icon-web-120x120-2442878471._V361295428_.png" rel="apple-touch-icon" sizes="120x120"> 
+        <link href="http://ia.media-imdb.com/images/G/01/imdb/images/mobile/apple-touch-icon-web-152x152-1475823641._V361295368_.png" rel="apple-touch-icon" sizes="152x152"> 
         <link rel="search" type="application/opensearchdescription+xml" href="http://ia.media-imdb.com/images/G/01/imdb/images/imdbsearch-3349468880._V379388505_.xml" title="IMDb" />
   <script>(function(t){ (t.events = t.events || {})["csm_head_post_icon"] = new Date().getTime(); })(IMDbTimer);</script>
         
-        
-            <link rel='image_src' href="http://ia.media-imdb.com/images/G/01/imdb/images/logos/imdb_fb_logo-1730868325._V379391653_.png">
-            <meta property='og:image' content="http://ia.media-imdb.com/images/G/01/imdb/images/logos/imdb_fb_logo-1730868325._V379391653_.png" />
-        
-            <meta property='og:type' content="video.movie" />
-        <meta property='fb:app_id' content='115109575169727' />
-        <meta property='og:title' content="The Flying Circus (1912)" />
-        <meta property='og:site_name' content='IMDb' />
-        <meta name="title" content="The Flying Circus (1912) - IMDb" />
-            <meta name="description" content="Directed by Alfred Lind.  With Rasmus Ottesen, Emilie Otterdahl, Lili Beck, Kirstine Friis-Hjorth. The Flying Circus was the largest traveling artist band in the country, and among its favorite artists were the rope-dancer, Laurento and the snake tamer, Ula Kiri. The hot blooded gypsy snake tamer is passionately in love with the attractive young man, hut he does not quite return her feelings. She is hasty and ill-tempered, and not far from being cruel to those depending on her. For the first ..." />
-            <meta property="og:description" content="Directed by Alfred Lind.  With Rasmus Ottesen, Emilie Otterdahl, Lili Beck, Kirstine Friis-Hjorth. The Flying Circus was the largest traveling artist band in the country, and among its favorite artists were the rope-dancer, Laurento and the snake tamer, Ula Kiri. The hot blooded gypsy snake tamer is passionately in love with the attractive young man, hut he does not quite return her feelings. She is hasty and ill-tempered, and not far from being cruel to those depending on her. For the first ..." />
-            <meta name="keywords" content="Reviews, Showtimes, DVDs, Photos, Message Boards, User Ratings, Synopsis, Trailers, Credits" />
-            <meta name="request_id" content="1VDH1RNMFPHKJCR3Q704" />
+    
+        <link rel='image_src' href="http://ia.media-imdb.com/images/G/01/imdb/images/logos/imdb_fb_logo-1730868325._V379391653_.png">
+        <meta property='og:image' content="http://ia.media-imdb.com/images/G/01/imdb/images/logos/imdb_fb_logo-1730868325._V379391653_.png" />
+    
+        <meta property='og:type' content="video.movie" />
+    <meta property='fb:app_id' content='115109575169727' />
+    <meta property='og:title' content="The Flying Circus (1912)" />
+    <meta property='og:site_name' content='IMDb' />
+    <meta name="title" content="The Flying Circus (1912) - IMDb" />
+        <meta name="description" content="Directed by Alfred Lind.  With Rasmus Ottesen, Emilie Otterdahl, Lili Beck, Kirstine Friis-Hjorth. The Flying Circus was the largest traveling artist band in the country, and among its favorite artists were the rope-dancer, Laurento and the snake tamer, Ula Kiri. The hot blooded gypsy snake tamer is passionately in love with the attractive young man, hut he does not quite return her feelings. She is hasty and ill-tempered, and not far from being cruel to those depending on her. For the first ..." />
+        <meta property="og:description" content="Directed by Alfred Lind.  With Rasmus Ottesen, Emilie Otterdahl, Lili Beck, Kirstine Friis-Hjorth. The Flying Circus was the largest traveling artist band in the country, and among its favorite artists were the rope-dancer, Laurento and the snake tamer, Ula Kiri. The hot blooded gypsy snake tamer is passionately in love with the attractive young man, hut he does not quite return her feelings. She is hasty and ill-tempered, and not far from being cruel to those depending on her. For the first ..." />
+        <meta name="keywords" content="Reviews, Showtimes, DVDs, Photos, Message Boards, User Ratings, Synopsis, Trailers, Credits" />
+        <meta name="request_id" content="0CZGVV07Y11AHNVGGAFA" />
         
   <script>(function(t){ (t.events = t.events || {})["csm_head_pre_css"] = new Date().getTime(); })(IMDbTimer);</script>
-<!-- h=ics-1a-i-e9369686.us-east-1 -->
+<!-- h=ics-http-1d-c1xl-i-c5ecb5eb.us-east-1 -->
 
-            <link rel="stylesheet" type="text/css" href="http://ia.media-imdb.com/images/G/01/imdb/css/collections/title-1888459454._V366641982_.css" />
+            <link rel="stylesheet" type="text/css" href="http://ia.media-imdb.com/images/G/01/imdb/css/collections/title-790128568._V340779928_.css" />
             <!--[if IE]><link rel="stylesheet" type="text/css" href="http://ia.media-imdb.com/images/G/01/imdb/css/collections/ie-1918465287._V354866480_.css" /><![endif]-->
             <link rel="stylesheet" type="text/css" href="http://ia.media-imdb.com/images/G/01/imdb/css/site/consumer-navbar-mega-3538633082._V355276482_.css" />
   <script>(function(t){ (t.events = t.events || {})["csm_head_post_css"] = new Date().getTime(); })(IMDbTimer);</script>
@@ -202,9 +205,9 @@ onsubmit="(new Image()).src='/rg/SEARCH-BOX/HEADER/images/b.gif?link=/find';"
                     </ul>
                     <h5>SPECIAL FEATURES</h5>
                     <ul>
-                        <li><a href="/year-in-review/?ref_=nv_sf_best_1" >Best of 2013</a></li>
-                        <li><a href="/oscars/?ref_=nv_sf_rto_2" >Road to the Oscars 2014</a></li>
-                        <li><a href="/x-ray/?ref_=nv_sf_xray_3" >X-Ray for Movies & TV</a></li>
+                        <li><a href="/oscars/?ref_=nv_sf_rto_1" >Road to the Oscars 2014</a></li>
+                        <li><a href="/x-ray/?ref_=nv_sf_xray_2" >X-Ray for Movies & TV</a></li>
+                        <li><a href="/poll/?ref_=nv_sf_pl_3" >Polls</a></li>
                     </ul>
                 </div>
             </div>
@@ -221,7 +224,7 @@ onsubmit="(new Image()).src='/rg/SEARCH-BOX/HEADER/images/b.gif?link=/find';"
                 <div class="subNavListContainer">
                     <h5>CELEBS</h5>
                     <ul>
-                            <li><a href="/search/name?birth_monthday=12-15&refine=birth_monthday&ref_=nv_cel_brn_1" >Born Today</a></li>
+                            <li><a href="/search/name?birth_monthday=04-04&refine=birth_monthday&ref_=nv_cel_brn_1" >Born Today</a></li>
                         <li><a href="/news/celebrity?ref_=nv_cel_nw_2" >Celebrity News</a></li>
                         <li><a href="/search/name?gender=male,female&ref_=nv_cel_m_3" >Most Popular Celebs</a></li>
                     </ul>
@@ -237,13 +240,14 @@ onsubmit="(new Image()).src='/rg/SEARCH-BOX/HEADER/images/b.gif?link=/find';"
                 <div class="subNavListContainer">
                     <h5>EVENTS</h5>
                     <ul>
-                        <li><a href="/oscars/?ref_=nv_ev_rto_1" >Road to the Oscars</a></li>
-                        <li><a href="/emmys/?ref_=nv_ev_rte_2" >Road to the Emmys</a></li>
-                        <li><a href="/comic-con/?ref_=nv_ev_comic_3" >Comic-Con</a></li>
-                        <li><a href="/cannes/?ref_=nv_ev_can_4" >Cannes</a></li>
-                        <li><a href="/tribeca/?ref_=nv_ev_tri_5" >Tribeca</a></li>
-                        <li><a href="/sundance/?ref_=nv_ev_sun_6" >Sundance</a></li>
-                        <li><a href="/event/?ref_=nv_ev_all_7" >More Popular Events</a></li>
+                        <li><a href="/sxsw/?ref_=nv_ev_sxsw_1" >SXSW Film Festival</a></li>
+                        <li><a href="/oscars/?ref_=nv_ev_rto_2" >Road to the Oscars</a></li>
+                        <li><a href="/emmys/?ref_=nv_ev_rte_3" >Road to the Emmys</a></li>
+                        <li><a href="/comic-con/?ref_=nv_ev_comic_4" >Comic-Con</a></li>
+                        <li><a href="/cannes/?ref_=nv_ev_can_5" >Cannes</a></li>
+                        <li><a href="/tribeca/?ref_=nv_ev_tri_6" >Tribeca</a></li>
+                        <li><a href="/sundance/?ref_=nv_ev_sun_7" >Sundance</a></li>
+                        <li><a href="/event/?ref_=nv_ev_all_8" >More Popular Events</a></li>
                     </ul>
                 </div>
             </div>
@@ -260,19 +264,19 @@ onsubmit="(new Image()).src='/rg/SEARCH-BOX/HEADER/images/b.gif?link=/find';"
                         <h5>LATEST HEADLINES</h5>
     <ul>
                 <li itemprop="headline">
-<a href="/news/ni56544303/?ref_=nv_nw_tn_1" > ‘The Hobbit’ Off to $31 Million Start, Wrestling With Unmet Expectations
+<a href="/news/ni57021836/?ref_=nv_nw_tn_1" > David Letterman to Retire from CBS in 2015
 </a><br />
-                        <span class="time">20 hours ago</span>
+                        <span class="time">17 hours ago</span>
                 </li>
                 <li itemprop="headline">
-<a href="/news/ni56544093/?ref_=nv_nw_tn_2" > ‘American Hustle’ Scores Big in Limited Box Office Debut
+<a href="/news/ni57021039/?ref_=nv_nw_tn_2" > ‘Batman-Superman’ Pic Adds Holly Hunter, ’300′s Callan Mulvey, Tao Okamoto
 </a><br />
                         <span class="time">21 hours ago</span>
                 </li>
                 <li itemprop="headline">
-<a href="/news/ni56542625/?ref_=nv_nw_tn_3" > '12 Years a Slave' leads San Francisco Film Critics Circle nods
+<a href="/news/ni57020046/?ref_=nv_nw_tn_3" > OWN Slate Features Toni Braxton in Network's First Scripted Film, Octavia Spencer in Miniseries
 </a><br />
-                        <span class="time">14 December 2013</span>
+                        <span class="time">3 April 2014</span>
                 </li>
     </ul>
                     </div>
@@ -304,7 +308,7 @@ onsubmit="(new Image()).src='/rg/SEARCH-BOX/HEADER/images/b.gif?link=/find';"
 <span class="downArrow"></span>
 <div id="navMenu4" class="sub_nav">
     <h5>
-        RECENTLY ADDED
+            YOUR WATCHLIST
     </h5> 
     <ul id="navWatchlist">
     </ul>
@@ -320,7 +324,7 @@ onsubmit="(new Image()).src='/rg/SEARCH-BOX/HEADER/images/b.gif?link=/find';"
                 src : "http://ia.media-imdb.com/images/G/01/imdb/images/navbar/watchlist_slot2_popular-4090757197._V360060945_.jpg"
                 },
                 {
-                    href : "/search/title?count=100&groups=top_250&sort=user_rating,desc&title_type=feature",
+                    href : "/chart/top",
                 src : "http://ia.media-imdb.com/images/G/01/imdb/images/navbar/watchlist_slot3_top250-575799966._V360061165_.jpg"
                 }
     ];
@@ -435,6 +439,7 @@ imageUrl : "http://ia.media-imdb.com/images/G/01/imdb/images/navbar/imdbpro_menu
            
             <div class="article title-overview">
 
+                
   <script>
     if ('csm' in window) {
       csm.measure('csm_TitleOverviewWidget_started');
@@ -460,7 +465,7 @@ id="meterRank"
 </a>            </div>
             <div id="meterChangeRow" class="meterToggleOnHover">
                     <span>Down</span>
-                <span id="meterChange">1,751</span>
+                <span id="meterChange">111,504</span>
                 <span>this week</span>
             </div>
             <div id="meterSeeMoreRow" class="meterToggleOnHover">
@@ -502,11 +507,11 @@ href="/r/tt_moviemeter_why/title/tt0002186"
     </div>
  
 <div class="star-box giga-star">
-        <div class="titlePageSprite star-box-giga-star"> 6.5 </div>
+        <div class="titlePageSprite star-box-giga-star"> 6.6 </div>
     <div class="star-box-rating-widget">
             <span class="star-box-rating-label">Your rating:</span>
-<div class="rating rating-list" data-starbar-class="rating-list" data-auth="" data-user="" id="tt0002186|imdb|0|0|title-maindetails" data-ga-identifier=""
-title="Users rated this 6.5/10 (42 votes) - click stars to rate" >
+<div class="rating rating-list" data-starbar-class="rating-list" data-auth="" data-user="" id="tt0002186|imdb|0|0|title-maindetails|tt0002186|title|main" data-ga-identifier=""
+title="Users rated this 6.6/10 (43 votes) - click stars to rate" >
 <span class="rating-bg">&nbsp;</span>
 <span class="rating-imdb " style="width: 0px">&nbsp;</span>
 <span class="rating-stars">
@@ -527,7 +532,7 @@ title="Users rated this 6.5/10 (42 votes) - click stars to rate" >
     </div> 
     <div class="star-box-details" itemtype="http://schema.org/AggregateRating" itemscope itemprop="aggregateRating">
             Ratings:
-<strong><span itemprop="ratingValue">6.5</span></strong><span class="mellow">/<span itemprop="bestRating">10</span></span>            from <a href="ratings?ref_=tt_ov_rt" title="42 IMDb users have given a weighted average vote of 6.5/10" > <span itemprop="ratingCount">42</span> users
+<strong><span itemprop="ratingValue">6.6</span></strong><span class="mellow">/<span itemprop="bestRating">10</span></span>            from <a href="ratings?ref_=tt_ov_rt" title="43 IMDb users have given a weighted average vote of 6.6/10" > <span itemprop="ratingCount">43</span> users
 </a>&nbsp;
             <br/>
             Reviews: 
@@ -540,14 +545,14 @@ title="Users rated this 6.5/10 (42 votes) - click stars to rate" >
     <div class="clear"></div>
 </div> 
                         <p></p>
-    <p itemprop="description">
+<p itemprop="description">
 The Flying Circus was the largest traveling artist band in the country, and among its favorite artists were the rope-dancer, Laurento and the snake tamer, Ula Kiri. The hot blooded gypsy ...                <a href="/title/tt0002186/plotsummary?ref_=tt_ov_pl" >See full summary</a>&nbsp;&raquo;
-    </p>
+</p>
                         <p></p>
-    <div class="txt-block" itemprop="director" itemscope itemtype="http://schema.org/Person"> 
+    <div class="txt-block" itemprop="director" itemscope itemtype="http://schema.org/Person">
         <h4 class="inline">Director:</h4>
 <a href="/name/nm0511155/?ref_=tt_ov_dr" itemprop='url'><span class="itemprop" itemprop="name">Alfred Lind</span></a>
-    </div> 
+    </div>
     <div class="txt-block" itemprop="creator" itemscope itemtype="http://schema.org/Person"> 
         <h4 class="inline">Writers:</h4>
 <a href="/name/nm1921007/?ref_=tt_ov_wr" itemprop='url'><span class="itemprop" itemprop="name">Carl Otto Dumreicher</span></a>, 
@@ -665,6 +670,12 @@ href="https://secure.imdb.com/register-imdb/sharing?ref=tt_checkin_share"
 onclick="(new Image()).src='/rg/title-overview/add-poster/images/b.gif?link=/r/tt_owntherights/https://secure.imdb.com/store/photos/';"
 href="/r/tt_owntherights/https://secure.imdb.com/store/photos/"
 >Own the rights? Add a poster</a> &raquo;                            </div>
+                            <div class="clear pro-title-link">
+<a
+onclick="(new Image()).src='/rg/tt_ovrview_contact/prosystem/images/b.gif?link=/r/tt_ovrview_contact/title/tt0002186';"
+href="/r/tt_ovrview_contact/title/tt0002186"
+>Contact the Production Co. on IMDbPro &raquo;</a>
+                            </div>
                     </td>
                 </tr>
             </tbody>
@@ -720,6 +731,7 @@ href="/r/tt_owntherights/https://secure.imdb.com/store/photos/"
 </script>
 
     <div id="maindetails_sidebar_bottom" class="maindetails_sidebar">
+        
         
             
     
@@ -921,6 +933,8 @@ href="/r/tt_owntherights/https://secure.imdb.com/store/photos/"
         <div class="show_more"><span class="titlePageSprite arrows show"></span>Explore More</div>
         <div class="show_less"><span class="titlePageSprite arrows hide"></span>Show Less</div>
     </div>
+
+
   <div class="aux-content-widget-2"> 
     <div class="social">     
   <script type="text/javascript">generic.monitoring.start_timing("facebook_like_iframe");</script>
@@ -942,10 +956,13 @@ href="/r/tt_owntherights/https://secure.imdb.com/store/photos/"
 	<!-- no content received for slot: rhs_cornerstone -->
 	
 
+
+ 
         
 	
 	<!-- no content received for slot: middle_rhs -->
 	
+
         
         
         <div class="aux-content-widget-2">
@@ -955,61 +972,55 @@ href="/r/tt_owntherights/https://secure.imdb.com/store/photos/"
                 </div>
                 <h3>User Lists</h3>
                 <p>Related lists from IMDb users</p>
-                
-                    <div class="list-preview even">
-                        <div class="list-preview-item-narrow">
-<a href="/list/1dVkOjknDTA/?ref_=tt_rls_1" >
-<img height="86" width="86" alt="list image" title="list image"
-src="/images/nopicture/medium/film.png" class="rec_poster_img" />
-</a>                        </div>
-                        <div class="list_name">
-                            <b><a href="/list/1dVkOjknDTA/?ref_=tt_rls_1" >My favorite 100 movies from the tens</a></b>
-                        </div>
-                        <div class="list_meta">
-                            a list of 100 titles 
-                             created 11&nbsp;Aug&nbsp;2011
-                        </div>
-                        <div class="clear">&nbsp;</div>
-                    </div>
-                    <div class="list-preview odd">
-                        <div class="list-preview-item-narrow">
-<a href="/list/SlIUqt40foI/?ref_=tt_rls_2" >
-<img height="86" width="86" alt="list image" title="list image"
-src="/images/nopicture/medium/film.png" class="rec_poster_img" />
-</a>                        </div>
-                        <div class="list_name">
-                            <b><a href="/list/SlIUqt40foI/?ref_=tt_rls_2" >MyCollection - Timeline</a></b>
-                        </div>
-                        <div class="list_meta">
-                            a list of 612 titles 
-                             created 10&nbsp;Sep&nbsp;2011
-                        </div>
-                        <div class="clear">&nbsp;</div>
-                    </div>
-                    <div class="list-preview even">
-                        <div class="list-preview-item-narrow">
-<a href="/list/i2-8g_5c07A/?ref_=tt_rls_3" >
-<img height="86" width="86" alt="list image" title="list image"
-src="/images/nopicture/medium/film.png" class="rec_poster_img" />
-</a>                        </div>
-                        <div class="list_name">
-                            <b><a href="/list/i2-8g_5c07A/?ref_=tt_rls_3" >Europäisches Kino II</a></b>
-                        </div>
-                        <div class="list_meta">
-                            a list of 16 titles 
-                             created 7&nbsp;months&nbsp;ago
-                        </div>
-                        <div class="clear">&nbsp;</div>
-                    </div>
+
+    <div class="list-preview even">
+        <div class="list-preview-item-narrow">
+<a href="/list/ls001853538?ref_=tt_rls_1" ><img height="86" width="86" alt="list image" title="list image"src="/images/nopicture/medium/film.png" class="" /></a>        </div>
+        <div class="list_name">
+            <strong><a href="/list/ls001853538?ref_=tt_rls_1" >My favorite 100 movies from the tens</a></strong>
+        </div>
+        <div class="list_meta">
+            a list of 100 titles
+            <br />created 11&nbsp;Aug&nbsp;2011
+        </div>
+        <div class="clear">&nbsp;</div>
+    </div>
+    <div class="list-preview odd">
+        <div class="list-preview-item-narrow">
+<a href="/list/ls003702463?ref_=tt_rls_2" ><img height="86" width="86" alt="list image" title="list image"src="/images/nopicture/medium/film.png" class="" /></a>        </div>
+        <div class="list_name">
+            <strong><a href="/list/ls003702463?ref_=tt_rls_2" >MyCollection - Timeline</a></strong>
+        </div>
+        <div class="list_meta">
+            a list of 612 titles
+            <br />created 10&nbsp;Sep&nbsp;2011
+        </div>
+        <div class="clear">&nbsp;</div>
+    </div>
+    <div class="list-preview even">
+        <div class="list-preview-item-narrow">
+<a href="/list/ls051275688?ref_=tt_rls_3" ><img height="86" width="86" alt="list image" title="list image"src="/images/nopicture/medium/film.png" class="" /></a>        </div>
+        <div class="list_name">
+            <strong><a href="/list/ls051275688?ref_=tt_rls_3" >Europäisches Kino II</a></strong>
+        </div>
+        <div class="list_meta">
+            a list of 16 titles
+            <br />created 11&nbsp;months&nbsp;ago
+        </div>
+        <div class="clear">&nbsp;</div>
+    </div>
                 <div class="see-more">
                     <a href="/lists/tt0002186?ref_=tt_rls_sm" >See all related lists</a>&nbsp;&raquo;
                 </div>
             </div>
         </div>
+
         
 	
 	<!-- no content received for slot: btf_rhs1 -->
 	
+
+
     <div class="aux-content-widget-2">
         <h3>Connect with IMDb</h3>
         <div id="facebookWrapper">
@@ -1027,6 +1038,8 @@ src="/images/nopicture/medium/film.png" class="rec_poster_img" />
             id="twitterIframe"></iframe>
     </div>
 
+
+
   
       
     <div class="aux-content-widget-2">
@@ -1040,7 +1053,7 @@ src="/images/nopicture/medium/film.png" class="rec_poster_img" />
             <span class="imdbRatingPlugin imdbRatingStyle1" data-user="" data-title="tt0002186" data-style="t1">
 <a href="/title/tt0002186/?ref_=tt_plg_rt" > <img alt="The Flying Circus (1912) on IMDb"
 src="http://ia.media-imdb.com/images/G/01/imdb/images/plugins/imdb_46x22-2264473254._V379390954_.png">
-</a>                <span class="rating">6.5<span class="ofTen">/10</span></span>                
+</a>                <span class="rating">6.6<span class="ofTen">/10</span></span>                
 <img src="http://ia.media-imdb.com/images/G/01/imdb/images/plugins/imdb_star_22x21-2889147855._V379391454_.png" class="star">
             </span>
             <p>Want to share IMDb's rating on your own site? Use the HTML below.</p>
@@ -1061,6 +1074,8 @@ src="http://ia.media-imdb.com/images/G/01/imdb/images/plugins/imdb_46x22-2264473
             </div>
         </div>
     </div>
+
+
   <script>
     if ('csm' in window) {
       csm.measure('csm_TitlePlayQuizWidget_started');
@@ -1078,19 +1093,27 @@ src="http://ia.media-imdb.com/images/G/01/imdb/images/plugins/imdb_46x22-2264473
     }
   </script>
 
-        
+
+ 
+       
 	
 	<!-- no content received for slot: bottom_rhs -->
 	
         
+
 	
 	<!-- no content received for slot: btf_rhs2 -->
 	
+ 
         
     </div> 
     
     <div id="maindetails_center_bottom" class="maindetails_center">
         
+	
+	<!-- no content received for slot: maindetails_center_ad -->
+	
+
   <script>
     if ('csm' in window) {
       csm.measure('csm_TitleEpisodesWidget_started');
@@ -1104,6 +1127,7 @@ src="http://ia.media-imdb.com/images/G/01/imdb/images/plugins/imdb_46x22-2264473
             
             
         
+
   <script>
     if ('csm' in window) {
       csm.measure('csm_TitleRecsWidget_started');
@@ -1411,7 +1435,7 @@ itemprop='url'>IMDbPro</a>&nbsp;&raquo;
         <h2>Did You Know?</h2>
     <div id="connections" class="text-block">
         <h4>Connections</h4>
-        Followed by <a href="/title/tt0466434/?ref_=tt_trv_cnn">The Bear Tamer</a>&nbsp;(1912)
+        Featured in <a href="/title/tt1617347/?ref_=tt_trv_cnn">Cinema Europe: The Other Hollywood: Where It All Began</a>&nbsp;(1995)
 
 
         <a href="trivia?tab=mc&ref_=tt_trv_cnn" class="nobr" >See more</a> &raquo;
@@ -1443,28 +1467,28 @@ itemprop='url'>IMDbPro</a>&nbsp;&raquo;
                         <div style="width: 60px;">&nbsp;</div>
                     </div>
                 <span itemprop="review" itemscope itemtype="http://schema.org/Review">  
-                    <strong itemprop="name">Danish Circus</strong>
+                    <strong itemprop="name">&quot;A good performance&quot;</strong>
                     <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
                         <meta itemprop="worstRating" content = "1" />
                         <meta itemprop="ratingValue" content="6" />
                         <meta itemprop="bestRating" content="10" />
                     </span>
                     <div class="comment-meta">
-                        8 May 2006 | by <a href="/user/ur10489484/?ref_=tt_urv" ><span itemprop="author">FerdinandVonGalitzien (FerdinandVonGalitzien@gmail.com)</span></a>
-                        <meta itemprop="datePublished" content="2006-05-08" />
-                              (Galiza)
-                        &ndash; <a href="/user/ur10489484/comments?ref_=tt_urv" >See all my reviews</a>
+                        17 September 2008 | by <a href="/user/ur10334028/?ref_=tt_urv" ><span itemprop="author">ackstasis</span></a>
+                        <meta itemprop="datePublished" content="2008-09-17" />
+                              (Australia)
+                        &ndash; <a href="/user/ur10334028/comments?ref_=tt_urv" >See all my reviews</a>
                     </div>
                     <div>
-                        <p itemprop="reviewBody">As this German Count mentioned some time ago, the circus show and all that is around it, was often a setting in the silent cinema, probably because at that time the people could still find at the circus the chance to be astonished, bewildered and surprised. They would see the most incredible and bizarre acts played by people with an amazing capacity to perform the most impossible challenges. And of course let us not forget those small traveling circuses that specialized in showing the strangest creatures of the world: the strong man, the tattooed woman, fortune-tellers, various deformed humans beings or even ( in the past century) that most odd and unique of creatures, : a decent aristocrat. The silent cinema -at the time a kind of indoor circus itself-found the many incredible and curious stories of circus life provided perfect vehicles for expressive melodramas concerning jealousy, vengeance, or depraved unrequited loves,.<br /><br />The early Danish film&quot; Den Flyvende Cirkus&quot;, directed by Herr Alfred Lind, has all those circus characteristics ( it must be noted that this film was produced by the Danish Scandinavian-Russian Trading Company that often had a circus background in their movies ). It tells the story of a high-wire artist who is in love with the mayor&#39;s daughter; Thanks to his talents, he saves the life of his beloved in a fire but when he wants to marry her, the mayor firmly rejects such a foolish idea. A poor acrobat as a son-in law? Never! Now if the artist were to be a wealthy man, that would show he&#39;s a man of principles, ja w&ouml;hl!. But those lovers will have another obstacle to their impossible love: Damen Ula, the circus snake charmer who opposes the relationship because she herself loves passionately the high-wire artist.<br /><br />Damen Ula is the most remarkable character in this film and one that this German Count loves especially because she is the perfect example of those temperamental and strong women of the early silent movies,: She is a remorseless gypsy and besides her snake she also has a uniformed monkey, treats her assistant badly, smokes compulsively and even has a whip that she uses on every appropriate occasion&#133; ah!... a &quot;Negrish&quot; character years before Damen Pola herself.<br /><br />And now, if you&#39;ll allow me, I must temporarily take my leave because this German Count has a rendezvous with the bearded woman.</p>
+                        <p itemprop="reviewBody">The Danes apparently had quite a fixation with the circus. &#39;The Flying Circus (1912)&#39; was only one of many such-themed films that were released in the early years of the 1910s, and the film itself spawned a sequel, also directed by Alfred Lind, called &#39;The Bear Tamer (1912).&#39; Indeed, circuses were a popular cinematic theme in film-making for many years. With their extraordinary collection of the weird and wonderful &#150; high-wire acts, performing animals, clowns and strong-men &#150; such a setting was prime material for exciting movie viewing {notably, the most entertaining example of all is probably Chaplin&#39;s &#39;The Circus (1927)&#39;}. This particular Danish effort starts a bit slow, almost as a documentary of circus life, but eventually draws on its characters to provide an interesting and intermittently exciting slice of melodrama and escapism. Behind the sparkle and glamour of circus life lurks the scourge of lust, passion, jealousy and treachery, personified in the sleazy, cigar-smoking snake-charmer, Ula Kiri-Maja (Lili Bech), who fires up the screen with her smoldering sexual domination.<br /><br />Though I had been expecting more of a straight documentary, the dramatisation and character development in &#39;The Flying Circus&#39; was a welcome deviation. Borgmester Str&oslash;m (Rasmus Ottesen) is purportedly the circus&#39; greatest tight-rope walker. His first effort does little to convince us of this &#150; it&#39;s a completely lame three-metre trot along a rope that&#39;s about three metres above the stage, but the audience in the film seemed impressed enough, as did the mayor&#39;s daughter, Erna (Emilie Otterdahl). Considerably more impressive is a later feat, when Borgmester utilises his tight-rope skills to rescue Erna from the window of a burning building {even if I clearly noticed a crewman&#39;s head crop up where there ought to have been nothing but thin air}. Though he soon wants to marry Erna, his request is declined by her father, who is adamant that no daughter of his will ever marry a performing peasant. To secure enough money to ensure a respectable marriage, Borgmester decides to tight-rope walk a long rope to the top of a church tower.<br /><br />Offering to perform a dangerous stunt to acquire much-needed marital funds sounds a bit like Harold Lloyd&#39;s &#39;Safety Last! (1923),&#39; even if this Danish version is only mildly exciting in comparison. The performances are more understated than might be expected &#150; there&#39;s certainly nothing that would be called naturalistic, but, as far as silent cinema goes, the main cast members manage to keep their exaggerated gestures to an acceptable minimum. Lili Bech, calling to mind the vampiric French actress Musidora (of Louis Feuillade&#39;s serials), totally steals the show, her every action leading me to curse her unfettered nastiness. The film&#39;s running-time of 46 minutes was around average for features of the time, though the cinematic techniques used are still relatively primitive, especially compared to the excellent work that D.W. Griffith during those same years. Alfred Lind&#39;s &#39;The Flying Circus&#39; deserves at least a single viewing, as a historical curiosity, a Danish curiosity and as a pleasant-enough circus melodrama &#150; a beautifully-restored print is available on DVD from the Danish Film Institute.</p>
                     </div>
                 </span>
                 <hr />
-                <div class="yn" id="ynd_1362450">
-                    2 of 2 people found this review helpful.&nbsp;
+                <div class="yn" id="ynd_1947318">
+                    0 of 0 people found this review helpful.&nbsp;
                     Was this review helpful to you?
-                    <button class="btn small" value="Yes" name="ynb_1362450_yes" onclick="CS.TMD.user_review_vote(1362450, 'tt0002186', 'yes');" >Yes</button>
-                    <button class="btn small" value="No" name="ynb_1362450_no" onclick="CS.TMD.user_review_vote(1362450, 'tt0002186', 'no');" >No</button>
+                    <button class="btn small" value="Yes" name="ynb_1947318_yes" onclick="CS.TMD.user_review_vote(1947318, 'tt0002186', 'yes');" >Yes</button>
+                    <button class="btn small" value="No" name="ynb_1947318_no" onclick="CS.TMD.user_review_vote(1947318, 'tt0002186', 'no');" >No</button>
                 </div>
             <div class="see-more">
                 
@@ -1561,7 +1585,11 @@ itemprop='url'>IMDbPro</a>&nbsp;&raquo;
         <br class="clear">
         <hr width="100%" size="1">
     </div>
+	
+	<!-- no content received for slot: bottom_ad -->
+	
     <p class="footer" align="center">
+    
         <a
 onclick="(new Image()).src='/rg/home/footer/images/b.gif?link=/';"
 href="/"
@@ -1587,10 +1615,6 @@ onclick="(new Image()).src='/rg/topmovies/footer/images/b.gif?link=/chart/';"
 href="/chart/"
 >Top Movies</a>
         | <a
-onclick="(new Image()).src='/rg/watchlist/footer/images/b.gif?link=/list/watchlist';"
-href="/list/watchlist"
->Watchlist</a>
-        | <a
 onclick="(new Image()).src='/rg/top250/footer/images/b.gif?link=/chart/top';"
 href="/chart/top"
 >Top 250</a>
@@ -1602,10 +1626,6 @@ href="/sections/tv/"
 onclick="(new Image()).src='/rg/news/footer/images/b.gif?link=/news/';"
 href="/news/"
 >News</a>
-        | <a
-onclick="(new Image()).src='/rg/video/footer/images/b.gif?link=/features/video/';"
-href="/features/video/"
->Video</a>
         | <a
 onclick="(new Image()).src='/rg/messageboards/footer/images/b.gif?link=/boards/';"
 href="/boards/"
@@ -1620,16 +1640,6 @@ href="/pressroom/"
 onclick="(new Image()).src='/rg/register-v2/footer/images/b.gif?link=https://secure.imdb.com/register-imdb/form-v2';"
 href="https://secure.imdb.com/register-imdb/form-v2"
 >Register</a>
-        | <a
-onclick="(new Image()).src='/rg/rss/footer/images/b.gif?link=/help/show_article?rssavailable';"
-href="/help/show_article?rssavailable"
-class="navbarSprite"
-id="footer_rss_image"
-></a>
-          <a
-onclick="(new Image()).src='/rg/rss/footer/images/b.gif?link=/help/show_article?rssavailable';"
-href="/help/show_article?rssavailable"
->RSS</a>
         | <a
 onclick="(new Image()).src='/rg/advertising/footer/images/b.gif?link=/advertising/';"
 href="/advertising/"
@@ -1654,10 +1664,6 @@ href="http://www.boxofficemojo.com/"
 onclick="(new Image()).src='/rg/WITHOUTABOX/FOOTER/images/b.gif?link=http://www.withoutabox.com/';"
 href="http://www.withoutabox.com/"
 >Withoutabox</a>
-        | <a
-onclick="(new Image()).src='/rg/LOVEFILM/FOOTER/images/b.gif?link=http://www.lovefilm.com/browse/film/watch-online/';"
-href="http://www.lovefilm.com/browse/film/watch-online/"
->LOVEFiLM</a>
         <br /><br />
         IMDb Mobile:
           <a
@@ -1692,7 +1698,7 @@ href="http://twitter.com/imdb"
         <a
 onclick="(new Image()).src='/rg/help/footer/images/b.gif?link=/help/show_article?conditions';"
 href="/help/show_article?conditions"
->Copyright &copy;</a> 1990-2013 
+>Copyright &copy;</a> 1990-2014 
         <a
 onclick="(new Image()).src='/rg/help/footer/images/b.gif?link=/help/';"
 href="/help/"
@@ -1712,19 +1718,24 @@ href="//www.amazon.com/InterestBasedAds"
         An <span id="amazon_logo" class="footer_logo" align="middle"></span> company.
     </p>
   
-  <table class="footer" id="amazon-affiliates" width="100%">
+
+      
+      
+  <table class="footer" id="amazon-affiliates">
     <tr>
-      <td colspan="10">
+      <td colspan="8">
         Amazon Affiliates
       </td>
     </tr>
     <tr>
       <td class="amazon-affiliate-site-first">
-        <a class="amazon-affiliate-site-link" href="http://www.amazon.com/b?ie=UTF8&node=2858778011&tag=imdbpr1-20">
+       
+        <a class="amazon-affiliate-site-link" href="http://www.amazon.com/b?ie=UTF8&node=2676882011&tag=imdbpr1-20">
           <span class="amazon-affiliate-site-name">Amazon Instant Video</span><br>
           <span class="amazon-affiliate-site-desc">Watch Movies &<br>TV Online</span>
         </a>
       </td>
+     
     <td class="amazon-affiliate-site-item-nth">
         <a class="amazon-affiliate-site-link" href=http://www.amazon.com/b?ie=UTF8&node=2676882011&tag=imdbpr1-20 >
           <span class="amazon-affiliate-site-name">Prime Instant Video</span><br>
@@ -1756,18 +1767,6 @@ href="//www.amazon.com/InterestBasedAds"
         </a>
     </td>
     <td class="amazon-affiliate-site-item-nth">
-        <a class="amazon-affiliate-site-link" href=http://www.lovefilm.com/browse/film/watch-online/ >
-          <span class="amazon-affiliate-site-name">LOVEFiLM</span><br>
-          <span class="amazon-affiliate-site-desc">Watch Movies<br>Online</span>
-        </a>
-    </td>
-    <td class="amazon-affiliate-site-item-nth">
-        <a class="amazon-affiliate-site-link" href=http://www.junglee.com/ >
-          <span class="amazon-affiliate-site-name">Junglee</span><br>
-          <span class="amazon-affiliate-site-desc">India Online<br>Shopping</span>
-        </a>
-    </td>
-    <td class="amazon-affiliate-site-item-nth">
         <a class="amazon-affiliate-site-link" href=http://www.dpreview.com >
           <span class="amazon-affiliate-site-name">DPReview</span><br>
           <span class="amazon-affiliate-site-desc">Digital<br>Photography</span>
@@ -1782,31 +1781,10 @@ href="//www.amazon.com/InterestBasedAds"
     </tr>
   </table>
   </div>
-
-    <script type="text/javascript">
-
-        var _gaq = _gaq || [];
-        var seg = -1;
-        _gaq.push(['_setAccount', 'UA-3916519-1']);
-        _gaq.push(['_setDomainName', '.imdb.com']); 
-        _gaq.push(['_setSampleRate', '10']); 
-        _gaq.push(['_setCustomVar', 2, 'Falkor', 'false']); 
-        _gaq.push(['_trackPageview']); // must come last
-  
-       (function() {
-           var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-           ga.src = 'http://www.google-analytics.com/ga.js';
-           var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-       })();
-
-    </script>
-	
-	<!-- no content received for slot: bottom_ad -->
-	
             </div>
         </div>
 
-<script type="text/javascript" src="http://ia.media-imdb.com/images/G/01/imdb/js/collections/title-2518395825._V365965564_.js"></script>
+<script type="text/javascript" src="http://ia.media-imdb.com/images/G/01/imdb/js/collections/title-1875991676._V340144556_.js"></script>
 
 <script type="text/imdblogin-js" id="login">
 jQuery(document).ready(function(){
@@ -1832,7 +1810,7 @@ jQuery(document).ready(function(){
             var facebookTheme = (window.custom && window.custom.full_page &&
                     window.custom.full_page.theme) ?
                 window.custom.full_page.theme : "light",
-            url = "//www.facebook.com/plugins/likebox.php?href=facebook.com%2Fimdb&width=300&height=190&connections=5&header=false&stream=false&colorscheme=" + facebookTheme,
+            url = "//www.facebook.com/plugins/likebox.php?href=facebook.com%2Fimdb&width=300&height=190&connections=4&header=false&stream=false&colorscheme=" + facebookTheme,
             like = document.getElementById('facebookIframe'),
             twitterIframe = document.getElementById('twitterIframe');
             if (like) {
@@ -1846,7 +1824,7 @@ jQuery(document).ready(function(){
                 );
         </script>
 
-<div id="servertime" time="151"/>
+<div id="servertime" time="464"/>
 
 
 

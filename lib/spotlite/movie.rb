@@ -2,7 +2,7 @@ module Spotlite
 
   # Represents a movie on IMDb.com
   class Movie
-    attr_accessor :imdb_id, :title, :year
+    attr_accessor :imdb_id, :url
     
     # Initialize a new movie object by its IMDb ID as a string
     #
@@ -14,10 +14,10 @@ module Spotlite
     # Currently, all data is spread across 6 pages: main movie page,
     # /releaseinfo, /fullcredits, /keywords, /trivia, and /criticreviews
     def initialize(imdb_id, title = nil, year = nil)
-      @imdb_id = imdb_id
+      @imdb_id = "%07d" % imdb_id.to_i
       @title   = title
       @year    = year
-      @url     = "http://www.imdb.com/title/tt#{imdb_id}/"
+      @url     = "http://www.imdb.com/title/tt#{@imdb_id}/"
     end
     
     # Returns title as a string
@@ -130,50 +130,83 @@ module Spotlite
       movie_trivia.css("div.sodatext").map { |node| node.text.strip } rescue []
     end
     
-    # Returns a list of directors as an array of hashes
-    # with keys: +imdb_id+ (string) and +name+ (string)
+    # Returns a list of directors as an array of +Spotlite::Person+ objects
     def directors
-      parse_staff("Directed by")
+      parse_crew("Directed by")
     end
     
-    # Returns a list of writers as an array of hashes
-    # with keys: +imdb_id+ (string) and +name+ (string)
+    # Returns a list of writers as an array of +Spotlite::Person+ objects
     def writers
-      parse_staff("Writing Credits")
+      parse_crew("Writing Credits")
     end
     
-    # Returns a list of producers as an array of hashes
-    # with keys: +imdb_id+ (string) and +name+ (string)
+    # Returns a list of producers as an array of +Spotlite::Person+ objects
     def producers
-      parse_staff("Produced by")
+      parse_crew("Produced by")
     end
     
-    # Returns a list of actors as an array of hashes
-    # with keys: +imdb_id+ (string), +name+ (string), and +character+ (string)
-    def cast
-      table = full_credits.css("table.cast_list")
-      names = table.css("td[itemprop='actor']").map { |node| node.text.strip } rescue []
-      links = table.css("td[itemprop='actor'] a").map { |node| node["href"].clean_href } rescue []
-      imdb_ids = links.map { |link| link.parse_imdb_id } unless links.empty?
-      characters = table.css("td.character").map { |node| node.text.clean_character }
-      
-      array = []
-      0.upto(names.size - 1) do |i|
-        array << {:imdb_id => imdb_ids[i], :name => names[i], :character => characters[i]}
-      end
-      
-      array
-    end
-    
-    # Returns a list of starred actors as an array of hashes
-    # with keys: +imdb_id+ (string) and +name+ (string)
+    # Returns a list of starred actors as an array of +Spotlite::Person+ objects
     def stars
-      array = []
       details.css("td#overview-top div[itemprop='actors'] a[href^='/name/nm']").map do |node|
+        imdb_id = node['href'].parse_imdb_id
         name = node.text.strip
-        imdb_id = node["href"].parse_imdb_id
         
-        array << {:imdb_id => imdb_id, :name => name}
+        [imdb_id, name]
+      end.map do |values|
+        Spotlite::Person.new(*values)
+      end
+    end
+    
+    # Returns a list of actors as an array +Spotlite::Person+ objects
+    def cast
+      full_credits.css("table.cast_list tr").reject do |row|
+        # Skip 'Rest of cast' row
+        row.children.size == 1
+      end.map do |row|
+        imdb_id = row.at("td:nth-child(2) a")['href'].parse_imdb_id
+        name = row.at("td:nth-child(2) a").text.strip_whitespace
+        credits_text = row.last_element_child.text.strip_whitespace
+        
+        [imdb_id, name, 'Cast', credits_text]
+      end.map do |values|
+        Spotlite::Person.new(*values)
+      end
+    end
+    
+    # Returns a list of crew members of a certain category as an array +Spotlite::Person+ objects
+    def parse_crew(category)
+      table = full_credits.search("[text()^='#{category}']").first.next_element rescue nil
+      if table && table.name == "table"
+        table.css("tr").reject do |row|
+          # Skip empty table rows with one non-braking space
+          row.text.strip.size == 1
+        end.map do |row|
+          imdb_id = row.first_element_child.at("a")['href'].parse_imdb_id
+          name = row.first_element_child.at("a").text.strip_whitespace
+          credits_text = row.last_element_child.text.strip_whitespace
+          
+          [imdb_id, name, category, credits_text]
+        end.map do |values|
+          Spotlite::Person.new(*values)
+        end
+      end
+    end
+    
+    # Combines all crew categories and returns an array of +Spotlite::Person+ objects
+    def crew
+      crew_categories.map{ |category| parse_crew(category) }.flatten
+    end
+    
+    # Returns combined `cast` and `crew` as an array of +Spotlite::Person+ objects
+    def credits
+      cast + crew
+    end
+    
+    # Returns available crew categories, e.g. "Art Department", "Writing Credits", or "Stunts", as an array of strings
+    def crew_categories
+      array = []
+      full_credits.css("h4.dataHeaderWithBorder").reject{ |h| h['id'] == 'cast' }.map do |node|
+        array << (node.children.size > 1 ? node.children.first.text.strip_whitespace : node.children.text.strip_whitespace)
       end
       
       array
@@ -260,28 +293,12 @@ module Spotlite
       @reviews ||= open_page("criticreviews")
     end
     
-    def still_frames
+    def still_frames # :nodoc:
       @still_frames ||= open_page("mediaindex?refine=still_frame")
     end
     
     def open_page(page = nil) # :nodoc:
-      Nokogiri::HTML(open("http://www.imdb.com/title/tt#{@imdb_id}/#{page}",
-                          "Accept-Language" => "en-us"))
-    end
-    
-    def parse_staff(staff) # :nodoc:
-      array = []
-      table = full_credits.search("[text()*='#{staff}']").first.next_element rescue nil
-      if table && table.name == "table"
-        table.css("a[href^='/name/nm']").map do |node|
-          imdb_id = node["href"].parse_imdb_id
-          name = node.text.strip
-        
-          array << {:imdb_id => imdb_id, :name => name}
-        end
-      end
-      
-      array.uniq
+      Nokogiri::HTML open("#{@url}#{page}", "Accept-Language" => "en-us")
     end
   end
 

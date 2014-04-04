@@ -37,9 +37,9 @@ class String
     gsub(/\n.+$/, "")
   end
   
-  # Strip all extra white space from character's name node
-  def clean_character
-    gsub(/\s+/, " ").strip
+  # Strip a string from all extra white space
+  def strip_whitespace
+    gsub(/\u00A0/, "").gsub(/\s+/, " ").strip
   end
   
   # Strips parantheses from release date's comment

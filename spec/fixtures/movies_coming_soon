@@ -1,12 +1,13 @@
 HTTP/1.1 200 OK
-Date: Sun, 15 Dec 2013 14:04:45 GMT
+Date: Fri, 04 Apr 2014 14:11:01 GMT
 Server: Server
+X-Frame-Options: SAMEORIGIN
 Content-Type: text/html;charset=UTF-8
 Content-Language: en-US
 Vary: Accept-Encoding,User-Agent
-Set-Cookie: uu=BCYnBwCvqKcul9zu91ORNXDTfn6k7BITPfmuH8LN8vBnLSGTkqknzu2ysK8MSWUob00Zl0G19uxp%0D%0Ax4T0NqvSnzSmQlFrUCSkyeRjsttxDBWX7vy2JNg4SyLcvj3D23hraKarXLy%2Ftzuv3YlEqel0cXGa%0D%0AVB1PjmrcHycb03CqH4M59WBVLSa%2B4bmDSuBH4VoziSNuDSVT583IOzeor6Eurg4wGT1yk8mf9b6z%0D%0AEDFGgNjidBBNNU%2FavfVIgas%2FdusFL52GKWP35O8n0f5V1tITFHv1vA%3D%3D%0D%0A; Domain=.imdb.com; Expires=Fri, 02-Jan-2082 17:18:52 GMT; Path=/
-Set-Cookie: session-id=000-0000000-0000000; Domain=.imdb.com; Expires=Fri, 02-Jan-2082 17:18:52 GMT; Path=/
-Set-Cookie: session-id-time=1544796285; Domain=.imdb.com; Expires=Fri, 02-Jan-2082 17:18:52 GMT; Path=/
+Set-Cookie: uu=BCYlrCM576BWSffgJDYEWWTNlkpkTPFYNAGvfPuEsbZ6mJWsF7pdgqOvQ1Up_4ZtFRrFqZlqZoWD%0D%0A9IGkusz5CTChU5dSS3z9EkevM2NJ7S1UaPND9q17hn4aZllU5JG0R0syNAgHfre2b8ZZ3XCIQ5Vn%0D%0AdtivyvZM46ETl9hFzXrFgwx3mtLvs8VZqH7HefctWHWCEBB03VMT8RN-7tTNjNP6FHfO0AUgN0QV%0D%0AKQ-M3ISX9tpJ5ieY5iTjdcxIaQ1Tg3p4MTuuJ4lplVaNvJS9-13hkQ%0D%0A; Domain=.imdb.com; Expires=Wed, 22-Apr-2082 17:25:08 GMT; Path=/
+Set-Cookie: session-id=000-0000000-0000000; Domain=.imdb.com; Expires=Wed, 22-Apr-2082 17:25:08 GMT; Path=/
+Set-Cookie: session-id-time=1554300661; Domain=.imdb.com; Expires=Wed, 22-Apr-2082 17:25:08 GMT; Path=/
 P3P: policyref="http://i.imdb.com/images/p3p.xml",CP="CAO DSP LAW CUR ADM IVAo IVDo CONo OTPo OUR DELi PUBi OTRi BUS PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA HEA PRE LOC GOV OTC "
 Transfer-Encoding: chunked
 
@@ -21,15 +22,15 @@ Transfer-Encoding: chunked
 xmlns:og="http://ogp.me/ns#"
 xmlns:fb="http://www.facebook.com/2008/fbml">
     <head>
-                <script type="text/javascript">var ue_t0=window.ue_t0||+new Date();</script>
-                <script type="text/javascript">
-                    var ue_mid = "A1EVAM02EL8SFB"; 
-                    var ue_sn = "www.imdb.com";  
-                    var ue_furl = "fls-na.amazon.com";
-                    var ue_sid = "000-0000000-0000000";
-                    var ue_id = "0YPP5KBSXNY0V02XEJ0H";
-                    (function(e){var c=e,a={main_scope:"mainscopecsm",q:[],t0:c.ue_t0||+new Date(),d:g};function g(h){return +new Date()-(h?0:a.t0)}function d(h){return function(){a.q.push({n:h,a:arguments,t:a.d()})}}function b(k,j,h){var i={m:k,f:j,l:h,fromOnError:1,args:arguments};c.ueLogError(i);return false}b.skipTrace=1;e.onerror=b;function f(){c.uex("ld")}if(e.addEventListener){e.addEventListener("load",f,false)}else{if(e.attachEvent){e.attachEvent("onload",f)}}a.tag=d("tag");a.log=d("log");a.reset=d("rst");c.ue_csm=c;c.ue=a;c.ueLogError=d("err");c.ues=d("ues");c.uet=d("uet");c.uex=d("uex");c.uet("ue")})(window);(function(e,d){var a=e.ue||{};function c(g){if(!g){return}var f=d.head||d.getElementsByTagName("head")[0]||d.documentElement,h=d.createElement("script");h.async="async";h.src=g;f.insertBefore(h,f.firstChild)}function b(){var k=e.ue_cdn||"z-ecx.images-amazon.com",g=e.ue_cdns||"images-na.ssl-images-amazon.com",j="/images/G/01/csminstrumentation/",h=e.ue_file||"ue-full-ef584a44e8ea58e3d4d928956600a9b6._V1_.js",f,i;if(h.indexOf("NSTRUMENTATION_FIL")>=0){return}if("ue_https" in e){f=e.ue_https}else{f=e.location&&e.location.protocol=="https:"?1:0}i=f?"https://":"http://";i+=f?g:k;i+=j;i+=h;c(i)}if(!e.ue_inline){b()}a.uels=c;e.ue=a})(window,document);
-                </script>
+            <script type="text/javascript">var ue_t0=window.ue_t0||+new Date();</script>
+            <script type="text/javascript">
+                var ue_mid = "A1EVAM02EL8SFB"; 
+                var ue_sn = "www.imdb.com";  
+                var ue_furl = "fls-na.amazon.com";
+                var ue_sid = "000-0000000-0000000";
+                var ue_id = "14YBY8RJNX32A6VTBB15";
+                (function(e){var c=e,a={main_scope:"mainscopecsm",q:[],t0:c.ue_t0||+new Date(),d:g};function g(h){return +new Date()-(h?0:a.t0)}function d(h){return function(){a.q.push({n:h,a:arguments,t:a.d()})}}function b(k,j,h){var i={m:k,f:j,l:h,fromOnError:1,args:arguments};c.ueLogError(i);return false}b.skipTrace=1;e.onerror=b;function f(){c.uex("ld")}if(e.addEventListener){e.addEventListener("load",f,false)}else{if(e.attachEvent){e.attachEvent("onload",f)}}a.tag=d("tag");a.log=d("log");a.reset=d("rst");c.ue_csm=c;c.ue=a;c.ueLogError=d("err");c.ues=d("ues");c.uet=d("uet");c.uex=d("uex");c.uet("ue")})(window);(function(e,d){var a=e.ue||{};function c(g){if(!g){return}var f=d.head||d.getElementsByTagName("head")[0]||d.documentElement,h=d.createElement("script");h.async="async";h.src=g;f.insertBefore(h,f.firstChild)}function b(){var k=e.ue_cdn||"z-ecx.images-amazon.com",g=e.ue_cdns||"images-na.ssl-images-amazon.com",j="/images/G/01/csminstrumentation/",h=e.ue_file||"ue-full-ef584a44e8ea58e3d4d928956600a9b6._V1_.js",f,i;if(h.indexOf("NSTRUMENTATION_FIL")>=0){return}if("ue_https" in e){f=e.ue_https}else{f=e.location&&e.location.protocol=="https:"?1:0}i=f?"https://":"http://";i+=f?g:k;i+=j;i+=h;c(i)}if(!e.ue_inline){b()}a.uels=c;e.ue=a})(window,document);
+            </script>
  
 
         
@@ -46,29 +47,32 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
   <script>(function(t){ (t.events = t.events || {})["csm_head_pre_icon"] = new Date().getTime(); })(IMDbTimer);</script>
         <link rel="icon" type="image/ico" href="http://ia.media-imdb.com/images/G/01/imdb/images/favicon-2165806970._V379387995_.ico" />
         <link rel="shortcut icon" type="image/x-icon" href="http://ia.media-imdb.com/images/G/01/imdb/images/desktop-favicon-2165806970._V379390718_.ico" />
-        <link rel="apple-touch-icon" href="http://ia.media-imdb.com/images/G/01/imdb/images/apple-touch-icon-3173846443._V379391250_.png" />
+        <link href="http://ia.media-imdb.com/images/G/01/imdb/images/mobile/apple-touch-icon-web-4151659188._V361295786_.png" rel="apple-touch-icon"> 
+        <link href="http://ia.media-imdb.com/images/G/01/imdb/images/mobile/apple-touch-icon-web-76x76-53536248._V361295462_.png" rel="apple-touch-icon" sizes="76x76"> 
+        <link href="http://ia.media-imdb.com/images/G/01/imdb/images/mobile/apple-touch-icon-web-120x120-2442878471._V361295428_.png" rel="apple-touch-icon" sizes="120x120"> 
+        <link href="http://ia.media-imdb.com/images/G/01/imdb/images/mobile/apple-touch-icon-web-152x152-1475823641._V361295368_.png" rel="apple-touch-icon" sizes="152x152"> 
         <link rel="search" type="application/opensearchdescription+xml" href="http://ia.media-imdb.com/images/G/01/imdb/images/imdbsearch-3349468880._V379388505_.xml" title="IMDb" />
   <script>(function(t){ (t.events = t.events || {})["csm_head_post_icon"] = new Date().getTime(); })(IMDbTimer);</script>
         
-        
-            <link rel='image_src' href="http://ia.media-imdb.com/images/G/01/imdb/images/logos/imdb_fb_logo-1730868325._V379391653_.png">
-            <meta property='og:image' content="http://ia.media-imdb.com/images/G/01/imdb/images/logos/imdb_fb_logo-1730868325._V379391653_.png" />
-        
-        <meta property='fb:app_id' content='115109575169727' />
-        <meta property='og:title' content="New Movies Coming Soon" />
-        <meta property='og:site_name' content='IMDb' />
-        <meta name="title" content="New Movies Coming Soon - IMDb" />
-            <meta name="description" content="Find the latest new movies coming soon to theaters. Get the latest buzz & release dates, watch trailers, see photos, and discuss upcoming movies all on IMDb" />
-            <meta property="og:description" content="Find the latest new movies coming soon to theaters. Get the latest buzz & release dates, watch trailers, see photos, and discuss upcoming movies all on IMDb" />
-            <meta name="keywords" content="new movies, movies coming soon, movie releases, movies showtimes, movie search, find movies, watch trailers, read movie reviews, movie, movies, movie guide, imdb, internet movie database" />
-            <meta name="request_id" content="0YPP5KBSXNY0V02XEJ0H" />
+    
+        <link rel='image_src' href="http://ia.media-imdb.com/images/G/01/imdb/images/logos/imdb_fb_logo-1730868325._V379391653_.png">
+        <meta property='og:image' content="http://ia.media-imdb.com/images/G/01/imdb/images/logos/imdb_fb_logo-1730868325._V379391653_.png" />
+    
+    <meta property='fb:app_id' content='115109575169727' />
+    <meta property='og:title' content="New Movies Coming Soon" />
+    <meta property='og:site_name' content='IMDb' />
+    <meta name="title" content="New Movies Coming Soon - IMDb" />
+        <meta name="description" content="Find the latest new movies coming soon to theaters. Get the latest buzz & release dates, watch trailers, see photos, and discuss upcoming movies all on IMDb" />
+        <meta property="og:description" content="Find the latest new movies coming soon to theaters. Get the latest buzz & release dates, watch trailers, see photos, and discuss upcoming movies all on IMDb" />
+        <meta name="keywords" content="new movies, movies coming soon, movie releases, movies showtimes, movie search, find movies, watch trailers, read movie reviews, movie, movies, movie guide, imdb, internet movie database" />
+        <meta name="request_id" content="14YBY8RJNX32A6VTBB15" />
         
   <script>(function(t){ (t.events = t.events || {})["csm_head_pre_css"] = new Date().getTime(); })(IMDbTimer);</script>
-<link rel="stylesheet" type="text/css" href="http://ia.media-imdb.com/images/G/01/imdb/css/collections/consumersite-3630356745._V366641981_.css" />
-<!-- h=ics-1d-i-0b501472.us-east-1 -->
+<link rel="stylesheet" type="text/css" href="http://ia.media-imdb.com/images/G/01/imdb/css/collections/consumersite-2854485090._V339984186_.css" />
+<!-- h=ics-http-1e-c1xl-i-36c7d216.us-east-1 -->
 <link rel="stylesheet" type="text/css" href="http://ia.media-imdb.com/images/G/01/imdb/css/site/consumer-navbar-mega-3538633082._V355276482_.css" />
-<link rel="stylesheet" type="text/css" href="http://ia.media-imdb.com/images/G/01/imdb/css/collections/other-764989002._V368966873_.css" />
-<link rel="stylesheet" type="text/css" href="http://ia.media-imdb.com/images/G/01/imdb/css/collections/watchlistButton-3418429651._V354773478_.css" />
+<link rel="stylesheet" type="text/css" href="http://ia.media-imdb.com/images/G/01/imdb/css/collections/other-2036767825._V364989056_.css" />
+<link rel="stylesheet" type="text/css" href="http://ia.media-imdb.com/images/G/01/imdb/css/collections/watchlistButton-1646515903._V360865865_.css" />
 <!--[if IE]><link rel="stylesheet" type="text/css" href="http://ia.media-imdb.com/images/G/01/imdb/css/collections/ie-1918465287._V354866480_.css" /><![endif]-->
 
   <script>(function(t){ (t.events = t.events || {})["csm_head_post_css"] = new Date().getTime(); })(IMDbTimer);</script>
@@ -202,9 +206,9 @@ onsubmit="(new Image()).src='/rg/SEARCH-BOX/HEADER/images/b.gif?link=/find';"
                     </ul>
                     <h5>SPECIAL FEATURES</h5>
                     <ul>
-                        <li><a href="/year-in-review/?ref_=nv_sf_best_1" >Best of 2013</a></li>
-                        <li><a href="/oscars/?ref_=nv_sf_rto_2" >Road to the Oscars 2014</a></li>
-                        <li><a href="/x-ray/?ref_=nv_sf_xray_3" >X-Ray for Movies & TV</a></li>
+                        <li><a href="/oscars/?ref_=nv_sf_rto_1" >Road to the Oscars 2014</a></li>
+                        <li><a href="/x-ray/?ref_=nv_sf_xray_2" >X-Ray for Movies & TV</a></li>
+                        <li><a href="/poll/?ref_=nv_sf_pl_3" >Polls</a></li>
                     </ul>
                 </div>
             </div>
@@ -221,7 +225,7 @@ onsubmit="(new Image()).src='/rg/SEARCH-BOX/HEADER/images/b.gif?link=/find';"
                 <div class="subNavListContainer">
                     <h5>CELEBS</h5>
                     <ul>
-                            <li><a href="/search/name?birth_monthday=12-15&refine=birth_monthday&ref_=nv_cel_brn_1" >Born Today</a></li>
+                            <li><a href="/search/name?birth_monthday=04-04&refine=birth_monthday&ref_=nv_cel_brn_1" >Born Today</a></li>
                         <li><a href="/news/celebrity?ref_=nv_cel_nw_2" >Celebrity News</a></li>
                         <li><a href="/search/name?gender=male,female&ref_=nv_cel_m_3" >Most Popular Celebs</a></li>
                     </ul>
@@ -237,13 +241,14 @@ onsubmit="(new Image()).src='/rg/SEARCH-BOX/HEADER/images/b.gif?link=/find';"
                 <div class="subNavListContainer">
                     <h5>EVENTS</h5>
                     <ul>
-                        <li><a href="/oscars/?ref_=nv_ev_rto_1" >Road to the Oscars</a></li>
-                        <li><a href="/emmys/?ref_=nv_ev_rte_2" >Road to the Emmys</a></li>
-                        <li><a href="/comic-con/?ref_=nv_ev_comic_3" >Comic-Con</a></li>
-                        <li><a href="/cannes/?ref_=nv_ev_can_4" >Cannes</a></li>
-                        <li><a href="/tribeca/?ref_=nv_ev_tri_5" >Tribeca</a></li>
-                        <li><a href="/sundance/?ref_=nv_ev_sun_6" >Sundance</a></li>
-                        <li><a href="/event/?ref_=nv_ev_all_7" >More Popular Events</a></li>
+                        <li><a href="/sxsw/?ref_=nv_ev_sxsw_1" >SXSW Film Festival</a></li>
+                        <li><a href="/oscars/?ref_=nv_ev_rto_2" >Road to the Oscars</a></li>
+                        <li><a href="/emmys/?ref_=nv_ev_rte_3" >Road to the Emmys</a></li>
+                        <li><a href="/comic-con/?ref_=nv_ev_comic_4" >Comic-Con</a></li>
+                        <li><a href="/cannes/?ref_=nv_ev_can_5" >Cannes</a></li>
+                        <li><a href="/tribeca/?ref_=nv_ev_tri_6" >Tribeca</a></li>
+                        <li><a href="/sundance/?ref_=nv_ev_sun_7" >Sundance</a></li>
+                        <li><a href="/event/?ref_=nv_ev_all_8" >More Popular Events</a></li>
                     </ul>
                 </div>
             </div>
@@ -260,19 +265,19 @@ onsubmit="(new Image()).src='/rg/SEARCH-BOX/HEADER/images/b.gif?link=/find';"
                         <h5>LATEST HEADLINES</h5>
     <ul>
                 <li itemprop="headline">
-<a href="/news/ni56544303/?ref_=nv_nw_tn_1" > ‘The Hobbit’ Off to $31 Million Start, Wrestling With Unmet Expectations
+<a href="/news/ni57021836/?ref_=nv_nw_tn_1" > David Letterman to Retire from CBS in 2015
 </a><br />
-                        <span class="time">20 hours ago</span>
+                        <span class="time">17 hours ago</span>
                 </li>
                 <li itemprop="headline">
-<a href="/news/ni56544093/?ref_=nv_nw_tn_2" > ‘American Hustle’ Scores Big in Limited Box Office Debut
+<a href="/news/ni57021039/?ref_=nv_nw_tn_2" > ‘Batman-Superman’ Pic Adds Holly Hunter, ’300′s Callan Mulvey, Tao Okamoto
 </a><br />
                         <span class="time">21 hours ago</span>
                 </li>
                 <li itemprop="headline">
-<a href="/news/ni56542625/?ref_=nv_nw_tn_3" > '12 Years a Slave' leads San Francisco Film Critics Circle nods
+<a href="/news/ni57020046/?ref_=nv_nw_tn_3" > OWN Slate Features Toni Braxton in Network's First Scripted Film, Octavia Spencer in Miniseries
 </a><br />
-                        <span class="time">14 December 2013</span>
+                        <span class="time">3 April 2014</span>
                 </li>
     </ul>
                     </div>
@@ -304,7 +309,7 @@ onsubmit="(new Image()).src='/rg/SEARCH-BOX/HEADER/images/b.gif?link=/find';"
 <span class="downArrow"></span>
 <div id="navMenu4" class="sub_nav">
     <h5>
-        RECENTLY ADDED
+            YOUR WATCHLIST
     </h5> 
     <ul id="navWatchlist">
     </ul>
@@ -320,7 +325,7 @@ onsubmit="(new Image()).src='/rg/SEARCH-BOX/HEADER/images/b.gif?link=/find';"
                 src : "http://ia.media-imdb.com/images/G/01/imdb/images/navbar/watchlist_slot2_popular-4090757197._V360060945_.jpg"
                 },
                 {
-                    href : "/search/title?count=100&groups=top_250&sort=user_rating,desc&title_type=feature",
+                    href : "/chart/top",
                 src : "http://ia.media-imdb.com/images/G/01/imdb/images/navbar/watchlist_slot3_top250-575799966._V360061165_.jpg"
                 }
     ];
@@ -442,14 +447,16 @@ href="/movies-in-theaters/"
 >In Theaters</a></a></li>
          <li class="active"><a>Coming Soon</a></li>
       
-      <li class="linkright"><a href="/showtimes/?ref_=cs_sh" >Showtimes</a> <span>&raquo;</span></li>
+      <li class="linkright"><a href="/showtimes/location?ref_=cs_sh" >Showtimes</a> <span>&raquo;</span></li>
     </ul>
     <div class="header">
     	<div class="nav">
     	   <div class="desc">
-    	    		<a href="#Dec20">Dec 20</a>
+    	    		<a href="#Apr11">Apr 11</a>
     	    		 |
-    	    		<a href="#Dec27">Dec 27</a>
+    	    		<a href="#Apr18">Apr 18</a>
+    	    		 |
+    	    		<a href="#Apr25">Apr 25</a>
     	    		
     	    </div>
 
@@ -457,28 +464,12 @@ href="/movies-in-theaters/"
 
 	        <div class="sort">
         &laquo;&nbsp;<a
-onclick="(new Image()).src='/rg/coming-soon/previous-month/images/b.gif?link=/movies-coming-soon/2013-12/';"
-href="/movies-coming-soon/2013-12/"
+onclick="(new Image()).src='/rg/coming-soon/previous-month/images/b.gif?link=/movies-coming-soon/2014-04/';"
+href="/movies-coming-soon/2014-04/"
 >Prev</a>&nbsp;             
     
         <select  name="sort" class="sort_field date_select" onchange="window.open(this.options[this.selectedIndex].value,'_top')">
             <option selected="selected"
-                value="/movies-coming-soon/2013-12/">
-                 December&nbsp;&nbsp;2013
-            </option>
-            <option 
-                value="/movies-coming-soon/2014-01/">
-                 January&nbsp;&nbsp;&nbsp;2014
-            </option>
-            <option 
-                value="/movies-coming-soon/2014-02/">
-                 February&nbsp;&nbsp;2014
-            </option>
-            <option 
-                value="/movies-coming-soon/2014-03/">
-                 March&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2014
-            </option>
-            <option 
                 value="/movies-coming-soon/2014-04/">
                  April&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2014
             </option>
@@ -510,10 +501,26 @@ href="/movies-coming-soon/2013-12/"
                 value="/movies-coming-soon/2014-11/">
                  November&nbsp;&nbsp;2014
             </option>
+            <option 
+                value="/movies-coming-soon/2014-12/">
+                 December&nbsp;&nbsp;2014
+            </option>
+            <option 
+                value="/movies-coming-soon/2015-01/">
+                 January&nbsp;&nbsp;&nbsp;2015
+            </option>
+            <option 
+                value="/movies-coming-soon/2015-02/">
+                 February&nbsp;&nbsp;2015
+            </option>
+            <option 
+                value="/movies-coming-soon/2015-03/">
+                 March&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2015
+            </option>
         </select>        
         &nbsp;<a
-onclick="(new Image()).src='/rg/coming-soon/next-month/images/b.gif?link=/movies-coming-soon/2014-01/';"
-href="/movies-coming-soon/2014-01/"
+onclick="(new Image()).src='/rg/coming-soon/next-month/images/b.gif?link=/movies-coming-soon/2014-05/';"
+href="/movies-coming-soon/2014-05/"
 >Next</a>&nbsp;&raquo;
             </div>
 
@@ -522,57 +529,68 @@ href="/movies-coming-soon/2014-01/"
     
 
     <div class="list detail">
-                <h4 class="li_group"><a name="Dec20">December 20&nbsp;</a></h4>
+                <h4 class="li_group"><a name="Apr11">April 11&nbsp;</a></h4>
             <div class="list_item odd" itemscope itemtype="http://schema.org/Movie">
- 
     <table cellspacing="0" cellpadding="0" border="0" class="nm-title-overview-widget-layout">
         <tbody>
             <tr>
                 <td rowspan="2" valign="top" id="img_primary">
                     <div class="image">
 <a
-onclick="(new Image()).src='/rg/coming-soon/overview-poster/images/b.gif?link=/title/tt1229340/';"
-href="/title/tt1229340/"
+onclick="(new Image()).src='/rg/coming-soon/overview-poster/images/b.gif?link=/title/tt2357291/';"
+href="/title/tt2357291/"
 > <div class="hover-over-image zero-z-index">
 <img class="poster shadowed"
 height="209"
 width="140"
-alt="Anchorman 2: The Legend Continues (2013) Poster"
-title="Anchorman 2: The Legend Continues (2013)"
-src="http://ia.media-imdb.com/images/M/MV5BMjE5ODk0NjQzNV5BMl5BanBnXkFtZTgwODk4MDA1MDE@._V1_SY209_CR0,0,140,209_.jpg"
+alt="Rio 2 (2014) Poster"
+title="Rio 2 (2014)"
+src="http://ia.media-imdb.com/images/M/MV5BMTgzMDczMDYzNl5BMl5BanBnXkFtZTgwMzk2MDIwMTE@._V1_SY209_CR0,0,140,209_.jpg"
 itemprop="image" />
 </div>
 </a>                    </div> 
                 </td>
                 <td class="overview-top">
                     <h4 itemprop="name"><a
-onclick="(new Image()).src='/rg/coming-soon/overview-title/images/b.gif?link=/title/tt1229340/';"
-href="/title/tt1229340/"
-title="Anchorman 2: The Legend Continues (2013)"
-itemprop='url'> Anchorman 2: The Legend Continues (2013)</a></h4>
+onclick="(new Image()).src='/rg/coming-soon/overview-title/images/b.gif?link=/title/tt2357291/';"
+href="/title/tt2357291/"
+title="Rio 2 (2014)"
+itemprop='url'> Rio 2 (2014)</a></h4>
                     <p class="cert-runtime-genre">
                             
-            <img title="PG-13"
-                                 alt="Certificate PG-13"
-                                 class="absmiddle certimage"
-                                 src="http://ia.media-imdb.com/images/G/01/imdb/images/certificates/us/pg_13-2767653680._V379388624_.png" />
-                            <time itemprop="duration" datetime="PT119M">119 min</time>
+                <img title="G"
+                                     alt="Certificate G"
+                                     class="absmiddle certimage"
+                                     src="http://ia.media-imdb.com/images/G/01/imdb/images/certificates/us/g-1826671973._V379390112_.png" />
+                            <time itemprop="duration" datetime="PT101M">101 min</time>
                                 &nbsp;&nbsp;-&nbsp;&nbsp;
+                                <span itemprop="genre">Animation</span>
+                                 <span class="ghost">|</span>
+                                <span itemprop="genre">Adventure</span>
+                                 <span class="ghost">|</span>
                                 <span itemprop="genre">Comedy</span>
+                                 <span class="ghost">|</span>
+                                <span itemprop="genre">Family</span>
                                 
                     </p> 
                         <div class="rating_txt">
+      <div class="metascore no_ratings">
+      Metascore: <strong>54</strong><span class="mellow">/100</span>
+      (<a title="4 review excerpts provided by Metacritic.com"
+        onclick="(new Image()).src='/rg/title-starbar/critics-reviews/images/b.gif?link=criticreviews';"
+        href="/title/tt2357291/criticreviews">4 reviews</a>)
+      </div>
                         </div>
                     <div class="outline" itemprop="description">
-With the 70s behind him, San Diego's top rated newsman, Ron Burgundy, returns to take New York's first 24-hour news channel by storm.                    </div> 
+It's a jungle out there for Blu, Jewel and their three kids after they're hurtled Rio de Janeiro to the wilds of the Amazon. As Blu tries to fit in, he goes beak-to-beak with the vengeful Nigel, and meets the most fearsome adversary of all: his father-in-law.                    </div> 
                     <div class="txt-block">
                         <h5 class="inline">Director:</h5>
                             <span itemprop="director" itemscope itemtype="http://schema.org/Person">
                                 <span itemprop="name">
 <a
-onclick="(new Image()).src='/rg/coming-soon/overview-director/images/b.gif?link=/name/nm0570912/';"
-href="/name/nm0570912/"
-itemprop='url'>Adam McKay</a>                                </span>
+onclick="(new Image()).src='/rg/coming-soon/overview-director/images/b.gif?link=/name/nm0757858/';"
+href="/name/nm0757858/"
+itemprop='url'>Carlos Saldanha</a>                                </span>
                             </span>
                             
                     </div> 
@@ -581,35 +599,35 @@ itemprop='url'>Adam McKay</a>                                </span>
                             <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
                                 <span itemprop="name">
 <a
-onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0002071/';"
-href="/name/nm0002071/"
-itemprop='url'>Will Ferrell</a></span></span>, 
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0251986/';"
+href="/name/nm0251986/"
+itemprop='url'>Jesse Eisenberg</a></span></span>, 
                             <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
                                 <span itemprop="name">
 <a
-onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0000775/';"
-href="/name/nm0000775/"
-itemprop='url'>Christina Applegate</a></span></span>, 
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0004266/';"
+href="/name/nm0004266/"
+itemprop='url'>Anne Hathaway</a></span></span>, 
                             <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
                                 <span itemprop="name">
 <a
-onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0748620/';"
-href="/name/nm0748620/"
-itemprop='url'>Paul Rudd</a></span></span>, 
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm1318596/';"
+href="/name/nm1318596/"
+itemprop='url'>Jemaine Clement</a></span></span>, 
                             <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
                                 <span itemprop="name">
 <a
-onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0136797/';"
-href="/name/nm0136797/"
-itemprop='url'>Steve Carell</a></span></span>
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0000412/';"
+href="/name/nm0000412/"
+itemprop='url'>Andy Garcia</a></span></span>
                     </div> 
                 </td>
             </tr>
             <tr>
                 <td class="overview-bottom">
-<a href="/title/tt1229340/?ref_=cs_ov_vi#lb" class="btn2 btn2_simple small title-trailer" itemprop="trailer"> Watch Trailer
+<a href="/title/tt2357291/?ref_=cs_ov_vi#lb" class="btn2 btn2_simple small title-trailer" itemprop="trailer"> Watch Trailer
 </a>                <span class="wlb_wrapper">
-                     <a class="wlb_watchlist_lite" data-tconst="tt1229340" data-size="small"    data-caller-name="Title">
+                     <a class="wlb_watchlist_lite" data-tconst="tt2357291" data-size="small" data-caller-name="Title">
                      </a>
                  </span>
                 </td>
@@ -618,67 +636,365 @@ itemprop='url'>Steve Carell</a></span></span>
     </table>
                 
                     <p class="thebuzz">
-                        <strong>The Buzz</strong>: The most quoted movie of the last decade gets its long-awaited sequel just in time for Christmas. Even though they've become major comedy stars in the years since, Will Ferrell, Paul Rudd and Steve Carell are all back to reprise their roles as idiotic, misogynistic, but oddly endearing newsmen. Comedy sequels are notoriously disappointing (I'm looking at you, <a href="/title/tt1411697/">The Hangover Part II</a> (2011)), and there's almost no chance it lives up to the original movie's legacy. Milk may have been a bad decision, but I'm optimistic that <i>Anchorman 2</i> isn't. -- Ray Subers 
-                    </p>
+                        <strong>The Buzz</strong>: Director Carlos Saldanha, distributor Twentieth Century Fox, and animation house Blue Sky Studios are looking beyond the slightly creaky <i>Ice Age</i> franchise and clearly this sequel represents their intention of developing a second global phenomenon. The first Brazilian adventure was successful in the U.S. but the real measure of its appeal lay elsewhere and given the overseas popularity of the most recent <i>Ice Age</i> ($715 million vs. $160 million in the States) we hope to see an increasingly diverse cast sign up for the third chapter.                    </p>
             </div>
             <div class="list_item even" itemscope itemtype="http://schema.org/Movie">
- 
     <table cellspacing="0" cellpadding="0" border="0" class="nm-title-overview-widget-layout">
         <tbody>
             <tr>
                 <td rowspan="2" valign="top" id="img_primary">
                     <div class="image">
 <a
-onclick="(new Image()).src='/rg/coming-soon/overview-poster/images/b.gif?link=/title/tt1800241/';"
-href="/title/tt1800241/"
+onclick="(new Image()).src='/rg/coming-soon/overview-poster/images/b.gif?link=/title/tt2223990/';"
+href="/title/tt2223990/"
 > <div class="hover-over-image zero-z-index">
 <img class="poster shadowed"
 height="209"
 width="140"
-alt="American Hustle (2013) Poster"
-title="American Hustle (2013)"
-src="http://ia.media-imdb.com/images/M/MV5BNjkxMTc0MDc4N15BMl5BanBnXkFtZTgwODUyNTI1MDE@._V1_SY209_CR0,0,140,209_.jpg"
+alt="Draft Day (2014) Poster"
+title="Draft Day (2014)"
+src="http://ia.media-imdb.com/images/M/MV5BMjAyOTMxMjA3Nl5BMl5BanBnXkFtZTgwMTMwNjQ4MDE@._V1_SX140_CR0,0,140,209_.jpg"
 itemprop="image" />
 </div>
 </a>                    </div> 
                 </td>
                 <td class="overview-top">
                     <h4 itemprop="name"><a
-onclick="(new Image()).src='/rg/coming-soon/overview-title/images/b.gif?link=/title/tt1800241/';"
-href="/title/tt1800241/"
-title="American Hustle (2013)"
-itemprop='url'> American Hustle (2013)</a></h4>
+onclick="(new Image()).src='/rg/coming-soon/overview-title/images/b.gif?link=/title/tt2223990/';"
+href="/title/tt2223990/"
+title="Draft Day (2014)"
+itemprop='url'> Draft Day (2014)</a></h4>
                     <p class="cert-runtime-genre">
                             
-            <img title="R"
-                                 alt="Certificate R"
-                                 class="absmiddle certimage"
-                                 src="http://ia.media-imdb.com/images/G/01/imdb/images/certificates/us/r-2493392566._V379391568_.png" />
-                            <time itemprop="duration" datetime="PT138M">138 min</time>
+                <img title="PG-13"
+                                     alt="Certificate PG-13"
+                                     class="absmiddle certimage"
+                                     src="http://ia.media-imdb.com/images/G/01/imdb/images/certificates/us/pg_13-2767653680._V379388624_.png" />
+                            <time itemprop="duration" datetime="PT109M">109 min</time>
                                 &nbsp;&nbsp;-&nbsp;&nbsp;
-                                <span itemprop="genre">Crime</span>
+                                <span itemprop="genre">Drama</span>
+                                 <span class="ghost">|</span>
+                                <span itemprop="genre">Sport</span>
+                                
+                    </p> 
+                        <div class="rating_txt">
+                        </div>
+                    <div class="outline" itemprop="description">
+At the NFL Draft, general manager Sonny Weaver has the opportunity to rebuild his team when he trades for the number one pick. He must decide what he's willing to sacrifice on a life-changing day for a few hundred young men with NFL dreams.                    </div> 
+                    <div class="txt-block">
+                        <h5 class="inline">Director:</h5>
+                            <span itemprop="director" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-director/images/b.gif?link=/name/nm0718645/';"
+href="/name/nm0718645/"
+itemprop='url'>Ivan Reitman</a>                                </span>
+                            </span>
+                            
+                    </div> 
+                    <div class="txt-block">
+                        <h5 class="inline">Stars:</h5>
+                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0000126/';"
+href="/name/nm0000126/"
+itemprop='url'>Kevin Costner</a></span></span>, 
+                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm1569276/';"
+href="/name/nm1569276/"
+itemprop='url'>Chadwick Boseman</a></span></span>, 
+                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0004950/';"
+href="/name/nm0004950/"
+itemprop='url'>Jennifer Garner</a></span></span>, 
+                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0001449/';"
+href="/name/nm0001449/"
+itemprop='url'>Frank Langella</a></span></span>
+                    </div> 
+                </td>
+            </tr>
+            <tr>
+                <td class="overview-bottom">
+<a href="/title/tt2223990/?ref_=cs_ov_vi#lb" class="btn2 btn2_simple small title-trailer" itemprop="trailer"> Watch Trailer
+</a>                <span class="wlb_wrapper">
+                     <a class="wlb_watchlist_lite" data-tconst="tt2223990" data-size="small" data-caller-name="Title">
+                     </a>
+                 </span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+                
+                    <p class="thebuzz">
+                        <strong>The Buzz</strong>: As an 8-episode HBO mini-series, I'm all over this and I see a ticker-tape parade complete with Emmy and Golden Globes nominations for Ivan Reitman and his cast. As a film? A potential sleeper hit a la Reitman's <a href="http://www.imdb.com/title/tt0106673/">Dave</a> if everyone is lucky. The sports drama that is truly buzzing is <a href="http://www.imdb.com/title/tt1647668/">Million Dollar Arm</a>.                      </p>
+            </div>
+            <div class="list_item odd" itemscope itemtype="http://schema.org/Movie">
+    <table cellspacing="0" cellpadding="0" border="0" class="nm-title-overview-widget-layout">
+        <tbody>
+            <tr>
+                <td rowspan="2" valign="top" id="img_primary">
+                    <div class="image">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-poster/images/b.gif?link=/title/tt2388715/';"
+href="/title/tt2388715/"
+> <div class="hover-over-image zero-z-index">
+<img class="poster shadowed"
+height="209"
+width="140"
+alt="Oculus (2013) Poster"
+title="Oculus (2013)"
+src="http://ia.media-imdb.com/images/M/MV5BMzE1NzM4MjEyNV5BMl5BanBnXkFtZTgwMjYzMjMzMTE@._V1_SY209_CR0,0,140,209_.jpg"
+itemprop="image" />
+</div>
+</a>                    </div> 
+                </td>
+                <td class="overview-top">
+                    <h4 itemprop="name"><a
+onclick="(new Image()).src='/rg/coming-soon/overview-title/images/b.gif?link=/title/tt2388715/';"
+href="/title/tt2388715/"
+title="Oculus (2013)"
+itemprop='url'> Oculus (2013)</a></h4>
+                    <p class="cert-runtime-genre">
+                            
+                <img title="R"
+                                     alt="Certificate R"
+                                     class="absmiddle certimage"
+                                     src="http://ia.media-imdb.com/images/G/01/imdb/images/certificates/us/r-2493392566._V379391568_.png" />
+                            <time itemprop="duration" datetime="PT105M">105 min</time>
+                                &nbsp;&nbsp;-&nbsp;&nbsp;
+                                <span itemprop="genre">Horror</span>
+                                
+                    </p> 
+                        <div class="rating_txt">
+                        </div>
+                    <div class="outline" itemprop="description">
+A woman tries to exonerate her brother, who was convicted of murder, by proving that the crime was committed by a supernatural phenomenon.                    </div> 
+                    <div class="txt-block">
+                        <h5 class="inline">Director:</h5>
+                            <span itemprop="director" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-director/images/b.gif?link=/name/nm1093039/';"
+href="/name/nm1093039/"
+itemprop='url'>Mike Flanagan</a>                                </span>
+                            </span>
+                            
+                    </div> 
+                    <div class="txt-block">
+                        <h5 class="inline">Stars:</h5>
+                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm2394794/';"
+href="/name/nm2394794/"
+itemprop='url'>Karen Gillan</a></span></span>, 
+                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm4154798/';"
+href="/name/nm4154798/"
+itemprop='url'>Brenton Thwaites</a></span></span>, 
+                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0755267/';"
+href="/name/nm0755267/"
+itemprop='url'>Katee Sackhoff</a></span></span>, 
+                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0168262/';"
+href="/name/nm0168262/"
+itemprop='url'>Rory Cochrane</a></span></span>
+                    </div> 
+                </td>
+            </tr>
+            <tr>
+                <td class="overview-bottom">
+<a href="/title/tt2388715/?ref_=cs_ov_vi#lb" class="btn2 btn2_simple small title-trailer" itemprop="trailer"> Watch Trailer
+</a>                <span class="wlb_wrapper">
+                     <a class="wlb_watchlist_lite" data-tconst="tt2388715" data-size="small" data-caller-name="Title">
+                     </a>
+                 </span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+                
+                    <p class="thebuzz">
+                        <strong>The Buzz</strong>: We're pretty sure that not even Nicolas Cage has as many movies coming out this year as emerging star Brenton Thwaites, who here plays the tormented brother to Karen Gillan (who will next be seen as Nebula in <i>Guardians of the Galaxy</i>). On deck for Thwaites after this cheapie horror flick - which hopefully has a throwback appeal to it - is <a href="http://www.imdb.com/title/tt1587310/">Maleficent</a> followed by Sundance phenom <a href="http://www.imdb.com/title/tt2910814/">The Signal</a> and young-adult bait <a href="http://www.imdb.com/title/tt0435651/">The Giver</a>.                    </p>
+            </div>
+            <div class="list_item even" itemscope itemtype="http://schema.org/Movie">
+    <table cellspacing="0" cellpadding="0" border="0" class="nm-title-overview-widget-layout">
+        <tbody>
+            <tr>
+                <td rowspan="2" valign="top" id="img_primary">
+                    <div class="image">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-poster/images/b.gif?link=/title/tt1714915/';"
+href="/title/tt1714915/"
+> <div class="hover-over-image zero-z-index">
+<img class="poster shadowed"
+height="209"
+width="140"
+alt="Only Lovers Left Alive (2013) Poster"
+title="Only Lovers Left Alive (2013)"
+src="http://ia.media-imdb.com/images/M/MV5BMTY0NTQ1NjA0OV5BMl5BanBnXkFtZTgwMDg5NjkzMTE@._V1_SY209_CR0,0,140,209_.jpg"
+itemprop="image" />
+</div>
+</a>                    </div> 
+                </td>
+                <td class="overview-top">
+                    <h4 itemprop="name"><a
+onclick="(new Image()).src='/rg/coming-soon/overview-title/images/b.gif?link=/title/tt1714915/';"
+href="/title/tt1714915/"
+title="Only Lovers Left Alive (2013)"
+itemprop='url'> Only Lovers Left Alive (2013)</a></h4>
+                    <p class="cert-runtime-genre">
+                            
+                <img title="R"
+                                     alt="Certificate R"
+                                     class="absmiddle certimage"
+                                     src="http://ia.media-imdb.com/images/G/01/imdb/images/certificates/us/r-2493392566._V379391568_.png" />
+                            <time itemprop="duration" datetime="PT123M">123 min</time>
+                                &nbsp;&nbsp;-&nbsp;&nbsp;
+                                <span itemprop="genre">Drama</span>
+                                 <span class="ghost">|</span>
+                                <span itemprop="genre">Horror</span>
+                                 <span class="ghost">|</span>
+                                <span itemprop="genre">Romance</span>
+                                
+                    </p> 
+                        <div class="rating_txt">
+      <div class="metascore no_ratings">
+      Metascore: <strong>76</strong><span class="mellow">/100</span>
+      (<a title="11 review excerpts provided by Metacritic.com"
+        onclick="(new Image()).src='/rg/title-starbar/critics-reviews/images/b.gif?link=criticreviews';"
+        href="/title/tt1714915/criticreviews">11 reviews</a>)
+      </div>
+                        </div>
+                    <div class="outline" itemprop="description">
+A story centered on two vampires who have been in love for centuries.                    </div> 
+                    <div class="txt-block">
+                        <h5 class="inline">Director:</h5>
+                            <span itemprop="director" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-director/images/b.gif?link=/name/nm0000464/';"
+href="/name/nm0000464/"
+itemprop='url'>Jim Jarmusch</a>                                </span>
+                            </span>
+                            
+                    </div> 
+                    <div class="txt-block">
+                        <h5 class="inline">Stars:</h5>
+                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0842770/';"
+href="/name/nm0842770/"
+itemprop='url'>Tilda Swinton</a></span></span>, 
+                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm1089991/';"
+href="/name/nm1089991/"
+itemprop='url'>Tom Hiddleston</a></span></span>, 
+                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm1985859/';"
+href="/name/nm1985859/"
+itemprop='url'>Mia Wasikowska</a></span></span>, 
+                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0000457/';"
+href="/name/nm0000457/"
+itemprop='url'>John Hurt</a></span></span>
+                    </div> 
+                </td>
+            </tr>
+            <tr>
+                <td class="overview-bottom">
+<a href="/title/tt1714915/?ref_=cs_ov_vi#lb" class="btn2 btn2_simple small title-trailer" itemprop="trailer"> Watch Trailer
+</a>                <span class="wlb_wrapper">
+                     <a class="wlb_watchlist_lite" data-tconst="tt1714915" data-size="small" data-caller-name="Title">
+                     </a>
+                 </span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+                
+                    <p class="thebuzz">
+                        <strong>The Buzz</strong>: That Tom Hiddleston is hot enough to cause Tilda Swinton to fly from Tangiers to Detroit is one of many truths to be found in this music-soaked vampire fantasy from Jim Jarmusch, who is flirting with the mainstream for the first time since 2005's <i>Broken Flowers</i>.                     </p>
+            </div>
+            <div class="list_item odd" itemscope itemtype="http://schema.org/Movie">
+    <table cellspacing="0" cellpadding="0" border="0" class="nm-title-overview-widget-layout">
+        <tbody>
+            <tr>
+                <td rowspan="2" valign="top" id="img_primary">
+                    <div class="image">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-poster/images/b.gif?link=/title/tt2058107/';"
+href="/title/tt2058107/"
+> <div class="hover-over-image zero-z-index">
+<img class="poster shadowed"
+height="209"
+width="140"
+alt="The Railway Man (2013) Poster"
+title="The Railway Man (2013)"
+src="http://ia.media-imdb.com/images/M/MV5BMTQzNDU1NjE0NF5BMl5BanBnXkFtZTgwODA3NDczMDE@._V1_SY209_CR0,0,140,209_.jpg"
+itemprop="image" />
+</div>
+</a>                    </div> 
+                </td>
+                <td class="overview-top">
+                    <h4 itemprop="name"><a
+onclick="(new Image()).src='/rg/coming-soon/overview-title/images/b.gif?link=/title/tt2058107/';"
+href="/title/tt2058107/"
+title="The Railway Man (2013)"
+itemprop='url'> The Railway Man (2013)</a></h4>
+                    <p class="cert-runtime-genre">
+                            
+                <img title="R"
+                                     alt="Certificate R"
+                                     class="absmiddle certimage"
+                                     src="http://ia.media-imdb.com/images/G/01/imdb/images/certificates/us/r-2493392566._V379391568_.png" />
+                            <time itemprop="duration" datetime="PT116M">116 min</time>
+                                &nbsp;&nbsp;-&nbsp;&nbsp;
+                                <span itemprop="genre">Biography</span>
                                  <span class="ghost">|</span>
                                 <span itemprop="genre">Drama</span>
                                 
                     </p> 
                         <div class="rating_txt">
       <div class="metascore no_ratings">
-      Metascore: <strong>89</strong><span class="mellow">/100</span>
-      (<a title="26 review excerpts provided by Metacritic.com"
+      Metascore: <strong>60</strong><span class="mellow">/100</span>
+      (<a title="6 review excerpts provided by Metacritic.com"
         onclick="(new Image()).src='/rg/title-starbar/critics-reviews/images/b.gif?link=criticreviews';"
-        href="/title/tt1800241/criticreviews">26 reviews</a>)
+        href="/title/tt2058107/criticreviews">6 reviews</a>)
       </div>
                         </div>
                     <div class="outline" itemprop="description">
-A con man, Irving Rosenfeld, along with his seductive British partner, Sydney Prosser, is forced to work for a wild FBI agent, Richie DiMaso. DiMaso pushes them into a world of Jersey powerbrokers and mafia.                    </div> 
+A victim from World War II's "Death Railway" sets out to find those responsible for his torture. A true story.                    </div> 
                     <div class="txt-block">
                         <h5 class="inline">Director:</h5>
                             <span itemprop="director" itemscope itemtype="http://schema.org/Person">
                                 <span itemprop="name">
 <a
-onclick="(new Image()).src='/rg/coming-soon/overview-director/images/b.gif?link=/name/nm0751102/';"
-href="/name/nm0751102/"
-itemprop='url'>David O. Russell</a>                                </span>
+onclick="(new Image()).src='/rg/coming-soon/overview-director/images/b.gif?link=/name/nm0855300/';"
+href="/name/nm0855300/"
+itemprop='url'>Jonathan Teplitzky</a>                                </span>
                             </span>
                             
                     </div> 
@@ -687,35 +1003,35 @@ itemprop='url'>David O. Russell</a>                                </span>
                             <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
                                 <span itemprop="name">
 <a
-onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0000288/';"
-href="/name/nm0000288/"
-itemprop='url'>Christian Bale</a></span></span>, 
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0000147/';"
+href="/name/nm0000147/"
+itemprop='url'>Colin Firth</a></span></span>, 
                             <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
                                 <span itemprop="name">
 <a
-onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0010736/';"
-href="/name/nm0010736/"
-itemprop='url'>Amy Adams</a></span></span>, 
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0000173/';"
+href="/name/nm0000173/"
+itemprop='url'>Nicole Kidman</a></span></span>, 
                             <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
                                 <span itemprop="name">
 <a
-onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0177896/';"
-href="/name/nm0177896/"
-itemprop='url'>Bradley Cooper</a></span></span>, 
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0001745/';"
+href="/name/nm0001745/"
+itemprop='url'>Stellan Skarsgård</a></span></span>, 
                             <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
                                 <span itemprop="name">
 <a
-onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm2225369/';"
-href="/name/nm2225369/"
-itemprop='url'>Jennifer Lawrence</a></span></span>
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm3528539/';"
+href="/name/nm3528539/"
+itemprop='url'>Jeremy Irvine</a></span></span>
                     </div> 
                 </td>
             </tr>
             <tr>
                 <td class="overview-bottom">
-<a href="/title/tt1800241/?ref_=cs_ov_vi#lb" class="btn2 btn2_simple small title-trailer" itemprop="trailer"> Watch Trailer
+<a href="/title/tt2058107/?ref_=cs_ov_vi#lb" class="btn2 btn2_simple small title-trailer" itemprop="trailer"> Watch Trailer
 </a>                <span class="wlb_wrapper">
-                     <a class="wlb_watchlist_lite" data-tconst="tt1800241" data-size="small"    data-caller-name="Title">
+                     <a class="wlb_watchlist_lite" data-tconst="tt2058107" data-size="small" data-caller-name="Title">
                      </a>
                  </span>
                 </td>
@@ -724,51 +1040,1109 @@ itemprop='url'>Jennifer Lawrence</a></span></span>
     </table>
                 
                     <p class="thebuzz">
-                        <strong>The Buzz</strong>: In the recent past, David O. Russell's pushy, questionable directing style seemed like a potential career-ender, but he's been on a box-office/Oscar-earning roll, and for his latest project he's mashed together the casts of his two most successful outings (<a href="/title/tt0964517/">The Fighter</a> (2010) and <a href="/title/tt1045658/">Silver Linings Playbook</a> (2012)) into a 70s-set true-crime drama with period styling that looks more outrageous than <a href="/title/tt1024648/">Argo</a> (2012)'s.
-                    </p>
+                        <strong>The Buzz</strong>: Considered at one time to be an awards contender, this true story finds itself part of The Weinstein Company's 2014 spring cleaning, as the mini-major studio has released a handful of films over the past few weeks.                      </p>
             </div>
-            <div class="list_item odd" itemscope itemtype="http://schema.org/Movie">
- 
+            <div class="list_item even" itemscope itemtype="http://schema.org/Movie">
     <table cellspacing="0" cellpadding="0" border="0" class="nm-title-overview-widget-layout">
         <tbody>
             <tr>
                 <td rowspan="2" valign="top" id="img_primary">
                     <div class="image">
 <a
-onclick="(new Image()).src='/rg/coming-soon/overview-poster/images/b.gif?link=/title/tt2140373/';"
-href="/title/tt2140373/"
+onclick="(new Image()).src='/rg/coming-soon/overview-poster/images/b.gif?link=/title/tt2382396/';"
+href="/title/tt2382396/"
 > <div class="hover-over-image zero-z-index">
 <img class="poster shadowed"
 height="209"
 width="140"
-alt="Saving Mr. Banks (2013) Poster"
-title="Saving Mr. Banks (2013)"
-src="http://ia.media-imdb.com/images/M/MV5BMTc0MTQ3NzE4Nl5BMl5BanBnXkFtZTcwMzA4NDM5OQ@@._V1_SY209_CR0,0,140,209_.jpg"
+alt="Joe (2013) Poster"
+title="Joe (2013)"
+src="http://ia.media-imdb.com/images/M/MV5BMjExMzk5MTM1Ml5BMl5BanBnXkFtZTgwNzAzODgxMTE@._V1_SY209_CR0,0,140,209_.jpg"
 itemprop="image" />
 </div>
 </a>                    </div> 
                 </td>
                 <td class="overview-top">
                     <h4 itemprop="name"><a
-onclick="(new Image()).src='/rg/coming-soon/overview-title/images/b.gif?link=/title/tt2140373/';"
-href="/title/tt2140373/"
-title="Saving Mr. Banks (2013)"
-itemprop='url'> Saving Mr. Banks (2013)</a></h4>
+onclick="(new Image()).src='/rg/coming-soon/overview-title/images/b.gif?link=/title/tt2382396/';"
+href="/title/tt2382396/"
+title="Joe (2013)"
+itemprop='url'> Joe (2013)</a></h4>
                     <p class="cert-runtime-genre">
                             
-            <img title="PG-13"
-                                 alt="Certificate PG-13"
-                                 class="absmiddle certimage"
-                                 src="http://ia.media-imdb.com/images/G/01/imdb/images/certificates/us/pg_13-2767653680._V379388624_.png" />
-                            <time itemprop="duration" datetime="PT125M">125 min</time>
+                <img title="R"
+                                     alt="Certificate R"
+                                     class="absmiddle certimage"
+                                     src="http://ia.media-imdb.com/images/G/01/imdb/images/certificates/us/r-2493392566._V379391568_.png" />
+                            <time itemprop="duration" datetime="PT117M">117 min</time>
                                 &nbsp;&nbsp;-&nbsp;&nbsp;
-                                <span itemprop="genre">Biography</span>
-                                 <span class="ghost">|</span>
+                                <span itemprop="genre">Drama</span>
+                                
+                    </p> 
+                        <div class="rating_txt">
+      <div class="metascore no_ratings">
+      Metascore: <strong>70</strong><span class="mellow">/100</span>
+      (<a title="7 review excerpts provided by Metacritic.com"
+        onclick="(new Image()).src='/rg/title-starbar/critics-reviews/images/b.gif?link=criticreviews';"
+        href="/title/tt2382396/criticreviews">7 reviews</a>)
+      </div>
+                        </div>
+                    <div class="outline" itemprop="description">
+An ex-con, who is the unlikeliest of role models, meets a 15-year-old boy and is faced with the choice of redemption or ruin.                    </div> 
+                    <div class="txt-block">
+                        <h5 class="inline">Director:</h5>
+                            <span itemprop="director" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-director/images/b.gif?link=/name/nm0337773/';"
+href="/name/nm0337773/"
+itemprop='url'>David Gordon Green</a>                                </span>
+                            </span>
+                            
+                    </div> 
+                    <div class="txt-block">
+                        <h5 class="inline">Stars:</h5>
+                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0000115/';"
+href="/name/nm0000115/"
+itemprop='url'>Nicolas Cage</a></span></span>, 
+                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm4446467/';"
+href="/name/nm4446467/"
+itemprop='url'>Tye Sheridan</a></span></span>, 
+                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm1237235/';"
+href="/name/nm1237235/"
+itemprop='url'>Ronnie Gene Blevins</a></span></span>, 
+                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm2395048/';"
+href="/name/nm2395048/"
+itemprop='url'>Adriene Mishler</a></span></span>
+                    </div> 
+                </td>
+            </tr>
+            <tr>
+                <td class="overview-bottom">
+<a href="/title/tt2382396/?ref_=cs_ov_vi#lb" class="btn2 btn2_simple small title-trailer" itemprop="trailer"> Watch Trailer
+</a>                <span class="wlb_wrapper">
+                     <a class="wlb_watchlist_lite" data-tconst="tt2382396" data-size="small" data-caller-name="Title">
+                     </a>
+                 </span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+                
+                    <p class="thebuzz">
+                        <strong>The Buzz</strong>: As filmmaker David Gordon Green continues to steep in his independent-film roots by taking a break from his recent string of stoner comedies (he was responsible for <i>Pineapple Express</i>, <i>Your Highness</i>, and <i>The Sitter</i>), Nicolas Cage is enjoying one-off McConaughey -like praise for his starring role here. Quietly amassing a series of remarkable roles is his co-star, Tye Sheridan.                    </p>
+            </div>
+            <div class="list_item odd" itemscope itemtype="http://schema.org/Movie">
+    <table cellspacing="0" cellpadding="0" border="0" class="nm-title-overview-widget-layout">
+        <tbody>
+            <tr>
+                <td rowspan="2" valign="top" id="img_primary">
+                    <div class="image">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-poster/images/b.gif?link=/title/tt2390237/';"
+href="/title/tt2390237/"
+> <div class="hover-over-image zero-z-index">
+<img class="poster shadowed"
+height="209"
+width="140"
+alt="Cuban Fury (2014) Poster"
+title="Cuban Fury (2014)"
+src="http://ia.media-imdb.com/images/M/MV5BMTcwMTgwMjkzM15BMl5BanBnXkFtZTgwNDYzMDY0MTE@._V1_SY209_CR0,0,140,209_.jpg"
+itemprop="image" />
+</div>
+</a>                    </div> 
+                </td>
+                <td class="overview-top">
+                    <h4 itemprop="name"><a
+onclick="(new Image()).src='/rg/coming-soon/overview-title/images/b.gif?link=/title/tt2390237/';"
+href="/title/tt2390237/"
+title="Cuban Fury (2014)"
+itemprop='url'> Cuban Fury (2014)</a></h4>
+                    <p class="cert-runtime-genre">
+                            
+                <img title="R"
+                                     alt="Certificate R"
+                                     class="absmiddle certimage"
+                                     src="http://ia.media-imdb.com/images/G/01/imdb/images/certificates/us/r-2493392566._V379391568_.png" />
+                            <time itemprop="duration" datetime="PT98M">98 min</time>
+                                &nbsp;&nbsp;-&nbsp;&nbsp;
                                 <span itemprop="genre">Comedy</span>
-                                 <span class="ghost">|</span>
+                                
+                    </p> 
+                        <div class="rating_txt">
+      <div class="metascore no_ratings">
+      Metascore: <strong>47</strong><span class="mellow">/100</span>
+      (<a title="7 review excerpts provided by Metacritic.com"
+        onclick="(new Image()).src='/rg/title-starbar/critics-reviews/images/b.gif?link=criticreviews';"
+        href="/title/tt2390237/criticreviews">7 reviews</a>)
+      </div>
+                        </div>
+                    <div class="outline" itemprop="description">
+Beneath Bruce Garrett's under-confident, overweight exterior, the passionate heart of a salsa king lies dormant. Now, one woman is about to reignite his Latin fire.                    </div> 
+                    <div class="txt-block">
+                        <h5 class="inline">Director:</h5>
+                            <span itemprop="director" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-director/images/b.gif?link=/name/nm2926263/';"
+href="/name/nm2926263/"
+itemprop='url'>James Griffiths</a>                                </span>
+                            </span>
+                            
+                    </div> 
+                    <div class="txt-block">
+                        <h5 class="inline">Stars:</h5>
+                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0296545/';"
+href="/name/nm0296545/"
+itemprop='url'>Nick Frost</a></span></span>, 
+                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0429069/';"
+href="/name/nm0429069/"
+itemprop='url'>Rashida Jones</a></span></span>, 
+                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm1483369/';"
+href="/name/nm1483369/"
+itemprop='url'>Chris O'Dowd</a></span></span>, 
+                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm1469236/';"
+href="/name/nm1469236/"
+itemprop='url'>Olivia Colman</a></span></span>
+                    </div> 
+                </td>
+            </tr>
+            <tr>
+                <td class="overview-bottom">
+<a href="/title/tt2390237/?ref_=cs_ov_vi#lb" class="btn2 btn2_simple small title-trailer" itemprop="trailer"> Watch Trailer
+</a>                <span class="wlb_wrapper">
+                     <a class="wlb_watchlist_lite" data-tconst="tt2390237" data-size="small" data-caller-name="Title">
+                     </a>
+                 </span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+                
+                    <p class="thebuzz">
+                        <strong>The Buzz</strong>: Chris O'Dowd gets the Simon Pegg role in Nick Frost's first solo outing which might catch on if there's anything in it for older audiences.                     </p>
+            </div>
+                <h4 class="li_group"><a name="Apr18">April 18&nbsp;</a></h4>
+            <div class="list_item odd" itemscope itemtype="http://schema.org/Movie">
+    <table cellspacing="0" cellpadding="0" border="0" class="nm-title-overview-widget-layout">
+        <tbody>
+            <tr>
+                <td rowspan="2" valign="top" id="img_primary">
+                    <div class="image">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-poster/images/b.gif?link=/title/tt2209764/';"
+href="/title/tt2209764/"
+> <div class="hover-over-image zero-z-index">
+<img class="poster shadowed"
+height="209"
+width="140"
+alt="Transcendence (2014) Poster"
+title="Transcendence (2014)"
+src="http://ia.media-imdb.com/images/M/MV5BMTc1MjQ3ODAyOV5BMl5BanBnXkFtZTgwNjI1NDQ0MTE@._V1_SY209_CR0,0,140,209_.jpg"
+itemprop="image" />
+</div>
+</a>                    </div> 
+                </td>
+                <td class="overview-top">
+                    <h4 itemprop="name"><a
+onclick="(new Image()).src='/rg/coming-soon/overview-title/images/b.gif?link=/title/tt2209764/';"
+href="/title/tt2209764/"
+title="Transcendence (2014)"
+itemprop='url'> Transcendence (2014)</a></h4>
+                    <p class="cert-runtime-genre">
+                            
+                <img title="PG-13"
+                                     alt="Certificate PG-13"
+                                     class="absmiddle certimage"
+                                     src="http://ia.media-imdb.com/images/G/01/imdb/images/certificates/us/pg_13-2767653680._V379388624_.png" />
+                            <time itemprop="duration" datetime="PT119M">119 min</time>
+                                &nbsp;&nbsp;-&nbsp;&nbsp;
                                 <span itemprop="genre">Drama</span>
                                  <span class="ghost">|</span>
-                                <span itemprop="genre">Family</span>
+                                <span itemprop="genre">Mystery</span>
+                                 <span class="ghost">|</span>
+                                <span itemprop="genre">Sci-Fi</span>
+                                 <span class="ghost">|</span>
+                                <span itemprop="genre">Thriller</span>
+                                
+                    </p> 
+                        <div class="rating_txt">
+                        </div>
+                    <div class="outline" itemprop="description">
+A terminally ill scientist uploads his mind to a computer. This grants him power beyond his wildest dreams, and soon he becomes unstoppable.                    </div> 
+                    <div class="txt-block">
+                        <h5 class="inline">Director:</h5>
+                            <span itemprop="director" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-director/images/b.gif?link=/name/nm0002892/';"
+href="/name/nm0002892/"
+itemprop='url'>Wally Pfister</a>                                </span>
+                            </span>
+                            
+                    </div> 
+                    <div class="txt-block">
+                        <h5 class="inline">Stars:</h5>
+                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0000136/';"
+href="/name/nm0000136/"
+itemprop='url'>Johnny Depp</a></span></span>, 
+                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0356017/';"
+href="/name/nm0356017/"
+itemprop='url'>Rebecca Hall</a></span></span>, 
+                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0000151/';"
+href="/name/nm0000151/"
+itemprop='url'>Morgan Freeman</a></span></span>, 
+                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0614165/';"
+href="/name/nm0614165/"
+itemprop='url'>Cillian Murphy</a></span></span>
+                    </div> 
+                </td>
+            </tr>
+            <tr>
+                <td class="overview-bottom">
+<a href="/title/tt2209764/?ref_=cs_ov_vi#lb" class="btn2 btn2_simple small title-trailer" itemprop="trailer"> Watch Trailer
+</a>                <span class="wlb_wrapper">
+                     <a class="wlb_watchlist_lite" data-tconst="tt2209764" data-size="small" data-caller-name="Title">
+                     </a>
+                 </span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+                
+            </div>
+            <div class="list_item even" itemscope itemtype="http://schema.org/Movie">
+    <table cellspacing="0" cellpadding="0" border="0" class="nm-title-overview-widget-layout">
+        <tbody>
+            <tr>
+                <td rowspan="2" valign="top" id="img_primary">
+                    <div class="image">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-poster/images/b.gif?link=/title/tt2828996/';"
+href="/title/tt2828996/"
+> <div class="hover-over-image zero-z-index">
+<img class="poster shadowed"
+height="209"
+width="140"
+alt="A Haunted House 2 (2014) Poster"
+title="A Haunted House 2 (2014)"
+src="http://ia.media-imdb.com/images/M/MV5BMTU3MDc1MjIzMl5BMl5BanBnXkFtZTgwODQ3NDE5MDE@._V1_SY209_CR0,0,140,209_.jpg"
+itemprop="image" />
+</div>
+</a>                    </div> 
+                </td>
+                <td class="overview-top">
+                    <h4 itemprop="name"><a
+onclick="(new Image()).src='/rg/coming-soon/overview-title/images/b.gif?link=/title/tt2828996/';"
+href="/title/tt2828996/"
+title="A Haunted House 2 (2014)"
+itemprop='url'> A Haunted House 2 (2014)</a></h4>
+                    <p class="cert-runtime-genre">
+                            
+                <img title="R"
+                                     alt="Certificate R"
+                                     class="absmiddle certimage"
+                                     src="http://ia.media-imdb.com/images/G/01/imdb/images/certificates/us/r-2493392566._V379391568_.png" />
+                                <span itemprop="genre">Comedy</span>
+                                 <span class="ghost">|</span>
+                                <span itemprop="genre">Horror</span>
+                                
+                    </p> 
+                        <div class="rating_txt">
+                        </div>
+                    <div class="outline" itemprop="description">
+Having exorcised the demons of his ex, Malcolm is starting fresh with his new girlfriend and her two children. After moving into their dream home, however, Malcolm is once again plagued by bizarre paranormal events.                    </div> 
+                    <div class="txt-block">
+                        <h5 class="inline">Director:</h5>
+                            <span itemprop="director" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-director/images/b.gif?link=/name/nm1639277/';"
+href="/name/nm1639277/"
+itemprop='url'>Michael Tiddes</a>                                </span>
+                            </span>
+                            
+                    </div> 
+                    <div class="txt-block">
+                        <h5 class="inline">Stars:</h5>
+                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0005541/';"
+href="/name/nm0005541/"
+itemprop='url'>Marlon Wayans</a></span></span>, 
+                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0005326/';"
+href="/name/nm0005326/"
+itemprop='url'>Jaime Pressly</a></span></span>, 
+                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0147825/';"
+href="/name/nm0147825/"
+itemprop='url'>Cedric the Entertainer</a></span></span>, 
+                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0040591/';"
+href="/name/nm0040591/"
+itemprop='url'>Essence Atkins</a></span></span>
+                    </div> 
+                </td>
+            </tr>
+            <tr>
+                <td class="overview-bottom">
+<a href="/title/tt2828996/?ref_=cs_ov_vi#lb" class="btn2 btn2_simple small title-trailer" itemprop="trailer"> Watch Trailer
+</a>                <span class="wlb_wrapper">
+                     <a class="wlb_watchlist_lite" data-tconst="tt2828996" data-size="small" data-caller-name="Title">
+                     </a>
+                 </span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+                
+                    <p class="thebuzz">
+                        <strong>The Buzz</strong>: Just like the genre it parodies, this spoof was rewarded with a sequel after earning back more than its entire budget on opening weekend. And Marlon Wayans will work to keep this story going until audiences just say no.                    </p>
+            </div>
+            <div class="list_item odd" itemscope itemtype="http://schema.org/Movie">
+    <table cellspacing="0" cellpadding="0" border="0" class="nm-title-overview-widget-layout">
+        <tbody>
+            <tr>
+                <td rowspan="2" valign="top" id="img_primary">
+                    <div class="image">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-poster/images/b.gif?link=/title/tt2458776/';"
+href="/title/tt2458776/"
+> <div class="hover-over-image zero-z-index">
+<img class="poster shadowed"
+height="209"
+width="140"
+alt="Bears (2014) Poster"
+title="Bears (2014)"
+src="http://ia.media-imdb.com/images/M/MV5BMjE2NTg1NzgyNl5BMl5BanBnXkFtZTgwMTM3MDYwMDE@._V1_SY209_CR0,0,140,209_.jpg"
+itemprop="image" />
+</div>
+</a>                    </div> 
+                </td>
+                <td class="overview-top">
+                    <h4 itemprop="name"><a
+onclick="(new Image()).src='/rg/coming-soon/overview-title/images/b.gif?link=/title/tt2458776/';"
+href="/title/tt2458776/"
+title="Bears (2014)"
+itemprop='url'> Bears (2014)</a></h4>
+                    <p class="cert-runtime-genre">
+                            
+                <img title="G"
+                                     alt="Certificate G"
+                                     class="absmiddle certimage"
+                                     src="http://ia.media-imdb.com/images/G/01/imdb/images/certificates/us/g-1826671973._V379390112_.png" />
+                                <span itemprop="genre">Documentary</span>
+                                
+                    </p> 
+                        <div class="rating_txt">
+                        </div>
+                    <div class="outline" itemprop="description">
+In an epic story of breathtaking scale set against a majestic Alaskan backdrop teeming with life, Disneynature's 2014 big-screen adventure "Bears" follows a bear family as impressionable young cubs are taught life's most important lessons.                    </div> 
+                    <div class="txt-block">
+                        <h5 class="inline">Directors:</h5>
+                            <span itemprop="director" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-director/images/b.gif?link=/name/nm0288144/';"
+href="/name/nm0288144/"
+itemprop='url'>Alastair Fothergill</a>                                </span>
+                            </span>
+                             <span class="ghost">|</span>
+                            <span itemprop="director" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-director/images/b.gif?link=/name/nm0774582/';"
+href="/name/nm0774582/"
+itemprop='url'>Keith Scholey</a>                                </span>
+                            </span>
+                            
+                    </div> 
+                    <div class="txt-block">
+                        <h5 class="inline">Stars:</h5>
+                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0000604/';"
+href="/name/nm0000604/"
+itemprop='url'>John C. Reilly</a></span></span>
+                    </div> 
+                </td>
+            </tr>
+            <tr>
+                <td class="overview-bottom">
+<a href="/title/tt2458776/?ref_=cs_ov_vi#lb" class="btn2 btn2_simple small title-trailer" itemprop="trailer"> Watch Trailer
+</a>                <span class="wlb_wrapper">
+                     <a class="wlb_watchlist_lite" data-tconst="tt2458776" data-size="small" data-caller-name="Title">
+                     </a>
+                 </span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+                
+            </div>
+            <div class="list_item even" itemscope itemtype="http://schema.org/Movie">
+    <table cellspacing="0" cellpadding="0" border="0" class="nm-title-overview-widget-layout">
+        <tbody>
+            <tr>
+                <td rowspan="2" valign="top" id="img_primary">
+                    <div class="image">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-poster/images/b.gif?link=/title/tt1929263/';"
+href="/title/tt1929263/"
+> <div class="hover-over-image zero-z-index">
+<img class="poster shadowed"
+height="209"
+width="140"
+alt="Heaven Is for Real (2014) Poster"
+title="Heaven Is for Real (2014)"
+src="http://ia.media-imdb.com/images/M/MV5BNjc3MzYzMTUzNF5BMl5BanBnXkFtZTgwNTYzNzI2MDE@._V1_SY209_CR0,0,140,209_.jpg"
+itemprop="image" />
+</div>
+</a>                    </div> 
+                </td>
+                <td class="overview-top">
+                    <h4 itemprop="name"><a
+onclick="(new Image()).src='/rg/coming-soon/overview-title/images/b.gif?link=/title/tt1929263/';"
+href="/title/tt1929263/"
+title="Heaven Is for Real (2014)"
+itemprop='url'> Heaven Is for Real (2014)</a></h4>
+                    <p class="cert-runtime-genre">
+                            
+                <img title="PG"
+                                     alt="Certificate PG"
+                                     class="absmiddle certimage"
+                                     src="http://ia.media-imdb.com/images/G/01/imdb/images/certificates/us/pg-1313470000._V379390491_.png" />
+                                <span itemprop="genre">Drama</span>
+                                
+                    </p> 
+                        <div class="rating_txt">
+                        </div>
+                    <div class="outline" itemprop="description">
+A small-town father must find the courage and conviction to share his son's extraordinary, life-changing experience with the world.                    </div> 
+                    <div class="txt-block">
+                        <h5 class="inline">Director:</h5>
+                            <span itemprop="director" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-director/images/b.gif?link=/name/nm0908824/';"
+href="/name/nm0908824/"
+itemprop='url'>Randall Wallace</a>                                </span>
+                            </span>
+                            
+                    </div> 
+                    <div class="txt-block">
+                        <h5 class="inline">Stars:</h5>
+                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0001427/';"
+href="/name/nm0001427/"
+itemprop='url'>Greg Kinnear</a></span></span>, 
+                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0717709/';"
+href="/name/nm0717709/"
+itemprop='url'>Kelly Reilly</a></span></span>, 
+                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm5889877/';"
+href="/name/nm5889877/"
+itemprop='url'>Connor Corum</a></span></span>, 
+                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0553269/';"
+href="/name/nm0553269/"
+itemprop='url'>Margo Martindale</a></span></span>
+                    </div> 
+                </td>
+            </tr>
+            <tr>
+                <td class="overview-bottom">
+<a href="/title/tt1929263/?ref_=cs_ov_vi#lb" class="btn2 btn2_simple small title-trailer" itemprop="trailer"> Watch Trailer
+</a>                <span class="wlb_wrapper">
+                     <a class="wlb_watchlist_lite" data-tconst="tt1929263" data-size="small" data-caller-name="Title">
+                     </a>
+                 </span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+                
+            </div>
+            <div class="list_item odd" itemscope itemtype="http://schema.org/Movie">
+    <table cellspacing="0" cellpadding="0" border="0" class="nm-title-overview-widget-layout">
+        <tbody>
+            <tr>
+                <td rowspan="2" valign="top" id="img_primary">
+                    <div class="image">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-poster/images/b.gif?link=/title/tt2258345/';"
+href="/title/tt2258345/"
+> <div class="hover-over-image zero-z-index">
+<img class="poster shadowed"
+height="209"
+width="140"
+alt="Fading Gigolo (2013) Poster"
+title="Fading Gigolo (2013)"
+src="http://ia.media-imdb.com/images/M/MV5BMTQzMjU3NjY0Nl5BMl5BanBnXkFtZTgwMTQ1NDM5MDE@._V1_SY209_CR0,0,140,209_.jpg"
+itemprop="image" />
+</div>
+</a>                    </div> 
+                </td>
+                <td class="overview-top">
+                    <h4 itemprop="name"><a
+onclick="(new Image()).src='/rg/coming-soon/overview-title/images/b.gif?link=/title/tt2258345/';"
+href="/title/tt2258345/"
+title="Fading Gigolo (2013)"
+itemprop='url'> Fading Gigolo (2013)</a></h4>
+                    <p class="cert-runtime-genre">
+                            
+                <img title="R"
+                                     alt="Certificate R"
+                                     class="absmiddle certimage"
+                                     src="http://ia.media-imdb.com/images/G/01/imdb/images/certificates/us/r-2493392566._V379391568_.png" />
+                            <time itemprop="duration" datetime="PT90M">90 min</time>
+                                &nbsp;&nbsp;-&nbsp;&nbsp;
+                                <span itemprop="genre">Comedy</span>
+                                
+                    </p> 
+                        <div class="rating_txt">
+      <div class="metascore no_ratings">
+      Metascore: <strong>64</strong><span class="mellow">/100</span>
+      (<a title="5 review excerpts provided by Metacritic.com"
+        onclick="(new Image()).src='/rg/title-starbar/critics-reviews/images/b.gif?link=criticreviews';"
+        href="/title/tt2258345/criticreviews">5 reviews</a>)
+      </div>
+                        </div>
+                    <div class="outline" itemprop="description">
+Fioravante decides to become a professional Don Juan as a way of making money to help his cash-strapped friend, Murray. With Murray acting as his "manager", the duo quickly finds themselves caught up in the crosscurrents of love and money.                    </div> 
+                    <div class="txt-block">
+                        <h5 class="inline">Director:</h5>
+                            <span itemprop="director" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-director/images/b.gif?link=/name/nm0001806/';"
+href="/name/nm0001806/"
+itemprop='url'>John Turturro</a>                                </span>
+                            </span>
+                            
+                    </div> 
+                    <div class="txt-block">
+                        <h5 class="inline">Stars:</h5>
+                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0005527/';"
+href="/name/nm0005527/"
+itemprop='url'>Sofía Vergara</a></span></span>, 
+                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0000232/';"
+href="/name/nm0000232/"
+itemprop='url'>Sharon Stone</a></span></span>, 
+                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0000095/';"
+href="/name/nm0000095/"
+itemprop='url'>Woody Allen</a></span></span>, 
+                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0000630/';"
+href="/name/nm0000630/"
+itemprop='url'>Liev Schreiber</a></span></span>
+                    </div> 
+                </td>
+            </tr>
+            <tr>
+                <td class="overview-bottom">
+<a href="/title/tt2258345/?ref_=cs_ov_vi#lb" class="btn2 btn2_simple small title-trailer" itemprop="trailer"> Watch Trailer
+</a>                <span class="wlb_wrapper">
+                     <a class="wlb_watchlist_lite" data-tconst="tt2258345" data-size="small" data-caller-name="Title">
+                     </a>
+                 </span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+                
+            </div>
+                <h4 class="li_group"><a name="Apr25">April 25&nbsp;</a></h4>
+            <div class="list_item odd" itemscope itemtype="http://schema.org/Movie">
+    <table cellspacing="0" cellpadding="0" border="0" class="nm-title-overview-widget-layout">
+        <tbody>
+            <tr>
+                <td rowspan="2" valign="top" id="img_primary">
+                    <div class="image">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-poster/images/b.gif?link=/title/tt2203939/';"
+href="/title/tt2203939/"
+> <div class="hover-over-image zero-z-index">
+<img class="poster shadowed"
+height="209"
+width="140"
+alt="The Other Woman (2014) Poster"
+title="The Other Woman (2014)"
+src="http://ia.media-imdb.com/images/M/MV5BMTc0ODE4ODY1OF5BMl5BanBnXkFtZTgwMDA5NjkzMTE@._V1_SY209_CR1,0,140,209_.jpg"
+itemprop="image" />
+</div>
+</a>                    </div> 
+                </td>
+                <td class="overview-top">
+                    <h4 itemprop="name"><a
+onclick="(new Image()).src='/rg/coming-soon/overview-title/images/b.gif?link=/title/tt2203939/';"
+href="/title/tt2203939/"
+title="The Other Woman (2014)"
+itemprop='url'> The Other Woman (2014)</a></h4>
+                    <p class="cert-runtime-genre">
+                            
+                <img title="R"
+                                     alt="Certificate R"
+                                     class="absmiddle certimage"
+                                     src="http://ia.media-imdb.com/images/G/01/imdb/images/certificates/us/r-2493392566._V379391568_.png" />
+                            <time itemprop="duration" datetime="PT109M">109 min</time>
+                                &nbsp;&nbsp;-&nbsp;&nbsp;
+                                <span itemprop="genre">Comedy</span>
+                                 <span class="ghost">|</span>
+                                <span itemprop="genre">Romance</span>
+                                
+                    </p> 
+                        <div class="rating_txt">
+                        </div>
+                    <div class="outline" itemprop="description">
+After discovering her boyfriend is married, Carly soon meets the wife he's been cheating on. And when yet another affair is discovered, all three women team up to plot mutual revenge on the three-timing SOB.                    </div> 
+                    <div class="txt-block">
+                        <h5 class="inline">Director:</h5>
+                            <span itemprop="director" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-director/images/b.gif?link=/name/nm0001024/';"
+href="/name/nm0001024/"
+itemprop='url'>Nick Cassavetes</a>                                </span>
+                            </span>
+                            
+                    </div> 
+                    <div class="txt-block">
+                        <h5 class="inline">Stars:</h5>
+                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0000139/';"
+href="/name/nm0000139/"
+itemprop='url'>Cameron Diaz</a></span></span>, 
+                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0005182/';"
+href="/name/nm0005182/"
+itemprop='url'>Leslie Mann</a></span></span>, 
+                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0182666/';"
+href="/name/nm0182666/"
+itemprop='url'>Nikolaj Coster-Waldau</a></span></span>, 
+                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0000467/';"
+href="/name/nm0000467/"
+itemprop='url'>Don Johnson</a></span></span>
+                    </div> 
+                </td>
+            </tr>
+            <tr>
+                <td class="overview-bottom">
+<a href="/title/tt2203939/?ref_=cs_ov_vi#lb" class="btn2 btn2_simple small title-trailer" itemprop="trailer"> Watch Trailer
+</a>                <span class="wlb_wrapper">
+                     <a class="wlb_watchlist_lite" data-tconst="tt2203939" data-size="small" data-caller-name="Title">
+                     </a>
+                 </span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+                
+            </div>
+            <div class="list_item even" itemscope itemtype="http://schema.org/Movie">
+    <table cellspacing="0" cellpadding="0" border="0" class="nm-title-overview-widget-layout">
+        <tbody>
+            <tr>
+                <td rowspan="2" valign="top" id="img_primary">
+                    <div class="image">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-poster/images/b.gif?link=/title/tt2235779/';"
+href="/title/tt2235779/"
+> <div class="hover-over-image zero-z-index">
+<img class="poster shadowed"
+height="209"
+width="140"
+alt="The Quiet Ones (2014) Poster"
+title="The Quiet Ones (2014)"
+src="http://ia.media-imdb.com/images/M/MV5BMzM5OTQxNTQwNV5BMl5BanBnXkFtZTgwNjE4NzMxMTE@._V1_SX140_CR0,0,140,209_.jpg"
+itemprop="image" />
+</div>
+</a>                    </div> 
+                </td>
+                <td class="overview-top">
+                    <h4 itemprop="name"><a
+onclick="(new Image()).src='/rg/coming-soon/overview-title/images/b.gif?link=/title/tt2235779/';"
+href="/title/tt2235779/"
+title="The Quiet Ones (2014)"
+itemprop='url'> The Quiet Ones (2014)</a></h4>
+                    <p class="cert-runtime-genre">
+                            
+                <img title="PG-13"
+                                     alt="Certificate PG-13"
+                                     class="absmiddle certimage"
+                                     src="http://ia.media-imdb.com/images/G/01/imdb/images/certificates/us/pg_13-2767653680._V379388624_.png" />
+                            <time itemprop="duration" datetime="PT98M">98 min</time>
+                                &nbsp;&nbsp;-&nbsp;&nbsp;
+                                <span itemprop="genre">Horror</span>
+                                
+                    </p> 
+                        <div class="rating_txt">
+                        </div>
+                    <div class="outline" itemprop="description">
+A University physics professor assembles a team to help create a poltergeist.                    </div> 
+                    <div class="txt-block">
+                        <h5 class="inline">Director:</h5>
+                            <span itemprop="director" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-director/images/b.gif?link=/name/nm0688282/';"
+href="/name/nm0688282/"
+itemprop='url'>John Pogue</a>                                </span>
+                            </span>
+                            
+                    </div> 
+                    <div class="txt-block">
+                        <h5 class="inline">Stars:</h5>
+                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0364813/';"
+href="/name/nm0364813/"
+itemprop='url'>Jared Harris</a></span></span>, 
+                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm3510471/';"
+href="/name/nm3510471/"
+itemprop='url'>Sam Claflin</a></span></span>, 
+                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm4972453/';"
+href="/name/nm4972453/"
+itemprop='url'>Olivia Cooke</a></span></span>, 
+                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm3260333/';"
+href="/name/nm3260333/"
+itemprop='url'>Erin Richards</a></span></span>
+                    </div> 
+                </td>
+            </tr>
+            <tr>
+                <td class="overview-bottom">
+<a href="/title/tt2235779/?ref_=cs_ov_vi#lb" class="btn2 btn2_simple small title-trailer" itemprop="trailer"> Watch Trailer
+</a>                <span class="wlb_wrapper">
+                     <a class="wlb_watchlist_lite" data-tconst="tt2235779" data-size="small" data-caller-name="Title">
+                     </a>
+                 </span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+                
+            </div>
+            <div class="list_item odd" itemscope itemtype="http://schema.org/Movie">
+    <table cellspacing="0" cellpadding="0" border="0" class="nm-title-overview-widget-layout">
+        <tbody>
+            <tr>
+                <td rowspan="2" valign="top" id="img_primary">
+                    <div class="image">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-poster/images/b.gif?link=/title/tt1430612/';"
+href="/title/tt1430612/"
+> <div class="hover-over-image zero-z-index">
+<img class="poster shadowed"
+height="209"
+width="140"
+alt="Brick Mansions (2014) Poster"
+title="Brick Mansions (2014)"
+src="http://ia.media-imdb.com/images/M/MV5BOTI0ODQ2MzY5NF5BMl5BanBnXkFtZTgwNTcxNzQxMTE@._V1_SY209_CR0,0,140,209_.jpg"
+itemprop="image" />
+</div>
+</a>                    </div> 
+                </td>
+                <td class="overview-top">
+                    <h4 itemprop="name"><a
+onclick="(new Image()).src='/rg/coming-soon/overview-title/images/b.gif?link=/title/tt1430612/';"
+href="/title/tt1430612/"
+title="Brick Mansions (2014)"
+itemprop='url'> Brick Mansions (2014)</a></h4>
+                    <p class="cert-runtime-genre">
+                            
+                <img title="PG-13"
+                                     alt="Certificate PG-13"
+                                     class="absmiddle certimage"
+                                     src="http://ia.media-imdb.com/images/G/01/imdb/images/certificates/us/pg_13-2767653680._V379388624_.png" />
+                                <span itemprop="genre">Action</span>
+                                 <span class="ghost">|</span>
+                                <span itemprop="genre">Crime</span>
+                                 <span class="ghost">|</span>
+                                <span itemprop="genre">Drama</span>
+                                
+                    </p> 
+                        <div class="rating_txt">
+                        </div>
+                    <div class="outline" itemprop="description">
+An undercover cop tries to take down a ruthless crime lord with access to a neutron bomb by infiltrating his gang.                    </div> 
+                    <div class="txt-block">
+                        <h5 class="inline">Director:</h5>
+                            <span itemprop="director" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-director/images/b.gif?link=/name/nm0216214/';"
+href="/name/nm0216214/"
+itemprop='url'>Camille Delamarre</a>                                </span>
+                            </span>
+                            
+                    </div> 
+                    <div class="txt-block">
+                        <h5 class="inline">Stars:</h5>
+                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0908094/';"
+href="/name/nm0908094/"
+itemprop='url'>Paul Walker</a></span></span>, 
+                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm1042642/';"
+href="/name/nm1042642/"
+itemprop='url'>David Belle</a></span></span>, 
+                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0753526/';"
+href="/name/nm0753526/"
+itemprop='url'>RZA</a></span></span>, 
+                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0537631/';"
+href="/name/nm0537631/"
+itemprop='url'>Robert Maillet</a></span></span>
+                    </div> 
+                </td>
+            </tr>
+            <tr>
+                <td class="overview-bottom">
+<a href="/title/tt1430612/?ref_=cs_ov_vi#lb" class="btn2 btn2_simple small title-trailer" itemprop="trailer"> Watch Trailer
+</a>                <span class="wlb_wrapper">
+                     <a class="wlb_watchlist_lite" data-tconst="tt1430612" data-size="small" data-caller-name="Title">
+                     </a>
+                 </span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+                
+            </div>
+            <div class="list_item even" itemscope itemtype="http://schema.org/Movie">
+    <table cellspacing="0" cellpadding="0" border="0" class="nm-title-overview-widget-layout">
+        <tbody>
+            <tr>
+                <td rowspan="2" valign="top" id="img_primary">
+                    <div class="image">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-poster/images/b.gif?link=/title/tt2692904/';"
+href="/title/tt2692904/"
+> <div class="hover-over-image zero-z-index">
+<img class="poster shadowed"
+height="209"
+width="140"
+alt="Locke (2013) Poster"
+title="Locke (2013)"
+src="http://ia.media-imdb.com/images/M/MV5BMTQ1MjE5MzU2M15BMl5BanBnXkFtZTgwNzE4OTMzMTE@._V1_SY209_CR0,0,140,209_.jpg"
+itemprop="image" />
+</div>
+</a>                    </div> 
+                </td>
+                <td class="overview-top">
+                    <h4 itemprop="name"><a
+onclick="(new Image()).src='/rg/coming-soon/overview-title/images/b.gif?link=/title/tt2692904/';"
+href="/title/tt2692904/"
+title="Locke (2013)"
+itemprop='url'> Locke (2013)</a></h4>
+                    <p class="cert-runtime-genre">
+                            
+                <img title="R"
+                                     alt="Certificate R"
+                                     class="absmiddle certimage"
+                                     src="http://ia.media-imdb.com/images/G/01/imdb/images/certificates/us/r-2493392566._V379391568_.png" />
+                            <time itemprop="duration" datetime="PT85M">85 min</time>
+                                &nbsp;&nbsp;-&nbsp;&nbsp;
+                                <span itemprop="genre">Drama</span>
+                                 <span class="ghost">|</span>
+                                <span itemprop="genre">Thriller</span>
+                                
+                    </p> 
+                        <div class="rating_txt">
+      <div class="metascore no_ratings">
+      Metascore: <strong>74</strong><span class="mellow">/100</span>
+      (<a title="6 review excerpts provided by Metacritic.com"
+        onclick="(new Image()).src='/rg/title-starbar/critics-reviews/images/b.gif?link=criticreviews';"
+        href="/title/tt2692904/criticreviews">6 reviews</a>)
+      </div>
+                        </div>
+                    <div class="outline" itemprop="description">
+A successful construction manager's life is drastically changed by a series of phone calls while he drives.                    </div> 
+                    <div class="txt-block">
+                        <h5 class="inline">Director:</h5>
+                            <span itemprop="director" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-director/images/b.gif?link=/name/nm1140275/';"
+href="/name/nm1140275/"
+itemprop='url'>Steven Knight</a>                                </span>
+                            </span>
+                            
+                    </div> 
+                    <div class="txt-block">
+                        <h5 class="inline">Stars:</h5>
+                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0362766/';"
+href="/name/nm0362766/"
+itemprop='url'>Tom Hardy</a></span></span>, 
+                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm2235721/';"
+href="/name/nm2235721/"
+itemprop='url'>Ruth Wilson</a></span></span>, 
+                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0778831/';"
+href="/name/nm0778831/"
+itemprop='url'>Andrew Scott</a></span></span>, 
+                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
+                                <span itemprop="name">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm4043618/';"
+href="/name/nm4043618/"
+itemprop='url'>Tom Holland</a></span></span>
+                    </div> 
+                </td>
+            </tr>
+            <tr>
+                <td class="overview-bottom">
+<a href="/title/tt2692904/?ref_=cs_ov_vi#lb" class="btn2 btn2_simple small title-trailer" itemprop="trailer"> Watch Trailer
+</a>                <span class="wlb_wrapper">
+                     <a class="wlb_watchlist_lite" data-tconst="tt2692904" data-size="small" data-caller-name="Title">
+                     </a>
+                 </span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+                
+            </div>
+            <div class="list_item odd" itemscope itemtype="http://schema.org/Movie">
+    <table cellspacing="0" cellpadding="0" border="0" class="nm-title-overview-widget-layout">
+        <tbody>
+            <tr>
+                <td rowspan="2" valign="top" id="img_primary">
+                    <div class="image">
+<a
+onclick="(new Image()).src='/rg/coming-soon/overview-poster/images/b.gif?link=/title/tt2112152/';"
+href="/title/tt2112152/"
+> <div class="hover-over-image zero-z-index">
+<img class="poster shadowed"
+height="209"
+width="140"
+alt="For No Good Reason (2012) Poster"
+title="For No Good Reason (2012)"
+src="http://ia.media-imdb.com/images/M/MV5BMTYxNDk1NTYyMl5BMl5BanBnXkFtZTgwMjgwOTYxMDE@._V1_SY209_CR87,0,140,209_.jpg"
+itemprop="image" />
+</div>
+</a>                    </div> 
+                </td>
+                <td class="overview-top">
+                    <h4 itemprop="name"><a
+onclick="(new Image()).src='/rg/coming-soon/overview-title/images/b.gif?link=/title/tt2112152/';"
+href="/title/tt2112152/"
+title="For No Good Reason (2012)"
+itemprop='url'> For No Good Reason (2012)</a></h4>
+                    <p class="cert-runtime-genre">
+                            
+                <img title="R"
+                                     alt="Certificate R"
+                                     class="absmiddle certimage"
+                                     src="http://ia.media-imdb.com/images/G/01/imdb/images/certificates/us/r-2493392566._V379391568_.png" />
+                            <time itemprop="duration" datetime="PT89M">89 min</time>
+                                &nbsp;&nbsp;-&nbsp;&nbsp;
+                                <span itemprop="genre">Documentary</span>
+                                 <span class="ghost">|</span>
+                                <span itemprop="genre">Biography</span>
                                  <span class="ghost">|</span>
                                 <span itemprop="genre">History</span>
                                  <span class="ghost">|</span>
@@ -777,461 +2151,22 @@ itemprop='url'> Saving Mr. Banks (2013)</a></h4>
                     </p> 
                         <div class="rating_txt">
       <div class="metascore no_ratings">
-      Metascore: <strong>66</strong><span class="mellow">/100</span>
-      (<a title="34 review excerpts provided by Metacritic.com"
-        onclick="(new Image()).src='/rg/title-starbar/critics-reviews/images/b.gif?link=criticreviews';"
-        href="/title/tt2140373/criticreviews">34 reviews</a>)
-      </div>
-                        </div>
-                    <div class="outline" itemprop="description">
-Author P. L. Travers reflects on her difficult childhood while meeting with filmmaker Walt Disney during production for the adaptation of her novel, Mary Poppins.                    </div> 
-                    <div class="txt-block">
-                        <h5 class="inline">Director:</h5>
-                            <span itemprop="director" itemscope itemtype="http://schema.org/Person">
-                                <span itemprop="name">
-<a
-onclick="(new Image()).src='/rg/coming-soon/overview-director/images/b.gif?link=/name/nm0359387/';"
-href="/name/nm0359387/"
-itemprop='url'>John Lee Hancock</a>                                </span>
-                            </span>
-                            
-                    </div> 
-                    <div class="txt-block">
-                        <h5 class="inline">Stars:</h5>
-                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
-                                <span itemprop="name">
-<a
-onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0000668/';"
-href="/name/nm0000668/"
-itemprop='url'>Emma Thompson</a></span></span>, 
-                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
-                                <span itemprop="name">
-<a
-onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0000158/';"
-href="/name/nm0000158/"
-itemprop='url'>Tom Hanks</a></span></span>, 
-                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
-                                <span itemprop="name">
-<a
-onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm4003520/';"
-href="/name/nm4003520/"
-itemprop='url'>Annie Rose Buckley</a></span></span>, 
-                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
-                                <span itemprop="name">
-<a
-onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0268199/';"
-href="/name/nm0268199/"
-itemprop='url'>Colin Farrell</a></span></span>
-                    </div> 
-                </td>
-            </tr>
-            <tr>
-                <td class="overview-bottom">
-<a href="/title/tt2140373/?ref_=cs_ov_vi#lb" class="btn2 btn2_simple small title-trailer" itemprop="trailer"> Watch Trailer
-</a>                <span class="wlb_wrapper">
-                     <a class="wlb_watchlist_lite" data-tconst="tt2140373" data-size="small"    data-caller-name="Title">
-                     </a>
-                 </span>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-                
-                    <p class="thebuzz">
-                        <strong>The Buzz</strong>: John Lee Hancock follows up <a href="/title/tt0878804/">The Blind Side</a> (2009) with what has to be one of the most bankable releases of the year - a bona fide return to movie stardom for Tom Hanks as Walt Disney. Ditto Emma Thompson and, well, pretty much everyone else in the cast.
-                    </p>
-            </div>
-            <div class="list_item even" itemscope itemtype="http://schema.org/Movie">
- 
-    <table cellspacing="0" cellpadding="0" border="0" class="nm-title-overview-widget-layout">
-        <tbody>
-            <tr>
-                <td rowspan="2" valign="top" id="img_primary">
-                    <div class="image">
-<a
-onclick="(new Image()).src='/rg/coming-soon/overview-poster/images/b.gif?link=/title/tt1762399/';"
-href="/title/tt1762399/"
-> <div class="hover-over-image zero-z-index">
-<img class="poster shadowed"
-height="209"
-width="140"
-alt="Walking with Dinosaurs 3D (2013) Poster"
-title="Walking with Dinosaurs 3D (2013)"
-src="http://ia.media-imdb.com/images/M/MV5BMjE2OTc2MTk1Nl5BMl5BanBnXkFtZTgwNDg5NDU1MDE@._V1_SY209_CR0,0,140,209_.jpg"
-itemprop="image" />
-</div>
-</a>                    </div> 
-                </td>
-                <td class="overview-top">
-                    <h4 itemprop="name"><a
-onclick="(new Image()).src='/rg/coming-soon/overview-title/images/b.gif?link=/title/tt1762399/';"
-href="/title/tt1762399/"
-title="Walking with Dinosaurs 3D (2013)"
-itemprop='url'> Walking with Dinosaurs 3D (2013)</a></h4>
-                    <p class="cert-runtime-genre">
-                            
-            <img title="PG"
-                                 alt="Certificate PG"
-                                 class="absmiddle certimage"
-                                 src="http://ia.media-imdb.com/images/G/01/imdb/images/certificates/us/pg-1313470000._V379390491_.png" />
-                            <time itemprop="duration" datetime="PT87M">87 min</time>
-                                &nbsp;&nbsp;-&nbsp;&nbsp;
-                                <span itemprop="genre">Animation</span>
-                                 <span class="ghost">|</span>
-                                <span itemprop="genre">Action</span>
-                                 <span class="ghost">|</span>
-                                <span itemprop="genre">Family</span>
-                                
-                    </p> 
-                        <div class="rating_txt">
-                        </div>
-                    <div class="outline" itemprop="description">
-See and feel what it was like when dinosaurs ruled the Earth, in a story where an underdog dino triumphs to become a hero for the ages.                    </div> 
-                    <div class="txt-block">
-                        <h5 class="inline">Directors:</h5>
-                            <span itemprop="director" itemscope itemtype="http://schema.org/Person">
-                                <span itemprop="name">
-<a
-onclick="(new Image()).src='/rg/coming-soon/overview-director/images/b.gif?link=/name/nm0176905/';"
-href="/name/nm0176905/"
-itemprop='url'>Barry Cook</a>                                </span>
-                            </span>
-                             <span class="ghost">|</span>
-                            <span itemprop="director" itemscope itemtype="http://schema.org/Person">
-                                <span itemprop="name">
-<a
-onclick="(new Image()).src='/rg/coming-soon/overview-director/images/b.gif?link=/name/nm0631473/';"
-href="/name/nm0631473/"
-itemprop='url'>Neil Nightingale</a>                                </span>
-                            </span>
-                            
-                    </div> 
-                    <div class="txt-block">
-                        <h5 class="inline">Stars:</h5>
-                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
-                                <span itemprop="name">
-<a
-onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm2185462/';"
-href="/name/nm2185462/"
-itemprop='url'>Charlie Rowe</a></span></span>, 
-                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
-                                <span itemprop="name">
-<a
-onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0881631/';"
-href="/name/nm0881631/"
-itemprop='url'>Karl Urban</a></span></span>, 
-                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
-                                <span itemprop="name">
-<a
-onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm3886028/';"
-href="/name/nm3886028/"
-itemprop='url'>Angourie Rice</a></span></span>, 
-                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
-                                <span itemprop="name">
-<a
-onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0000491/';"
-href="/name/nm0000491/"
-itemprop='url'>John Leguizamo</a></span></span>
-                    </div> 
-                </td>
-            </tr>
-            <tr>
-                <td class="overview-bottom">
-<a href="/title/tt1762399/?ref_=cs_ov_vi#lb" class="btn2 btn2_simple small title-trailer" itemprop="trailer"> Watch Trailer
-</a>                <span class="wlb_wrapper">
-                     <a class="wlb_watchlist_lite" data-tconst="tt1762399" data-size="small"    data-caller-name="Title">
-                     </a>
-                 </span>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-                
-                    <p class="thebuzz">
-                        <strong>The Buzz</strong>: Fox has kept a lid on this grand-scale adaptation of the BBC mini-series (and eventual ongoing series) after a breakout debut at the American Film Market in 2010 (an event where any number of projects are announced but never seem to materialize).
-                    </p>
-            </div>
-            <div class="list_item odd" itemscope itemtype="http://schema.org/Movie">
- 
-    <table cellspacing="0" cellpadding="0" border="0" class="nm-title-overview-widget-layout">
-        <tbody>
-            <tr>
-                <td rowspan="2" valign="top" id="img_primary">
-                    <div class="image">
-<a
-onclick="(new Image()).src='/rg/coming-soon/overview-poster/images/b.gif?link=/title/tt1798709/';"
-href="/title/tt1798709/"
-> <div class="hover-over-image zero-z-index">
-<img class="poster shadowed"
-height="209"
-width="140"
-alt="Her (2013) Poster"
-title="Her (2013)"
-src="http://ia.media-imdb.com/images/M/MV5BMjA1Nzk0OTM2OF5BMl5BanBnXkFtZTgwNjU2NjEwMDE@._V1_SY209_CR0,0,140,209_.jpg"
-itemprop="image" />
-</div>
-</a>                    </div> 
-                </td>
-                <td class="overview-top">
-                    <h4 itemprop="name"><a
-onclick="(new Image()).src='/rg/coming-soon/overview-title/images/b.gif?link=/title/tt1798709/';"
-href="/title/tt1798709/"
-title="Her (2013)"
-itemprop='url'> Her (2013)</a></h4>
-                    <p class="cert-runtime-genre">
-                            
-            <img title="R"
-                                 alt="Certificate R"
-                                 class="absmiddle certimage"
-                                 src="http://ia.media-imdb.com/images/G/01/imdb/images/certificates/us/r-2493392566._V379391568_.png" />
-                            <time itemprop="duration" datetime="PT120M">120 min</time>
-                                &nbsp;&nbsp;-&nbsp;&nbsp;
-                                <span itemprop="genre">Comedy</span>
-                                 <span class="ghost">|</span>
-                                <span itemprop="genre">Drama</span>
-                                 <span class="ghost">|</span>
-                                <span itemprop="genre">Romance</span>
-                                 <span class="ghost">|</span>
-                                <span itemprop="genre">Sci-Fi</span>
-                                
-                    </p> 
-                        <div class="rating_txt">
-      <div class="metascore no_ratings">
-      Metascore: <strong>90</strong><span class="mellow">/100</span>
-      (<a title="8 review excerpts provided by Metacritic.com"
-        onclick="(new Image()).src='/rg/title-starbar/critics-reviews/images/b.gif?link=criticreviews';"
-        href="/title/tt1798709/criticreviews">8 reviews</a>)
-      </div>
-                        </div>
-                    <div class="outline" itemprop="description">
-A lonely writer develops an unlikely relationship with his newly purchased operating system that's designed to meet his every need.                    </div> 
-                    <div class="txt-block">
-                        <h5 class="inline">Director:</h5>
-                            <span itemprop="director" itemscope itemtype="http://schema.org/Person">
-                                <span itemprop="name">
-<a
-onclick="(new Image()).src='/rg/coming-soon/overview-director/images/b.gif?link=/name/nm0005069/';"
-href="/name/nm0005069/"
-itemprop='url'>Spike Jonze</a>                                </span>
-                            </span>
-                            
-                    </div> 
-                    <div class="txt-block">
-                        <h5 class="inline">Stars:</h5>
-                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
-                                <span itemprop="name">
-<a
-onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0001618/';"
-href="/name/nm0001618/"
-itemprop='url'>Joaquin Phoenix</a></span></span>, 
-                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
-                                <span itemprop="name">
-<a
-onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0010736/';"
-href="/name/nm0010736/"
-itemprop='url'>Amy Adams</a></span></span>, 
-                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
-                                <span itemprop="name">
-<a
-onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0424060/';"
-href="/name/nm0424060/"
-itemprop='url'>Scarlett Johansson</a></span></span>, 
-                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
-                                <span itemprop="name">
-<a
-onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm1913734/';"
-href="/name/nm1913734/"
-itemprop='url'>Rooney Mara</a></span></span>
-                    </div> 
-                </td>
-            </tr>
-            <tr>
-                <td class="overview-bottom">
-<a href="/title/tt1798709/?ref_=cs_ov_vi#lb" class="btn2 btn2_simple small title-trailer" itemprop="trailer"> Watch Trailer
-</a>                <span class="wlb_wrapper">
-                     <a class="wlb_watchlist_lite" data-tconst="tt1798709" data-size="small"    data-caller-name="Title">
-                     </a>
-                 </span>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-                
-                    <p class="thebuzz">
-                        <strong>The Buzz</strong>: It's so cool that Warner Bros. is taking a chance on Spike Jonze's offbeat follow-up to <a href="/title/tt0386117/">Where the Wild Things Are</a> (2009); it's hard to imagine film executives looking up from their tablets in excitement after being pitched a story about a man who falls in love with an operating system. Starring foot-in-mouth specialist Joaquin Phoenix.
-                    </p>
-            </div>
-                <h4 class="li_group"><a name="Dec27">December 27&nbsp;</a></h4>
-            <div class="list_item odd" itemscope itemtype="http://schema.org/Movie">
- 
-    <table cellspacing="0" cellpadding="0" border="0" class="nm-title-overview-widget-layout">
-        <tbody>
-            <tr>
-                <td rowspan="2" valign="top" id="img_primary">
-                    <div class="image">
-<a
-onclick="(new Image()).src='/rg/coming-soon/overview-poster/images/b.gif?link=/title/tt0359950/';"
-href="/title/tt0359950/"
-> <div class="hover-over-image zero-z-index">
-<img class="poster shadowed"
-height="209"
-width="140"
-alt="The Secret Life of Walter Mitty (2013) Poster"
-title="The Secret Life of Walter Mitty (2013)"
-src="http://ia.media-imdb.com/images/M/MV5BODYwNDYxNDk1Nl5BMl5BanBnXkFtZTgwOTAwMTk2MDE@._V1_SY209_CR0,0,140,209_.jpg"
-itemprop="image" />
-</div>
-</a>                    </div> 
-                </td>
-                <td class="overview-top">
-                    <h4 itemprop="name"><a
-onclick="(new Image()).src='/rg/coming-soon/overview-title/images/b.gif?link=/title/tt0359950/';"
-href="/title/tt0359950/"
-title="The Secret Life of Walter Mitty (2013)"
-itemprop='url'> The Secret Life of Walter Mitty (2013)</a></h4>
-                    <p class="cert-runtime-genre">
-                            
-            <img title="PG"
-                                 alt="Certificate PG"
-                                 class="absmiddle certimage"
-                                 src="http://ia.media-imdb.com/images/G/01/imdb/images/certificates/us/pg-1313470000._V379390491_.png" />
-                            <time itemprop="duration" datetime="PT114M">114 min</time>
-                                &nbsp;&nbsp;-&nbsp;&nbsp;
-                                <span itemprop="genre">Adventure</span>
-                                 <span class="ghost">|</span>
-                                <span itemprop="genre">Comedy</span>
-                                 <span class="ghost">|</span>
-                                <span itemprop="genre">Drama</span>
-                                 <span class="ghost">|</span>
-                                <span itemprop="genre">Fantasy</span>
-                                
-                    </p> 
-                        <div class="rating_txt">
-      <div class="metascore no_ratings">
-      Metascore: <strong>44</strong><span class="mellow">/100</span>
-      (<a title="5 review excerpts provided by Metacritic.com"
-        onclick="(new Image()).src='/rg/title-starbar/critics-reviews/images/b.gif?link=criticreviews';"
-        href="/title/tt0359950/criticreviews">5 reviews</a>)
-      </div>
-                        </div>
-                    <div class="outline" itemprop="description">
-A day-dreamer escapes his anonymous life by disappearing into a world of fantasies filled with heroism, romance and action. When his job along with that of his co-worker are threatened, he takes action in the real world embarking on a global journey that turns into an adventure more extraordinary than anything he could have ever imagined.                    </div> 
-                    <div class="txt-block">
-                        <h5 class="inline">Director:</h5>
-                            <span itemprop="director" itemscope itemtype="http://schema.org/Person">
-                                <span itemprop="name">
-<a
-onclick="(new Image()).src='/rg/coming-soon/overview-director/images/b.gif?link=/name/nm0001774/';"
-href="/name/nm0001774/"
-itemprop='url'>Ben Stiller</a>                                </span>
-                            </span>
-                            
-                    </div> 
-                    <div class="txt-block">
-                        <h5 class="inline">Stars:</h5>
-                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
-                                <span itemprop="name">
-<a
-onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0001774/';"
-href="/name/nm0001774/"
-itemprop='url'>Ben Stiller</a></span></span>, 
-                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
-                                <span itemprop="name">
-<a
-onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm1325419/';"
-href="/name/nm1325419/"
-itemprop='url'>Kristen Wiig</a></span></span>, 
-                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
-                                <span itemprop="name">
-<a
-onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0004395/';"
-href="/name/nm0004395/"
-itemprop='url'>Adam Scott</a></span></span>, 
-                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
-                                <span itemprop="name">
-<a
-onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0652663/';"
-href="/name/nm0652663/"
-itemprop='url'>Patton Oswalt</a></span></span>
-                    </div> 
-                </td>
-            </tr>
-            <tr>
-                <td class="overview-bottom">
-<a href="/title/tt0359950/?ref_=cs_ov_vi#lb" class="btn2 btn2_simple small title-trailer" itemprop="trailer"> Watch Trailer
-</a>                <span class="wlb_wrapper">
-                     <a class="wlb_watchlist_lite" data-tconst="tt0359950" data-size="small"    data-caller-name="Title">
-                     </a>
-                 </span>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-                
-                    <p class="thebuzz">
-                        <strong>The Buzz</strong>: The nicest thing we can say about this remake is: it's the first time we've been curious about a Ben Stiller project since ... <a href="/title/tt1234654/">Greenberg</a> (2010). And something special had to attract Kristen Wiig to make her first major-release appearance since <a href="/title/tt1478338/">Bridesmaids</a> (2011), right?
-                    </p>
-            </div>
-            <div class="list_item even" itemscope itemtype="http://schema.org/Movie">
- 
-    <table cellspacing="0" cellpadding="0" border="0" class="nm-title-overview-widget-layout">
-        <tbody>
-            <tr>
-                <td rowspan="2" valign="top" id="img_primary">
-                    <div class="image">
-<a
-onclick="(new Image()).src='/rg/coming-soon/overview-poster/images/b.gif?link=/title/tt1091191/';"
-href="/title/tt1091191/"
-> <div class="hover-over-image zero-z-index">
-<img class="poster shadowed"
-height="209"
-width="140"
-alt="Lone Survivor (2013) Poster"
-title="Lone Survivor (2013)"
-src="http://ia.media-imdb.com/images/M/MV5BMjA0NTgwOTk5Ml5BMl5BanBnXkFtZTcwMjE3NDc5OQ@@._V1_SY209_CR0,0,140,209_.jpg"
-itemprop="image" />
-</div>
-</a>                    </div> 
-                </td>
-                <td class="overview-top">
-                    <h4 itemprop="name"><a
-onclick="(new Image()).src='/rg/coming-soon/overview-title/images/b.gif?link=/title/tt1091191/';"
-href="/title/tt1091191/"
-title="Lone Survivor (2013)"
-itemprop='url'> Lone Survivor (2013)</a></h4>
-                    <p class="cert-runtime-genre">
-                            
-            <img title="R"
-                                 alt="Certificate R"
-                                 class="absmiddle certimage"
-                                 src="http://ia.media-imdb.com/images/G/01/imdb/images/certificates/us/r-2493392566._V379391568_.png" />
-                                <span itemprop="genre">Action</span>
-                                 <span class="ghost">|</span>
-                                <span itemprop="genre">Drama</span>
-                                 <span class="ghost">|</span>
-                                <span itemprop="genre">Thriller</span>
-                                 <span class="ghost">|</span>
-                                <span itemprop="genre">War</span>
-                                
-                    </p> 
-                        <div class="rating_txt">
-      <div class="metascore no_ratings">
-      Metascore: <strong>60</strong><span class="mellow">/100</span>
+      Metascore: <strong>46</strong><span class="mellow">/100</span>
       (<a title="4 review excerpts provided by Metacritic.com"
         onclick="(new Image()).src='/rg/title-starbar/critics-reviews/images/b.gif?link=criticreviews';"
-        href="/title/tt1091191/criticreviews">4 reviews</a>)
+        href="/title/tt2112152/criticreviews">4 reviews</a>)
       </div>
                         </div>
                     <div class="outline" itemprop="description">
-Based on the failed June 28, 2005 mission "Operation Red Wings". Four members of SEAL Team 10 were tasked with the mission to capture or kill notorious Taliban leader Ahmad Shahd.                    </div> 
+Johnny Depp pays a call on his friend and hero Ralph Steadman and we take off on a high-spirited, raging and kaleidoscopic journey discovering the life and works of one of the most distinctive radical artists of the last 50 years.                    </div> 
                     <div class="txt-block">
                         <h5 class="inline">Director:</h5>
                             <span itemprop="director" itemscope itemtype="http://schema.org/Person">
                                 <span itemprop="name">
 <a
-onclick="(new Image()).src='/rg/coming-soon/overview-director/images/b.gif?link=/name/nm0000916/';"
-href="/name/nm0000916/"
-itemprop='url'>Peter Berg</a>                                </span>
+onclick="(new Image()).src='/rg/coming-soon/overview-director/images/b.gif?link=/name/nm1421356/';"
+href="/name/nm1421356/"
+itemprop='url'>Charlie Paul</a>                                </span>
                             </span>
                             
                     </div> 
@@ -1240,35 +2175,35 @@ itemprop='url'>Peter Berg</a>                                </span>
                             <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
                                 <span itemprop="name">
 <a
-onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0000242/';"
-href="/name/nm0000242/"
-itemprop='url'>Mark Wahlberg</a></span></span>, 
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0000136/';"
+href="/name/nm0000136/"
+itemprop='url'>Johnny Depp</a></span></span>, 
                             <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
                                 <span itemprop="name">
 <a
-onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0004936/';"
-href="/name/nm0004936/"
-itemprop='url'>Ben Foster</a></span></span>, 
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0000416/';"
+href="/name/nm0000416/"
+itemprop='url'>Terry Gilliam</a></span></span>, 
                             <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
                                 <span itemprop="name">
 <a
-onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0051509/';"
-href="/name/nm0051509/"
-itemprop='url'>Eric Bana</a></span></span>, 
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0324009/';"
+href="/name/nm0324009/"
+itemprop='url'>Patrick Godfrey</a></span></span>, 
                             <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
                                 <span itemprop="name">
 <a
-onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0077595/';"
-href="/name/nm0077595/"
-itemprop='url'>Josh Berry</a></span></span>
+onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0001290/';"
+href="/name/nm0001290/"
+itemprop='url'>Richard E. Grant</a></span></span>
                     </div> 
                 </td>
             </tr>
             <tr>
                 <td class="overview-bottom">
-<a href="/title/tt1091191/?ref_=cs_ov_vi#lb" class="btn2 btn2_simple small title-trailer" itemprop="trailer"> Watch Trailer
+<a href="/title/tt2112152/?ref_=cs_ov_vi#lb" class="btn2 btn2_simple small title-trailer" itemprop="trailer"> Watch Trailer
 </a>                <span class="wlb_wrapper">
-                     <a class="wlb_watchlist_lite" data-tconst="tt1091191" data-size="small"    data-caller-name="Title">
+                     <a class="wlb_watchlist_lite" data-tconst="tt2112152" data-size="small" data-caller-name="Title">
                      </a>
                  </span>
                 </td>
@@ -1276,421 +2211,6 @@ itemprop='url'>Josh Berry</a></span></span>
         </tbody>
     </table>
                 
-                    <p class="thebuzz">
-                        <strong>The Buzz</strong>: One of two Oscar hopefuls for Universal Pictures (the other being <a href="/title/tt1979320/">Rush</a> (2013)) Peter Berg's contemporary wartime picture is apparently one tough sit, with a small team of Navy SEALS ultimately facing down 200-strong Al Qaeda soldiers. Audiences definitely accept Mark Wahlberg in serious-action mode, and this platform release should find momentum throughout the month of January.
-                    </p>
-            </div>
-            <div class="list_item odd" itemscope itemtype="http://schema.org/Movie">
- 
-    <table cellspacing="0" cellpadding="0" border="0" class="nm-title-overview-widget-layout">
-        <tbody>
-            <tr>
-                <td rowspan="2" valign="top" id="img_primary">
-                    <div class="image">
-<a
-onclick="(new Image()).src='/rg/coming-soon/overview-poster/images/b.gif?link=/title/tt0993846/';"
-href="/title/tt0993846/"
-> <div class="hover-over-image zero-z-index">
-<img class="poster shadowed"
-height="209"
-width="140"
-alt="The Wolf of Wall Street (2013) Poster"
-title="The Wolf of Wall Street (2013)"
-src="http://ia.media-imdb.com/images/M/MV5BMjIxMjgxNTk0MF5BMl5BanBnXkFtZTgwNjIyOTg2MDE@._V1_SY209_CR0,0,140,209_.jpg"
-itemprop="image" />
-</div>
-</a>                    </div> 
-                </td>
-                <td class="overview-top">
-                    <h4 itemprop="name"><a
-onclick="(new Image()).src='/rg/coming-soon/overview-title/images/b.gif?link=/title/tt0993846/';"
-href="/title/tt0993846/"
-title="The Wolf of Wall Street (2013)"
-itemprop='url'> The Wolf of Wall Street (2013)</a></h4>
-                    <p class="cert-runtime-genre">
-                            
-            <img title="R"
-                                 alt="Certificate R"
-                                 class="absmiddle certimage"
-                                 src="http://ia.media-imdb.com/images/G/01/imdb/images/certificates/us/r-2493392566._V379391568_.png" />
-                            <time itemprop="duration" datetime="PT180M">180 min</time>
-                                &nbsp;&nbsp;-&nbsp;&nbsp;
-                                <span itemprop="genre">Biography</span>
-                                 <span class="ghost">|</span>
-                                <span itemprop="genre">Comedy</span>
-                                 <span class="ghost">|</span>
-                                <span itemprop="genre">Crime</span>
-                                 <span class="ghost">|</span>
-                                <span itemprop="genre">Drama</span>
-                                
-                    </p> 
-                        <div class="rating_txt">
-                        </div>
-                    <div class="outline" itemprop="description">
-Based on the true story of Jordan Belfort, from his rise to a wealthy stockbroker living the high life to his fall involving crime, corruption and the federal government.                    </div> 
-                    <div class="txt-block">
-                        <h5 class="inline">Director:</h5>
-                            <span itemprop="director" itemscope itemtype="http://schema.org/Person">
-                                <span itemprop="name">
-<a
-onclick="(new Image()).src='/rg/coming-soon/overview-director/images/b.gif?link=/name/nm0000217/';"
-href="/name/nm0000217/"
-itemprop='url'>Martin Scorsese</a>                                </span>
-                            </span>
-                            
-                    </div> 
-                    <div class="txt-block">
-                        <h5 class="inline">Stars:</h5>
-                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
-                                <span itemprop="name">
-<a
-onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0000138/';"
-href="/name/nm0000138/"
-itemprop='url'>Leonardo DiCaprio</a></span></span>, 
-                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
-                                <span itemprop="name">
-<a
-onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0126260/';"
-href="/name/nm0126260/"
-itemprop='url'>P.J. Byrne</a></span></span>, 
-                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
-                                <span itemprop="name">
-<a
-onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0269463/';"
-href="/name/nm0269463/"
-itemprop='url'>Jon Favreau</a></span></span>, 
-                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
-                                <span itemprop="name">
-<a
-onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0005069/';"
-href="/name/nm0005069/"
-itemprop='url'>Spike Jonze</a></span></span>
-                    </div> 
-                </td>
-            </tr>
-            <tr>
-                <td class="overview-bottom">
-<a href="/title/tt0993846/?ref_=cs_ov_vi#lb" class="btn2 btn2_simple small title-trailer" itemprop="trailer"> Watch Trailer
-</a>                <span class="wlb_wrapper">
-                     <a class="wlb_watchlist_lite" data-tconst="tt0993846" data-size="small"    data-caller-name="Title">
-                     </a>
-                 </span>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-                
-                    <p class="thebuzz">
-                        <strong>The Buzz</strong>: We get the feeling that Martin Scorsese will keep working with Leonardo DiCaprio until he helps his leading man secure his first Best Actor Oscar win. Remember how well the contemporary crime genre worked for Scorsese with <a href="/title/tt0407887/">The Departed</a> (2006), though politics -- widely believed to be his unwillingness to be positioned ahead of his co-stars -- kept DiCaprio out of the Oscar hunt that year. But this is a leading role; the fine supporting cast exists to provide all the necessary context and shading to flesh out this real-life story based on former broker Jordan Belfort's best-selling memoir. 
-                    </p>
-            </div>
-            <div class="list_item even" itemscope itemtype="http://schema.org/Movie">
- 
-    <table cellspacing="0" cellpadding="0" border="0" class="nm-title-overview-widget-layout">
-        <tbody>
-            <tr>
-                <td rowspan="2" valign="top" id="img_primary">
-                    <div class="image">
-<a
-onclick="(new Image()).src='/rg/coming-soon/overview-poster/images/b.gif?link=/title/tt1322269/';"
-href="/title/tt1322269/"
-> <div class="hover-over-image zero-z-index">
-<img class="poster shadowed"
-height="209"
-width="140"
-alt="August: Osage County (2013) Poster"
-title="August: Osage County (2013)"
-src="http://ia.media-imdb.com/images/M/MV5BNzQ5ODE4NTcxNV5BMl5BanBnXkFtZTgwNjkyNDQ0MDE@._V1_SY209_CR0,0,140,209_.jpg"
-itemprop="image" />
-</div>
-</a>                    </div> 
-                </td>
-                <td class="overview-top">
-                    <h4 itemprop="name"><a
-onclick="(new Image()).src='/rg/coming-soon/overview-title/images/b.gif?link=/title/tt1322269/';"
-href="/title/tt1322269/"
-title="August: Osage County (2013)"
-itemprop='url'> August: Osage County (2013)</a></h4>
-                    <p class="cert-runtime-genre">
-                            
-            <img title="R"
-                                 alt="Certificate R"
-                                 class="absmiddle certimage"
-                                 src="http://ia.media-imdb.com/images/G/01/imdb/images/certificates/us/r-2493392566._V379391568_.png" />
-                            <time itemprop="duration" datetime="PT121M">121 min</time>
-                                &nbsp;&nbsp;-&nbsp;&nbsp;
-                                <span itemprop="genre">Comedy</span>
-                                 <span class="ghost">|</span>
-                                <span itemprop="genre">Drama</span>
-                                
-                    </p> 
-                        <div class="rating_txt">
-      <div class="metascore no_ratings">
-      Metascore: <strong>67</strong><span class="mellow">/100</span>
-      (<a title="8 review excerpts provided by Metacritic.com"
-        onclick="(new Image()).src='/rg/title-starbar/critics-reviews/images/b.gif?link=criticreviews';"
-        href="/title/tt1322269/criticreviews">8 reviews</a>)
-      </div>
-                        </div>
-                    <div class="outline" itemprop="description">
-A look at the lives of the strong-willed women of the Weston family, whose paths have diverged until a family crisis brings them back to the Oklahoma house they grew up in, and to the dysfunctional woman who raised them.                    </div> 
-                    <div class="txt-block">
-                        <h5 class="inline">Director:</h5>
-                            <span itemprop="director" itemscope itemtype="http://schema.org/Person">
-                                <span itemprop="name">
-<a
-onclick="(new Image()).src='/rg/coming-soon/overview-director/images/b.gif?link=/name/nm0920274/';"
-href="/name/nm0920274/"
-itemprop='url'>John Wells</a>                                </span>
-                            </span>
-                            
-                    </div> 
-                    <div class="txt-block">
-                        <h5 class="inline">Stars:</h5>
-                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
-                                <span itemprop="name">
-<a
-onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0000658/';"
-href="/name/nm0000658/"
-itemprop='url'>Meryl Streep</a></span></span>, 
-                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
-                                <span itemprop="name">
-<a
-onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0000551/';"
-href="/name/nm0000551/"
-itemprop='url'>Dermot Mulroney</a></span></span>, 
-                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
-                                <span itemprop="name">
-<a
-onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0000210/';"
-href="/name/nm0000210/"
-itemprop='url'>Julia Roberts</a></span></span>, 
-                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
-                                <span itemprop="name">
-<a
-onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0000496/';"
-href="/name/nm0000496/"
-itemprop='url'>Juliette Lewis</a></span></span>
-                    </div> 
-                </td>
-            </tr>
-            <tr>
-                <td class="overview-bottom">
-<a href="/title/tt1322269/?ref_=cs_ov_vi#lb" class="btn2 btn2_simple small title-trailer" itemprop="trailer"> Watch Trailer
-</a>                <span class="wlb_wrapper">
-                     <a class="wlb_watchlist_lite" data-tconst="tt1322269" data-size="small"    data-caller-name="Title">
-                     </a>
-                 </span>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-                
-                    <p class="thebuzz">
-                        <strong>The Buzz</strong>: Meryl Streep is back after a year off from the Oscar race with a central role in the film adaptation of Tracy Letts's Pulitzer Prize-winning play. With Letts translating his own work to the screen, we have great faith in second go-round as director (of course, he's helmed episodes of "Shameless", too). The only question mark: This is a Weinstein Company release, and since the studio invested in a clutch of year-end awards candidates, which one will emerge as their frontrunner? Each year, at least one of their gems is cast aside.
-                    </p>
-            </div>
-            <div class="list_item odd" itemscope itemtype="http://schema.org/Movie">
- 
-    <table cellspacing="0" cellpadding="0" border="0" class="nm-title-overview-widget-layout">
-        <tbody>
-            <tr>
-                <td rowspan="2" valign="top" id="img_primary">
-                    <div class="image">
-<a
-onclick="(new Image()).src='/rg/coming-soon/overview-poster/images/b.gif?link=/title/tt1335975/';"
-href="/title/tt1335975/"
-> <div class="hover-over-image zero-z-index">
-<img class="poster shadowed"
-height="209"
-width="140"
-alt="47 Ronin (2013) Poster"
-title="47 Ronin (2013)"
-src="http://ia.media-imdb.com/images/M/MV5BMTc0MjE2NzE0OV5BMl5BanBnXkFtZTgwNTU5MjE1MDE@._V1_SX140_CR0,0,140,209_.jpg"
-itemprop="image" />
-</div>
-</a>                    </div> 
-                </td>
-                <td class="overview-top">
-                    <h4 itemprop="name"><a
-onclick="(new Image()).src='/rg/coming-soon/overview-title/images/b.gif?link=/title/tt1335975/';"
-href="/title/tt1335975/"
-title="47 Ronin (2013)"
-itemprop='url'> 47 Ronin (2013)</a></h4>
-                    <p class="cert-runtime-genre">
-                            
-            <img title="PG-13"
-                                 alt="Certificate PG-13"
-                                 class="absmiddle certimage"
-                                 src="http://ia.media-imdb.com/images/G/01/imdb/images/certificates/us/pg_13-2767653680._V379388624_.png" />
-                            <time itemprop="duration" datetime="PT119M">119 min</time>
-                                &nbsp;&nbsp;-&nbsp;&nbsp;
-                                <span itemprop="genre">Action</span>
-                                 <span class="ghost">|</span>
-                                <span itemprop="genre">Adventure</span>
-                                 <span class="ghost">|</span>
-                                <span itemprop="genre">Fantasy</span>
-                                
-                    </p> 
-                        <div class="rating_txt">
-                        </div>
-                    <div class="outline" itemprop="description">
-A band of samurai set out to avenge the death and dishonor of their master at the hands of a ruthless shogun.                    </div> 
-                    <div class="txt-block">
-                        <h5 class="inline">Director:</h5>
-                            <span itemprop="director" itemscope itemtype="http://schema.org/Person">
-                                <span itemprop="name">
-<a
-onclick="(new Image()).src='/rg/coming-soon/overview-director/images/b.gif?link=/name/nm0727754/';"
-href="/name/nm0727754/"
-itemprop='url'>Carl Rinsch</a>                                </span>
-                            </span>
-                            
-                    </div> 
-                    <div class="txt-block">
-                        <h5 class="inline">Stars:</h5>
-                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
-                                <span itemprop="name">
-<a
-onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0000206/';"
-href="/name/nm0000206/"
-itemprop='url'>Keanu Reeves</a></span></span>, 
-                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
-                                <span itemprop="name">
-<a
-onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0760796/';"
-href="/name/nm0760796/"
-itemprop='url'>Hiroyuki Sanada</a></span></span>, 
-                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
-                                <span itemprop="name">
-<a
-onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0793069/';"
-href="/name/nm0793069/"
-itemprop='url'>Kô Shibasaki</a></span></span>, 
-                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
-                                <span itemprop="name">
-<a
-onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0038355/';"
-href="/name/nm0038355/"
-itemprop='url'>Tadanobu Asano</a></span></span>
-                    </div> 
-                </td>
-            </tr>
-            <tr>
-                <td class="overview-bottom">
-<a href="/title/tt1335975/?ref_=cs_ov_vi#lb" class="btn2 btn2_simple small title-trailer" itemprop="trailer"> Watch Trailer
-</a>                <span class="wlb_wrapper">
-                     <a class="wlb_watchlist_lite" data-tconst="tt1335975" data-size="small"    data-caller-name="Title">
-                     </a>
-                 </span>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-                
-                    <p class="thebuzz">
-                        <strong>The Buzz</strong>: Keanu Reeves playing a samurai is the kind of casting that put us in a curious mood, but there's a larger story to focus on here: Carl Rinsch's first outing as director has sparked rumors and reports of a swollen production budget (somewhere around the $200 million mark) and an unhappy studio (Universal) who pulled an executive takeover in the editing suite. Add in an ever-shifting release date (originally planned for November 2012) and it's easy to see why this project has the biggest question mark hovering over it. 
-                    </p>
-            </div>
-            <div class="list_item even" itemscope itemtype="http://schema.org/Movie">
- 
-    <table cellspacing="0" cellpadding="0" border="0" class="nm-title-overview-widget-layout">
-        <tbody>
-            <tr>
-                <td rowspan="2" valign="top" id="img_primary">
-                    <div class="image">
-<a
-onclick="(new Image()).src='/rg/coming-soon/overview-poster/images/b.gif?link=/title/tt1661382/';"
-href="/title/tt1661382/"
-> <div class="hover-over-image zero-z-index">
-<img class="poster shadowed"
-height="209"
-width="140"
-alt="Grudge Match (2013) Poster"
-title="Grudge Match (2013)"
-src="http://ia.media-imdb.com/images/M/MV5BMTY3NTkxMTgzNV5BMl5BanBnXkFtZTgwNjg0MzE2MDE@._V1_SY209_CR0,0,140,209_.jpg"
-itemprop="image" />
-</div>
-</a>                    </div> 
-                </td>
-                <td class="overview-top">
-                    <h4 itemprop="name"><a
-onclick="(new Image()).src='/rg/coming-soon/overview-title/images/b.gif?link=/title/tt1661382/';"
-href="/title/tt1661382/"
-title="Grudge Match (2013)"
-itemprop='url'> Grudge Match (2013)</a></h4>
-                    <p class="cert-runtime-genre">
-                            
-            <img title="PG-13"
-                                 alt="Certificate PG-13"
-                                 class="absmiddle certimage"
-                                 src="http://ia.media-imdb.com/images/G/01/imdb/images/certificates/us/pg_13-2767653680._V379388624_.png" />
-                            <time itemprop="duration" datetime="PT113M">113 min</time>
-                                &nbsp;&nbsp;-&nbsp;&nbsp;
-                                <span itemprop="genre">Comedy</span>
-                                 <span class="ghost">|</span>
-                                <span itemprop="genre">Sport</span>
-                                
-                    </p> 
-                        <div class="rating_txt">
-                        </div>
-                    <div class="outline" itemprop="description">
-A pair of aging boxing rivals are coaxed out of retirement to fight one final bout -- 30 years after their last match.                    </div> 
-                    <div class="txt-block">
-                        <h5 class="inline">Director:</h5>
-                            <span itemprop="director" itemscope itemtype="http://schema.org/Person">
-                                <span itemprop="name">
-<a
-onclick="(new Image()).src='/rg/coming-soon/overview-director/images/b.gif?link=/name/nm0781842/';"
-href="/name/nm0781842/"
-itemprop='url'>Peter Segal</a>                                </span>
-                            </span>
-                            
-                    </div> 
-                    <div class="txt-block">
-                        <h5 class="inline">Stars:</h5>
-                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
-                                <span itemprop="name">
-<a
-onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0000134/';"
-href="/name/nm0000134/"
-itemprop='url'>Robert De Niro</a></span></span>, 
-                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
-                                <span itemprop="name">
-<a
-onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0000230/';"
-href="/name/nm0000230/"
-itemprop='url'>Sylvester Stallone</a></span></span>, 
-                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
-                                <span itemprop="name">
-<a
-onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0000107/';"
-href="/name/nm0000107/"
-itemprop='url'>Kim Basinger</a></span></span>, 
-                            <span itemprop="actors" itemscope itemtype="http://schema.org/Person">
-                                <span itemprop="name">
-<a
-onclick="(new Image()).src='/rg/coming-soon/overview-stars/images/b.gif?link=/name/nm0000273/';"
-href="/name/nm0000273/"
-itemprop='url'>Alan Arkin</a></span></span>
-                    </div> 
-                </td>
-            </tr>
-            <tr>
-                <td class="overview-bottom">
-<a href="/title/tt1661382/?ref_=cs_ov_vi#lb" class="btn2 btn2_simple small title-trailer" itemprop="trailer"> Watch Trailer
-</a>                <span class="wlb_wrapper">
-                     <a class="wlb_watchlist_lite" data-tconst="tt1661382" data-size="small"    data-caller-name="Title">
-                     </a>
-                 </span>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-                
-                    <p class="thebuzz">
-                        <strong>The Buzz</strong>: Proof that Robert De Niro might just do anything at this stage of his career is he willingness to step into the ring against Sylvester Stallone to satirize the genre that brought both men the most legitimate acclaim of their respective careers. But some noteworthy writers have worked on this script, so hopefully the dialogue and scenarios won't be wasted on the entire cast. Can we hope for a foul-mouthed Kim Basinger? 
-                    </p>
             </div>
 	</div>
     
@@ -1706,28 +2226,12 @@ itemprop='url'>Alan Arkin</a></span></span>
             new movies.</p><br />
 	    </div>
         &laquo;&nbsp;<a
-onclick="(new Image()).src='/rg/coming-soon/previous-month/images/b.gif?link=/movies-coming-soon/2013-12/';"
-href="/movies-coming-soon/2013-12/"
+onclick="(new Image()).src='/rg/coming-soon/previous-month/images/b.gif?link=/movies-coming-soon/2014-04/';"
+href="/movies-coming-soon/2014-04/"
 >Prev</a>&nbsp;             
     
         <select  name="sort" class="sort_field date_select" onchange="window.open(this.options[this.selectedIndex].value,'_top')">
             <option selected="selected"
-                value="/movies-coming-soon/2013-12/">
-                 December&nbsp;&nbsp;2013
-            </option>
-            <option 
-                value="/movies-coming-soon/2014-01/">
-                 January&nbsp;&nbsp;&nbsp;2014
-            </option>
-            <option 
-                value="/movies-coming-soon/2014-02/">
-                 February&nbsp;&nbsp;2014
-            </option>
-            <option 
-                value="/movies-coming-soon/2014-03/">
-                 March&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2014
-            </option>
-            <option 
                 value="/movies-coming-soon/2014-04/">
                  April&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2014
             </option>
@@ -1759,10 +2263,26 @@ href="/movies-coming-soon/2013-12/"
                 value="/movies-coming-soon/2014-11/">
                  November&nbsp;&nbsp;2014
             </option>
+            <option 
+                value="/movies-coming-soon/2014-12/">
+                 December&nbsp;&nbsp;2014
+            </option>
+            <option 
+                value="/movies-coming-soon/2015-01/">
+                 January&nbsp;&nbsp;&nbsp;2015
+            </option>
+            <option 
+                value="/movies-coming-soon/2015-02/">
+                 February&nbsp;&nbsp;2015
+            </option>
+            <option 
+                value="/movies-coming-soon/2015-03/">
+                 March&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2015
+            </option>
         </select>        
         &nbsp;<a
-onclick="(new Image()).src='/rg/coming-soon/next-month/images/b.gif?link=/movies-coming-soon/2014-01/';"
-href="/movies-coming-soon/2014-01/"
+onclick="(new Image()).src='/rg/coming-soon/next-month/images/b.gif?link=/movies-coming-soon/2014-05/';"
+href="/movies-coming-soon/2014-05/"
 >Next</a>&nbsp;&raquo;
         <br class="clear" />
     </div>
@@ -1775,6 +2295,7 @@ href="/movies-coming-soon/2014-01/"
 	<!-- no content received for slot: top_rhs -->
 	
   <div class="aux-content-widget-2" id="social-share-widget"> 
+    
     <div class="social">
       <div class="social_networking"> 
        <span><strong>Share</strong> this page:</span>
@@ -1819,7 +2340,11 @@ href="/movies-coming-soon/2014-01/"
         <br class="clear">
         <hr width="100%" size="1">
     </div>
+	
+	<!-- no content received for slot: bottom_ad -->
+	
     <p class="footer" align="center">
+    
         <a
 onclick="(new Image()).src='/rg/home/footer/images/b.gif?link=/';"
 href="/"
@@ -1845,10 +2370,6 @@ onclick="(new Image()).src='/rg/topmovies/footer/images/b.gif?link=/chart/';"
 href="/chart/"
 >Top Movies</a>
         | <a
-onclick="(new Image()).src='/rg/watchlist/footer/images/b.gif?link=/list/watchlist';"
-href="/list/watchlist"
->Watchlist</a>
-        | <a
 onclick="(new Image()).src='/rg/top250/footer/images/b.gif?link=/chart/top';"
 href="/chart/top"
 >Top 250</a>
@@ -1860,10 +2381,6 @@ href="/sections/tv/"
 onclick="(new Image()).src='/rg/news/footer/images/b.gif?link=/news/';"
 href="/news/"
 >News</a>
-        | <a
-onclick="(new Image()).src='/rg/video/footer/images/b.gif?link=/features/video/';"
-href="/features/video/"
->Video</a>
         | <a
 onclick="(new Image()).src='/rg/messageboards/footer/images/b.gif?link=/boards/';"
 href="/boards/"
@@ -1878,16 +2395,6 @@ href="/pressroom/"
 onclick="(new Image()).src='/rg/register-v2/footer/images/b.gif?link=https://secure.imdb.com/register-imdb/form-v2';"
 href="https://secure.imdb.com/register-imdb/form-v2"
 >Register</a>
-        | <a
-onclick="(new Image()).src='/rg/rss/footer/images/b.gif?link=/help/show_article?rssavailable';"
-href="/help/show_article?rssavailable"
-class="navbarSprite"
-id="footer_rss_image"
-></a>
-          <a
-onclick="(new Image()).src='/rg/rss/footer/images/b.gif?link=/help/show_article?rssavailable';"
-href="/help/show_article?rssavailable"
->RSS</a>
         | <a
 onclick="(new Image()).src='/rg/advertising/footer/images/b.gif?link=/advertising/';"
 href="/advertising/"
@@ -1912,10 +2419,6 @@ href="http://www.boxofficemojo.com/"
 onclick="(new Image()).src='/rg/WITHOUTABOX/FOOTER/images/b.gif?link=http://www.withoutabox.com/';"
 href="http://www.withoutabox.com/"
 >Withoutabox</a>
-        | <a
-onclick="(new Image()).src='/rg/LOVEFILM/FOOTER/images/b.gif?link=http://www.lovefilm.com/browse/film/watch-online/';"
-href="http://www.lovefilm.com/browse/film/watch-online/"
->LOVEFiLM</a>
         <br /><br />
         IMDb Mobile:
           <a
@@ -1950,7 +2453,7 @@ href="http://twitter.com/imdb"
         <a
 onclick="(new Image()).src='/rg/help/footer/images/b.gif?link=/help/show_article?conditions';"
 href="/help/show_article?conditions"
->Copyright &copy;</a> 1990-2013 
+>Copyright &copy;</a> 1990-2014 
         <a
 onclick="(new Image()).src='/rg/help/footer/images/b.gif?link=/help/';"
 href="/help/"
@@ -1970,19 +2473,24 @@ href="//www.amazon.com/InterestBasedAds"
         An <span id="amazon_logo" class="footer_logo" align="middle"></span> company.
     </p>
   
-  <table class="footer" id="amazon-affiliates" width="100%">
+
+      
+      
+  <table class="footer" id="amazon-affiliates">
     <tr>
-      <td colspan="10">
+      <td colspan="8">
         Amazon Affiliates
       </td>
     </tr>
     <tr>
       <td class="amazon-affiliate-site-first">
-        <a class="amazon-affiliate-site-link" href="http://www.amazon.com/b?ie=UTF8&node=2858778011&tag=imdbpr1-20">
+       
+        <a class="amazon-affiliate-site-link" href="http://www.amazon.com/b?ie=UTF8&node=2676882011&tag=imdbpr1-20">
           <span class="amazon-affiliate-site-name">Amazon Instant Video</span><br>
           <span class="amazon-affiliate-site-desc">Watch Movies &<br>TV Online</span>
         </a>
       </td>
+     
     <td class="amazon-affiliate-site-item-nth">
         <a class="amazon-affiliate-site-link" href=http://www.amazon.com/b?ie=UTF8&node=2676882011&tag=imdbpr1-20 >
           <span class="amazon-affiliate-site-name">Prime Instant Video</span><br>
@@ -2014,18 +2522,6 @@ href="//www.amazon.com/InterestBasedAds"
         </a>
     </td>
     <td class="amazon-affiliate-site-item-nth">
-        <a class="amazon-affiliate-site-link" href=http://www.lovefilm.com/browse/film/watch-online/ >
-          <span class="amazon-affiliate-site-name">LOVEFiLM</span><br>
-          <span class="amazon-affiliate-site-desc">Watch Movies<br>Online</span>
-        </a>
-    </td>
-    <td class="amazon-affiliate-site-item-nth">
-        <a class="amazon-affiliate-site-link" href=http://www.junglee.com/ >
-          <span class="amazon-affiliate-site-name">Junglee</span><br>
-          <span class="amazon-affiliate-site-desc">India Online<br>Shopping</span>
-        </a>
-    </td>
-    <td class="amazon-affiliate-site-item-nth">
         <a class="amazon-affiliate-site-link" href=http://www.dpreview.com >
           <span class="amazon-affiliate-site-name">DPReview</span><br>
           <span class="amazon-affiliate-site-desc">Digital<br>Photography</span>
@@ -2040,31 +2536,10 @@ href="//www.amazon.com/InterestBasedAds"
     </tr>
   </table>
   </div>
-
-    <script type="text/javascript">
-
-        var _gaq = _gaq || [];
-        var seg = -1;
-        _gaq.push(['_setAccount', 'UA-3916519-1']);
-        _gaq.push(['_setDomainName', '.imdb.com']); 
-        _gaq.push(['_setSampleRate', '10']); 
-        _gaq.push(['_setCustomVar', 2, 'Falkor', 'false']); 
-        _gaq.push(['_trackPageview']); // must come last
-  
-       (function() {
-           var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-           ga.src = 'http://www.google-analytics.com/ga.js';
-           var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-       })();
-
-    </script>
-	
-	<!-- no content received for slot: bottom_ad -->
-	
             </div>
         </div>
 <script type="text/javascript" src="http://ia.media-imdb.com/images/G/01/imdb/js/collections/jquery-4133058748._V354516613_.js"></script>
-<script type="text/javascript" src="http://ia.media-imdb.com/images/G/01/imdb/js/collections/consumersite-1090587575._V354100634_.js"></script>
+<script type="text/javascript" src="http://ia.media-imdb.com/images/G/01/imdb/js/collections/consumersite-642935813._V341754500_.js"></script>
 <script type="text/javascript" src="http://ia.media-imdb.com/images/G/01/imdb/js/collections/newmovies-4245406606._V379390146_.js"></script>
 <script type="text/javascript" src="http://ia.media-imdb.com/images/G/01/imdb/js/collections/watchlistButton-2601927528._V368274227_.js"></script>
 
@@ -2090,7 +2565,7 @@ jQuery(document).ready(function(){
                 );
         </script>
 
-<div id="servertime" time="123"/>
+<div id="servertime" time="296"/>
 
 
 

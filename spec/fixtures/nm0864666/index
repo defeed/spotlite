@@ -1,17 +1,15 @@
 HTTP/1.1 200 OK
-Date: Sun, 15 Dec 2013 14:04:48 GMT
+Date: Fri, 04 Apr 2014 14:11:03 GMT
 Server: Server
+X-Frame-Options: SAMEORIGIN
 Content-Type: text/html;charset=UTF-8
 Content-Language: en-US
 Vary: Accept-Encoding,User-Agent
-Set-Cookie: uu=BCYgGbqYvIb9ZB67Wjk8LK5L6V5OcrIryohcN14DSVz36%2Fhf5XDi%2BT3bEgvtbZEm2jvnRLaeFT20%0D%0A6dEvff3ciENCn9d2C3DgjUAKSswCdjMq3TI2KGlF6axjkvFQAhKyx7nTLWUKWOpe5KV2LM8fzvhH%0D%0A153ky4wcgMBUUAHWKBUvqe%2BBo1TBU6Aig17Gin12t3KIPwaMKuVY8oTllbRJYyqhm3xhLZu4Z1n1%0D%0AUoUhvgHMH40uOQkcW%2BFt%2FpxUUnGWoWdsRv4wbV2T7HdIo0CCBb7V0g%3D%3D%0D%0A; Domain=.imdb.com; Expires=Fri, 02-Jan-2082 17:18:55 GMT; Path=/
-Set-Cookie: session-id=000-0000000-0000000; Domain=.imdb.com; Expires=Fri, 02-Jan-2082 17:18:55 GMT; Path=/
-Set-Cookie: session-id-time=1544796287; Domain=.imdb.com; Expires=Fri, 02-Jan-2082 17:18:55 GMT; Path=/
+Set-Cookie: uu=BCYks9PnY2RqA8O7jgVJhUncBf77Oa1nDm3jD50OP3-qNyjBQDflbMKi6vZD1sYqUTTAmSQjO6Dw%0D%0AXRmkTjHkeqWFaAZaiAPcvV_EEpi84wI3WMLoVO2sny95lFW4fdY33nTedvI1M4UnQwlTOl-rrGlz%0D%0AMKAwiklBX9BzXnr_wrmRtxp1L4-WzNzgUzrt3mmbMo4CrBMSQ6OYIeU16s3-kC1SUoap-GeHH7s-%0D%0A42VMBJ6ZV2eST4ehmPFy2lxaRay5EsnUZyWOM3odZWQgeehjaCFlgA%0D%0A; Domain=.imdb.com; Expires=Wed, 22-Apr-2082 17:25:10 GMT; Path=/
+Set-Cookie: session-id=000-0000000-0000000; Domain=.imdb.com; Expires=Wed, 22-Apr-2082 17:25:10 GMT; Path=/
+Set-Cookie: session-id-time=1554300663; Domain=.imdb.com; Expires=Wed, 22-Apr-2082 17:25:10 GMT; Path=/
 P3P: policyref="http://i.imdb.com/images/p3p.xml",CP="CAO DSP LAW CUR ADM IVAo IVDo CONo OTPo OUR DELi PUBi OTRi BUS PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA HEA PRE LOC GOV OTC "
 Transfer-Encoding: chunked
-
-
-
 
 
 
@@ -21,15 +19,15 @@ Transfer-Encoding: chunked
 xmlns:og="http://ogp.me/ns#"
 xmlns:fb="http://www.facebook.com/2008/fbml">
     <head>
-                <script type="text/javascript">var ue_t0=window.ue_t0||+new Date();</script>
-                <script type="text/javascript">
-                    var ue_mid = "A1EVAM02EL8SFB"; 
-                    var ue_sn = "www.imdb.com";  
-                    var ue_furl = "fls-na.amazon.com";
-                    var ue_sid = "000-0000000-0000000";
-                    var ue_id = "13D6CAY2AG0VMHYF6YP8";
-                    (function(e){var c=e,a={main_scope:"mainscopecsm",q:[],t0:c.ue_t0||+new Date(),d:g};function g(h){return +new Date()-(h?0:a.t0)}function d(h){return function(){a.q.push({n:h,a:arguments,t:a.d()})}}function b(k,j,h){var i={m:k,f:j,l:h,fromOnError:1,args:arguments};c.ueLogError(i);return false}b.skipTrace=1;e.onerror=b;function f(){c.uex("ld")}if(e.addEventListener){e.addEventListener("load",f,false)}else{if(e.attachEvent){e.attachEvent("onload",f)}}a.tag=d("tag");a.log=d("log");a.reset=d("rst");c.ue_csm=c;c.ue=a;c.ueLogError=d("err");c.ues=d("ues");c.uet=d("uet");c.uex=d("uex");c.uet("ue")})(window);(function(e,d){var a=e.ue||{};function c(g){if(!g){return}var f=d.head||d.getElementsByTagName("head")[0]||d.documentElement,h=d.createElement("script");h.async="async";h.src=g;f.insertBefore(h,f.firstChild)}function b(){var k=e.ue_cdn||"z-ecx.images-amazon.com",g=e.ue_cdns||"images-na.ssl-images-amazon.com",j="/images/G/01/csminstrumentation/",h=e.ue_file||"ue-full-ef584a44e8ea58e3d4d928956600a9b6._V1_.js",f,i;if(h.indexOf("NSTRUMENTATION_FIL")>=0){return}if("ue_https" in e){f=e.ue_https}else{f=e.location&&e.location.protocol=="https:"?1:0}i=f?"https://":"http://";i+=f?g:k;i+=j;i+=h;c(i)}if(!e.ue_inline){b()}a.uels=c;e.ue=a})(window,document);
-                </script>
+            <script type="text/javascript">var ue_t0=window.ue_t0||+new Date();</script>
+            <script type="text/javascript">
+                var ue_mid = "A1EVAM02EL8SFB"; 
+                var ue_sn = "www.imdb.com";  
+                var ue_furl = "fls-na.amazon.com";
+                var ue_sid = "000-0000000-0000000";
+                var ue_id = "13T4V3C9M3KGZDHHNYHF";
+                (function(e){var c=e,a={main_scope:"mainscopecsm",q:[],t0:c.ue_t0||+new Date(),d:g};function g(h){return +new Date()-(h?0:a.t0)}function d(h){return function(){a.q.push({n:h,a:arguments,t:a.d()})}}function b(k,j,h){var i={m:k,f:j,l:h,fromOnError:1,args:arguments};c.ueLogError(i);return false}b.skipTrace=1;e.onerror=b;function f(){c.uex("ld")}if(e.addEventListener){e.addEventListener("load",f,false)}else{if(e.attachEvent){e.attachEvent("onload",f)}}a.tag=d("tag");a.log=d("log");a.reset=d("rst");c.ue_csm=c;c.ue=a;c.ueLogError=d("err");c.ues=d("ues");c.uet=d("uet");c.uex=d("uex");c.uet("ue")})(window);(function(e,d){var a=e.ue||{};function c(g){if(!g){return}var f=d.head||d.getElementsByTagName("head")[0]||d.documentElement,h=d.createElement("script");h.async="async";h.src=g;f.insertBefore(h,f.firstChild)}function b(){var k=e.ue_cdn||"z-ecx.images-amazon.com",g=e.ue_cdns||"images-na.ssl-images-amazon.com",j="/images/G/01/csminstrumentation/",h=e.ue_file||"ue-full-ef584a44e8ea58e3d4d928956600a9b6._V1_.js",f,i;if(h.indexOf("NSTRUMENTATION_FIL")>=0){return}if("ue_https" in e){f=e.ue_https}else{f=e.location&&e.location.protocol=="https:"?1:0}i=f?"https://":"http://";i+=f?g:k;i+=j;i+=h;c(i)}if(!e.ue_inline){b()}a.uels=c;e.ue=a})(window,document);
+            </script>
  
 
         
@@ -46,28 +44,31 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
   <script>(function(t){ (t.events = t.events || {})["csm_head_pre_icon"] = new Date().getTime(); })(IMDbTimer);</script>
         <link rel="icon" type="image/ico" href="http://ia.media-imdb.com/images/G/01/imdb/images/favicon-2165806970._V379387995_.ico" />
         <link rel="shortcut icon" type="image/x-icon" href="http://ia.media-imdb.com/images/G/01/imdb/images/desktop-favicon-2165806970._V379390718_.ico" />
-        <link rel="apple-touch-icon" href="http://ia.media-imdb.com/images/G/01/imdb/images/apple-touch-icon-3173846443._V379391250_.png" />
+        <link href="http://ia.media-imdb.com/images/G/01/imdb/images/mobile/apple-touch-icon-web-4151659188._V361295786_.png" rel="apple-touch-icon"> 
+        <link href="http://ia.media-imdb.com/images/G/01/imdb/images/mobile/apple-touch-icon-web-76x76-53536248._V361295462_.png" rel="apple-touch-icon" sizes="76x76"> 
+        <link href="http://ia.media-imdb.com/images/G/01/imdb/images/mobile/apple-touch-icon-web-120x120-2442878471._V361295428_.png" rel="apple-touch-icon" sizes="120x120"> 
+        <link href="http://ia.media-imdb.com/images/G/01/imdb/images/mobile/apple-touch-icon-web-152x152-1475823641._V361295368_.png" rel="apple-touch-icon" sizes="152x152"> 
         <link rel="search" type="application/opensearchdescription+xml" href="http://ia.media-imdb.com/images/G/01/imdb/images/imdbsearch-3349468880._V379388505_.xml" title="IMDb" />
   <script>(function(t){ (t.events = t.events || {})["csm_head_post_icon"] = new Date().getTime(); })(IMDbTimer);</script>
         
-        
-            <link rel='image_src' href="http://ia.media-imdb.com/images/G/01/imdb/images/logos/imdb_fb_logo-1730868325._V379391653_.png">
-            <meta property='og:image' content="http://ia.media-imdb.com/images/G/01/imdb/images/logos/imdb_fb_logo-1730868325._V379391653_.png" />
-        
-            <meta property='og:type' content="actor" />
-        <meta property='fb:app_id' content='115109575169727' />
-        <meta property='og:title' content="Natalie Tjen" />
-        <meta property='og:site_name' content='IMDb' />
-        <meta name="title" content="Natalie Tjen - IMDb" />
-            <meta name="description" content="Natalie Tjen, Actress: The Matrix. Natalie Tjen was born on August 31, 1987 in Sydney, New South Wales, Australia. She is an actress, known for The Matrix (1999) and Sabo (2009)." />
-            <meta property="og:description" content="Natalie Tjen, Actress: The Matrix. Natalie Tjen was born on August 31, 1987 in Sydney, New South Wales, Australia. She is an actress, known for The Matrix (1999) and Sabo (2009)." />
-            <meta name="keywords" content="Biography, Photos, Awards, News, Message Boards" />
-            <meta name="request_id" content="13D6CAY2AG0VMHYF6YP8" />
+    
+        <link rel='image_src' href="http://ia.media-imdb.com/images/G/01/imdb/images/logos/imdb_fb_logo-1730868325._V379391653_.png">
+        <meta property='og:image' content="http://ia.media-imdb.com/images/G/01/imdb/images/logos/imdb_fb_logo-1730868325._V379391653_.png" />
+    
+        <meta property='og:type' content="actor" />
+    <meta property='fb:app_id' content='115109575169727' />
+    <meta property='og:title' content="Natalie Tjen" />
+    <meta property='og:site_name' content='IMDb' />
+    <meta name="title" content="Natalie Tjen - IMDb" />
+        <meta name="description" content="Natalie Tjen, Actress: The Matrix. Natalie Tjen was born on August 31, 1987 in Sydney, New South Wales, Australia. She is an actress, known for The Matrix (1999) and Sabo (2009)." />
+        <meta property="og:description" content="Natalie Tjen, Actress: The Matrix. Natalie Tjen was born on August 31, 1987 in Sydney, New South Wales, Australia. She is an actress, known for The Matrix (1999) and Sabo (2009)." />
+        <meta name="keywords" content="Biography, Photos, Awards, News, Message Boards" />
+        <meta name="request_id" content="13T4V3C9M3KGZDHHNYHF" />
         
   <script>(function(t){ (t.events = t.events || {})["csm_head_pre_css"] = new Date().getTime(); })(IMDbTimer);</script>
-<!-- h=ics-1d-i-d09bdab1.us-east-1 -->
+<!-- h=ics-http-1a-c1xl-i-e34b1fc2.us-east-1 -->
 
-            <link rel="stylesheet" type="text/css" href="http://ia.media-imdb.com/images/G/01/imdb/css/collections/name-1096655599._V366641978_.css" />
+            <link rel="stylesheet" type="text/css" href="http://ia.media-imdb.com/images/G/01/imdb/css/collections/name-4035136485._V340779923_.css" />
             <link rel="stylesheet" type="text/css" href="http://ia.media-imdb.com/images/G/01/imdb/css/site/consumer-navbar-mega-3538633082._V355276482_.css" />
   <script>(function(t){ (t.events = t.events || {})["csm_head_post_css"] = new Date().getTime(); })(IMDbTimer);</script>
         
@@ -200,9 +201,9 @@ onsubmit="(new Image()).src='/rg/SEARCH-BOX/HEADER/images/b.gif?link=/find';"
                     </ul>
                     <h5>SPECIAL FEATURES</h5>
                     <ul>
-                        <li><a href="/year-in-review/?ref_=nv_sf_best_1" >Best of 2013</a></li>
-                        <li><a href="/oscars/?ref_=nv_sf_rto_2" >Road to the Oscars 2014</a></li>
-                        <li><a href="/x-ray/?ref_=nv_sf_xray_3" >X-Ray for Movies & TV</a></li>
+                        <li><a href="/oscars/?ref_=nv_sf_rto_1" >Road to the Oscars 2014</a></li>
+                        <li><a href="/x-ray/?ref_=nv_sf_xray_2" >X-Ray for Movies & TV</a></li>
+                        <li><a href="/poll/?ref_=nv_sf_pl_3" >Polls</a></li>
                     </ul>
                 </div>
             </div>
@@ -219,7 +220,7 @@ onsubmit="(new Image()).src='/rg/SEARCH-BOX/HEADER/images/b.gif?link=/find';"
                 <div class="subNavListContainer">
                     <h5>CELEBS</h5>
                     <ul>
-                            <li><a href="/search/name?birth_monthday=12-15&refine=birth_monthday&ref_=nv_cel_brn_1" >Born Today</a></li>
+                            <li><a href="/search/name?birth_monthday=04-04&refine=birth_monthday&ref_=nv_cel_brn_1" >Born Today</a></li>
                         <li><a href="/news/celebrity?ref_=nv_cel_nw_2" >Celebrity News</a></li>
                         <li><a href="/search/name?gender=male,female&ref_=nv_cel_m_3" >Most Popular Celebs</a></li>
                     </ul>
@@ -235,13 +236,14 @@ onsubmit="(new Image()).src='/rg/SEARCH-BOX/HEADER/images/b.gif?link=/find';"
                 <div class="subNavListContainer">
                     <h5>EVENTS</h5>
                     <ul>
-                        <li><a href="/oscars/?ref_=nv_ev_rto_1" >Road to the Oscars</a></li>
-                        <li><a href="/emmys/?ref_=nv_ev_rte_2" >Road to the Emmys</a></li>
-                        <li><a href="/comic-con/?ref_=nv_ev_comic_3" >Comic-Con</a></li>
-                        <li><a href="/cannes/?ref_=nv_ev_can_4" >Cannes</a></li>
-                        <li><a href="/tribeca/?ref_=nv_ev_tri_5" >Tribeca</a></li>
-                        <li><a href="/sundance/?ref_=nv_ev_sun_6" >Sundance</a></li>
-                        <li><a href="/event/?ref_=nv_ev_all_7" >More Popular Events</a></li>
+                        <li><a href="/sxsw/?ref_=nv_ev_sxsw_1" >SXSW Film Festival</a></li>
+                        <li><a href="/oscars/?ref_=nv_ev_rto_2" >Road to the Oscars</a></li>
+                        <li><a href="/emmys/?ref_=nv_ev_rte_3" >Road to the Emmys</a></li>
+                        <li><a href="/comic-con/?ref_=nv_ev_comic_4" >Comic-Con</a></li>
+                        <li><a href="/cannes/?ref_=nv_ev_can_5" >Cannes</a></li>
+                        <li><a href="/tribeca/?ref_=nv_ev_tri_6" >Tribeca</a></li>
+                        <li><a href="/sundance/?ref_=nv_ev_sun_7" >Sundance</a></li>
+                        <li><a href="/event/?ref_=nv_ev_all_8" >More Popular Events</a></li>
                     </ul>
                 </div>
             </div>
@@ -258,19 +260,19 @@ onsubmit="(new Image()).src='/rg/SEARCH-BOX/HEADER/images/b.gif?link=/find';"
                         <h5>LATEST HEADLINES</h5>
     <ul>
                 <li itemprop="headline">
-<a href="/news/ni56544303/?ref_=nv_nw_tn_1" > ‘The Hobbit’ Off to $31 Million Start, Wrestling With Unmet Expectations
+<a href="/news/ni57021836/?ref_=nv_nw_tn_1" > David Letterman to Retire from CBS in 2015
 </a><br />
-                        <span class="time">20 hours ago</span>
+                        <span class="time">17 hours ago</span>
                 </li>
                 <li itemprop="headline">
-<a href="/news/ni56544093/?ref_=nv_nw_tn_2" > ‘American Hustle’ Scores Big in Limited Box Office Debut
+<a href="/news/ni57021039/?ref_=nv_nw_tn_2" > ‘Batman-Superman’ Pic Adds Holly Hunter, ’300′s Callan Mulvey, Tao Okamoto
 </a><br />
                         <span class="time">21 hours ago</span>
                 </li>
                 <li itemprop="headline">
-<a href="/news/ni56542625/?ref_=nv_nw_tn_3" > '12 Years a Slave' leads San Francisco Film Critics Circle nods
+<a href="/news/ni57020046/?ref_=nv_nw_tn_3" > OWN Slate Features Toni Braxton in Network's First Scripted Film, Octavia Spencer in Miniseries
 </a><br />
-                        <span class="time">14 December 2013</span>
+                        <span class="time">3 April 2014</span>
                 </li>
     </ul>
                     </div>
@@ -302,7 +304,7 @@ onsubmit="(new Image()).src='/rg/SEARCH-BOX/HEADER/images/b.gif?link=/find';"
 <span class="downArrow"></span>
 <div id="navMenu4" class="sub_nav">
     <h5>
-        RECENTLY ADDED
+            YOUR WATCHLIST
     </h5> 
     <ul id="navWatchlist">
     </ul>
@@ -318,7 +320,7 @@ onsubmit="(new Image()).src='/rg/SEARCH-BOX/HEADER/images/b.gif?link=/find';"
                 src : "http://ia.media-imdb.com/images/G/01/imdb/images/navbar/watchlist_slot2_popular-4090757197._V360060945_.jpg"
                 },
                 {
-                    href : "/search/title?count=100&groups=top_250&sort=user_rating,desc&title_type=feature",
+                    href : "/chart/top",
                 src : "http://ia.media-imdb.com/images/G/01/imdb/images/navbar/watchlist_slot3_top250-575799966._V360061165_.jpg"
                 }
     ];
@@ -430,7 +432,6 @@ imageUrl : "http://ia.media-imdb.com/images/G/01/imdb/images/navbar/imdbpro_menu
 	
     </div>
     <div class="maindetails_center" id="maindetails_center_top">
-
             
             <div class="article name-overview">
             
@@ -471,7 +472,7 @@ id="meterRank"
                     </div>
                     <div id="meterChangeRow" class="meterToggleOnHover">
                             <span>Down</span>
-                        <span id="meterChange">3,695</span>
+                        <span id="meterChange">80,056</span>
                         <span>this week</span>
                     </div>
                     <div id="meterSeeMoreRow" class="meterToggleOnHover">
@@ -503,12 +504,12 @@ Actress</span></a>
                             </div>
                         
 <div class="txt-block" id="name-bio-text">
-    <div class="name-trivia-bio-text">
-              <div class="inline" itemprop="description">
-Natalie Tjen was born on August 31, 1987 in Sydney, New South Wales, Australia. She is an actress, known for <a href="/title/tt0133093/?ref_=nm_ov_bio_lk1">The Matrix</a> (1999) and <a href="/title/tt1391857/?ref_=nm_ov_bio_lk2">Sabo</a> (2009).        <span class="see-more inline nobr-only">
-                <a href="/name/nm0864666/bio?ref_=nm_ov_bio_sm" >See full bio</a> &raquo;
-        </span>
-</div>    </div>
+        <div class="name-trivia-bio-text">
+                      <div class="inline" itemprop="description">
+Natalie Tjen was born on August 31, 1987 in Sydney, New South Wales, Australia. She is an actress, known for <a href="/title/tt0133093/?ref_=nm_ov_bio_lk1">The Matrix</a> (1999) and <a href="/title/tt1391857/?ref_=nm_ov_bio_lk2">Sabo</a> (2009).            <span class="see-more inline nobr-only">
+                    <a href="/name/nm0864666/bio?ref_=nm_ov_bio_sm" >See full bio</a> &raquo;
+            </span>
+</div>        </div>
 </div>
 
                         
@@ -561,6 +562,11 @@ Natalie Tjen was born on August 31, 1987 in Sydney, New South Wales, Australia. 
       csm.measure('csm_atf_main');
     }
   </script>
+<script>
+    if (typeof uet == 'function') {
+      uet("cf");
+    }
+</script>
     </div> 
     
     <div id="maindetails_sidebar_top" class="maindetails_sidebar">
@@ -572,6 +578,8 @@ Natalie Tjen was born on August 31, 1987 in Sydney, New South Wales, Australia. 
     </div> 
     <div id="maindetails_sidebar_bottom" class="maindetails_sidebar">
     
+        
+    
     
     <div class="aux-content-widget-3 links subnav" div="quicklinks">
 
@@ -582,7 +590,7 @@ Natalie Tjen was born on August 31, 1987 in Sydney, New South Wales, Australia. 
                 <div class="split_0">    <ul class="quicklinks">
                 <li class="subnav_item_main">
                     <span class="nobr-only">
-<a href="/name/nm0864666/bio?ref_=nm_ql_1" class="link ghost" >Biography</a>
+<a href="/name/nm0864666/bio?ref_=nm_ql_1" class="link" >Biography</a>
                     </span>
                 </li>
                 <li class="subnav_item_main">
@@ -605,7 +613,7 @@ Natalie Tjen was born on August 31, 1987 in Sydney, New South Wales, Australia. 
                 </li>
                 <li class="subnav_item_main">
                     <span class="nobr-only">
-<a href="/search/title?count=100&sort=year,desc&explore=title_type&role=nm0864666&ref_=nm_ql_5" class="link" >Filmography <span class="ghost quicklink_modifier">(by Year)</span></a>
+<a href="/name/nm0864666/?nmdp=1&ref_=nm_ql_5#filmography" class="link" >Filmography <span class="ghost quicklink_modifier">(by Job)</span></a>
                     </span>
                 </li>
                 <li class="subnav_item_main">
@@ -625,37 +633,32 @@ Natalie Tjen was born on August 31, 1987 in Sydney, New South Wales, Australia. 
     <ul class="quicklinks">
                 <li class="subnav_item_main">
                     <span class="nobr-only">
-<a href="/search/title?count=100&sort=year,desc&explore=title_type&role=nm0864666&ref_=nm_ql_flmg_1" class="link" ><span class="ghost">by</span> Year</a>
+<a href="/filmosearch?sort=year&explore=title_type&role=nm0864666&ref_=nm_ql_flmg_1" class="link" ><span class="ghost">by</span> Year</a>
                     </span>
                 </li>
                 <li class="subnav_item_main">
                     <span class="nobr-only">
-<a href="/name/nm0864666/filmotype?ref_=nm_ql_flmg_2" class="link" ><span class="ghost">by</span> Job type</a>
+<a href="/name/nm0864666/?nmdp=1&ref_=nm_ql_flmg_2#filmography" class="link" ><span class="ghost">by</span> Job</a>
                     </span>
                 </li>
                 <li class="subnav_item_main">
                     <span class="nobr-only">
-<a href="/search/title?count=100&sort=user_rating&explore=title_type&role=nm0864666&ref_=nm_ql_flmg_3" class="link" ><span class="ghost">by</span> Ratings</a>
+<a href="/filmosearch?sort=user_rating&explore=title_type&role=nm0864666&ref_=nm_ql_flmg_3" class="link" ><span class="ghost">by</span> Ratings</a>
                     </span>
                 </li>
                 <li class="subnav_item_main">
                     <span class="nobr-only">
-<a href="/search/title?count=100&sort=num_votes&explore=title_type&role=nm0864666&ref_=nm_ql_flmg_4" class="link" ><span class="ghost">by</span> Votes</a>
+<a href="/filmosearch?sort=num_votes&explore=title_type&role=nm0864666&ref_=nm_ql_flmg_4" class="link" ><span class="ghost">by</span> Votes</a>
                     </span>
                 </li>
                 <li class="subnav_item_main">
                     <span class="nobr-only">
-<a href="/name/nm0864666/filmoseries?ref_=nm_ql_flmg_5" class="link" ><span class="ghost">by</span> TV series</a>
+<a href="/filmosearch?sort=moviemeter&explore=genres&role=nm0864666&ref_=nm_ql_flmg_5" class="link" ><span class="ghost">by</span> Genre</a>
                     </span>
                 </li>
                 <li class="subnav_item_main">
                     <span class="nobr-only">
-<a href="/search/title?count=100&sort=moviemeter&explore=genres&role=nm0864666&ref_=nm_ql_flmg_6" class="link" ><span class="ghost">by</span> Genre</a>
-                    </span>
-                </li>
-                <li class="subnav_item_main">
-                    <span class="nobr-only">
-<a href="/search/title?count=100&sort=moviemeter&explore=keywords&role=nm0864666&ref_=nm_ql_flmg_7" class="link" ><span class="ghost">by</span> Keyword</a>
+<a href="/filmosearch?sort=moviemeter&explore=keywords&role=nm0864666&ref_=nm_ql_flmg_6" class="link" ><span class="ghost">by</span> Keyword</a>
                     </span>
                 </li>
     </ul>
@@ -665,7 +668,7 @@ Natalie Tjen was born on August 31, 1987 in Sydney, New South Wales, Australia. 
     <ul class="quicklinks">
                 <li class="subnav_item_main">
                     <span class="nobr-only">
-<a href="/name/nm0864666/bio?ref_=nm_ql_pdtls_1" class="link ghost" >Biography</a>
+<a href="/name/nm0864666/bio?ref_=nm_ql_pdtls_1" class="link" >Biography</a>
                     </span>
                 </li>
                 <li class="subnav_item_main">
@@ -790,7 +793,12 @@ Natalie Tjen was born on August 31, 1987 in Sydney, New South Wales, Australia. 
         <div class="show_more"><span class="titlePageSprite arrows show"></span>Explore More</div>
         <div class="show_less"><span class="titlePageSprite arrows hide"></span>Show Less</div>
     </div>
+
+        
+
+        
   <div class="aux-content-widget-2" id="social-share-widget"> 
+    
     <div class="social">
       <div class="social_networking"> 
        <span><strong>Share</strong> this page:</span>
@@ -814,9 +822,21 @@ Natalie Tjen was born on August 31, 1987 in Sydney, New South Wales, Australia. 
       height=65></iframe>
   </div>
   </div>
+
+
 	
 	<!-- no content received for slot: rhs_cornerstone -->
 	
+
+
+
+
+        
+        
+
+
+        
+        
     <div class="aux-content-widget-2">
         <h3>Do you have a demo reel?</h3>
 
@@ -827,7 +847,9 @@ Natalie Tjen was born on August 31, 1987 in Sydney, New South Wales, Australia. 
 
 
 
-<a href="/video/user/vi3091568921?ref_=nm_demo_1" title="David H. Lawrence, XVII - Drama -- On-camera drama reel featuring David H. Lawrence XVII, in scenes from Heroes, The Unit, LOST, and more" alt="David H. Lawrence, XVII - Drama -- On-camera drama reel featuring David H. Lawrence XVII, in scenes from Heroes, The Unit, LOST, and more" class="video-colorbox" data-video="vi3091568921" data-context="user" data-rid="" widget-context="nameDemoreels" itemprop="url" ><img height="90" width="120" alt="David H. Lawrence, XVII - Drama -- On-camera drama reel featuring David H. Lawrence XVII, in scenes from Heroes, The Unit, LOST, and more" title="David H. Lawrence, XVII - Drama -- On-camera drama reel featuring David H. Lawrence XVII, in scenes from Heroes, The Unit, LOST, and more"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/no-video-slate-856072904._V379390253_.png"class="loadlate hidden video" loadlate="http://ia.media-imdb.com/images/M/MV5BMjk5Mjc4MDM5OV5BMl5BanBnXkFtZTcwNTc2NzExNA@@._V1_SP229,229,0,C,0,0,0_CR45,62,139,105_PIimdb-blackband-204-14,TopLeft,0,0_PIimdb-blackband-204-28,BottomLeft,0,1_CR0,0,139,105_PIimdb-bluebutton-big,BottomRight,-1,-1_ZADemo%2520Reel,2,76,16,137,verdenab,8,255,255,255,1_ZAon%2520IMDb,2,1,14,137,verdenab,7,255,255,255,1_ZA01:20,103,1,14,36,verdenab,7,255,255,255,1_PIimdb-HDIconMiniWhite,BottomLeft,2,-2_.jpg" itemprop='image' viconst="vi3091568921" /></a>
+
+<a href="/video/user/vi3091568921?ref_=nm_demo_1" title="David H. Lawrence, XVII - Drama -- On-camera drama reel featuring David H. Lawrence XVII, in scenes from Heroes, The Unit, LOST, and more" alt="David H. Lawrence, XVII - Drama -- On-camera drama reel featuring David H. Lawrence XVII, in scenes from Heroes, The Unit, LOST, and more" class="video-colorbox" data-video="vi3091568921" data-context="user" data-rid="" widget-context="nameDemoreels" itemprop="url" ><img height="90" width="120" alt="David H. Lawrence, XVII - Drama -- On-camera drama reel featuring David H. Lawrence XVII, in scenes from Heroes, The Unit, LOST, and more" title="David H. Lawrence, XVII - Drama -- On-camera drama reel featuring David H. Lawrence XVII, in scenes from Heroes, The Unit, LOST, and more"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/no-video-slate-856072904._V379390253_.png"class="loadlate hidden video" loadlate="http://ia.media-imdb.com/images/M/MV5BMjk5Mjc4MDM5OV5BMl5BanBnXkFtZTcwNTc2NzExNA@@._V1_SP229,229,0,C,0,0,0_CR45,62,139,105_PIimdb-blackband-204-14,TopLeft,0,0_PIimdb-blackband-204-28,BottomLeft,0,1_CR0,0,139,105_PIimdb-bluebutton-big,BottomRight,-1,-1_ZA01:20,103,1,14,36,verdenab,7,255,255,255,1_PIimdb-HDIconMiniWhite,BottomLeft,2,-2_.jpg" itemprop='image' viconst="vi3091568921" /></a>
+
 
 
 
@@ -855,7 +877,8 @@ Thank You! Franklin" title="Franklin Ojeda Smith - -- &quot;...back in the day t
 3)Cayman Went - Aniston Turnkey
 4)Letting Go -Therapist
 5)Footsteps in the Sand - Jim.
-Thank You! Franklin"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/no-video-slate-856072904._V379390253_.png"class="loadlate hidden video" loadlate="http://ia.media-imdb.com/images/M/MV5BMjIxMTA1MjEzNV5BMl5BanBnXkFtZTcwMjQ2MjYyNA@@._V1_SP229,229,0,C,0,0,0_CR45,62,139,105_PIimdb-blackband-204-14,TopLeft,0,0_PIimdb-blackband-204-28,BottomLeft,0,1_CR0,0,139,105_PIimdb-bluebutton-big,BottomRight,-1,-1_ZADemo%2520Reel,2,76,16,137,verdenab,8,255,255,255,1_ZAon%2520IMDb,2,1,14,137,verdenab,7,255,255,255,1_ZA05:58,103,1,14,36,verdenab,7,255,255,255,1_PIimdb-HDIconMiniWhite,BottomLeft,2,-2_.jpg" itemprop='image' viconst="vi2695404313" /></a>
+Thank You! Franklin"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/no-video-slate-856072904._V379390253_.png"class="loadlate hidden video" loadlate="http://ia.media-imdb.com/images/M/MV5BMjIxMTA1MjEzNV5BMl5BanBnXkFtZTcwMjQ2MjYyNA@@._V1_SP229,229,0,C,0,0,0_CR45,62,139,105_PIimdb-blackband-204-14,TopLeft,0,0_PIimdb-blackband-204-28,BottomLeft,0,1_CR0,0,139,105_PIimdb-bluebutton-big,BottomRight,-1,-1_ZA05:58,103,1,14,36,verdenab,7,255,255,255,1_PIimdb-HDIconMiniWhite,BottomLeft,2,-2_.jpg" itemprop='image' viconst="vi2695404313" /></a>
+
 
 
 
@@ -863,7 +886,7 @@ Thank You! Franklin"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopict
 " alt="My Demo Reel -- Includes clips from GLORY DAZE, COMMUNITY and horror film URBAN EXPLORER.
 " class="video-colorbox" data-video="vi4067727897" data-context="user" data-rid="" widget-context="nameDemoreels" itemprop="url" ><img height="90" width="120" alt="My Demo Reel -- Includes clips from GLORY DAZE, COMMUNITY and horror film URBAN EXPLORER.
 " title="My Demo Reel -- Includes clips from GLORY DAZE, COMMUNITY and horror film URBAN EXPLORER.
-"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/no-video-slate-856072904._V379390253_.png"class="loadlate hidden video" loadlate="http://ia.media-imdb.com/images/M/MV5BMTcyNTgxMDMyNF5BMl5BanBnXkFtZTcwNTkxOTQ0NA@@._V1_SP229,229,0,C,0,0,0_CR45,62,139,105_PIimdb-blackband-204-14,TopLeft,0,0_PIimdb-blackband-204-28,BottomLeft,0,1_CR0,0,139,105_PIimdb-bluebutton-big,BottomRight,-1,-1_ZADemo%2520Reel,2,76,16,137,verdenab,8,255,255,255,1_ZAon%2520IMDb,2,1,14,137,verdenab,7,255,255,255,1_ZA03:00,103,1,14,36,verdenab,7,255,255,255,1_.jpg" itemprop='image' viconst="vi4067727897" /></a>
+"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/no-video-slate-856072904._V379390253_.png"class="loadlate hidden video" loadlate="http://ia.media-imdb.com/images/M/MV5BMTcyNTgxMDMyNF5BMl5BanBnXkFtZTcwNTkxOTQ0NA@@._V1_SP229,229,0,C,0,0,0_CR45,62,139,105_PIimdb-blackband-204-14,TopLeft,0,0_PIimdb-blackband-204-28,BottomLeft,0,1_CR0,0,139,105_PIimdb-bluebutton-big,BottomRight,-1,-1_ZA03:00,103,1,14,36,verdenab,7,255,255,255,1_.jpg" itemprop='image' viconst="vi4067727897" /></a>
              </div>
         </div>
         <div id="pro_demo_reel_link">
@@ -873,6 +896,8 @@ href="/r/DemoReels/demoreels/list"
 >Find out more at IMDb Pro</a> &raquo;
         </div>
     </div>
+        
+        
     <div class="aux-content-widget-2">
         <h3>Connect with IMDb</h3>
         <div id="facebookWrapper">
@@ -889,36 +914,44 @@ href="/r/DemoReels/demoreels/list"
             scrolling="no"
             id="twitterIframe"></iframe>
     </div>
+
+
 <div class="aux-content-widget-2 play_quiz_widget">
     <h3>Take The Quiz!</h3>
 <a href="/games/guess/nm0864666?ref_=nm_qz" class="icon" ></a><span>Test your knowledge of <a href="/games/guess/nm0864666?ref_=nm_qz" >Natalie Tjen</a>.</span>
 </div>
-<div class="aux-content-widget-2 poll-widget-rhs">
+
+
+<div class="aux-content-widget-2 poll-widget-rhs ">
     <style>
         .aux-content-widget-2.poll-widget-rhs ul li { margin-bottom: 0.5em; clear: left; font-weight: bold;}
         .aux-content-widget-2.poll-widget-rhs span { margin-bottom: 0.5em; clear: left;}
-        .aux-content-widget-2.poll-widget-rhs img { float: left; padding: 0 5px 5px 0; height: 50px; width: 50px;}
+        .aux-content-widget-2.poll-widget-rhs img { float: left; padding: 0 5px 5px 0; height: 86px; width: 86px;}
     </style>
-    <h3>Related Polls</h3>
+    <h3>User Polls</h3>
     <ul>
         <li>
-<a href="/poll/XaJAl07MYYk/?ref_=nm_po_i1" ><img height="50" width="50" alt="poll image" title="poll image"src="http://i.imdb.com/images/nopicture/140x209/unknown.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTg2MzkyODIwOF5BMl5BanBnXkFtZTcwMDY1MjcxNA@@._V1_SX50_CR0,0,50,50_.jpg" /></a>        <a href="/poll/XaJAl07MYYk/?ref_=nm_po_q1" >Favorite movie computer genius?</a>
+<a href="/poll/b3zBT1SMKjE/?ref_=nm_po_i1" ><img height="86" width="86" alt="poll image" title="poll image"src="http://i.imdb.com/images/nopicture/140x209/unknown.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTMwMDY0MTYyMF5BMl5BanBnXkFtZTcwMzI2NDkxNA@@._V1_SX86_CR0,0,86,86_.jpg" /></a>        <a href="/poll/b3zBT1SMKjE/?ref_=nm_po_q1" >Which of these sunglasses-sporting movie characters looks the coolest?</a>
         <li>
-<a href="/poll/b3zBT1SMKjE/?ref_=nm_po_i2" ><img height="50" width="50" alt="poll image" title="poll image"src="http://i.imdb.com/images/nopicture/140x209/unknown.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTMwMDY0MTYyMF5BMl5BanBnXkFtZTcwMzI2NDkxNA@@._V1_SX50_CR0,0,50,50_.jpg" /></a>        <a href="/poll/b3zBT1SMKjE/?ref_=nm_po_q2" >Which of these sunglasses-sporting movie characters looks the coolest?</a>
+<a href="/poll/XaJAl07MYYk/?ref_=nm_po_i2" ><img height="86" width="86" alt="poll image" title="poll image"src="http://i.imdb.com/images/nopicture/140x209/unknown.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTg2MzkyODIwOF5BMl5BanBnXkFtZTcwMDY1MjcxNA@@._V1_SX86_CR0,0,86,86_.jpg" /></a>        <a href="/poll/XaJAl07MYYk/?ref_=nm_po_q2" >Favorite movie computer genius?</a>
         <li>
-<a href="/poll/GHhhHMgQbxs/?ref_=nm_po_i3" ><img height="50" width="50" alt="poll image" title="poll image"src="http://i.imdb.com/images/nopicture/140x209/unknown.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTUxMzE0MjI0MF5BMl5BanBnXkFtZTcwMTQ1OTM2MQ@@._V1_SX50_CR0,0,50,50_.jpg" /></a>        <a href="/poll/GHhhHMgQbxs/?ref_=nm_po_q3" >Movie With the Best Swordfight</a>
+<a href="/poll/IyZeUraZGwE/?ref_=nm_po_i3" ><img height="86" width="86" alt="poll image" title="poll image"src="http://i.imdb.com/images/nopicture/140x209/unknown.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTYxNjY1ODQ3MF5BMl5BanBnXkFtZTcwMjgwMjk2Mw@@._V1_SY86_CR21,0,86,86_.jpg" /></a>        <a href="/poll/IyZeUraZGwE/?ref_=nm_po_q3" >The Chosen Ones</a>
         <li>
-<a href="/poll/7o9OxVLKWTE/?ref_=nm_po_i4" ><img height="50" width="50" alt="poll image" title="poll image"src="http://i.imdb.com/images/nopicture/140x209/unknown.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMjE4NTc0ODA3Ml5BMl5BanBnXkFtZTcwNTgwODU2NA@@._V1_SX50_CR0,0,50,50_.jpg" /></a>        <a href="/poll/7o9OxVLKWTE/?ref_=nm_po_q4" >Favorite film character made of flesh and metal?</a>
+<a href="/poll/7o9OxVLKWTE/?ref_=nm_po_i4" ><img height="86" width="86" alt="poll image" title="poll image"src="http://i.imdb.com/images/nopicture/140x209/unknown.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMjE4NTc0ODA3Ml5BMl5BanBnXkFtZTcwNTgwODU2NA@@._V1_SX86_CR0,0,86,86_.jpg" /></a>        <a href="/poll/7o9OxVLKWTE/?ref_=nm_po_q4" >Favorite film character made of flesh and metal?</a>
         <li>
-<a href="/poll/a10Xz6hy8eA/?ref_=nm_po_i5" ><img height="50" width="50" alt="poll image" title="poll image"src="http://i.imdb.com/images/nopicture/140x209/unknown.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTQyODc3NDc1Ml5BMl5BanBnXkFtZTcwNTA5MTM1Mg@@._V1_SX50_CR0,0,50,50_.jpg" /></a>        <a href="/poll/a10Xz6hy8eA/?ref_=nm_po_q5" >Favourite Narrative Trilogy</a>
+<a href="/poll/tRgM9WEmTPs/?ref_=nm_po_i5" ><img height="86" width="86" alt="poll image" title="poll image"src="http://i.imdb.com/images/nopicture/140x209/unknown.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTQzMDYxNzUxNl5BMl5BanBnXkFtZTgwMjgxNjkxMTE@._V1_SX86_CR0,0,86,86_.jpg" /></a>        <a href="/poll/tRgM9WEmTPs/?ref_=nm_po_q5" >Most Ground-Breaking Visual Effects in Films</a>
         <li>
-<a href="/poll/eHNMC_fDMzw/?ref_=nm_po_i6" ><img height="50" width="50" alt="poll image" title="poll image"src="http://i.imdb.com/images/nopicture/140x209/unknown.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTQ2ODg3ODc5OF5BMl5BanBnXkFtZTYwMDAwMTI2._V1_SX50_CR0,0,50,50_.jpg" /></a>        <a href="/poll/eHNMC_fDMzw/?ref_=nm_po_q6" >Movie Character Wisdom</a>
+<a href="/poll/vkl6tcWZV1k/?ref_=nm_po_i6" ><img height="86" width="86" alt="poll image" title="poll image"src="http://i.imdb.com/images/nopicture/140x209/unknown.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTk2NzI5MTU4Ml5BMl5BanBnXkFtZTcwNjk3NjgyMw@@._V1_SY86_CR22,0,86,86_.jpg" /></a>        <a href="/poll/vkl6tcWZV1k/?ref_=nm_po_q6" >Most Giftable Movie Series?</a>
     </ul>
-    <div class="see-more"><a href="/poll?ref_=nm_po_sm" >See more polls &raquo;</a></div>
+    <div class="see-more"><a href="/poll/?ref_=nm_po_sm" >See more polls &raquo;</a></div>
 </div>
+        
+        
 	
 	<!-- no content received for slot: btf_rhs2 -->
 	
+
+       
     </div>
 
     
@@ -938,17 +971,15 @@ onclick="showOrHideAll();">
 </span>
 &nbsp;<span>|</span>&nbsp;
 <form name="navform" method="get" action="filmosummary" id="filmoform">
-Show by:
 <select name="sort" class="fixed">
-<option value="filmotype">Job Type</option>
-<option value="/search/title?count=100&sort=year,desc&explore=title_type&role=nm0864666">Year</option>
-<option value="/search/title?count=100&sort=user_rating&explore=title_type&role=nm0864666">Ratings</option>
-<option value="/search/title?count=100&sort=num_votes&explore=title_type&role=nm0864666">Votes</option>
-<option value="filmoseries">TV Series</option>
-<option value="/search/title?count=100&sort=moviemeter&explore=genres&role=nm0864666">Genre</option>
-<option value="/search/title?count=100&sort=moviemeter&explore=keywords&role=nm0864666">Keyword</option>
+<option value="">Show by...</option>
+<option value="?nmdp=1">Job</option>
+<option value="/filmosearch?sort=year&explore=title_type&role=nm0864666">Year &raquo;</option>
+<option value="/filmosearch?sort=user_rating&explore=title_type&role=nm0864666">Ratings &raquo;</option>
+<option value="/filmosearch?sort=num_votes&explore=title_type&role=nm0864666">Votes &raquo;</option>
+<option value="/filmosearch?sort=moviemeter&explore=genres&role=nm0864666">Genre &raquo;</option>
+<option value="/filmosearch?sort=moviemeter&explore=keywords&role=nm0864666">Keyword &raquo;</option>
 </select>
-<input class="fixed btn small" type="submit" value="Go &raquo;">
 </form>
 &nbsp;<span>|</span>&nbsp;
 <a href="/updates?edit=nm0864666/filmography&ref_=nm_flmg_edt" > Edit
@@ -964,7 +995,7 @@ Show by:
 </div>
 <div class="filmo-category-section"
 >
-<div class="filmo-row odd">
+<div class="filmo-row odd" id="actress-tt1391857">
 <span class="year_column">
 &nbsp;2009
 </span>
@@ -973,7 +1004,7 @@ Show by:
 <br/>
 Jo
 </div>
-<div class="filmo-row even">
+<div class="filmo-row even" id="actress-tt0133093">
 <span class="year_column">
 &nbsp;1999
 </span>
@@ -993,16 +1024,17 @@ Potential
 
 
 
-<a href="/video/withoutabox/vi3488023577?ref_=nm_rvd_vi_1" title="Sabo -- A guy sees a local witch doctor and ends up committing a murder" alt="Sabo -- A guy sees a local witch doctor and ends up committing a murder" class=" " data-video="vi3488023577" data-context="withoutabox" data-rid="13D6CAY2AG0VMHYF6YP8" widget-context="nameMaindetails" itemprop="url" ><img height="150" width="200" alt="Sabo -- A guy sees a local witch doctor and ends up committing a murder" title="Sabo -- A guy sees a local witch doctor and ends up committing a murder"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/no-video-slate-856072904._V379390253_.png"class="loadlate hidden video" loadlate="http://ia.media-imdb.com/images/M/MV5BOTY4OTE0NDQ3Nl5BMl5BanBnXkFtZTcwMDg0MjIxMw@@._V1_SP330,330,0,C,0,0,0_CR65,90,200,150_PIimdb-blackband-204-14,TopLeft,0,0_PIimdb-blackband-204-28,BottomLeft,0,1_CR0,0,200,150_PIimdb-bluebutton-big,BottomRight,-1,-1_ZATrailer,4,121,16,196,verdenab,8,255,255,255,1_ZAon%2520IMDb,4,1,14,196,verdenab,7,255,255,255,1_ZA00:37,164,1,14,36,verdenab,7,255,255,255,1_ZASabo,4,136,14,196,arialbd,7,255,255,255,1_.jpg" itemprop='image' viconst="vi3488023577" /></a>            </span>
+
+<a href="/video/withoutabox/vi3488023577?ref_=nm_rvd_vi_1" title="Sabo -- A guy sees a local witch doctor and ends up committing a murder" alt="Sabo -- A guy sees a local witch doctor and ends up committing a murder" class=" " data-video="vi3488023577" data-context="withoutabox" data-rid="13T4V3C9M3KGZDHHNYHF" widget-context="nameMaindetails" itemprop="url" ><img height="150" width="200" alt="Sabo -- A guy sees a local witch doctor and ends up committing a murder" title="Sabo -- A guy sees a local witch doctor and ends up committing a murder"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/no-video-slate-856072904._V379390253_.png"class="loadlate hidden video" loadlate="http://ia.media-imdb.com/images/M/MV5BOTY4OTE0NDQ3Nl5BMl5BanBnXkFtZTcwMDg0MjIxMw@@._V1_SP330,330,0,C,0,0,0_CR65,90,200,150_PIimdb-blackband-204-14,TopLeft,0,0_PIimdb-blackband-204-28,BottomLeft,0,1_CR0,0,200,150_PIimdb-bluebutton-big,BottomRight,-1,-1_ZATrailer,4,121,16,196,verdenab,8,255,255,255,1_ZAon%2520IMDb,4,1,14,196,verdenab,7,255,255,255,1_ZA00:37,164,1,14,36,verdenab,7,255,255,255,1_ZASabo,4,136,14,196,arialbd,7,255,255,255,1_.jpg" itemprop='image' viconst="vi3488023577" /></a>            </span>
     </div>
 
         </div>
     
     </@csm.csm_widget />
             <div class="article">
-    <span class="rightcornerlink">
+        <span class="rightcornerlink">
 <a href="/updates?edit=nm0864666/fun-facts&ref_=nm_dyk_edt" > Edit
-</a>    </span>
+</a>        </span>
     <h2>Did You Know?</h2>
     
     
@@ -1021,7 +1053,6 @@ Potential
             <a href="/name/nm0864666/board/?ref_=nm_bd_sm" >Discuss Natalie Tjen</a> on the IMDb message boards &raquo;
         </div>
     </div>
-
   <script>
     if ('csm' in window) {
       csm.measure('csm_NameContributeWidget_started');
@@ -1065,7 +1096,11 @@ Potential
         <br class="clear">
         <hr width="100%" size="1">
     </div>
+	
+	<!-- no content received for slot: bottom_ad -->
+	
     <p class="footer" align="center">
+    
         <a
 onclick="(new Image()).src='/rg/home/footer/images/b.gif?link=/';"
 href="/"
@@ -1091,10 +1126,6 @@ onclick="(new Image()).src='/rg/topmovies/footer/images/b.gif?link=/chart/';"
 href="/chart/"
 >Top Movies</a>
         | <a
-onclick="(new Image()).src='/rg/watchlist/footer/images/b.gif?link=/list/watchlist';"
-href="/list/watchlist"
->Watchlist</a>
-        | <a
 onclick="(new Image()).src='/rg/top250/footer/images/b.gif?link=/chart/top';"
 href="/chart/top"
 >Top 250</a>
@@ -1106,10 +1137,6 @@ href="/sections/tv/"
 onclick="(new Image()).src='/rg/news/footer/images/b.gif?link=/news/';"
 href="/news/"
 >News</a>
-        | <a
-onclick="(new Image()).src='/rg/video/footer/images/b.gif?link=/features/video/';"
-href="/features/video/"
->Video</a>
         | <a
 onclick="(new Image()).src='/rg/messageboards/footer/images/b.gif?link=/boards/';"
 href="/boards/"
@@ -1124,16 +1151,6 @@ href="/pressroom/"
 onclick="(new Image()).src='/rg/register-v2/footer/images/b.gif?link=https://secure.imdb.com/register-imdb/form-v2';"
 href="https://secure.imdb.com/register-imdb/form-v2"
 >Register</a>
-        | <a
-onclick="(new Image()).src='/rg/rss/footer/images/b.gif?link=/help/show_article?rssavailable';"
-href="/help/show_article?rssavailable"
-class="navbarSprite"
-id="footer_rss_image"
-></a>
-          <a
-onclick="(new Image()).src='/rg/rss/footer/images/b.gif?link=/help/show_article?rssavailable';"
-href="/help/show_article?rssavailable"
->RSS</a>
         | <a
 onclick="(new Image()).src='/rg/advertising/footer/images/b.gif?link=/advertising/';"
 href="/advertising/"
@@ -1158,10 +1175,6 @@ href="http://www.boxofficemojo.com/"
 onclick="(new Image()).src='/rg/WITHOUTABOX/FOOTER/images/b.gif?link=http://www.withoutabox.com/';"
 href="http://www.withoutabox.com/"
 >Withoutabox</a>
-        | <a
-onclick="(new Image()).src='/rg/LOVEFILM/FOOTER/images/b.gif?link=http://www.lovefilm.com/browse/film/watch-online/';"
-href="http://www.lovefilm.com/browse/film/watch-online/"
->LOVEFiLM</a>
         <br /><br />
         IMDb Mobile:
           <a
@@ -1196,7 +1209,7 @@ href="http://twitter.com/imdb"
         <a
 onclick="(new Image()).src='/rg/help/footer/images/b.gif?link=/help/show_article?conditions';"
 href="/help/show_article?conditions"
->Copyright &copy;</a> 1990-2013 
+>Copyright &copy;</a> 1990-2014 
         <a
 onclick="(new Image()).src='/rg/help/footer/images/b.gif?link=/help/';"
 href="/help/"
@@ -1216,19 +1229,24 @@ href="//www.amazon.com/InterestBasedAds"
         An <span id="amazon_logo" class="footer_logo" align="middle"></span> company.
     </p>
   
-  <table class="footer" id="amazon-affiliates" width="100%">
+
+      
+      
+  <table class="footer" id="amazon-affiliates">
     <tr>
-      <td colspan="10">
+      <td colspan="8">
         Amazon Affiliates
       </td>
     </tr>
     <tr>
       <td class="amazon-affiliate-site-first">
-        <a class="amazon-affiliate-site-link" href="http://www.amazon.com/b?ie=UTF8&node=2858778011&tag=imdbpr1-20">
+       
+        <a class="amazon-affiliate-site-link" href="http://www.amazon.com/b?ie=UTF8&node=2676882011&tag=imdbpr1-20">
           <span class="amazon-affiliate-site-name">Amazon Instant Video</span><br>
           <span class="amazon-affiliate-site-desc">Watch Movies &<br>TV Online</span>
         </a>
       </td>
+     
     <td class="amazon-affiliate-site-item-nth">
         <a class="amazon-affiliate-site-link" href=http://www.amazon.com/b?ie=UTF8&node=2676882011&tag=imdbpr1-20 >
           <span class="amazon-affiliate-site-name">Prime Instant Video</span><br>
@@ -1260,18 +1278,6 @@ href="//www.amazon.com/InterestBasedAds"
         </a>
     </td>
     <td class="amazon-affiliate-site-item-nth">
-        <a class="amazon-affiliate-site-link" href=http://www.lovefilm.com/browse/film/watch-online/ >
-          <span class="amazon-affiliate-site-name">LOVEFiLM</span><br>
-          <span class="amazon-affiliate-site-desc">Watch Movies<br>Online</span>
-        </a>
-    </td>
-    <td class="amazon-affiliate-site-item-nth">
-        <a class="amazon-affiliate-site-link" href=http://www.junglee.com/ >
-          <span class="amazon-affiliate-site-name">Junglee</span><br>
-          <span class="amazon-affiliate-site-desc">India Online<br>Shopping</span>
-        </a>
-    </td>
-    <td class="amazon-affiliate-site-item-nth">
         <a class="amazon-affiliate-site-link" href=http://www.dpreview.com >
           <span class="amazon-affiliate-site-name">DPReview</span><br>
           <span class="amazon-affiliate-site-desc">Digital<br>Photography</span>
@@ -1286,31 +1292,10 @@ href="//www.amazon.com/InterestBasedAds"
     </tr>
   </table>
   </div>
-
-    <script type="text/javascript">
-
-        var _gaq = _gaq || [];
-        var seg = -1;
-        _gaq.push(['_setAccount', 'UA-3916519-1']);
-        _gaq.push(['_setDomainName', '.imdb.com']); 
-        _gaq.push(['_setSampleRate', '10']); 
-        _gaq.push(['_setCustomVar', 2, 'Falkor', 'false']); 
-        _gaq.push(['_trackPageview']); // must come last
-  
-       (function() {
-           var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-           ga.src = 'http://www.google-analytics.com/ga.js';
-           var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-       })();
-
-    </script>
-	
-	<!-- no content received for slot: bottom_ad -->
-	
             </div>
         </div>
 
-<script type="text/javascript" src="http://ia.media-imdb.com/images/G/01/imdb/js/collections/name-3351069159._V365965536_.js"></script>
+<script type="text/javascript" src="http://ia.media-imdb.com/images/G/01/imdb/js/collections/name-4188885337._V341754501_.js"></script>
 
 <script type="text/imdblogin-js" id="login">
 jQuery(document).ready(function(){
@@ -1344,7 +1329,7 @@ jQuery(document).ready(function(){
             var facebookTheme = (window.custom && window.custom.full_page &&
                     window.custom.full_page.theme) ?
                 window.custom.full_page.theme : "light",
-            url = "//www.facebook.com/plugins/likebox.php?href=facebook.com%2Fimdb&width=300&height=190&connections=5&header=false&stream=false&colorscheme=" + facebookTheme,
+            url = "//www.facebook.com/plugins/likebox.php?href=facebook.com%2Fimdb&width=300&height=190&connections=4&header=false&stream=false&colorscheme=" + facebookTheme,
             like = document.getElementById('facebookIframe'),
             twitterIframe = document.getElementById('twitterIframe');
             if (like) {
@@ -1370,7 +1355,7 @@ jQuery(document).ready(function(){
                 );
         </script>
 
-<div id="servertime" time="617"/>
+<div id="servertime" time="106"/>
 
 
 

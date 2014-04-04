@@ -117,11 +117,7 @@ describe "Spotlite::Movie" do
     it "should return plot keywords" do
       @movie.keywords.should be_an(Array)
       @movie.keywords.size.should be_within(50).of(250)
-      @movie.keywords.should include("computer")
-      @movie.keywords.should include("artificial reality")
-      @movie.keywords.should include("hand to hand combat")
-      @movie.keywords.should include("white rabbit")
-      @movie.keywords.should include("chosen one")
+      @movie.keywords.should include("computer", "artificial reality", "hand to hand combat", "white rabbit", "chosen one")
     end
     
     it "should return trivia" do
@@ -130,54 +126,6 @@ describe "Spotlite::Movie" do
       @movie.trivia.should include("Nicolas Cage turned down the part of Neo because of family commitments. Other actors considered for the role included Tom Cruise and Leonardo DiCaprio.")
       @movie.trivia.should include("Carrie-Anne Moss twisted her ankle while shooting one of her scenes but decided not to tell anyone until after filming, so they wouldn't re-cast her.")
       @movie.trivia.should include("Gary Oldman was considered as Morpheus at one point, as well as Samuel L. Jackson.")
-    end
-    
-    it "should return directors" do
-      @movie.directors.should be_an(Array)
-      @movie.directors.size.should eql(2)
-      @movie.directors.should include({:imdb_id => "0905152", :name => "Andy Wachowski"})
-      @movie.directors.should include({:imdb_id => "0905154", :name => "Lana Wachowski"})
-    end
-    
-    it "should return writers" do
-      @movie.writers.should be_an(Array)
-      @movie.writers.size.should eql(2)
-      @movie.writers.should include({:imdb_id => "0905152", :name => "Andy Wachowski"})
-      @movie.writers.should include({:imdb_id => "0905154", :name => "Lana Wachowski"})
-    end
-    
-    it "should return only unique writers" do
-      # The Private Lives of Pippa Lee (2009) 
-      @movie = Spotlite::Movie.new("1134629")
-      @movie.writers.size.should eql(1)
-    end
-    
-    it "should return producers" do
-      @movie.producers.should be_an(Array)
-      @movie.producers.size.should eql(10)
-      @movie.producers.should include({:imdb_id => "0075732", :name => "Bruce Berman"})
-      @movie.producers.should include({:imdb_id => "0185621", :name => "Dan Cracchiolo"})
-      @movie.producers.should include({:imdb_id => "0400492", :name => "Carol Hughes"})
-      @movie.producers.should include({:imdb_id => "0905152", :name => "Andy Wachowski"})
-      @movie.producers.should include({:imdb_id => "0905154", :name => "Lana Wachowski"})
-    end
-    
-    it "should return cast members and characters" do
-      @movie.cast.should be_an(Array)
-      @movie.cast.size.should eql(37)
-      @movie.cast.should include({:imdb_id => "0000206", :name => "Keanu Reeves", :character => "Neo"})
-      @movie.cast.should include({:imdb_id => "0000401", :name => "Laurence Fishburne", :character => "Morpheus"})
-      @movie.cast.should include({:imdb_id => "0005251", :name => "Carrie-Anne Moss", :character => "Trinity"})
-      @movie.cast.should include({:imdb_id => "0915989", :name => "Hugo Weaving", :character => "Agent Smith"})
-      @movie.cast.should include({:imdb_id => "3269395", :name => "Rana Morrison", :character => "Shaylae - Woman in Office (uncredited)"})
-    end
-    
-    it "should return starred actors" do
-      @movie.stars.should be_an(Array)
-      @movie.stars.size.should eql(3)
-      @movie.stars.should include({:imdb_id => "0000206", :name => "Keanu Reeves"})
-      @movie.stars.should include({:imdb_id => "0000401", :name => "Laurence Fishburne"})
-      @movie.stars.should include({:imdb_id => "0005251", :name => "Carrie-Anne Moss"})
     end
     
     describe "release dates" do
@@ -234,6 +182,58 @@ describe "Spotlite::Movie" do
         "http://ia.media-imdb.com/images/M/MV5BMjQ4NTAzNTE2OV5BMl5BanBnXkFtZTcwMjU3MTIxNA@@.jpg",
         "http://ia.media-imdb.com/images/M/MV5BMTAyMDc1MTU0MDBeQTJeQWpwZ15BbWU2MDI5MzU3Nw@@.jpg"
       )
+    end
+    
+    describe "movie credits" do
+      it "should return crew categories" do
+        @movie.crew_categories.should be_an(Array)
+        @movie.crew_categories.size.should eql(27)
+        @movie.crew_categories.should include("Directed by", "Writing Credits", "Cinematography by", "Second Unit Director or Assistant Director", "Casting By", "Other crew")
+        @movie.crew_categories.should_not include("Cast")
+      end
+      
+      it "should return movie cast" do
+        @movie.cast.should be_an(Array)
+        @movie.cast.size.should eql(37)
+        @movie.cast.each{ |person| person.should be_a(Spotlite::Person) }
+        first = @movie.cast.first
+        first.name.should eql("Keanu Reeves")
+        first.imdb_id.should eql("0000206")
+        first.credits_category.should eql("Cast")
+        first.credits_text.should eql("Neo")
+      end
+      
+      it "should return movie crew" do
+        @movie.crew.should be_an(Array)
+        @movie.crew.size.should eql(542)
+        @movie.crew.each{ |person| person.should be_a(Spotlite::Person) }
+      end
+      
+      it "should return full credits" do
+        @movie.credits.should be_an(Array)
+        @movie.credits.size.should eql(@movie.cast.size + @movie.crew.size)
+        @movie.credits.each{ |person| person.should be_a(Spotlite::Person) }
+      end
+      
+      it "should parse crew category" do
+        category = @movie.parse_crew("Transportation Department")
+        category.should be_an(Array)
+        category.size.should eql(3)
+        first = category.first
+        first.name.should eql("John Allan")
+        first.imdb_id.should eql("0019956")
+        first.credits_category.should eql("Transportation Department")
+        first.credits_text.should eql("action vehicle coordinator")
+      end
+      
+      it "should return starred actors" do
+        @movie.stars.should be_an(Array)
+        @movie.stars.size.should eql(3)
+        @movie.stars.each{ |person| person.should be_a(Spotlite::Person) }
+        first = @movie.stars.first
+        first.name.should eql("Keanu Reeves")
+        first.imdb_id.should eql("0000206")
+      end
     end
     
   end
