@@ -31,18 +31,13 @@ Or install it yourself as:
     > movie.runtime
     => 136
     > movie.genres
-    => ["Action", "Adventure", "Sci-Fi"]
+    => ["Action", "Sci-Fi"]
     > movie.countries
     => [{:code=>"us", :name=>"USA"}, {:code=>"au", :name=>"Australia"}]
     > movie.directors
-    => [{:imdb_id=>"0905152", :name=>"Andy Wachowski"},
-    {:imdb_id=>"0905154", :name=>"Lana Wachowski"}]
-    > movie.cast[0..4]
-    => [{:imdb_id=>"0000206", :name=>"Keanu Reeves", :character=>"Neo"},
-    {:imdb_id=>"0000401", :name=>"Laurence Fishburne", :character=>"Morpheus"},
-    {:imdb_id=>"0005251", :name=>"Carrie-Anne Moss", :character=>"Trinity"},
-    {:imdb_id=>"0915989", :name=>"Hugo Weaving", :character=>"Agent Smith"},
-    {:imdb_id=>"0287825", :name=>"Gloria Foster", :character=>"Oracle"}]
+    => [#<Spotlite::Person:0x007f96a092be70 @imdb_id="0905152", @name="Andy Wachowski", @url="http://www.imdb.com/name/nm0905152/", @credits_category="Directed by", @credits_text="(as The Wachowski Brothers)">, #<Spotlite::Person:0x007f96a092bda8 @imdb_id="0905154", @name="Lana Wachowski", @url="http://www.imdb.com/name/nm0905154/", @credits_category="Directed by", @credits_text="(as The Wachowski Brothers)">]
+    > movie.cast[0..2]
+    => [#<Spotlite::Person:0x007f96a19521a0 @imdb_id="0000206", @name="Keanu Reeves", @url="http://www.imdb.com/name/nm0000206/", @credits_category="Cast", @credits_text="Neo">, #<Spotlite::Person:0x007f96a1951c28 @imdb_id="0000401", @name="Laurence Fishburne", @url="http://www.imdb.com/name/nm0000401/", @credits_category="Cast", @credits_text="Morpheus">, #<Spotlite::Person:0x007f96a1951a70 @imdb_id="0005251", @name="Carrie-Anne Moss", @url="http://www.imdb.com/name/nm0005251/", @credits_category="Cast", @credits_text="Trinity">]
     
 ### IMDb Top 250
 
@@ -71,6 +66,7 @@ Sorry, there is nothing I can do about it at the moment.
     Spotlite
     |
     |- Movie
+    |- Person
     `- List
        |- Search
        |- Top
