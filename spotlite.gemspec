@@ -17,7 +17,7 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
   
-  gem.add_dependency "nokogiri", "~> 1.5"
-  gem.add_development_dependency "rspec", "~> 2.13"
-  gem.add_development_dependency "fakeweb"
+  gem.add_dependency "nokogiri", "~> 1.6"
+  gem.add_development_dependency "rspec", "~> 2.14"
+  gem.add_development_dependency "fakeweb", "~> 1.3"
 end
