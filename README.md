@@ -120,7 +120,7 @@ First, run tests with `LIVE_TEST=true` environment variable:
    
 Adjust methods that are failing, according to the new layout. And refresh fixtures:
 
-    $ rake fixtures:refresh
+    $ rake refresh_fixtures
 
 It will run through all elements of `IMDB_SAMPLES` hash to get fresh data.
 
