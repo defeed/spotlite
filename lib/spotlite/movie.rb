@@ -233,11 +233,12 @@ module Spotlite
     # If day and month are unknown, 1st of January is assigned
     def release_dates
       array = []
-      release_info.at("#release_dates").css("tr").map do |row|
-        code = row.at("a")["href"].clean_href.split("=").last.downcase rescue nil
-        region = row.at("a").text rescue nil
-        date = row.at("td.release_date").text.strip.parse_date rescue nil
-        comment = row.css("td").last.text.strip.clean_release_comment rescue nil
+      release_info.at('#release_dates').css('tr').map do |row|
+        cells = row.css('td')
+        code = cells.first.at('a')['href'].clean_href.split('=').last.downcase rescue nil
+        region = cells.first.at('a').text rescue nil
+        date = cells.at('.release_date').text.strip.parse_date
+        comment = cells.last.text.strip.clean_release_comment
         comment = nil if comment.empty?
         
         array << {:code => code, :region => region, :date => date, :comment => comment}
