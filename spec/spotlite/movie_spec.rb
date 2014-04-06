@@ -25,6 +25,14 @@ describe "Spotlite::Movie" do
       end
     end
     
+    it "should return alternative titles" do
+      @movie.alternative_titles.should be_an(Array)
+      @movie.alternative_titles.size.should eql(35)
+      @movie.alternative_titles.should include({:title => "The Matrix", :comment => "(original title)"})
+      @movie.alternative_titles.should include({:title => "Maatriks", :comment => "Estonia"})
+      @movie.alternative_titles.should include({:title => "Матрица", :comment => "Russia"})
+    end
+    
     it "should return original release year" do
       @movie.year.should eql(1999)
     end

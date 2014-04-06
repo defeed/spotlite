@@ -144,6 +144,18 @@ module Spotlite
       movie_trivia.css("div.sodatext").map { |node| node.text.strip } rescue []
     end
     
+    # Returns a list of movie alternative titles as an array of hashes
+    # with keys +title+ (string) and +comment+ (string)
+    def alternative_titles
+      array = []
+      release_info.css("#akas").css("tr").map do |row|
+        cells = row.css("td")
+        array << { :title => cells.last.text.strip, :comment => cells.first.text.strip }
+      end
+      
+      array
+    end
+    
     # Returns a list of directors as an array of +Spotlite::Person+ objects
     def directors
       parse_crew("Directed by")
