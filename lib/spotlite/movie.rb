@@ -36,6 +36,30 @@ module Spotlite
       end
     end
     
+    # Returns a list of movies as an array of +Spotlite::Movie+ objects
+    # Takes optional parameters as a hash
+    # See https://github.com/defeed/spotlite/wiki/Advanced-movie-search for details
+    def self.search(params = {})
+      defaults = {
+        :title_type => 'feature',
+        :view       => 'simple',
+        :count      => 250,
+        :start      => 1,
+        :sort       => 'moviemeter,asc'
+      }
+      params = defaults.merge(params).map{ |k, v| "#{k}=#{v}" }.join('&')
+      results = Nokogiri::HTML open("http://www.imdb.com/search/title?#{params}", 'Accept-Language' => 'en-us')
+      results.css('td.title').map do |result|
+        imdb_id = result.at('a')['href'].parse_imdb_id
+        title   = result.at('a').text.strip
+        year    = result.at('.year_type').text.parse_year
+      
+        [imdb_id, title, year]
+      end.map do |values|
+        self.new(*values)
+      end
+    end
+    
     # Returns title as a string
     def title
       @title ||= details.at("h1.header span[itemprop='name']").text.strip
