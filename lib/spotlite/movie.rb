@@ -7,7 +7,7 @@ module Spotlite
     
     # Initialize a new movie object by its IMDb ID as a string
     #
-    #   movie = Spotlite::Movie.new("0133093")
+    #   movie = Spotlite::Movie.new('0133093')
     #
     # Spotlite::Movie class objects are lazy loading. No HTTP request
     # will be performed upon object initialization. HTTP request will
@@ -21,6 +21,8 @@ module Spotlite
       @url     = "http://www.imdb.com/title/tt#{@imdb_id}/"
     end
     
+    # Returns a list of movies as an array of +Spotlite::Movie+ objects
+    # Takes single parameter and searches for movies by title and alternative titles
     def self.find(query)
       results = Nokogiri::HTML open("http://www.imdb.com/find?q=#{CGI::escape(query)}&s=tt&ttype=ft", 'Accept-Language' => 'en-us')
       results.css('.result_text').map do |result|
@@ -41,7 +43,7 @@ module Spotlite
     
     # Returns original non-english title as a string
     def original_title
-      details.at("h1.header span.title-extra[itemprop='name']").children.first.text.gsub('"', "").strip rescue nil
+      details.at("h1.header span.title-extra[itemprop='name']").children.first.text.gsub('"', '').strip rescue nil
     end
     
     # Returns year of original release as an integer
@@ -56,12 +58,12 @@ module Spotlite
     
     # Returns Metascore rating as an integer
     def metascore
-      details.at("div.star-box-details a[href^=criticreviews]").text.strip.split("/").first.to_i rescue nil
+      details.at("div.star-box-details a[href^=criticreviews]").text.strip.split('/').first.to_i rescue nil
     end
     
     # Returns number of votes as an integer
     def votes
-      details.at("div.star-box-details span[itemprop='ratingCount']").text.gsub(/[^\d+]/, "").to_i rescue nil
+      details.at("div.star-box-details span[itemprop='ratingCount']").text.gsub(/[^\d+]/, '').to_i rescue nil
     end
     
     # Returns short description as a string
@@ -89,7 +91,7 @@ module Spotlite
     def countries
       array = []
       details.css("div.txt-block a[href^='/country/']").each do |node|
-        array << {:code => node["href"].clean_href, :name => node.text.strip}
+        array << {:code => node['href'].clean_href, :name => node.text.strip}
       end
       
       array
@@ -100,7 +102,7 @@ module Spotlite
     def languages
       array = []
       details.css("div.txt-block a[href^='/language/']").each do |node|
-        array << {:code => node["href"].clean_href, :name => node.text.strip}
+        array << {:code => node['href'].clean_href, :name => node.text.strip}
       end
       
       array
@@ -109,24 +111,24 @@ module Spotlite
     # Returns runtime (length) in minutes as an integer
     def runtime
       details.at("time[itemprop='duration']").text.to_i rescue nil ||
-      details.at("#overview-top .infobar").text.strip[/\d{2,3} min/].to_i rescue nil
+      details.at('#overview-top .infobar').text.strip[/\d{2,3} min/].to_i rescue nil
     end
     
     # Returns primary poster URL as a string
     def poster_url
-      src = details.at("#img_primary img")["src"] rescue nil
+      src = details.at('#img_primary img')['src'] rescue nil
       
       if src =~ /^(http:.+@@)/ || src =~ /^(http:.+?)\.[^\/]+$/
-        $1 + ".jpg"
+        $1 + '.jpg'
       end
     end
     
     # Returns an array of recommended movies as an array of initialized objects of +Movie+ class
     def recommended_movies
-      details.css(".rec-title").map do |node|
+      details.css('.rec-title').map do |node|
         imdb_id = node.at("a[href^='/title/tt']")['href'].parse_imdb_id
-        title   = node.at("a").text.strip
-        year    = node.at("span").text.parse_year
+        title   = node.at('a').text.strip
+        year    = node.at('span').text.parse_year
       
         [imdb_id, title, year]
       end.map do |values|
@@ -148,8 +150,8 @@ module Spotlite
     # with keys +title+ (string) and +comment+ (string)
     def alternative_titles
       array = []
-      release_info.css("#akas").css("tr").map do |row|
-        cells = row.css("td")
+      release_info.css('#akas').css('tr').map do |row|
+        cells = row.css('td')
         array << { :title => cells.last.text.strip, :comment => cells.first.text.strip }
       end
       
@@ -158,17 +160,17 @@ module Spotlite
     
     # Returns a list of directors as an array of +Spotlite::Person+ objects
     def directors
-      parse_crew("Directed by")
+      parse_crew('Directed by')
     end
     
     # Returns a list of writers as an array of +Spotlite::Person+ objects
     def writers
-      parse_crew("Writing Credits")
+      parse_crew('Writing Credits')
     end
     
     # Returns a list of producers as an array of +Spotlite::Person+ objects
     def producers
-      parse_crew("Produced by")
+      parse_crew('Produced by')
     end
     
     # Returns a list of starred actors as an array of +Spotlite::Person+ objects
@@ -185,12 +187,12 @@ module Spotlite
     
     # Returns a list of actors as an array +Spotlite::Person+ objects
     def cast
-      full_credits.css("table.cast_list tr").reject do |row|
+      full_credits.css('table.cast_list tr').reject do |row|
         # Skip 'Rest of cast' row
         row.children.size == 1
       end.map do |row|
-        imdb_id = row.at("td:nth-child(2) a")['href'].parse_imdb_id
-        name = row.at("td:nth-child(2) a").text.strip_whitespace
+        imdb_id = row.at('td:nth-child(2) a')['href'].parse_imdb_id
+        name = row.at('td:nth-child(2) a').text.strip_whitespace
         credits_text = row.last_element_child.text.strip_whitespace
         
         [imdb_id, name, 'Cast', credits_text]
@@ -202,13 +204,13 @@ module Spotlite
     # Returns a list of crew members of a certain category as an array +Spotlite::Person+ objects
     def parse_crew(category)
       table = full_credits.search("[text()^='#{category}']").first.next_element rescue []
-      if table && table.name == "table"
-        table.css("tr").reject do |row|
+      if table && table.name == 'table'
+        table.css('tr').reject do |row|
           # Skip empty table rows with one non-braking space
           row.text.strip.size == 1
         end.map do |row|
-          imdb_id = row.first_element_child.at("a")['href'].parse_imdb_id
-          name = row.first_element_child.at("a").text.strip_whitespace
+          imdb_id = row.first_element_child.at('a')['href'].parse_imdb_id
+          name = row.first_element_child.at('a').text.strip_whitespace
           credits_text = row.last_element_child.text.strip_whitespace
           
           [imdb_id, name, category, credits_text]
@@ -231,7 +233,7 @@ module Spotlite
     # Returns available crew categories, e.g. "Art Department", "Writing Credits", or "Stunts", as an array of strings
     def crew_categories
       array = []
-      full_credits.css("h4.dataHeaderWithBorder").reject{ |h| h['id'] == 'cast' }.map do |node|
+      full_credits.css('h4.dataHeaderWithBorder').reject{ |h| h['id'] == 'cast' }.map do |node|
         array << (node.children.size > 1 ? node.children.first.text.strip_whitespace : node.children.text.strip_whitespace)
       end
       
@@ -283,11 +285,11 @@ module Spotlite
     # Returns URLs of movie still frames as an array of strings
     def images
       array = []
-      still_frames.css("#media_index_thumbnail_grid img").map do |image|
-        src = image["src"] rescue nil
+      still_frames.css('#media_index_thumbnail_grid img').map do |image|
+        src = image['src'] rescue nil
       
         if src =~ /^(http:.+@@)/ || src =~ /^(http:.+?)\.[^\/]+$/
-          array << $1 + ".jpg"
+          array << $1 + '.jpg'
         end
       end
       
@@ -301,31 +303,31 @@ module Spotlite
     end
     
     def release_info # :nodoc:
-      @release_info ||= open_page("releaseinfo")
+      @release_info ||= open_page('releaseinfo')
     end
     
     def full_credits # :nodoc:
-      @full_credits ||= open_page("fullcredits")
+      @full_credits ||= open_page('fullcredits')
     end
     
     def plot_keywords # :nodoc:
-      @plot_keywords ||= open_page("keywords")
+      @plot_keywords ||= open_page('keywords')
     end
     
     def movie_trivia # :nodoc:
-      @movie_trivia ||= open_page("trivia")
+      @movie_trivia ||= open_page('trivia')
     end
     
     def reviews
-      @reviews ||= open_page("criticreviews")
+      @reviews ||= open_page('criticreviews')
     end
     
     def still_frames # :nodoc:
-      @still_frames ||= open_page("mediaindex?refine=still_frame")
+      @still_frames ||= open_page('mediaindex?refine=still_frame')
     end
     
     def open_page(page = nil) # :nodoc:
-      Nokogiri::HTML open("#{@url}#{page}", "Accept-Language" => "en-us")
+      Nokogiri::HTML open("#{@url}#{page}", 'Accept-Language' => 'en-us')
     end
   end
 

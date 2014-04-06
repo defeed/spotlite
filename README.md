@@ -22,9 +22,9 @@ Or install it yourself as:
 
     > require 'spotlite'
     # Access movie directly by its IMDb ID
-    > movie = Spotlite::Movie.new("0133093")
+    > movie = Spotlite::Movie.new('0133093')
     # Or use search instead
-    > list = Spotlite::Movie.find("the matrix")
+    > list = Spotlite::Movie.find('the matrix')
     > movie = list.first
     > movie.title
     => "The Matrix"

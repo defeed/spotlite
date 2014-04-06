@@ -1,3 +1,5 @@
+require 'cgi'
+
 module Spotlite
   
   # Represents a person on IMDb.com
@@ -6,7 +8,7 @@ module Spotlite
     
     # Initialize a new person object by its IMDb ID as a string
     #
-    #   person = Spotlite::Person.new("0005132")
+    #   person = Spotlite::Person.new('0005132')
     #
     # Spotlite::Person class objects are lazy loading. No HTTP request
     # will be performed upon object initialization. HTTP request will
@@ -19,6 +21,8 @@ module Spotlite
       @credits_text = credits_text
     end
     
+    # Returns a list of people as an array of +Spotlite::Person+ objects
+    # Takes single parameter and searches for people by names and nicknames
     def self.find(query)
       results = Nokogiri::HTML open("http://www.imdb.com/find?q=#{CGI::escape(query)}&s=nm", 'Accept-Language' => 'en-us')
       results.css('.result_text').map do |result|
@@ -43,20 +47,20 @@ module Spotlite
     
     # Returns birth date as a date
     def birth_date
-      details.at("time[itemprop='birthDate']")["datetime"].parse_date rescue nil
+      details.at("time[itemprop='birthDate']")['datetime'].parse_date rescue nil
     end
     
     # Returns death date as a date
     def death_date
-      details.at("time[itemprop='deathDate']")["datetime"].parse_date rescue nil
+      details.at("time[itemprop='deathDate']")['datetime'].parse_date rescue nil
     end
     
     # Returns primary photo URL as a string
     def photo_url
-      src = details.at("#img_primary img")["src"] rescue nil
+      src = details.at('#img_primary img')['src'] rescue nil
       
       if src =~ /^(http:.+@@)/ || src =~ /^(http:.+?)\.[^\/]+$/
-        $1 + ".jpg"
+        $1 + '.jpg'
       end
     end
     
@@ -67,7 +71,7 @@ module Spotlite
     end
     
     def open_page(page = nil) # :nodoc:
-      Nokogiri::HTML open("#{@url}#{page}", "Accept-Language" => "en-us")
+      Nokogiri::HTML open("#{@url}#{page}", 'Accept-Language' => 'en-us')
     end
   end
 end
