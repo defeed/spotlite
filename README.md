@@ -24,7 +24,7 @@ Or install it yourself as:
     # Access movie directly by its IMDb ID
     > movie = Spotlite::Movie.new("0133093")
     # Or use search instead
-    > list = Spotlite::Search.new("the matrix").movies
+    > list = Spotlite::Movie.find("the matrix")
     > movie = list.first
     > movie.title
     => "The Matrix"
@@ -68,7 +68,6 @@ Sorry, there is nothing I can do about it at the moment.
     |- Movie
     |- Person
     `- List
-       |- Search
        |- Top
        `- InTheaters
           |- OpeningThisWeek
