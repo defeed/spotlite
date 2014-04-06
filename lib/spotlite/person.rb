@@ -19,6 +19,18 @@ module Spotlite
       @credits_text = credits_text
     end
     
+    def self.find(query)
+      results = Nokogiri::HTML open("http://www.imdb.com/find?q=#{CGI::escape(query)}&s=nm", 'Accept-Language' => 'en-us')
+      results.css('.result_text').map do |result|
+        imdb_id = result.at('a')['href'].parse_imdb_id
+        name    = result.at('a').text.strip
+      
+        [imdb_id, name]
+      end.map do |values|
+        self.new(*values)
+      end
+    end
+    
     # Returns name as a string
     def name
       @name ||= details.at("h1.header span[itemprop='name']").text.strip.clean_name

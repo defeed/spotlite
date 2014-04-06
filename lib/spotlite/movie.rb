@@ -1,5 +1,6 @@
-module Spotlite
+require 'cgi'
 
+module Spotlite
   # Represents a movie on IMDb.com
   class Movie
     attr_accessor :imdb_id, :url
@@ -18,6 +19,19 @@ module Spotlite
       @title   = title
       @year    = year
       @url     = "http://www.imdb.com/title/tt#{@imdb_id}/"
+    end
+    
+    def self.find(query)
+      results = Nokogiri::HTML open("http://www.imdb.com/find?q=#{CGI::escape(query)}&s=tt&ttype=ft", 'Accept-Language' => 'en-us')
+      results.css('.result_text').map do |result|
+        imdb_id = result.at('a')['href'].parse_imdb_id
+        title   = result.at('a').text.strip
+        year    = result.children.take(3).last.text.parse_year
+      
+        [imdb_id, title, year]
+      end.map do |values|
+        self.new(*values)
+      end
     end
     
     # Returns title as a string

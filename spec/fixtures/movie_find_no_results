@@ -1,13 +1,13 @@
 HTTP/1.1 200 OK
-Date: Fri, 04 Apr 2014 14:10:55 GMT
+Date: Sun, 06 Apr 2014 12:53:10 GMT
 Server: Server
 X-Frame-Options: SAMEORIGIN
 Content-Type: text/html;charset=UTF-8
 Content-Language: en-US
 Vary: Accept-Encoding,User-Agent
-Set-Cookie: uu=BCYjtVxVh4eLMnT9F8g35s31foyKFlBde5rLoKcWQyLAp0R2jpB_EWP3xwbl1V8iyX1N2MYERosR%0D%0A42ZaCdv_mQduC1uEe98DM-Qg_gA-TVamCEzYETenGPE5hkHSG_8ONzVnure_NgJkyx9IrEk1WRtN%0D%0AizVMXPJidK7NZ-kUUQOTLRL9ihvlnx0lJo6tyeGEd3_XCub70PboAuI64NghijOOC4Gl9PJSSogf%0D%0A-d4uR9yRZgdnW6VxEqBqtbZjHO5ggzqnV8_pbs9mY0k_NvAkQNzAyw%0D%0A; Domain=.imdb.com; Expires=Wed, 22-Apr-2082 17:25:02 GMT; Path=/
-Set-Cookie: session-id=000-0000000-0000000; Domain=.imdb.com; Expires=Wed, 22-Apr-2082 17:25:02 GMT; Path=/
-Set-Cookie: session-id-time=1554300654; Domain=.imdb.com; Expires=Wed, 22-Apr-2082 17:25:02 GMT; Path=/
+Set-Cookie: uu=BCYmObS38j_M0L5GnosRgq8gT088VEWzoYuqMAZt52KVZptljabw68Jon9VRxzSfo9zpphmPEgzo%0D%0A_JJdWc3DtgQQUDoVG1DUVvH0o4sI7buu3zeiGdZwaUpnXGxSjPAvApLtV6gAE9d3VXkPgBAbd79x%0D%0AOVfS4JUgx_R7F8Tur3XuKcBxc_zHAx_reY93rz_W03VCMTQQLhvMthZHK1mtcPGhd0k7phLuGg9R%0D%0APXR7ngxf0cTtiYmb3pGiv9N-UjTnh3Bi4uiOkRmULOqDA7yAHEctxQ%0D%0A; Domain=.imdb.com; Expires=Fri, 24-Apr-2082 16:07:18 GMT; Path=/
+Set-Cookie: session-id=000-0000000-0000000; Domain=.imdb.com; Expires=Fri, 24-Apr-2082 16:07:18 GMT; Path=/
+Set-Cookie: session-id-time=1554468791; Domain=.imdb.com; Expires=Fri, 24-Apr-2082 16:07:18 GMT; Path=/
 P3P: policyref="http://i.imdb.com/images/p3p.xml",CP="CAO DSP LAW CUR ADM IVAo IVDo CONo OTPo OUR DELi PUBi OTRi BUS PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA HEA PRE LOC GOV OTC "
 Transfer-Encoding: chunked
 
@@ -26,7 +26,7 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
                 var ue_sn = "www.imdb.com";  
                 var ue_furl = "fls-na.amazon.com";
                 var ue_sid = "000-0000000-0000000";
-                var ue_id = "0E1CW0H76BHYYBNMXJA6";
+                var ue_id = "1KH6CWTY0HK530ZKZ7E2";
                 (function(e){var c=e,a={main_scope:"mainscopecsm",q:[],t0:c.ue_t0||+new Date(),d:g};function g(h){return +new Date()-(h?0:a.t0)}function d(h){return function(){a.q.push({n:h,a:arguments,t:a.d()})}}function b(k,j,h){var i={m:k,f:j,l:h,fromOnError:1,args:arguments};c.ueLogError(i);return false}b.skipTrace=1;e.onerror=b;function f(){c.uex("ld")}if(e.addEventListener){e.addEventListener("load",f,false)}else{if(e.attachEvent){e.attachEvent("onload",f)}}a.tag=d("tag");a.log=d("log");a.reset=d("rst");c.ue_csm=c;c.ue=a;c.ueLogError=d("err");c.ues=d("ues");c.uet=d("uet");c.uex=d("uex");c.uet("ue")})(window);(function(e,d){var a=e.ue||{};function c(g){if(!g){return}var f=d.head||d.getElementsByTagName("head")[0]||d.documentElement,h=d.createElement("script");h.async="async";h.src=g;f.insertBefore(h,f.firstChild)}function b(){var k=e.ue_cdn||"z-ecx.images-amazon.com",g=e.ue_cdns||"images-na.ssl-images-amazon.com",j="/images/G/01/csminstrumentation/",h=e.ue_file||"ue-full-ef584a44e8ea58e3d4d928956600a9b6._V1_.js",f,i;if(h.indexOf("NSTRUMENTATION_FIL")>=0){return}if("ue_https" in e){f=e.ue_https}else{f=e.location&&e.location.protocol=="https:"?1:0}i=f?"https://":"http://";i+=f?g:k;i+=j;i+=h;c(i)}if(!e.ue_inline){b()}a.uels=c;e.ue=a})(window,document);
             </script>
  
@@ -62,11 +62,11 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
     <meta name="title" content="IMDb" />
         <meta name="description" content="" />
         <meta property="og:description" content="" />
-        <meta name="request_id" content="0E1CW0H76BHYYBNMXJA6" />
+        <meta name="request_id" content="1KH6CWTY0HK530ZKZ7E2" />
         
   <script>(function(t){ (t.events = t.events || {})["csm_head_pre_css"] = new Date().getTime(); })(IMDbTimer);</script>
 <link rel="stylesheet" type="text/css" href="http://ia.media-imdb.com/images/G/01/imdb/css/collections/consumersite-2854485090._V339984186_.css" />
-<!-- h=ics-http-1a-c1xl-i-eb89dcca.us-east-1 -->
+<!-- h=ics-http-1a-c1xl-i-261a4e07.us-east-1 -->
 <link rel="stylesheet" type="text/css" href="http://ia.media-imdb.com/images/G/01/imdb/css/site/consumer-navbar-mega-3538633082._V355276482_.css" />
 <link rel="stylesheet" type="text/css" href="http://ia.media-imdb.com/images/G/01/imdb/css/app/consumersite/find-2392946780._V379391851_.css" />
 <!--[if IE]><link rel="stylesheet" type="text/css" href="http://ia.media-imdb.com/images/G/01/imdb/css/collections/ie-1918465287._V354866480_.css" /><![endif]-->
@@ -142,12 +142,12 @@ onsubmit="(new Image()).src='/rg/SEARCH-BOX/HEADER/images/b.gif?link=/find';"
   <div id="nb_search">
     <noscript><div id="more_if_no_javascript"><a href="/search/">More</a></div></noscript>
     <button id="navbar-submit-button" class="primary btn" type="submit"><div class="magnifyingglass navbarSprite"></div></button>
-    <input type="text" autocomplete="off" value="the core" name="q" id="navbar-query" placeholder="Find Movies, TV shows, Celebrities and more...">
+    <input type="text" autocomplete="off" value="wappadoozle swambling" name="q" id="navbar-query" placeholder="Find Movies, TV shows, Celebrities and more...">
     <div class="quicksearch_dropdown_wrapper">
       <select name="s" id="quicksearch" class="quicksearch_dropdown navbarSprite"
               onchange="jumpMenu(this); suggestionsearch_dropdown_choice(this);">
         <option value="all" >All</option>
-        <option value="tt" >Titles</option>
+        <option value="tt" selected="selected">Titles</option>
         <option value="ep" >TV Episodes</option>
         <option value="nm" >Names</option>
         <option value="co" >Companies</option>
@@ -221,7 +221,7 @@ onsubmit="(new Image()).src='/rg/SEARCH-BOX/HEADER/images/b.gif?link=/find';"
                 <div class="subNavListContainer">
                     <h5>CELEBS</h5>
                     <ul>
-                            <li><a href="/search/name?birth_monthday=04-04&refine=birth_monthday&ref_=nv_cel_brn_1" >Born Today</a></li>
+                            <li><a href="/search/name?birth_monthday=04-06&refine=birth_monthday&ref_=nv_cel_brn_1" >Born Today</a></li>
                         <li><a href="/news/celebrity?ref_=nv_cel_nw_2" >Celebrity News</a></li>
                         <li><a href="/search/name?gender=male,female&ref_=nv_cel_m_3" >Most Popular Celebs</a></li>
                     </ul>
@@ -261,19 +261,19 @@ onsubmit="(new Image()).src='/rg/SEARCH-BOX/HEADER/images/b.gif?link=/find';"
                         <h5>LATEST HEADLINES</h5>
     <ul>
                 <li itemprop="headline">
-<a href="/news/ni57021836/?ref_=nv_nw_tn_1" > David Letterman to Retire from CBS in 2015
+<a href="/news/ni57030777/?ref_=nv_nw_tn_1" > 'Captain America' Sequel Opens Above 'Thor 2' on Friday
 </a><br />
-                        <span class="time">17 hours ago</span>
+                        <span class="time">20 hours ago</span>
                 </li>
                 <li itemprop="headline">
-<a href="/news/ni57021039/?ref_=nv_nw_tn_2" > ‘Batman-Superman’ Pic Adds Holly Hunter, ’300′s Callan Mulvey, Tao Okamoto
+<a href="/news/ni57028530/?ref_=nv_nw_tn_2" > The Most and Least Liked Potential Letterman Replacements – From Ellen DeGeneres to Conan O'Brien
 </a><br />
-                        <span class="time">21 hours ago</span>
+                        <span class="time">5 April 2014</span>
                 </li>
                 <li itemprop="headline">
-<a href="/news/ni57020046/?ref_=nv_nw_tn_3" > OWN Slate Features Toni Braxton in Network's First Scripted Film, Octavia Spencer in Miniseries
+<a href="/news/ni57030488/?ref_=nv_nw_tn_3" > Miley Cyrus Introduces New Pup After Dog Floyd's Death
 </a><br />
-                        <span class="time">3 April 2014</span>
+                        <span class="time">just now</span>
                 </li>
     </ul>
                     </div>
@@ -428,64 +428,16 @@ imageUrl : "http://ia.media-imdb.com/images/G/01/imdb/images/navbar/imdbpro_menu
 <div id="content-2-wide">
     <div id="main">
         <div class="article">
-       <h1 class="findHeader">Results for <span class="findSearchTerm">"the core"</span></h1>
+    <h1 class="findHeader">No results found for <span class="findSearchTerm">"wappadoozle swambling"</span>
+    
+    </h1>
 
+    <div id="findSubHeader"><span id="findSubHeaderLabel">Search category: </span>
+       Movie Titles
+    
+    </div>
 
-        <div id="findSubHeader"><span id="findSubHeaderLabel">Jump to:</span>
-              <a href="#tt">Titles</a> 
-              <span class="ghost">|</span>
-              <a href="#nm">Names</a> 
-              <span class="ghost">|</span>
-              <a href="#ch">Characters</a> 
-              <span class="ghost">|</span>
-              <a href="#kw">Keywords</a> 
-              <span class="ghost">|</span>
-              <a href="#co">Companies</a> 
-              
-        </div>
-
-<div class="findSection">
-<h3 class="findSectionHeader"><a name="tt"></a>Titles</h3>
-<table class="findList">
-<tr class="findResult odd"> <td class="primary_photo"> <a href="/title/tt0298814/?ref_=fn_al_tt_1" ><img src="http://ia.media-imdb.com/images/M/MV5BMTY3MTY3MzkzNl5BMl5BanBnXkFtZTYwNTAwNDk2._V1_SX32_CR0,0,32,44_.jpg" /></a> </td> <td class="result_text"> <a href="/title/tt0298814/?ref_=fn_al_tt_1" >The Core</a> (2003) </td> </tr><tr class="findResult even"> <td class="primary_photo"> <a href="/title/tt0796308/?ref_=fn_al_tt_2" ><img src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/32x44/film-3119741174._V379391527_.png" /></a> </td> <td class="result_text"> <a href="/title/tt0796308/?ref_=fn_al_tt_2" >The Core</a> (2005) </td> </tr><tr class="findResult odd"> <td class="primary_photo"> <a href="/title/tt1979599/?ref_=fn_al_tt_3" ><img src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/32x44/film-3119741174._V379391527_.png" /></a> </td> <td class="result_text"> <a href="/title/tt1979599/?ref_=fn_al_tt_3" >The Core</a> (TV Episode) <br/><small>- <a href="/title/tt0374380/?ref_=fn_al_tt_3a" >DVD on TV</a> (2003) (TV Series) </small> </td> </tr><tr class="findResult even"> <td class="primary_photo"> <a href="/title/tt0202314/?ref_=fn_al_tt_4" ><img src="http://ia.media-imdb.com/images/M/MV5BMjE5NTUwOTEwMF5BMl5BanBnXkFtZTcwNDM2NzIyMQ@@._V1_SX32_CR0,0,32,44_.jpg" /></a> </td> <td class="result_text"> <a href="/title/tt0202314/?ref_=fn_al_tt_4" >Deep Core</a> (2000) </td> </tr><tr class="findResult odd"> <td class="primary_photo"> <a href="/title/tt0116488/?ref_=fn_al_tt_5" ><img src="http://ia.media-imdb.com/images/M/MV5BMTYwNzMyMzg1N15BMl5BanBnXkFtZTcwMDQ4OTQyMQ@@._V1_SX32_CR0,0,32,44_.jpg" /></a> </td> <td class="result_text"> <a href="/title/tt0116488/?ref_=fn_al_tt_5" >Hard Core Logo</a> (1996) </td> </tr><tr class="findResult even"> <td class="primary_photo"> <a href="/title/tt1625562/?ref_=fn_al_tt_6" ><img src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/32x44/film-3119741174._V379391527_.png" /></a> </td> <td class="result_text"> <a href="/title/tt1625562/?ref_=fn_al_tt_6" >Hard Core Logo 2</a> (2010) </td> </tr><tr class="findResult odd"> <td class="primary_photo"> <a href="/title/tt0074157/?ref_=fn_al_tt_7" ><img src="http://ia.media-imdb.com/images/M/MV5BMTQ0ODcyNzAzOV5BMl5BanBnXkFtZTcwMDI4OTMyMQ@@._V1_SX32_CR0,0,32,44_.jpg" /></a> </td> <td class="result_text"> <a href="/title/tt0074157/?ref_=fn_al_tt_7" >At the Earth's Core</a> (1976) </td> </tr><tr class="findResult even"> <td class="primary_photo"> <a href="/title/tt1788390/?ref_=fn_al_tt_8" ><img src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/32x44/film-3119741174._V379391527_.png" /></a> </td> <td class="result_text"> <a href="/title/tt1788390/?ref_=fn_al_tt_8" >Kamen Rider × Kamen Rider OOO & W Featuring Skull: Movie War Core</a> (2010) </td> </tr><tr class="findResult odd"> <td class="primary_photo"> <a href="/title/tt1292010/?ref_=fn_al_tt_9" ><img src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/32x44/film-3119741174._V379391527_.png" /></a> </td> <td class="result_text"> <a href="/title/tt1292010/?ref_=fn_al_tt_9" >Armored Core: For Answer</a> (2008) (Video Game) </td> </tr><tr class="findResult even"> <td class="primary_photo"> <a href="/title/tt1153077/?ref_=fn_al_tt_10" ><img src="http://ia.media-imdb.com/images/M/MV5BMTU4NzgwODY0OF5BMl5BanBnXkFtZTcwMDU4MTI2MQ@@._V1_SX32_CR0,0,32,44_.jpg" /></a> </td> <td class="result_text"> <a href="/title/tt1153077/?ref_=fn_al_tt_10" >Cardio, Core & Stretch</a> (2007) (Video) </td> </tr></table>
-<div class="findMoreMatches">
-        View:&nbsp; <a href="/find?q=the core&amp;s=tt&ref_=fn_al_tt_mr" >More title matches</a>
-            &nbsp;or&nbsp;
-            <a href="/find?q=the core&amp;s=tt&amp;exact=true&ref_=fn_al_tt_ex" >Exact title matches</a>
-</div>
-</div>
-<div class="findSection">
-<h3 class="findSectionHeader"><a name="nm"></a>Names</h3>
-<table class="findList">
-<tr class="findResult odd"> <td class="primary_photo"> <a href="/name/nm0179697/?ref_=fn_al_nm_1" ><img src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._V379389446_.png" /></a> </td> <td class="result_text"> <a href="/name/nm0179697/?ref_=fn_al_nm_1" >Ericson Core</a> <small>(Cinematographer, <a href="/title/tt0232500/?ref_=fn_al_nm_1a" >The Fast and the Furious</a> (2001))</small></td> </tr><tr class="findResult even"> <td class="primary_photo"> <a href="/name/nm0179702/?ref_=fn_al_nm_2" ><img src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._V379389446_.png" /></a> </td> <td class="result_text"> <a href="/name/nm0179702/?ref_=fn_al_nm_2" >Natalie Core</a> <small>(Actress, <a href="/title/tt0096283/?ref_=fn_al_nm_2a" >My Neighbor Totoro</a> (1988))</small></td> </tr><tr class="findResult odd"> <td class="primary_photo"> <a href="/name/nm0179757/?ref_=fn_al_nm_3" ><img src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._V379389446_.png" /></a> </td> <td class="result_text"> <a href="/name/nm0179757/?ref_=fn_al_nm_3" >Carlos Cores</a> <small>(Actor, <a href="/title/tt0180721/?ref_=fn_al_nm_3a" >The Bastard</a> (1954))</small></td> </tr><tr class="findResult even"> <td class="primary_photo"> <a href="/name/nm0179759/?ref_=fn_al_nm_4" ><img src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._V379389446_.png" /></a> </td> <td class="result_text"> <a href="/name/nm0179759/?ref_=fn_al_nm_4" >Macusa Cores</a> <small>(Camera Department, <a href="/title/tt0095675/?ref_=fn_al_nm_4a" >Women on the Verge of a Nervous Breakdown</a> (1988))</small></td> </tr><tr class="findResult odd"> <td class="primary_photo"> <a href="/name/nm5795012/?ref_=fn_al_nm_5" ><img src="http://ia.media-imdb.com/images/M/MV5BMjMyOTI1NTMxNl5BMl5BanBnXkFtZTgwOTc4MDE1MTE@._V1_SY44_CR17,0,32,44_.jpg" /></a> </td> <td class="result_text"> <a href="/name/nm5795012/?ref_=fn_al_nm_5" >Randall Core</a> <small>(Actor, <a href="/title/tt3305736/?ref_=fn_al_nm_5a" >The Art of Terror</a> (2013))</small></td> </tr></table>
-<div class="findMoreMatches">
-        View:&nbsp; <a href="/find?q=the core&amp;s=nm&ref_=fn_al_nm_mr" >More name matches</a>
-</div>
-</div>
-<div class="findSection">
-<h3 class="findSectionHeader"><a name="ch"></a>Characters</h3>
-<table class="findList">
-<tr class="findResult odd"> <td class="result_text" colspan="2"> <a href="/character/ch0063334/?ref_=fn_al_ch_1" >Core Cougar</a> <small>(<a href="/title/tt0795361/?ref_=fn_al_ch_1a" >Cougar Club</a> (2007))</small></td> </tr><tr class="findResult even"> <td class="result_text" colspan="2"> <a href="/character/ch0187146/?ref_=fn_al_ch_2" >Core Nurse</a> <small>(<a href="/title/tt1442435/?ref_=fn_al_ch_2a" >Mercy</a> (2009))</small></td> </tr><tr class="findResult odd"> <td class="result_text" colspan="2"> <a href="/character/ch0193971/?ref_=fn_al_ch_3" >Core Warrior</a> <small>(<a href="/title/tt0402399/?ref_=fn_al_ch_3a" >The New World</a> (2005))</small></td> </tr><tr class="findResult even"> <td class="result_text" colspan="2"> <a href="/character/ch0405095/?ref_=fn_al_ch_4" >Core Teen</a> <small>(<a href="/title/tt2322158/?ref_=fn_al_ch_4a" >Crisis</a> (2014))</small></td> </tr><tr class="findResult odd"> <td class="result_text" colspan="2"> <a href="/character/ch0113178/?ref_=fn_al_ch_5" >Core Staffer</a> <small>(<a href="/title/tt0200276/?ref_=fn_al_ch_5a" >The West Wing</a> (1999))</small></td> </tr></table>
-<div class="findMoreMatches">
-        View:&nbsp; <a href="/find?q=the core&amp;s=ch&ref_=fn_al_ch_mr" >More character matches</a>
-</div>
-</div>
-<div class="findSection">
-<h3 class="findSectionHeader"><a name="kw"></a>Keywords</h3>
-<table class="findList">
-<tr class="findResult odd"> <td class="result_text" colspan="2"> <a href="/keyword/apple-core/?ref_=fn_al_kw_1" >apple-core</a> (8 titles) </td> </tr><tr class="findResult even"> <td class="result_text" colspan="2"> <a href="/keyword/core-strength/?ref_=fn_al_kw_2" >core-strength</a> (1 title) </td> </tr><tr class="findResult odd"> <td class="result_text" colspan="2"> <a href="/keyword/middle-core/?ref_=fn_al_kw_3" >middle-core</a> (1 title) </td> </tr><tr class="findResult even"> <td class="result_text" colspan="2"> <a href="/keyword/core-sample/?ref_=fn_al_kw_4" >core-sample</a> (6 titles) </td> </tr><tr class="findResult odd"> <td class="result_text" colspan="2"> <a href="/keyword/warp-core/?ref_=fn_al_kw_5" >warp-core</a> (2 titles) </td> </tr></table>
-<div class="findMoreMatches">
-        View:&nbsp; <a href="/find?q=the core&amp;s=kw&ref_=fn_al_kw_mr" >More keyword matches</a>
-</div>
-</div>
-<div class="findSection">
-<h3 class="findSectionHeader"><a name="co"></a>Companies</h3>
-<table class="findList">
-<tr class="findResult odd"> <td class="result_text" colspan="2"> <a href="/company/co0219352/?ref_=fn_al_co_1" >CORE Media Group</a> [us] (Production) </td> </tr><tr class="findResult even"> <td class="result_text" colspan="2"> <a href="/company/co0442547/?ref_=fn_al_co_2" >Alpha Core</a> [us] (Production) </td> </tr><tr class="findResult odd"> <td class="result_text" colspan="2"> <a href="/company/co0466338/?ref_=fn_al_co_3" >Halfire-Core Entertainment</a> [us] (Production) </td> </tr><tr class="findResult even"> <td class="result_text" colspan="2"> <a href="/company/co0106601/?ref_=fn_al_co_4" >Core Public Relations Group</a> [us] (Publicist) </td> </tr><tr class="findResult odd"> <td class="result_text" colspan="2"> <a href="/company/co0129185/?ref_=fn_al_co_5" >Core Films Ltd.</a> [gb] (Production) </td> </tr></table>
-<div class="findMoreMatches">
-        View:&nbsp; <a href="/find?q=the core&amp;s=co&ref_=fn_al_co_mr" >More company matches</a>
-</div>
-</div>
+    <div class="findNoResults">&nbsp;</div>
         </div>
     </div>
 
@@ -496,25 +448,25 @@ imageUrl : "http://ia.media-imdb.com/images/G/01/imdb/images/navbar/imdbpro_menu
 
 <div class="aux-content-widget-3">
 <h3>Category Search</h3>
-<p>Search for "the core" within a specific category:
+<p>Search for "wappadoozle swambling" within a specific category:
 <ul class="findFilterList">
-<li class="filterActive">All</li>
-<li ><a href="/find?q=the core&amp;s=nm&ref_=fn_nm" >Name</a> <span>(actor, writer, director, etc)</span></li>
-<li ><a href="/find?q=the core&amp;s=tt&ref_=fn_tt" >Title</a> <span>(movie, TV, video game)</span></li>
+<li ><a href="/find?q=wappadoozle swambling&amp;s=all&ref_=fn_al" >All</a></li>
+<li ><a href="/find?q=wappadoozle swambling&amp;s=nm&ref_=fn_nm" >Name</a> <span>(actor, writer, director, etc)</span></li>
+<li ><a href="/find?q=wappadoozle swambling&amp;s=tt&ref_=fn_tt" >Title</a> <span>(movie, TV, video game)</span></li>
    <ul class="findTitleSubfilterList">
-       <li ><a href="/find?q=the core&amp;s=tt&amp;ttype=ft&ref_=fn_ft" >Movie</a></li>
-       <li ><a href="/find?q=the core&amp;s=tt&amp;ttype=tv&ref_=fn_tv" >TV</a></li>
-       <li ><a href="/find?q=the core&amp;s=tt&amp;ttype=ep&ref_=fn_ep" >TV Episode</a></li>
-       <li ><a href="/find?q=the core&amp;s=tt&amp;ttype=vg&ref_=fn_vg" >Video Game</a></li>
+       <li class="filterActive">Movie</li>
+       <li ><a href="/find?q=wappadoozle swambling&amp;s=tt&amp;ttype=tv&ref_=fn_tv" >TV</a></li>
+       <li ><a href="/find?q=wappadoozle swambling&amp;s=tt&amp;ttype=ep&ref_=fn_ep" >TV Episode</a></li>
+       <li ><a href="/find?q=wappadoozle swambling&amp;s=tt&amp;ttype=vg&ref_=fn_vg" >Video Game</a></li>
    </ul>
-<li ><a href="/find?q=the core&amp;s=ch&ref_=fn_ch" >Character</a></li>
-<li ><a href="/find?q=the core&amp;s=co&ref_=fn_co" >Company</a></li>
-<li ><a href="/find?q=the core&amp;s=kw&ref_=fn_kw" >Keyword</a></li>
+<li ><a href="/find?q=wappadoozle swambling&amp;s=ch&ref_=fn_ch" >Character</a></li>
+<li ><a href="/find?q=wappadoozle swambling&amp;s=co&ref_=fn_co" >Company</a></li>
+<li ><a href="/find?q=wappadoozle swambling&amp;s=kw&ref_=fn_kw" >Keyword</a></li>
 
-<li><a href="/search/videos/?q=the core&ref_=fn_vi" >Videos</a></li>
-<li><a href="/search/text?realm=title&amp;field=plot&amp;q=the core&ref_=fn_pl" >Plot Summaries</a></li>
-<li><a href="/search/text?realm=name&amp;field=bio&amp;q=the core&ref_=fn_bi" >Biographies</a></li>
-<li><a href="/search/text?realm=title&amp;field=quotes&amp;q=the core&ref_=fn_qu" >Quotes</a></li>
+<li><a href="/search/videos/?q=wappadoozle swambling&ref_=fn_vi" >Videos</a></li>
+<li><a href="/search/text?realm=title&amp;field=plot&amp;q=wappadoozle swambling&ref_=fn_pl" >Plot Summaries</a></li>
+<li><a href="/search/text?realm=name&amp;field=bio&amp;q=wappadoozle swambling&ref_=fn_bi" >Biographies</a></li>
+<li><a href="/search/text?realm=title&amp;field=quotes&amp;q=wappadoozle swambling&ref_=fn_qu" >Quotes</a></li>
 </ul>
 </div>
 	
@@ -753,12 +705,12 @@ href="//www.amazon.com/InterestBasedAds"
 
 <script type="text/imdblogin-js" id="login">
 jQuery(document).ready(function(){
-    window.imdb.login_lightbox("https://secure.imdb.com", "http://www.imdb.com/find?q=the+core");
+    window.imdb.login_lightbox("https://secure.imdb.com", "http://www.imdb.com/find?q=wappadoozle+swambling&s=tt&ttype=ft");
 });
 </script>
 
 
-<div id="servertime" time="1075"/>
+<div id="servertime" time="18"/>
 
 
 
