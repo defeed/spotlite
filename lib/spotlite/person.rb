@@ -17,8 +17,8 @@ module Spotlite
       @imdb_id = "%07d" % imdb_id.to_i
       @name = name
       @url = "http://www.imdb.com/name/nm#{@imdb_id}/"
-      @credits_category = credits_category
-      @credits_text = credits_text
+      @credits_category = credits_category if credits_category
+      @credits_text = credits_text if credits_text
     end
     
     # Returns a list of people as an array of +Spotlite::Person+ objects
@@ -26,6 +26,29 @@ module Spotlite
     def self.find(query)
       results = Nokogiri::HTML open("http://www.imdb.com/find?q=#{CGI::escape(query)}&s=nm", 'Accept-Language' => 'en-us')
       results.css('.result_text').map do |result|
+        imdb_id = result.at('a')['href'].parse_imdb_id
+        name    = result.at('a').text.strip
+      
+        [imdb_id, name]
+      end.map do |values|
+        self.new(*values)
+      end
+    end
+    
+    # Returns a list of people as an array of +Spotlite::Person+ objects
+    # Takes optional parameters as a hash
+    # See https://github.com/defeed/spotlite/wiki/Advanced-person-search for details
+    def self.search(params = {})
+      defaults = {
+        :view       => 'simple',
+        :count      => 250,
+        :start      => 1,
+        :gender     => 'male,female',
+        :sort       => 'starmeter,asc'
+      }
+      params = defaults.merge(params).map{ |k, v| "#{k}=#{v}" }.join('&')
+      results = Nokogiri::HTML open("http://www.imdb.com/search/name?#{params}", 'Accept-Language' => 'en-us')
+      results.css('td.name').map do |result|
         imdb_id = result.at('a')['href'].parse_imdb_id
         name    = result.at('a').text.strip
       
