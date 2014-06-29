@@ -271,7 +271,8 @@ module Spotlite
     # If day and month are unknown, 1st of January is assigned
     def release_dates
       array = []
-      release_info.at('#release_dates').css('tr').map do |row|
+      table = release_info.at('#release_dates')
+      table.css('tr').map do |row|
         cells = row.css('td')
         code = cells.first.at('a')['href'].clean_href.split('=').last.downcase rescue nil
         region = cells.first.at('a').text rescue nil
@@ -280,7 +281,7 @@ module Spotlite
         comment = nil if comment.empty?
         
         array << {:code => code, :region => region, :date => date, :comment => comment}
-      end
+      end unless table.nil?
       
       array
     end
