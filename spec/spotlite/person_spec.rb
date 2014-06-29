@@ -62,13 +62,13 @@ describe "Spotlite::Person" do
       end
       
       context "with basic jobs (director, actor, writer, producer), expanded to a hash of arrays" do
-        it "should return a hash of 4 arrays with some movies in each of them" do
+        it "should return a hash of 4 arrays" do
           @person.filmography(false, false).should be_an(Hash)
           @person.filmography(false, false).size.should eql(4)
           @person.filmography(false, false).keys.should eql([:director, :actor, :writer, :producer])
         end
         
-        it "should be able to retrieve individual array by a hash key" do
+        it "should be able to retrieve an array of +Spotlite::Movie+ objects by a hash key" do
           @person.filmography(false, false)[:actor].should be_an(Array)
           @person.filmography(false, false)[:actor].size.should be_within(5).of(29)
           @person.filmography(false, false)[:actor].each{ |movie| movie.should be_a(Spotlite::Movie) }
@@ -88,13 +88,13 @@ describe "Spotlite::Person" do
       end
       
       context "with all available jobs, expanded to a hash of arrays" do
-        it "should return a hash of 11 arrays with some movies in each of them" do
+        it "should return a hash of 11 arrays" do
           @person.filmography(true, false).should be_an(Hash)
           @person.filmography(true, false).size.should eql(11)
           @person.filmography(true, false).keys.should eql([:writer, :actor, :director, :producer, :miscellaneous, :soundtrack, :cinematographer, :music_department, :editor, :thanks, :self])
         end
         
-        it "should be able to retrieve individual array by a hash key" do
+        it "should be able to retrieve an array of +Spotlite::Movie+ objects by a hash key" do
           @person.filmography(true, false)[:thanks].should be_an(Array)
           @person.filmography(true, false)[:thanks].size.should be_within(10).of(75)
           @person.filmography(true, false)[:thanks].each{ |movie| movie.should be_a(Spotlite::Movie) }
