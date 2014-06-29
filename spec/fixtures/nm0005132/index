@@ -1,15 +1,16 @@
 HTTP/1.1 200 OK
-Date: Fri, 04 Apr 2014 14:11:01 GMT
+Date: Sun, 29 Jun 2014 14:26:27 GMT
 Server: Server
 X-Frame-Options: SAMEORIGIN
 Content-Type: text/html;charset=UTF-8
 Content-Language: en-US
 Vary: Accept-Encoding,User-Agent
-Set-Cookie: uu=BCYgAtMHFa-8sDxHXxQ6MWVPBqJ6_IfiLZZ4i9tWskckqSomykzbthIAVAbXQA_AFtMrgA8FOwXp%0D%0AQu885jjVwGc_nNmRfLTaiRYj8MqORNSHUzQ7XnohusNlqdqSKXfN-RtPIK6Jlw8nz0bZjmKXYo6a%0D%0ArLL2qSGmXWqMb9hVFtKqLcDntnqlcXSZ9Pq6k0zjUd3jtOk74wusEnqg08ubHBkiorh3oLwOBw07%0D%0A8vtdHQLpHYWmU6Zl8i8kAF8gMJxwx0FVkSGS0zrjUwNuTMPN3Fy5AQ%0D%0A; Domain=.imdb.com; Expires=Wed, 22-Apr-2082 17:25:09 GMT; Path=/
-Set-Cookie: session-id=000-0000000-0000000; Domain=.imdb.com; Expires=Wed, 22-Apr-2082 17:25:09 GMT; Path=/
-Set-Cookie: session-id-time=1554300662; Domain=.imdb.com; Expires=Wed, 22-Apr-2082 17:25:09 GMT; Path=/
-P3P: policyref="http://i.imdb.com/images/p3p.xml",CP="CAO DSP LAW CUR ADM IVAo IVDo CONo OTPo OUR DELi PUBi OTRi BUS PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA HEA PRE LOC GOV OTC "
+Set-Cookie: uu=BCYhF_wHR7CGP83PU004RpbYaUrgWqxBgn5HFOSGwqm5t0j7xSWY4a18jZTWdzHVIWlzowFaPL2-%0D%0AU5z68QnkDLHtoVPNdIrIjkuIPlscl8rWAq-d9cX9KTs7gNnmTylNgPMidYjznmviXcA8HpAoIklS%0D%0AEq_r5d6gIeH3O0-DDgp_4AuLgT_iWXRdxa2oO4gak-OaFJsUEMQd8qfsyID_OtX54fXrJK3_sbWO%0D%0A_RsoR_xTK2pBnyHzS8APlOyqug_ZWrSexSskV2ug8dJzcK2r_JZLPg%0D%0A; Domain=.imdb.com; Expires=Fri, 17-Jul-2082 17:40:34 GMT; Path=/
+Set-Cookie: session-id=000-0000000-0000000; Domain=.imdb.com; Expires=Fri, 17-Jul-2082 17:40:34 GMT; Path=/
+Set-Cookie: session-id-time=1561731987; Domain=.imdb.com; Expires=Fri, 17-Jul-2082 17:40:34 GMT; Path=/
+P3p: policyref="http://i.imdb.com/images/p3p.xml",CP="CAO DSP LAW CUR ADM IVAo IVDo CONo OTPo OUR DELi PUBi OTRi BUS PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA HEA PRE LOC GOV OTC "
 Transfer-Encoding: chunked
+Connection: keep-alive
 
 
 
@@ -25,7 +26,7 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
                 var ue_sn = "www.imdb.com";  
                 var ue_furl = "fls-na.amazon.com";
                 var ue_sid = "000-0000000-0000000";
-                var ue_id = "1M8XXA3DJZTWV0CVCENZ";
+                var ue_id = "0YWX4ZG7PNJMVMX6QGH1";
                 (function(e){var c=e,a={main_scope:"mainscopecsm",q:[],t0:c.ue_t0||+new Date(),d:g};function g(h){return +new Date()-(h?0:a.t0)}function d(h){return function(){a.q.push({n:h,a:arguments,t:a.d()})}}function b(k,j,h){var i={m:k,f:j,l:h,fromOnError:1,args:arguments};c.ueLogError(i);return false}b.skipTrace=1;e.onerror=b;function f(){c.uex("ld")}if(e.addEventListener){e.addEventListener("load",f,false)}else{if(e.attachEvent){e.attachEvent("onload",f)}}a.tag=d("tag");a.log=d("log");a.reset=d("rst");c.ue_csm=c;c.ue=a;c.ueLogError=d("err");c.ues=d("ues");c.uet=d("uet");c.uex=d("uex");c.uet("ue")})(window);(function(e,d){var a=e.ue||{};function c(g){if(!g){return}var f=d.head||d.getElementsByTagName("head")[0]||d.documentElement,h=d.createElement("script");h.async="async";h.src=g;f.insertBefore(h,f.firstChild)}function b(){var k=e.ue_cdn||"z-ecx.images-amazon.com",g=e.ue_cdns||"images-na.ssl-images-amazon.com",j="/images/G/01/csminstrumentation/",h=e.ue_file||"ue-full-ef584a44e8ea58e3d4d928956600a9b6._V1_.js",f,i;if(h.indexOf("NSTRUMENTATION_FIL")>=0){return}if("ue_https" in e){f=e.ue_https}else{f=e.location&&e.location.protocol=="https:"?1:0}i=f?"https://":"http://";i+=f?g:k;i+=j;i+=h;c(i)}if(!e.ue_inline){b()}a.uels=c;e.ue=a})(window,document);
             </script>
  
@@ -42,18 +43,18 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
             <meta property="og:url" content="http://www.imdb.com/name/nm0005132/" />
         
   <script>(function(t){ (t.events = t.events || {})["csm_head_pre_icon"] = new Date().getTime(); })(IMDbTimer);</script>
-        <link rel="icon" type="image/ico" href="http://ia.media-imdb.com/images/G/01/imdb/images/favicon-2165806970._V379387995_.ico" />
-        <link rel="shortcut icon" type="image/x-icon" href="http://ia.media-imdb.com/images/G/01/imdb/images/desktop-favicon-2165806970._V379390718_.ico" />
-        <link href="http://ia.media-imdb.com/images/G/01/imdb/images/mobile/apple-touch-icon-web-4151659188._V361295786_.png" rel="apple-touch-icon"> 
-        <link href="http://ia.media-imdb.com/images/G/01/imdb/images/mobile/apple-touch-icon-web-76x76-53536248._V361295462_.png" rel="apple-touch-icon" sizes="76x76"> 
-        <link href="http://ia.media-imdb.com/images/G/01/imdb/images/mobile/apple-touch-icon-web-120x120-2442878471._V361295428_.png" rel="apple-touch-icon" sizes="120x120"> 
-        <link href="http://ia.media-imdb.com/images/G/01/imdb/images/mobile/apple-touch-icon-web-152x152-1475823641._V361295368_.png" rel="apple-touch-icon" sizes="152x152"> 
-        <link rel="search" type="application/opensearchdescription+xml" href="http://ia.media-imdb.com/images/G/01/imdb/images/imdbsearch-3349468880._V379388505_.xml" title="IMDb" />
+        <link rel="icon" type="image/ico" href="http://ia.media-imdb.com/images/G/01/imdb/images/favicon-2165806970._CB379387995_.ico" />
+        <link rel="shortcut icon" type="image/x-icon" href="http://ia.media-imdb.com/images/G/01/imdb/images/desktop-favicon-2165806970._CB379390718_.ico" />
+        <link href="http://ia.media-imdb.com/images/G/01/imdb/images/mobile/apple-touch-icon-web-4151659188._CB361295786_.png" rel="apple-touch-icon"> 
+        <link href="http://ia.media-imdb.com/images/G/01/imdb/images/mobile/apple-touch-icon-web-76x76-53536248._CB361295462_.png" rel="apple-touch-icon" sizes="76x76"> 
+        <link href="http://ia.media-imdb.com/images/G/01/imdb/images/mobile/apple-touch-icon-web-120x120-2442878471._CB361295428_.png" rel="apple-touch-icon" sizes="120x120"> 
+        <link href="http://ia.media-imdb.com/images/G/01/imdb/images/mobile/apple-touch-icon-web-152x152-1475823641._CB361295368_.png" rel="apple-touch-icon" sizes="152x152"> 
+        <link rel="search" type="application/opensearchdescription+xml" href="http://ia.media-imdb.com/images/G/01/imdb/images/imdbsearch-3349468880._CB379388505_.xml" title="IMDb" />
   <script>(function(t){ (t.events = t.events || {})["csm_head_post_icon"] = new Date().getTime(); })(IMDbTimer);</script>
         
     
-        <link rel='image_src' href="http://ia.media-imdb.com/images/M/MV5BMTI2NTY0NzA4MF5BMl5BanBnXkFtZTYwMjE1MDE0._V1_SY400_SX267_.jpg">
-        <meta property='og:image' content="http://ia.media-imdb.com/images/M/MV5BMTI2NTY0NzA4MF5BMl5BanBnXkFtZTYwMjE1MDE0._V1_SY400_SX267_.jpg" />
+        <link rel='image_src' href="http://ia.media-imdb.com/images/M/MV5BMTI2NTY0NzA4MF5BMl5BanBnXkFtZTYwMjE1MDE0._V1_SY400_SX267_AL_.jpg">
+        <meta property='og:image' content="http://ia.media-imdb.com/images/M/MV5BMTI2NTY0NzA4MF5BMl5BanBnXkFtZTYwMjE1MDE0._V1_SY400_SX267_AL_.jpg" />
     
         <meta property='og:type' content="actor" />
     <meta property='fb:app_id' content='115109575169727' />
@@ -63,13 +64,16 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
         <meta name="description" content="Heath Ledger, Actor: The Dark Knight. When a hunky, twenty-year-old heart-throb Heath Ledger first came to the attention of the public in 1999, it was all too easy to tag him as a &quot;pretty boy&quot; and an actor of little depth. He spent several years trying desperately to sway this image, but this was a double-edged sword. But that comes much later in his story. Heath Ledger was born on the fourth of April 1979, in Perth, Western ..." />
         <meta property="og:description" content="Heath Ledger, Actor: The Dark Knight. When a hunky, twenty-year-old heart-throb Heath Ledger first came to the attention of the public in 1999, it was all too easy to tag him as a &quot;pretty boy&quot; and an actor of little depth. He spent several years trying desperately to sway this image, but this was a double-edged sword. But that comes much later in his story. Heath Ledger was born on the fourth of April 1979, in Perth, Western ..." />
         <meta name="keywords" content="Biography, Photos, Awards, News, Message Boards" />
-        <meta name="request_id" content="1M8XXA3DJZTWV0CVCENZ" />
+        <meta name="request_id" content="0YWX4ZG7PNJMVMX6QGH1" />
         
   <script>(function(t){ (t.events = t.events || {})["csm_head_pre_css"] = new Date().getTime(); })(IMDbTimer);</script>
-<!-- h=ics-http-1a-c1xl-i-1feda73e.us-east-1 -->
+<!-- h=ics-http-1e-c1xl-i-66736646.us-east-1 -->
 
-            <link rel="stylesheet" type="text/css" href="http://ia.media-imdb.com/images/G/01/imdb/css/collections/name-4035136485._V340779923_.css" />
-            <link rel="stylesheet" type="text/css" href="http://ia.media-imdb.com/images/G/01/imdb/css/site/consumer-navbar-mega-3538633082._V355276482_.css" />
+            <link rel="stylesheet" type="text/css" href="http://ia.media-imdb.com/images/G/01/imdb/css/collections/name-3310168318._CB349420926_.css" />
+            <link rel="stylesheet" type="text/css" href="http://ia.media-imdb.com/images/G/01/imdb/css/site/consumer-navbar-mega-3538633082._CB355276482_.css" />
+        <noscript>
+            <link rel="stylesheet" type="text/css" href="http://ia.media-imdb.com/images/G/01/imdb/css/wheel/nojs-2627072490._CB343672767_.css">
+        </noscript>
   <script>(function(t){ (t.events = t.events || {})["csm_head_post_css"] = new Date().getTime(); })(IMDbTimer);</script>
         
   <script>(function(t){ (t.events = t.events || {})["csm_head_pre_ads"] = new Date().getTime(); })(IMDbTimer);</script>
@@ -122,9 +126,9 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
 </div>
   <div id="navbar" class="navbarSprite">
 <noscript>
-  <link rel="stylesheet" type="text/css" href="http://ia.media-imdb.com/images/G/01/imdb/css/site/consumer-navbar-no-js-4175877511._V379390803_.css" />
+  <link rel="stylesheet" type="text/css" href="http://ia.media-imdb.com/images/G/01/imdb/css/site/consumer-navbar-no-js-4175877511._CB379390803_.css" />
 </noscript>
-<!--[if IE]><link rel="stylesheet" type="text/css" href="http://ia.media-imdb.com/images/G/01/imdb/css/site/consumer-navbar-ie-470687728._V379390980_.css"><![endif]-->
+<!--[if IE]><link rel="stylesheet" type="text/css" href="http://ia.media-imdb.com/images/G/01/imdb/css/site/consumer-navbar-ie-470687728._CB379390980_.css"><![endif]-->
 <span id="home_img_holder">
 <a href="/?ref_=nv_home" title="Home" class="navbarSprite" id="home_img" ></a>  <span class="alt_logo">
     <a href="/?ref_=nv_home" title="Home" >IMDb</a>
@@ -152,7 +156,6 @@ onsubmit="(new Image()).src='/rg/SEARCH-BOX/HEADER/images/b.gif?link=/find';"
         <option value="co" >Companies</option>
         <option value="kw" >Keywords</option>
         <option value="ch" >Characters</option>
-        <option value="vi" >Videos</option>
         <option value="qu" >Quotes</option>
         <option value="bi" >Bios</option>
         <option value="pl" >Plots</option>
@@ -201,9 +204,9 @@ onsubmit="(new Image()).src='/rg/SEARCH-BOX/HEADER/images/b.gif?link=/find';"
                     </ul>
                     <h5>SPECIAL FEATURES</h5>
                     <ul>
-                        <li><a href="/oscars/?ref_=nv_sf_rto_1" >Road to the Oscars 2014</a></li>
-                        <li><a href="/x-ray/?ref_=nv_sf_xray_2" >X-Ray for Movies & TV</a></li>
-                        <li><a href="/poll/?ref_=nv_sf_pl_3" >Polls</a></li>
+                        <li><a href="/imdbpicks/?ref_=nv_sf_pks_1" >IMDb Picks</a></li>
+                        <li><a href="/poll/?ref_=nv_sf_pl_2" >Polls</a></li>
+                        <li><a href="/x-ray/?ref_=nv_sf_xray_3" >X-Ray for Movies & TV</a></li>
                     </ul>
                 </div>
             </div>
@@ -220,7 +223,7 @@ onsubmit="(new Image()).src='/rg/SEARCH-BOX/HEADER/images/b.gif?link=/find';"
                 <div class="subNavListContainer">
                     <h5>CELEBS</h5>
                     <ul>
-                            <li><a href="/search/name?birth_monthday=04-04&refine=birth_monthday&ref_=nv_cel_brn_1" >Born Today</a></li>
+                            <li><a href="/search/name?birth_monthday=06-29&refine=birth_monthday&ref_=nv_cel_brn_1" >Born Today</a></li>
                         <li><a href="/news/celebrity?ref_=nv_cel_nw_2" >Celebrity News</a></li>
                         <li><a href="/search/name?gender=male,female&ref_=nv_cel_m_3" >Most Popular Celebs</a></li>
                     </ul>
@@ -260,19 +263,19 @@ onsubmit="(new Image()).src='/rg/SEARCH-BOX/HEADER/images/b.gif?link=/find';"
                         <h5>LATEST HEADLINES</h5>
     <ul>
                 <li itemprop="headline">
-<a href="/news/ni57021836/?ref_=nv_nw_tn_1" > David Letterman to Retire from CBS in 2015
+<a href="/news/ni57424075/?ref_=nv_nw_tn_1" > 'Transformers' On Track for Over $100 Million This Weekend
 </a><br />
-                        <span class="time">17 hours ago</span>
+                        <span class="time">27 June 2014</span>
                 </li>
                 <li itemprop="headline">
-<a href="/news/ni57021039/?ref_=nv_nw_tn_2" > ‘Batman-Superman’ Pic Adds Holly Hunter, ’300′s Callan Mulvey, Tao Okamoto
+<a href="/news/ni57424046/?ref_=nv_nw_tn_2" > ‘Transformers: Age of Extinction’ Set to Break China Opening Weekend Record (Exclusive)
 </a><br />
-                        <span class="time">21 hours ago</span>
+                        <span class="time">22 hours ago</span>
                 </li>
                 <li itemprop="headline">
-<a href="/news/ni57020046/?ref_=nv_nw_tn_3" > OWN Slate Features Toni Braxton in Network's First Scripted Film, Octavia Spencer in Miniseries
+<a href="/news/ni57423916/?ref_=nv_nw_tn_3" > Aereo Hits ‘Pause’ On Service In Wake of Supreme Court Loss
 </a><br />
-                        <span class="time">3 April 2014</span>
+                        <span class="time">23 hours ago</span>
                 </li>
     </ul>
                     </div>
@@ -313,15 +316,15 @@ onsubmit="(new Image()).src='/rg/SEARCH-BOX/HEADER/images/b.gif?link=/find';"
     window.imdb.watchlistTeaserData = [
                 {
                         href : "/list/watchlist",
-                src : "http://ia.media-imdb.com/images/G/01/imdb/images/navbar/watchlist_slot1_logged_out-1670046337._V360061167_.jpg"
+                src : "http://ia.media-imdb.com/images/G/01/imdb/images/navbar/watchlist_slot1_logged_out-1670046337._CB360061167_.jpg"
                 },
                 {
                     href : "/search/title?count=100&title_type=feature,tv_series",
-                src : "http://ia.media-imdb.com/images/G/01/imdb/images/navbar/watchlist_slot2_popular-4090757197._V360060945_.jpg"
+                src : "http://ia.media-imdb.com/images/G/01/imdb/images/navbar/watchlist_slot2_popular-4090757197._CB360060945_.jpg"
                 },
                 {
                     href : "/chart/top",
-                src : "http://ia.media-imdb.com/images/G/01/imdb/images/navbar/watchlist_slot3_top250-575799966._V360061165_.jpg"
+                src : "http://ia.media-imdb.com/images/G/01/imdb/images/navbar/watchlist_slot3_top250-575799966._CB360061165_.jpg"
                 }
     ];
     </script>
@@ -343,27 +346,20 @@ window.imdb.navbarAdSlots = {
     <ul id="nb_extra_nav" class="main_nav">
         <li class="css_nav_item" id="navProMenu">
             <p class="navCategory">
-<a
-onclick="(new Image()).src='/rg/imdbprohome/navbar/images/b.gif?link=/r/IMDbTabNV/';"
-href="/r/IMDbTabNV/"
-> <img alt="IMDbPro Menu" src="http://ia.media-imdb.com/images/G/01/imdb/images/navbar/imdbpro_logo_nb-720143162._V377744227_.png" />
+<a href="http://pro.imdb.com/signup/index.html?rf=cons_nb_hm&ref_=cons_nb_hm" > <img alt="IMDbPro Menu" src="http://ia.media-imdb.com/images/G/01/imdb/images/navbar/imdbpro_logo_nb-720143162._CB377744227_.png" />
 </a>            </p>
             <span class="downArrow"></span>
             <div id="navMenuPro" class="sub_nav">
-<a
-onclick="(new Image()).src='/rg/imdbprohome/navbar/images/b.gif?link=/r/IMDbTabNV/';"
-href="/r/IMDbTabNV/"
-id="proLink"
-> <div id="proAd">
+<a href="http://pro.imdb.com/signup/index.html?rf=cons_nb_hm&ref_=cons_nb_hm" id="proLink" > <div id="proAd">
 <script>
 if (!('imdb' in window)) { window.imdb = {}; }
 window.imdb.proMenuTeaser = {
-imageUrl : "http://ia.media-imdb.com/images/G/01/imdb/images/navbar/imdbpro_menu_user-2082544740._V377744226_.jpg"
+imageUrl : "http://ia.media-imdb.com/images/G/01/imdb/images/navbar/imdbpro_menu_user-2082544740._CB377744226_.jpg"
 };
 </script>
 </div>
 <div class="subNavListContainer">
-<img alt="Go to IMDbPro" title="Go to IMDbPro" src="http://ia.media-imdb.com/images/G/01/imdb/images/navbar/imdbpro_logo_menu-2185879182._V377744253_.png" />
+<img alt="Go to IMDbPro" title="Go to IMDbPro" src="http://ia.media-imdb.com/images/G/01/imdb/images/navbar/imdbpro_logo_menu-2185879182._CB377744253_.png" />
 <h5>GET INFORMED</h5>
 <p>Industry information at your fingertips</p>
 <h5>GET CONNECTED</h5>
@@ -447,7 +443,7 @@ height="317"
 width="214"
 alt="Heath Ledger Picture"
 title="Heath Ledger Picture"
-src="http://ia.media-imdb.com/images/M/MV5BMTI2NTY0NzA4MF5BMl5BanBnXkFtZTYwMjE1MDE0._V1_SX214_CR0,0,214,317_.jpg"
+src="http://ia.media-imdb.com/images/M/MV5BMTI2NTY0NzA4MF5BMl5BanBnXkFtZTYwMjE1MDE0._V1_SX214_CR0,0,214,317_AL_.jpg"
 itemprop="image" />
 </a>                                
                          
@@ -462,25 +458,18 @@ itemprop="image" />
         
 
             <div id="prometer_container">
-                <div id="prometer" class="meter-collapsed up">
+                <div id="prometer" class="meter-collapsed down">
                     <div id="meterHeaderBox">
                         <div class="meterToggleOnHover">STARmeter</div>
-<a
-onclick="(new Image()).src='/rg/nm_starmeter_why/prosystem/images/b.gif?link=/r/nm_starmeter_why/name/nm0005132';"
-href="/r/nm_starmeter_why/name/nm0005132"
-id="meterRank"
->Top 500</a>
+<a href="http://pro.imdb.com/name/nm0005132?rf=cons_nm_meter&ref_=cons_nm_meter" id="meterRank" >Top 500</a>
                     </div>
                     <div id="meterChangeRow" class="meterToggleOnHover">
-                            <span>Up</span>
-                        <span id="meterChange">22</span>
+                            <span>Down</span>
+                        <span id="meterChange">56</span>
                         <span>this week</span>
                     </div>
                     <div id="meterSeeMoreRow" class="meterToggleOnHover">
-<a
-onclick="(new Image()).src='/rg/nm_starmeter_why/prosystem/images/b.gif?link=/r/nm_starmeter_why/name/nm0005132';"
-href="/r/nm_starmeter_why/name/nm0005132"
->View rank on IMDbPro</a>            
+<a href="http://pro.imdb.com/name/nm0005132?rf=cons_nm_meter&ref_=cons_nm_meter" >View rank on IMDbPro</a>
                         <span>&raquo;</span>
                     </div>
                 </div>
@@ -559,12 +548,12 @@ When a hunky, twenty-year-old heart-throb Heath Ledger first came to the attenti
         <div class="mediastrip_container">
         <div class="mediastrip">
                 
-<a href="/media/rm1090296576/nm0005132?ref_=nm_phs_md_1" itemprop='thumbnailUrl'><img height="99" width="99" alt="Heath Ledger at event of Candy (2006)" title="Heath Ledger at event of Candy (2006)"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/unknown-1394846836._V379391227_.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTY1NjYxMTQ2MF5BMl5BanBnXkFtZTYwMzA1MDE0._V1_SX99_CR0,0,99,99_.jpg" itemprop='image' /></a>                
-<a href="/media/rm3869481728/nm0005132?ref_=nm_phs_md_2" itemprop='thumbnailUrl'><img height="99" width="99" alt="Heath Ledger" title="Heath Ledger"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/unknown-1394846836._V379391227_.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTQ2OTMyODI1M15BMl5BanBnXkFtZTYwNTUxNDQ0._V1_SX99_CR0,0,99,99_.jpg" itemprop='image' /></a>                
-<a href="/media/rm221812736/nm0005132?ref_=nm_phs_md_3" itemprop='thumbnailUrl'><img height="99" width="99" alt="Still of Andrew Keegan and Heath Ledger in 10 Things I Hate About You (1999)" title="Still of Andrew Keegan and Heath Ledger in 10 Things I Hate About You (1999)"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/unknown-1394846836._V379391227_.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTQ4NzQ1NDQwM15BMl5BanBnXkFtZTYwMTQyNzc2._V1_SY99_CR16,0,99,99_.jpg" itemprop='image' /></a>                
-<a href="/media/rm184785664/nm0005132?ref_=nm_phs_md_4" itemprop='thumbnailUrl'><img height="99" width="99" alt="Heath Ledger at event of The Patriot (2000)" title="Heath Ledger at event of The Patriot (2000)"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/unknown-1394846836._V379391227_.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTk1ODM3NTA2Nl5BMl5BanBnXkFtZTYwMzM0MDQ1._V1_SX99_CR0,0,99,99_.jpg" itemprop='image' /></a>                
-<a href="/media/rm2348324864/nm0005132?ref_=nm_phs_md_5" itemprop='thumbnailUrl'><img height="99" width="99" alt="Michelle Williams and Heath Ledger" title="Michelle Williams and Heath Ledger"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/unknown-1394846836._V379391227_.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTU1MjE2NjQ0Nl5BMl5BanBnXkFtZTYwMzczMzY1._V1_SX99_CR0,0,99,99_.jpg" itemprop='image' /></a>                
-<a href="/media/rm10590464/nm0005132?ref_=nm_phs_md_6" itemprop='thumbnailUrl'><img height="99" width="99" alt="(Left to right) Djimon Hounsou as Abou Fatma and Heath Ledger as Harry" title="(Left to right) Djimon Hounsou as Abou Fatma and Heath Ledger as Harry"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/unknown-1394846836._V379391227_.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMjE2NTAwNzE4NF5BMl5BanBnXkFtZTYwMzIwMDQ3._V1_SX99_CR0,0,99,99_.jpg" itemprop='image' /></a>        </div>
+<a href="/media/rm2474285312/nm0005132?ref_=nm_phs_md_1" itemprop='thumbnailUrl'><img height="99" width="99" alt="Still of Mark Addy and Heath Ledger in The Order (2003)" title="Still of Mark Addy and Heath Ledger in The Order (2003)"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/unknown-1394846836._CB379391227_.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTcxMDIzMjgzMV5BMl5BanBnXkFtZTYwODIwNzY3._V1_SY99_CR26,0,99,99_AL_.jpg" itemprop='image' /></a>                
+<a href="/media/rm231970816/nm0005132?ref_=nm_phs_md_2" itemprop='thumbnailUrl'><img height="99" width="99" alt="Vincent Gallo, Heath Ledger and Michael Stipe" title="Vincent Gallo, Heath Ledger and Michael Stipe"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/unknown-1394846836._CB379391227_.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTIyMTY2MDc1NF5BMl5BanBnXkFtZTYwOTcyNjk3._V1_SY99_CR25,0,99,99_AL_.jpg" itemprop='image' /></a>                
+<a href="/media/rm195860480/nm0005132?ref_=nm_phs_md_3" itemprop='thumbnailUrl'><img height="99" width="99" alt="Heath Ledger and Michelle Williams" title="Heath Ledger and Michelle Williams"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/unknown-1394846836._CB379391227_.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTIzNTEyOTQwNF5BMl5BanBnXkFtZTYwODYyNTk1._V1_SX99_CR0,0,99,99_AL_.jpg" itemprop='image' /></a>                
+<a href="/media/rm178362624/nm0005132?ref_=nm_phs_md_4" itemprop='thumbnailUrl'><img height="99" width="99" alt="(Left to right) Wes Bentley as Durrance and Heath Ledger as Harry" title="(Left to right) Wes Bentley as Durrance and Heath Ledger as Harry"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/unknown-1394846836._CB379391227_.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BNzM2Njg0NDY0MV5BMl5BanBnXkFtZTYwOTIwMDQ3._V1_SY99_CR26,0,99,99_AL_.jpg" itemprop='image' /></a>                
+<a href="/media/rm1360763392/nm0005132?ref_=nm_phs_md_5" itemprop='thumbnailUrl'><img height="99" width="99" alt="Heath Ledger and Michelle Williams at event of The Brothers Grimm (2005)" title="Heath Ledger and Michelle Williams at event of The Brothers Grimm (2005)"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/unknown-1394846836._CB379391227_.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTY5MTE5MDY5OV5BMl5BanBnXkFtZTYwMTM4OTgz._V1_SX99_CR0,0,99,99_AL_.jpg" itemprop='image' /></a>                
+<a href="/media/rm930453760/nm0005132?ref_=nm_phs_md_6" itemprop='thumbnailUrl'><img height="99" width="99" alt="Still of Heath Ledger and Jake Gyllenhaal in Brokeback Mountain (2005)" title="Still of Heath Ledger and Jake Gyllenhaal in Brokeback Mountain (2005)"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/unknown-1394846836._CB379391227_.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTQxMjA0Mjk0M15BMl5BanBnXkFtZTYwNjE4MDc3._V1_SY99_CR26,0,99,99_AL_.jpg" itemprop='image' /></a>        </div>
             
             <div class="see-more">
 <a href="/name/nm0005132/mediaindex?ref_=nm_phs_md_sm" ><span class="titlePageSprite showAllVidsAndPics"></span></a>
@@ -572,7 +561,7 @@ When a hunky, twenty-year-old heart-throb Heath Ledger first came to the attenti
 <span class="ghost">|</span>        
 <a href="/name/nm0005132/videogallery?ref_=nm_phs_vi" >2 videos</a>                
 <span class="ghost">|</span>        
-<a href="/name/nm0005132/news?ref_=nm_phs_nw" >4672 news articles</a> &raquo;            </div>
+<a href="/name/nm0005132/news?ref_=nm_phs_nw" >4726 news articles</a> &raquo;            </div>
         </div>
         
     </div>
@@ -801,12 +790,12 @@ When a hunky, twenty-year-old heart-throb Heath Ledger first came to the attenti
                 </li>
                 <li class="subnav_item_main">
                     <span class="nobr-only">
-<a href="/r/nm_ovrview_chgphoto/name/nm0005132?ref_=nm_ql_pro_2" class="link" >Add or change photos</a>
+<a href="http://pro.imdb.com/name/nm0005132?ref_=nm_ql_pro_2" class="link" >Add or change photos</a>
                     </span>
                 </li>
                 <li class="subnav_item_main">
                     <span class="nobr-only">
-<a href="/r/nm_footer_moreatpro/name/nm0005132?ref_=nm_ql_pro_3" class="link" >Get more at IMDbPro</a>
+<a href="http://pro.imdb.com/name/nm0005132?ref_=nm_ql_pro_3" class="link" >Get more at IMDbPro</a>
                     </span>
                 </li>
     </ul>
@@ -825,8 +814,8 @@ When a hunky, twenty-year-old heart-throb Heath Ledger first came to the attenti
     <div class="social">
       <div class="social_networking"> 
        <span><strong>Share</strong> this page:</span>
-  <a onclick="window.open('http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.imdb.com%2Fname%2Fnm0005132%2F', 'newWindow', 'width=626, height=436'); return false;" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.imdb.com%2Fname%2Fnm0005132%2F" target="_blank" title="Share on Facebook" class="share_icon facebook"></a>
-  <a onclick="window.open('http://twitter.com/intent/tweet?text=Heath%20Ledger%20-%20http%3A%2F%2Fwww.imdb.com%2Fname%2Fnm0005132%2F', 'newWindow', 'width=815, height=436'); return false;" href="http://twitter.com/intent/tweet?text=Heath%20Ledger%20-%20http%3A%2F%2Fwww.imdb.com%2Fname%2Fnm0005132%2F" target="_blank" title="Share on Twitter" class="share_icon twitter"></a>
+  <a onclick="window.open(&quot;http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.imdb.com%2Fname%2Fnm0005132%2F&quot;, 'newWindow', 'width=626, height=436'); return false;" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.imdb.com%2Fname%2Fnm0005132%2F" target="_blank" title="Share on Facebook" class="share_icon facebook"></a>
+  <a onclick="window.open(&quot;http://twitter.com/intent/tweet?text=Heath%20Ledger%20-%20http%3A%2F%2Fwww.imdb.com%2Fname%2Fnm0005132%2F&quot;, 'newWindow', 'width=815, height=436'); return false;" href="http://twitter.com/intent/tweet?text=Heath%20Ledger%20-%20http%3A%2F%2Fwww.imdb.com%2Fname%2Fnm0005132%2F" target="_blank" title="Share on Twitter" class="share_icon twitter"></a>
   <a onclick="$('div.social input[name=share-link]').show().select(); return false;" title="Share the page" class="share_icon share_url_link" href="http://www.imdb.com/name/nm0005132/"></a>
       </div>
       <input type="text" name="share-link" value="http://www.imdb.com/name/nm0005132/" readonly>
@@ -862,16 +851,16 @@ When a hunky, twenty-year-old heart-throb Heath Ledger first came to the attenti
                     
                     <div class="news_item odd" >
                         <span itemprop="headline" >
-                            <a href="/name/nm0005132/news?ref_=nm_nwr_1#ni57025443" >Heath Ledger: A Celebration</a>
+                            <a href="/name/nm0005132/news?ref_=nm_nwr_1#ni57414693" >Required Reading: A Personal Roller Coaster Ride and Batman vs Batman</a>
                         </span>
                         
                         <br /><small>
                                 <span itemprop="datePublished">
-                                  40 minutes ago
+                                  26 June 2014
                                 </span>
                             
                                 <span class="ghost">|</span><span itemprop="provider" >
-                                        <a href="/news/ns0000156?ref_=nm_nwr_1" >FilmExperience</a>
+                                        <a href="/news/ns0000067?ref_=nm_nwr_1" >FilmSchoolRejects.com</a>
                                 </span>
                         </small>
                     </div>
@@ -880,16 +869,16 @@ When a hunky, twenty-year-old heart-throb Heath Ledger first came to the attenti
                     
                     <div class="news_item even" >
                         <span itemprop="headline" >
-                            <a href="/name/nm0005132/news?ref_=nm_nwr_2#ni57015317" >13 Actors You Didn’t Know Almost Played The Joker</a>
+                            <a href="/name/nm0005132/news?ref_=nm_nwr_2#ni57410334" >First Look At Tom Hardy & Charlize Theron Together In 'Mad Max: Fury Road'</a>
                         </span>
                         
                         <br /><small>
                                 <span itemprop="datePublished">
-                                  2 April 2014
+                                  25 June 2014
                                 </span>
                             
                                 <span class="ghost">|</span><span itemprop="provider" >
-                                        <a href="/news/ns0012032?ref_=nm_nwr_2" >Obsessed with Film</a>
+                                        <a href="/news/ns0011867?ref_=nm_nwr_2" >The Playlist</a>
                                 </span>
                         </small>
                     </div>
@@ -898,25 +887,26 @@ When a hunky, twenty-year-old heart-throb Heath Ledger first came to the attenti
                     
                     <div class="news_item odd" >
                         <span itemprop="headline" >
-                            <a href="/name/nm0005132/news?ref_=nm_nwr_3#ni57010070" >10+ Things Julia Stiles Hates About Heath Ledger</a>
+                            <a href="/name/nm0005132/news?ref_=nm_nwr_3#ni57405261" >Watch: Meryl Streep On Being the Worst Dressed in PBS' 'Blank on Blank' Video</a>
                         </span>
                         
                         <br /><small>
                                 <span itemprop="datePublished">
-                                  1 April 2014
+                                  24 June 2014
                                 </span>
                             
                                 <span class="ghost">|</span><span itemprop="provider" >
-                                        <a href="/news/ns0001425?ref_=nm_nwr_3" >TheFabLife - Movies</a>
+                                        <a href="/news/ns0000139?ref_=nm_nwr_3" >Indiewire</a>
                                 </span>
                         </small>
                     </div>
        
             <div class="see-more">
-                <a href="/name/nm0005132/news?ref_=nm_nwr_sm" >See all 4672 related articles</a>&nbsp;&raquo;
+                <a href="/name/nm0005132/news?ref_=nm_nwr_sm" >See all 4726 related articles</a>&nbsp;&raquo;
             </div>
 
       </div>
+
 
 
         
@@ -933,61 +923,61 @@ When a hunky, twenty-year-old heart-throb Heath Ledger first came to the attenti
 
     <div class="list-preview even">
         <div class="list-preview-item-narrow">
-<a href="/list/ls000779794?ref_=nm_rls_1" ><img height="86" width="86" alt="list image" title="list image"src="/images/nopicture/medium/name.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BNDQzOTg4NzA2Nl5BMl5BanBnXkFtZTcwMzkwNjkxMg@@._V1_SX86_CR0,0,86,86_.jpg" /></a>        </div>
+<a href="/list/ls000060913?ref_=nm_rls_1" ><img height="86" width="86" alt="list image" title="list image"src="/images/nopicture/medium/name.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTI2NTY0NzA4MF5BMl5BanBnXkFtZTYwMjE1MDE0._V1_SX86_CR0,0,86,86_AL_.jpg" /></a>        </div>
         <div class="list_name">
-            <strong><a href="/list/ls000779794?ref_=nm_rls_1" >interest</a></strong>
+            <strong><a href="/list/ls000060913?ref_=nm_rls_1" >My favorite actors</a></strong>
         </div>
         <div class="list_meta">
             a list of 22 people
-            <br />created 01&nbsp;Apr&nbsp;2011
+            <br />created 15&nbsp;Jan&nbsp;2011
         </div>
         <div class="clear">&nbsp;</div>
     </div>
     <div class="list-preview odd">
         <div class="list-preview-item-narrow">
-<a href="/list/ls000180164?ref_=nm_rls_2" ><img height="86" width="86" alt="list image" title="list image"src="/images/nopicture/medium/name.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTM0ODU5Nzk2OV5BMl5BanBnXkFtZTcwMzI2ODgyNQ@@._V1_SX86_CR0,0,86,86_.jpg" /></a>        </div>
+<a href="/list/ls000726160?ref_=nm_rls_2" ><img height="86" width="86" alt="list image" title="list image"src="/images/nopicture/medium/name.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMjAyMzI0NTU0NF5BMl5BanBnXkFtZTcwODc0MjAwNQ@@._V1_SX86_CR0,0,86,86_AL_.jpg" /></a>        </div>
         <div class="list_name">
-            <strong><a href="/list/ls000180164?ref_=nm_rls_2" >My Favorite Actors/Actresses</a></strong>
+            <strong><a href="/list/ls000726160?ref_=nm_rls_2" >the hottest and most interesting men ever ...</a></strong>
         </div>
         <div class="list_meta">
             a list of 30 people
-            <br />created 21&nbsp;Apr&nbsp;2011
+            <br />created 05&nbsp;Apr&nbsp;2011
         </div>
         <div class="clear">&nbsp;</div>
     </div>
     <div class="list-preview even">
         <div class="list-preview-item-narrow">
-<a href="/list/ls003898499?ref_=nm_rls_3" ><img height="86" width="86" alt="list image" title="list image"src="/images/nopicture/medium/name.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMjAwNDU3MzcyOV5BMl5BanBnXkFtZTcwMjc0MTIxMw@@._V1_SX86_CR0,0,86,86_.jpg" /></a>        </div>
+<a href="/list/ls009538744?ref_=nm_rls_3" ><img height="86" width="86" alt="list image" title="list image"src="/images/nopicture/medium/name.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTk4MzMwMjc5NF5BMl5BanBnXkFtZTYwMDMyNzQz._V1_SX86_CR0,0,86,86_AL_.jpg" /></a>        </div>
         <div class="list_name">
-            <strong><a href="/list/ls003898499?ref_=nm_rls_3" >HOLLYWOOD'S HEAVY'WEIGHTS</a></strong>
+            <strong><a href="/list/ls009538744?ref_=nm_rls_3" >Incedible performances</a></strong>
         </div>
         <div class="list_meta">
-            a list of 30 people
-            <br />created 20&nbsp;Nov&nbsp;2011
+            a list of 38 people
+            <br />created 08&nbsp;Jun&nbsp;2012
         </div>
         <div class="clear">&nbsp;</div>
     </div>
     <div class="list-preview odd">
         <div class="list-preview-item-narrow">
-<a href="/list/ls004011289?ref_=nm_rls_4" ><img height="86" width="86" alt="list image" title="list image"src="/images/nopicture/medium/name.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMjI0MTg3MzI0M15BMl5BanBnXkFtZTcwMzQyODU2Mw@@._V1_SX86_CR0,0,86,86_.jpg" /></a>        </div>
+<a href="/list/ls009754972?ref_=nm_rls_4" ><img height="86" width="86" alt="list image" title="list image"src="/images/nopicture/medium/name.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTg5ODk1NTc5Ml5BMl5BanBnXkFtZTYwMjAwOTI4._V1_SX86_CR0,0,86,86_AL_.jpg" /></a>        </div>
         <div class="list_name">
-            <strong><a href="/list/ls004011289?ref_=nm_rls_4" >Best Actors In My Opinion</a></strong>
+            <strong><a href="/list/ls009754972?ref_=nm_rls_4" >Actors born to be an evil character</a></strong>
         </div>
         <div class="list_meta">
-            a list of 31 people
-            <br />created 27&nbsp;Mar&nbsp;2012
+            a list of 38 people
+            <br />created 13&nbsp;Jun&nbsp;2012
         </div>
         <div class="clear">&nbsp;</div>
     </div>
     <div class="list-preview even">
         <div class="list-preview-item-narrow">
-<a href="/list/ls009274491?ref_=nm_rls_5" ><img height="86" width="86" alt="list image" title="list image"src="/images/nopicture/medium/name.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMjAyMzI0NTU0NF5BMl5BanBnXkFtZTcwODc0MjAwNQ@@._V1_SX86_CR0,0,86,86_.jpg" /></a>        </div>
+<a href="/list/ls059297067?ref_=nm_rls_5" ><img height="86" width="86" alt="list image" title="list image"src="/images/nopicture/medium/name.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTI2NTY0NzA4MF5BMl5BanBnXkFtZTYwMjE1MDE0._V1_SX86_CR0,0,86,86_AL_.jpg" /></a>        </div>
         <div class="list_name">
-            <strong><a href="/list/ls009274491?ref_=nm_rls_5" >30 sexiest movie stars (men)</a></strong>
+            <strong><a href="/list/ls059297067?ref_=nm_rls_5" >BEST ACTORS</a></strong>
         </div>
         <div class="list_meta">
-            a list of 30 people
-            <br />created 10&nbsp;Jul&nbsp;2012
+            a list of 23 people
+            <br />created 4&nbsp;months&nbsp;ago
         </div>
         <div class="clear">&nbsp;</div>
     </div>
@@ -1009,7 +999,7 @@ When a hunky, twenty-year-old heart-throb Heath Ledger first came to the attenti
 
 
 
-<a href="/video/user/vi3091568921?ref_=nm_demo_1" title="David H. Lawrence, XVII - Drama -- On-camera drama reel featuring David H. Lawrence XVII, in scenes from Heroes, The Unit, LOST, and more" alt="David H. Lawrence, XVII - Drama -- On-camera drama reel featuring David H. Lawrence XVII, in scenes from Heroes, The Unit, LOST, and more" class="video-colorbox" data-video="vi3091568921" data-context="user" data-rid="" widget-context="nameDemoreels" itemprop="url" ><img height="90" width="120" alt="David H. Lawrence, XVII - Drama -- On-camera drama reel featuring David H. Lawrence XVII, in scenes from Heroes, The Unit, LOST, and more" title="David H. Lawrence, XVII - Drama -- On-camera drama reel featuring David H. Lawrence XVII, in scenes from Heroes, The Unit, LOST, and more"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/no-video-slate-856072904._V379390253_.png"class="loadlate hidden video" loadlate="http://ia.media-imdb.com/images/M/MV5BMjk5Mjc4MDM5OV5BMl5BanBnXkFtZTcwNTc2NzExNA@@._V1_SP229,229,0,C,0,0,0_CR45,62,139,105_PIimdb-blackband-204-14,TopLeft,0,0_PIimdb-blackband-204-28,BottomLeft,0,1_CR0,0,139,105_PIimdb-bluebutton-big,BottomRight,-1,-1_ZA01:20,103,1,14,36,verdenab,7,255,255,255,1_PIimdb-HDIconMiniWhite,BottomLeft,2,-2_.jpg" itemprop='image' viconst="vi3091568921" /></a>
+<a href="/video/user/vi3091568921?ref_=nm_demo_1" title="David H. Lawrence, XVII - Drama -- On-camera drama reel featuring David H. Lawrence XVII, in scenes from Heroes, The Unit, LOST, and more" alt="David H. Lawrence, XVII - Drama -- On-camera drama reel featuring David H. Lawrence XVII, in scenes from Heroes, The Unit, LOST, and more" class="video-colorbox" data-video="vi3091568921" data-context="user" data-rid="" widget-context="nameDemoreels" itemprop="url" ><img height="90" width="120" alt="David H. Lawrence, XVII - Drama -- On-camera drama reel featuring David H. Lawrence XVII, in scenes from Heroes, The Unit, LOST, and more" title="David H. Lawrence, XVII - Drama -- On-camera drama reel featuring David H. Lawrence XVII, in scenes from Heroes, The Unit, LOST, and more"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/no-video-slate-856072904._CB379390253_.png"class="loadlate hidden video" loadlate="http://ia.media-imdb.com/images/M/MV5BMjk5Mjc4MDM5OV5BMl5BanBnXkFtZTcwNTc2NzExNA@@._V1_SP229,229,0,C,0,0,0_CR45,62,139,105_PIimdb-blackband-204-14,TopLeft,0,0_PIimdb-blackband-204-28,BottomLeft,0,1_CR0,0,139,105_PIimdb-bluebutton-big,BottomRight,-1,-1_ZA01:20,103,1,14,36,verdenab,7,255,255,255,1_PIimdb-HDIconMiniWhite,BottomLeft,2,-2_.jpg" itemprop='image' viconst="vi3091568921" /></a>
 
 
 
@@ -1038,7 +1028,7 @@ Thank You! Franklin" title="Franklin Ojeda Smith - -- &quot;...back in the day t
 3)Cayman Went - Aniston Turnkey
 4)Letting Go -Therapist
 5)Footsteps in the Sand - Jim.
-Thank You! Franklin"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/no-video-slate-856072904._V379390253_.png"class="loadlate hidden video" loadlate="http://ia.media-imdb.com/images/M/MV5BMjIxMTA1MjEzNV5BMl5BanBnXkFtZTcwMjQ2MjYyNA@@._V1_SP229,229,0,C,0,0,0_CR45,62,139,105_PIimdb-blackband-204-14,TopLeft,0,0_PIimdb-blackband-204-28,BottomLeft,0,1_CR0,0,139,105_PIimdb-bluebutton-big,BottomRight,-1,-1_ZA05:58,103,1,14,36,verdenab,7,255,255,255,1_PIimdb-HDIconMiniWhite,BottomLeft,2,-2_.jpg" itemprop='image' viconst="vi2695404313" /></a>
+Thank You! Franklin"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/no-video-slate-856072904._CB379390253_.png"class="loadlate hidden video" loadlate="http://ia.media-imdb.com/images/M/MV5BMjIxMTA1MjEzNV5BMl5BanBnXkFtZTcwMjQ2MjYyNA@@._V1_SP229,229,0,C,0,0,0_CR45,62,139,105_PIimdb-blackband-204-14,TopLeft,0,0_PIimdb-blackband-204-28,BottomLeft,0,1_CR0,0,139,105_PIimdb-bluebutton-big,BottomRight,-1,-1_ZA05:58,103,1,14,36,verdenab,7,255,255,255,1_PIimdb-HDIconMiniWhite,BottomLeft,2,-2_.jpg" itemprop='image' viconst="vi2695404313" /></a>
 
 
 
@@ -1047,14 +1037,11 @@ Thank You! Franklin"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopict
 " alt="My Demo Reel -- Includes clips from GLORY DAZE, COMMUNITY and horror film URBAN EXPLORER.
 " class="video-colorbox" data-video="vi4067727897" data-context="user" data-rid="" widget-context="nameDemoreels" itemprop="url" ><img height="90" width="120" alt="My Demo Reel -- Includes clips from GLORY DAZE, COMMUNITY and horror film URBAN EXPLORER.
 " title="My Demo Reel -- Includes clips from GLORY DAZE, COMMUNITY and horror film URBAN EXPLORER.
-"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/no-video-slate-856072904._V379390253_.png"class="loadlate hidden video" loadlate="http://ia.media-imdb.com/images/M/MV5BMTcyNTgxMDMyNF5BMl5BanBnXkFtZTcwNTkxOTQ0NA@@._V1_SP229,229,0,C,0,0,0_CR45,62,139,105_PIimdb-blackband-204-14,TopLeft,0,0_PIimdb-blackband-204-28,BottomLeft,0,1_CR0,0,139,105_PIimdb-bluebutton-big,BottomRight,-1,-1_ZA03:00,103,1,14,36,verdenab,7,255,255,255,1_.jpg" itemprop='image' viconst="vi4067727897" /></a>
+"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/no-video-slate-856072904._CB379390253_.png"class="loadlate hidden video" loadlate="http://ia.media-imdb.com/images/M/MV5BMTcyNTgxMDMyNF5BMl5BanBnXkFtZTcwNTkxOTQ0NA@@._V1_SP229,229,0,C,0,0,0_CR45,62,139,105_PIimdb-blackband-204-14,TopLeft,0,0_PIimdb-blackband-204-28,BottomLeft,0,1_CR0,0,139,105_PIimdb-bluebutton-big,BottomRight,-1,-1_ZA03:00,103,1,14,36,verdenab,7,255,255,255,1_.jpg" itemprop='image' viconst="vi4067727897" /></a>
              </div>
         </div>
         <div id="pro_demo_reel_link">
-<a
-onclick="(new Image()).src='/rg/DemoReels/prosystem/images/b.gif?link=/r/DemoReels/demoreels/list';"
-href="/r/DemoReels/demoreels/list"
->Find out more at IMDb Pro</a> &raquo;
+<a href="http://pro.imdb.com/demoreels/list?rf=cons_nm_demoreel&ref_=cons_nm_demoreel" >Find out more at IMDb Pro</a> &raquo;
         </div>
     </div>
         
@@ -1092,17 +1079,17 @@ href="/r/DemoReels/demoreels/list"
     <h3>User Polls</h3>
     <ul>
         <li>
-<a href="/poll/qFwvsN74xCk/?ref_=nm_po_i1" ><img height="86" width="86" alt="poll image" title="poll image"src="http://i.imdb.com/images/nopicture/140x209/unknown.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTk3MjI2NDY3OV5BMl5BanBnXkFtZTYwNDMxMTI3._V1_SX86_CR0,0,86,86_.jpg" /></a>        <a href="/poll/qFwvsN74xCk/?ref_=nm_po_q1" >Friday Face-Off: Batman Vs The Joker</a>
+<a href="/poll/9G69c4gN3jY/?ref_=nm_po_i1" ><img height="86" width="86" alt="poll image" title="poll image"src="http://i.imdb.com/images/nopicture/140x209/unknown.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTQyOTYzMDI2M15BMl5BanBnXkFtZTcwMzAzMjM4NA@@._V1_SY86_CR18,0,86,86_.jpg" /></a>        <a href="/poll/9G69c4gN3jY/?ref_=nm_po_q1" >Awkward Movie Questions</a>
         <li>
-<a href="/poll/pJ1r6AmIDDM/?ref_=nm_po_i2" ><img height="86" width="86" alt="poll image" title="poll image"src="http://i.imdb.com/images/nopicture/140x209/unknown.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMjE2MjY3MjQzMV5BMl5BanBnXkFtZTcwMzAyMzA4NA@@._V1_SX86_CR0,0,86,86_.jpg" /></a>        <a href="/poll/pJ1r6AmIDDM/?ref_=nm_po_q2" >Who Is The Nastiest Villain?</a>
+<a href="/poll/lvsFt1df0Ak/?ref_=nm_po_i2" ><img height="86" width="86" alt="poll image" title="poll image"src="http://i.imdb.com/images/nopicture/140x209/unknown.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTgzMzkyNjAwOV5BMl5BanBnXkFtZTcwNzgzMTk2Mw@@._V1_SY86_CR59,0,86,86_.jpg" /></a>        <a href="/poll/lvsFt1df0Ak/?ref_=nm_po_q2" >What is your favourite aspect of your favourite film?</a>
         <li>
-<a href="/poll/_1EgWwR_qEQ/?ref_=nm_po_i3" ><img height="86" width="86" alt="poll image" title="poll image"src="http://i.imdb.com/images/nopicture/140x209/unknown.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTA3MTkxMjEzNjdeQTJeQWpwZ15BbWU2MDIzMDA5Ng@@._V1_SY86_CR23,0,86,86_.jpg" /></a>        <a href="/poll/_1EgWwR_qEQ/?ref_=nm_po_q3" >Favourite Theatrical Batman Villain</a>
+<a href="/poll/m-4ui-wDLE4/?ref_=nm_po_i3" ><img height="86" width="86" alt="poll image" title="poll image"src="http://i.imdb.com/images/nopicture/140x209/unknown.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BOTAwNzgyMjk5N15BMl5BanBnXkFtZTcwNjU0MzI0OQ@@._V1_SY86_CR21,0,86,86_.jpg" /></a>        <a href="/poll/m-4ui-wDLE4/?ref_=nm_po_q3" >Coolest Caped Character</a>
         <li>
-<a href="/poll/QmCAVL7MhXE/?ref_=nm_po_i4" ><img height="86" width="86" alt="poll image" title="poll image"src="http://i.imdb.com/images/nopicture/140x209/unknown.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTQ3OTY0ODk0M15BMl5BanBnXkFtZTYwNzE4Njc4._V1_SX86_CR0,0,86,86_.jpg" /></a>        <a href="/poll/QmCAVL7MhXE/?ref_=nm_po_q4" >Favourite Oscar-Nominated Actor to Appear in a Batman Film?</a>
+<a href="/poll/LFcr94TNkvo/?ref_=nm_po_i4" ><img height="86" width="86" alt="poll image" title="poll image"src="http://i.imdb.com/images/nopicture/140x209/unknown.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTMyNDExMDU0NV5BMl5BanBnXkFtZTcwMjE2MDAxMw@@._V1_SX86_CR0,0,86,86_.jpg" /></a>        <a href="/poll/LFcr94TNkvo/?ref_=nm_po_q4" >Amon Goeth vs Anton Chigurh vs Joker vs Hans Landa</a>
         <li>
-<a href="/poll/x6YuVj19ECo/?ref_=nm_po_i5" ><img height="86" width="86" alt="poll image" title="poll image"src="http://i.imdb.com/images/nopicture/140x209/unknown.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTQwNzM2NDk0MF5BMl5BanBnXkFtZTcwOTQyNDIzMw@@._V1_SY86_CR21,0,86,86_.jpg" /></a>        <a href="/poll/x6YuVj19ECo/?ref_=nm_po_q5" >25 Oscar-winning villains ...</a>
+<a href="/poll/QmCAVL7MhXE/?ref_=nm_po_i5" ><img height="86" width="86" alt="poll image" title="poll image"src="http://i.imdb.com/images/nopicture/140x209/unknown.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTQ3OTY0ODk0M15BMl5BanBnXkFtZTYwNzE4Njc4._V1_SX86_CR0,0,86,86_.jpg" /></a>        <a href="/poll/QmCAVL7MhXE/?ref_=nm_po_q5" >Favourite Oscar-Nominated Actor to Appear in a Batman Film?</a>
         <li>
-<a href="/poll/-IuagGJTgsQ/?ref_=nm_po_i6" ><img height="86" width="86" alt="poll image" title="poll image"src="http://i.imdb.com/images/nopicture/140x209/unknown.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTY3ODIwNTY5NF5BMl5BanBnXkFtZTcwOTg2MzQ2MQ@@._V1_SX86_CR0,0,86,86_.jpg" /></a>        <a href="/poll/-IuagGJTgsQ/?ref_=nm_po_q6" >You're Stuck in the Modern West</a>
+<a href="/poll/LyOh1tAyhPU/?ref_=nm_po_i6" ><img height="86" width="86" alt="poll image" title="poll image"src="http://i.imdb.com/images/nopicture/140x209/unknown.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTIyMjM2ODgwOF5BMl5BanBnXkFtZTYwNTU0NTQ2._V1_SY86_CR20,0,86,86_.jpg" /></a>        <a href="/poll/LyOh1tAyhPU/?ref_=nm_po_q6" >The most likely movie villain to win a staring contest is ...</a>
     </ul>
     <div class="see-more"><a href="/poll/?ref_=nm_po_sm" >See more polls &raquo;</a></div>
 </div>
@@ -1120,45 +1107,57 @@ href="/r/DemoReels/demoreels/list"
     <div id="maindetails_center_bottom" class="maindetails_center">
             <div class="article highlighted">
         <span itemprop="awards"><b>Won 1 Oscar.</b></span>
-        <span itemprop="awards">Another 55 wins & 35 nominations.</span>
+        <span itemprop="awards">Another 64 wins & 35 nominations.</span>
     <span class="see-more inline">
 <a href="/name/nm0005132/awards?ref_=nm_awd" >See more awards</a>&nbsp;&raquo;    </span>
             </div> 
             <div class="article">
 <h2>Known For</h2>
 <div id="knownfor">
-<div><a href="/title/tt0468569/?ref_=nm_knf_i1" ><img
+<div>
+<a href="/title/tt0468569/?ref_=nm_knf_i1" > <img
 height="200"
 width="148"
 title="The Dark Knight"
 alt="The Dark Knight"
-src="http://ia.media-imdb.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SX148_CR0,0,148,200_.jpg"
-itemprop="image" /></a>
-    <a href="/title/tt0468569/?ref_=nm_knf_t1" >The Dark Knight (2008)</a></div>
-<div><a href="/title/tt0388795/?ref_=nm_knf_i2" ><img
+src="http://ia.media-imdb.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SX148_CR0,0,148,200_AL_.jpg"
+class="wtw-option" data-tconst="tt0468569" data-watchtype="icon" data-baseref="nm_knf_i_woi"
+itemprop="image" />
+</a>  <a href="/title/tt0468569/?ref_=nm_knf_t1" >The Dark Knight (2008)</a>
+</div>
+<div>
+<a href="/title/tt0388795/?ref_=nm_knf_i2" > <img
 height="200"
 width="148"
 title="Brokeback Mountain"
 alt="Brokeback Mountain"
-src="http://ia.media-imdb.com/images/M/MV5BMTY5NTAzNTc1NF5BMl5BanBnXkFtZTYwNDY4MDc3._V1_SX148_CR0,0,148,200_.jpg"
-itemprop="image" /></a>
-    <a href="/title/tt0388795/?ref_=nm_knf_t2" >Brokeback Mountain (2005)</a></div>
-<div><a href="/title/tt0147800/?ref_=nm_knf_i3" ><img
+src="http://ia.media-imdb.com/images/M/MV5BMTY5NTAzNTc1NF5BMl5BanBnXkFtZTYwNDY4MDc3._V1_SX148_CR0,0,148,200_AL_.jpg"
+class="wtw-option" data-tconst="tt0388795" data-watchtype="icon" data-baseref="nm_knf_i_woi"
+itemprop="image" />
+</a>  <a href="/title/tt0388795/?ref_=nm_knf_t2" >Brokeback Mountain (2005)</a>
+</div>
+<div>
+<a href="/title/tt0147800/?ref_=nm_knf_i3" > <img
 height="200"
 width="148"
 title="10 Things I Hate About You"
 alt="10 Things I Hate About You"
-src="http://ia.media-imdb.com/images/M/MV5BMTI4MzU5OTc2MF5BMl5BanBnXkFtZTYwNzQxMjc5._V1_SX148_CR0,0,148,200_.jpg"
-itemprop="image" /></a>
-    <a href="/title/tt0147800/?ref_=nm_knf_t3" >10 Things I Hate About You (1999)</a></div>
-<div class="last"><a href="/title/tt0183790/?ref_=nm_knf_i4" ><img
+src="http://ia.media-imdb.com/images/M/MV5BMTI4MzU5OTc2MF5BMl5BanBnXkFtZTYwNzQxMjc5._V1_SX148_CR0,0,148,200_AL_.jpg"
+class="wtw-option" data-tconst="tt0147800" data-watchtype="icon" data-baseref="nm_knf_i_woi"
+itemprop="image" />
+</a>  <a href="/title/tt0147800/?ref_=nm_knf_t3" >10 Things I Hate About You (1999)</a>
+</div>
+<div class="last">
+<a href="/title/tt0183790/?ref_=nm_knf_i4" > <img
 height="200"
 width="148"
 title="A Knight's Tale"
 alt="A Knight's Tale"
-src="http://ia.media-imdb.com/images/M/MV5BMTE5OTE4OTE2Nl5BMl5BanBnXkFtZTYwMDkzMTQ3._V1_SX148_CR0,0,148,200_.jpg"
-itemprop="image" /></a>
-    <a href="/title/tt0183790/?ref_=nm_knf_t4" >A Knight's Tale (2001)</a></div>
+src="http://ia.media-imdb.com/images/M/MV5BMTE5OTE4OTE2Nl5BMl5BanBnXkFtZTYwMDkzMTQ3._V1_SX148_CR0,0,148,200_AL_.jpg"
+class="wtw-option" data-tconst="tt0183790" data-watchtype="icon" data-baseref="nm_knf_i_woi"
+itemprop="image" />
+</a>  <a href="/title/tt0183790/?ref_=nm_knf_t4" >A Knight's Tale (2001)</a>
+</div>
 </div>
             </div> 
             <div class="article">
@@ -1166,18 +1165,18 @@ itemprop="image" /></a>
 <span class="filmo-show-hide-all"
 style="display: inline;"
 onclick="showOrHideAll();">
-<img src="http://ia.media-imdb.com/images/G/01/imdb/images/icons/show_mini-603933165._V358668251_.png" alt="Show" width="14" height="12" class="absmiddle">&nbsp;Show all
+<img src="http://ia.media-imdb.com/images/G/01/imdb/images/icons/show_mini-603933165._CB358668251_.png" alt="Show" width="14" height="12" class="absmiddle">&nbsp;Show all
 </span>
 <span class="filmo-show-hide-all"
 style="display: none;"
 onclick="showOrHideAll();">
-<img src="http://ia.media-imdb.com/images/G/01/imdb/images/icons/hide_mini-3743750714._V358668245_.png" alt="Hide" width="14" height="12" class="absmiddle">&nbsp;Hide all
+<img src="http://ia.media-imdb.com/images/G/01/imdb/images/icons/hide_mini-3743750714._CB358668245_.png" alt="Hide" width="14" height="12" class="absmiddle">&nbsp;Hide all
 </span>
 &nbsp;<span>|</span>&nbsp;
 <form name="navform" method="get" action="filmosummary" id="filmoform">
 <select name="sort" class="fixed">
 <option value="">Show by...</option>
-<option value="?nmdp=1">Job</option>
+<option value="?nmdp=1" disabled="disabled">Job (shown)</option>
 <option value="/filmosearch?sort=year&explore=title_type&role=nm0005132">Year &raquo;</option>
 <option value="/filmosearch?sort=user_rating&explore=title_type&role=nm0005132">Ratings &raquo;</option>
 <option value="/filmosearch?sort=num_votes&explore=title_type&role=nm0005132">Votes &raquo;</option>
@@ -1189,25 +1188,34 @@ onclick="showOrHideAll();">
 <a href="/updates?edit=nm0005132/filmography&ref_=nm_flmg_edt" > Edit
 </a> </div>
 <h2>Filmography</h2>
+<div class="message_box small">
+<div class="info">
+<p>To always display TV and movie credits separately, <a href="/register-imdb/siteprefs">edit your site preferences</a>.</p>
+</div>
+</div>
 <div id="jumpto">
 Jump to:
-<a onclick="handleFilmoJumpto(this);" href="#actor" data-category="actor">Actor</a></a>
-<span class="ghost">|</span> <a onclick="handleFilmoJumpto(this);" href="#director" data-category="director">Director</a></a>
-<span class="ghost">|</span> <a onclick="handleFilmoJumpto(this);" href="#thanks" data-category="thanks">Thanks</a></a>
-<span class="ghost">|</span> <a onclick="handleFilmoJumpto(this);" href="#self" data-category="self">Self</a></a>
+<a onclick="handleFilmoJumpto(this);" href="#actorMovie" data-category="actorMovie">Actor: Movie</a></a>
+<span class="ghost">|</span> <a onclick="handleFilmoJumpto(this);" href="#actorTV" data-category="actorTV">Actor: TV</a></a>
+<span class="ghost">|</span> <a onclick="handleFilmoJumpto(this);" href="#directorVideo" data-category="directorVideo">Director: Video</a></a>
+<span class="ghost">|</span> <a onclick="handleFilmoJumpto(this);" href="#thanksMovie" data-category="thanksMovie">Thanks: Movie</a></a>
+<span class="ghost">|</span> <a onclick="handleFilmoJumpto(this);" href="#selfTV" data-category="selfTV">Self: TV</a></a>
+<span class="ghost">|</span> <a onclick="handleFilmoJumpto(this);" href="#selfVideo" data-category="selfVideo">Self: Video</a></a>
+<span class="ghost">|</span> <a onclick="handleFilmoJumpto(this);" href="#selfMovie" data-category="selfMovie">Self: Movie</a></a>
 <span class="ghost">|</span> <a onclick="handleFilmoJumpto(this);" href="#archive_footage" data-category="archive_footage">Archive footage</a></a>
 </div>
 <div id="filmography">
-<div id="filmo-head-actor" class="head" data-category="actor" onclick="toggleFilmoCategory(this);">
-<span id="hide-actor" class="hide-link"
->Hide&nbsp;<img src="http://ia.media-imdb.com/images/G/01/imdb/images/icons/hide-1061525577._V358668250_.png" class="absmiddle" alt="Hide" width="18" height="16"></span>
-<span id="show-actor" class="show-link"
->Show&nbsp;<img src="http://ia.media-imdb.com/images/G/01/imdb/images/icons/show-582987296._V358668248_.png" class="absmiddle" alt="Show" width="18" height="16"></span>
-<a name="actor">Actor</a> (23 credits)
+<div id="filmo-head-actorMovie" class="head" data-category="actorMovie" onclick="toggleFilmoCategory(this);">
+<span id="hide-actorMovie" class="hide-link"
+>Hide&nbsp;<img src="http://ia.media-imdb.com/images/G/01/imdb/images/icons/hide-1061525577._CB358668250_.png" class="absmiddle" alt="Hide" width="18" height="16"></span>
+<span id="show-actorMovie" class="show-link"
+>Show&nbsp;<img src="http://ia.media-imdb.com/images/G/01/imdb/images/icons/show-582987296._CB358668248_.png" class="absmiddle" alt="Show" width="18" height="16"></span>
+<a name="actor"></a>
+<a name="actorMovie">Actor: Movie</a> (19 credits)
 </div>
 <div class="filmo-category-section"
 >
-<div class="filmo-row odd" id="actor-tt1054606">
+<div class="filmo-row odd" id="actorMovie-tt1054606">
 <span class="year_column">
 &nbsp;2009
 </span>
@@ -1215,7 +1223,7 @@ Jump to:
 <br/>
 <a href="/character/ch0061054/?ref_=nm_flmg_act_1" >Tony</a>
 </div>
-<div class="filmo-row even" id="actor-tt0468569">
+<div class="filmo-row even" id="actorMovie-tt0468569">
 <span class="year_column">
 &nbsp;2008
 </span>
@@ -1223,7 +1231,7 @@ Jump to:
 <br/>
 <a href="/character/ch0000180/?ref_=nm_flmg_act_2" >Joker</a>
 </div>
-<div class="filmo-row odd" id="actor-tt0368794">
+<div class="filmo-row odd" id="actorMovie-tt0368794">
 <span class="year_column">
 &nbsp;2007
 </span>
@@ -1231,7 +1239,7 @@ Jump to:
 <br/>
 <a href="/character/ch0096419/?ref_=nm_flmg_act_3" >Robbie</a>
 </div>
-<div class="filmo-row even" id="actor-tt0424880">
+<div class="filmo-row even" id="actorMovie-tt0424880">
 <span class="year_column">
 &nbsp;2006
 </span>
@@ -1239,7 +1247,7 @@ Jump to:
 <br/>
 <a href="/character/ch0031493/?ref_=nm_flmg_act_4" >Dan</a>
 </div>
-<div class="filmo-row odd" id="actor-tt0402894">
+<div class="filmo-row odd" id="actorMovie-tt0402894">
 <span class="year_column">
 &nbsp;2005
 </span>
@@ -1247,7 +1255,7 @@ Jump to:
 <br/>
 <a href="/character/ch0033702/?ref_=nm_flmg_act_5" >Casanova</a>
 </div>
-<div class="filmo-row even" id="actor-tt0388795">
+<div class="filmo-row even" id="actorMovie-tt0388795">
 <span class="year_column">
 &nbsp;2005
 </span>
@@ -1255,7 +1263,7 @@ Jump to:
 <br/>
 <a href="/character/ch0004288/?ref_=nm_flmg_act_6" >Ennis Del Mar</a>
 </div>
-<div class="filmo-row odd" id="actor-tt0355295">
+<div class="filmo-row odd" id="actorMovie-tt0355295">
 <span class="year_column">
 &nbsp;2005
 </span>
@@ -1263,7 +1271,7 @@ Jump to:
 <br/>
 <a href="/character/ch0042613/?ref_=nm_flmg_act_7" >Jacob Grimm</a>
 </div>
-<div class="filmo-row even" id="actor-tt0355702">
+<div class="filmo-row even" id="actorMovie-tt0355702">
 <span class="year_column">
 &nbsp;2005
 </span>
@@ -1271,7 +1279,7 @@ Jump to:
 <br/>
 <a href="/character/ch0032896/?ref_=nm_flmg_act_8" >Skip</a>
 </div>
-<div class="filmo-row odd" id="actor-tt0304711">
+<div class="filmo-row odd" id="actorMovie-tt0304711">
 <span class="year_column">
 &nbsp;2003
 </span>
@@ -1279,7 +1287,7 @@ Jump to:
 <br/>
 <a href="/character/ch0021099/?ref_=nm_flmg_act_9" >Alex Bernier</a>
 </div>
-<div class="filmo-row even" id="actor-tt0277941">
+<div class="filmo-row even" id="actorMovie-tt0277941">
 <span class="year_column">
 &nbsp;2003
 </span>
@@ -1287,7 +1295,7 @@ Jump to:
 <br/>
 <a href="/character/ch0027945/?ref_=nm_flmg_act_10" >Ned Kelly</a>
 </div>
-<div class="filmo-row odd" id="actor-tt0240510">
+<div class="filmo-row odd" id="actorMovie-tt0240510">
 <span class="year_column">
 &nbsp;2002
 </span>
@@ -1295,7 +1303,7 @@ Jump to:
 <br/>
 <a href="/character/ch0016927/?ref_=nm_flmg_act_11" >Harry Feversham</a>
 </div>
-<div class="filmo-row even" id="actor-tt0285742">
+<div class="filmo-row even" id="actorMovie-tt0285742">
 <span class="year_column">
 &nbsp;2001
 </span>
@@ -1303,7 +1311,7 @@ Jump to:
 <br/>
 <a href="/character/ch0010764/?ref_=nm_flmg_act_12" >Sonny Grotowski</a>
 </div>
-<div class="filmo-row odd" id="actor-tt0183790">
+<div class="filmo-row odd" id="actorMovie-tt0183790">
 <span class="year_column">
 &nbsp;2001
 </span>
@@ -1311,7 +1319,7 @@ Jump to:
 <br/>
 <a href="/character/ch0010462/?ref_=nm_flmg_act_13" >William Thatcher</a>
 </div>
-<div class="filmo-row even" id="actor-tt0187393">
+<div class="filmo-row even" id="actorMovie-tt0187393">
 <span class="year_column">
 &nbsp;2000
 </span>
@@ -1319,7 +1327,7 @@ Jump to:
 <br/>
 <a href="/character/ch0006307/?ref_=nm_flmg_act_14" >Gabriel Martin</a>
 </div>
-<div class="filmo-row odd" id="actor-tt0145547">
+<div class="filmo-row odd" id="actorMovie-tt0145547">
 <span class="year_column">
 &nbsp;1999
 </span>
@@ -1327,7 +1335,7 @@ Jump to:
 <br/>
 <a href="/character/ch0056005/?ref_=nm_flmg_act_15" >Jimmy</a>
 </div>
-<div class="filmo-row even" id="actor-tt0147800">
+<div class="filmo-row even" id="actorMovie-tt0147800">
 <span class="year_column">
 &nbsp;1999
 </span>
@@ -1335,7 +1343,7 @@ Jump to:
 <br/>
 <a href="/character/ch0004049/?ref_=nm_flmg_act_16" >Patrick Verona</a>
 </div>
-<div class="filmo-row odd" id="actor-tt0119870">
+<div class="filmo-row odd" id="actorMovie-tt0119870">
 <span class="year_column">
 &nbsp;1997
 </span>
@@ -1343,186 +1351,200 @@ Jump to:
 <br/>
 <a href="/character/ch0421784/?ref_=nm_flmg_act_17" >Oberon</a>
 </div>
-<div class="filmo-row even" id="actor-tt0094481">
+<div class="filmo-row even" id="actorMovie-tt0118735">
 <span class="year_column">
 &nbsp;1997
 </span>
-<b><a href="/title/tt0094481/?ref_=nm_flmg_act_18" >Kodus ja võõrsil</a></b>
-(TV Series)
-<br/>
-<a href="/character/ch0050091/?ref_=nm_flmg_act_18" >Scott Irwin</a>
-<div class="filmo-episodes">
-- <a href="/title/tt1547764/?ref_=nm_flmg_act_18" >Episode #1.2168</a>
-(1997)
-... <a href="/character/ch0050091/?ref_=nm_flmg_act_18" >Scott Irwin</a>
-</div>
-<div class="filmo-episodes">
-- <a href="/title/tt1547763/?ref_=nm_flmg_act_18" >Episode #1.2167</a>
-(1997)
-... <a href="/character/ch0050091/?ref_=nm_flmg_act_18" >Scott Irwin</a>
-</div>
-<div class="filmo-episodes">
-- <a href="/title/tt1547762/?ref_=nm_flmg_act_18" >Episode #1.2166</a>
-(1997)
-... <a href="/character/ch0050091/?ref_=nm_flmg_act_18" >Scott Irwin</a>
-</div>
-<div class="filmo-episodes">
-- <a href="/title/tt1547761/?ref_=nm_flmg_act_18" >Episode #1.2163</a>
-(1997)
-... <a href="/character/ch0050091/?ref_=nm_flmg_act_18" >Scott Irwin</a>
-</div>
-<div class="filmo-episodes">
-- <a href="/title/tt1547760/?ref_=nm_flmg_act_18" >Episode #1.2162</a>
-(1997)
-... <a href="/character/ch0050091/?ref_=nm_flmg_act_18" >Scott Irwin</a>
-</div>
-<div id="more-episodes-tt0094481-actor" style="display:none;">
-<img src="http://ia.media-imdb.com/images/G/01/imdb/images/favorite_theater/spinner-3099941772._V379388743_.gif" />
-</div>
-<div class="filmo-episodes">
-<a href="#"
-data-n="9"
-onclick="toggleSeeMoreEpisodes(this,'nm0005132','tt0094481','actor',17); return false;">Show all 9 episodes</a>
-</div>
-</div>
-<div class="filmo-row odd" id="actor-tt0118735">
-<span class="year_column">
-&nbsp;1997
-</span>
-<b><a href="/title/tt0118735/?ref_=nm_flmg_act_19" >Blackrock</a></b>
+<b><a href="/title/tt0118735/?ref_=nm_flmg_act_18" >Blackrock</a></b>
 <br/>
 Toby
 </div>
-<div class="filmo-row even" id="actor-tt0118451">
-<span class="year_column">
-&nbsp;1997
-</span>
-<b><a href="/title/tt0118451/?ref_=nm_flmg_act_20" >Roar</a></b>
-(TV Series)
-<br/>
-<a href="/character/ch0041617/?ref_=nm_flmg_act_20" >Conor</a>
-<div class="filmo-episodes">
-- <a href="/title/tt0687257/?ref_=nm_flmg_act_20" >Traps</a>
-(1997)
-... <a href="/character/ch0041617/?ref_=nm_flmg_act_20" >Conor</a>
-</div>
-<div class="filmo-episodes">
-- <a href="/title/tt0687253/?ref_=nm_flmg_act_20" >The Cage</a>
-(1997)
-... <a href="/character/ch0041617/?ref_=nm_flmg_act_20" >Conor</a>
-</div>
-<div class="filmo-episodes">
-- <a href="/title/tt0687252/?ref_=nm_flmg_act_20" >Tash</a>
-(1997)
-... <a href="/character/ch0041617/?ref_=nm_flmg_act_20" >Conor</a>
-</div>
-<div class="filmo-episodes">
-- <a href="/title/tt0687251/?ref_=nm_flmg_act_20" >Sweet Bridget</a>
-(1997)
-... <a href="/character/ch0041617/?ref_=nm_flmg_act_20" >Conor</a>
-</div>
-<div class="filmo-episodes">
-- <a href="/title/tt0687246/?ref_=nm_flmg_act_20" >Daybreak</a>
-(1997)
-... <a href="/character/ch0041617/?ref_=nm_flmg_act_20" >Conor</a>
-</div>
-<div id="more-episodes-tt0118451-actor" style="display:none;">
-<img src="http://ia.media-imdb.com/images/G/01/imdb/images/favorite_theater/spinner-3099941772._V379388743_.gif" />
-</div>
-<div class="filmo-episodes">
-<a href="#"
-data-n="13"
-onclick="toggleSeeMoreEpisodes(this,'nm0005132','tt0118451','actor',19); return false;">Show all 13 episodes</a>
-</div>
-</div>
-<div class="filmo-row odd" id="actor-tt0115379">
-<span class="year_column">
-&nbsp;1996
-</span>
-<b><a href="/title/tt0115379/?ref_=nm_flmg_act_21" >Sweat</a></b>
-(TV Series)
-<br/>
-<a href="/character/ch0146678/?ref_=nm_flmg_act_21" >Snowy Bowles</a>
-<div class="filmo-episodes">
-- <a href="/title/tt1178446/?ref_=nm_flmg_act_21" >Episode #1.26</a>
-(1996)
-... <a href="/character/ch0146678/?ref_=nm_flmg_act_21" >Snowy Bowles</a>
-</div>
-<div class="filmo-episodes">
-- <a href="/title/tt1178445/?ref_=nm_flmg_act_21" >Episode #1.25</a>
-(1996)
-... <a href="/character/ch0146678/?ref_=nm_flmg_act_21" >Snowy Bowles</a>
-</div>
-<div class="filmo-episodes">
-- <a href="/title/tt1178444/?ref_=nm_flmg_act_21" >Episode #1.24</a>
-(1996)
-... <a href="/character/ch0146678/?ref_=nm_flmg_act_21" >Snowy Bowles</a>
-</div>
-<div class="filmo-episodes">
-- <a href="/title/tt1178443/?ref_=nm_flmg_act_21" >Episode #1.23</a>
-(1996)
-... <a href="/character/ch0146678/?ref_=nm_flmg_act_21" >Snowy Bowles</a>
-</div>
-<div class="filmo-episodes">
-- <a href="/title/tt1178442/?ref_=nm_flmg_act_21" >Episode #1.22</a>
-(1996)
-... <a href="/character/ch0146678/?ref_=nm_flmg_act_21" >Snowy Bowles</a>
-</div>
-<div id="more-episodes-tt0115379-actor" style="display:none;">
-<img src="http://ia.media-imdb.com/images/G/01/imdb/images/favorite_theater/spinner-3099941772._V379388743_.gif" />
-</div>
-<div class="filmo-episodes">
-<a href="#"
-data-n="26"
-onclick="toggleSeeMoreEpisodes(this,'nm0005132','tt0115379','actor',20); return false;">Show all 26 episodes</a>
-</div>
-</div>
-<div class="filmo-row even" id="actor-tt0165060">
-<span class="year_column">
-&nbsp;1993-1994
-</span>
-<b><a href="/title/tt0165060/?ref_=nm_flmg_act_22" >Ship to Shore</a></b>
-(TV Series)
-<br/>
-<a href="/character/ch0119050/?ref_=nm_flmg_act_22" >Cyclist</a>
-<div class="filmo-episodes">
-- <a href="/title/tt1464709/?ref_=nm_flmg_act_22" >Stranger Than Fiction</a>
-(1994)
-</div>
-<div class="filmo-episodes">
-- <a href="/title/tt1464719/?ref_=nm_flmg_act_22" >Worthy Opponents: Part 2</a>
-(1993)
-... <a href="/character/ch0119050/?ref_=nm_flmg_act_22" >Cyclist</a>
-</div>
-<div class="filmo-episodes">
-- <a href="/title/tt1464718/?ref_=nm_flmg_act_22" >Worthy Opponents: Part 1</a>
-(1993)
-... <a href="/character/ch0119050/?ref_=nm_flmg_act_22" >Cyclist</a>
-</div>
-</div>
-<div class="filmo-row odd" id="actor-tt0144834">
+<div class="filmo-row odd" id="actorMovie-tt0144834">
 <span class="year_column">
 &nbsp;1992
 </span>
-<b><a href="/title/tt0144834/?ref_=nm_flmg_act_23" >Clowning Around</a></b>
+<b><a href="/title/tt0144834/?ref_=nm_flmg_act_19" >Clowning Around</a></b>
 <br/>
 Orphan Clown
 (uncredited)
 </div>
 </div>
-<div id="filmo-head-director" class="head" data-category="director" onclick="toggleFilmoCategory(this);">
-<span id="hide-director" class="hide-link"
+<div id="filmo-head-actorTV" class="head" data-category="actorTV" onclick="toggleFilmoCategory(this);">
+<span id="hide-actorTV" class="hide-link"
 style="display:none;"
->Hide&nbsp;<img src="http://ia.media-imdb.com/images/G/01/imdb/images/icons/hide-1061525577._V358668250_.png" class="absmiddle" alt="Hide" width="18" height="16"></span>
-<span id="show-director" class="show-link"
+>Hide&nbsp;<img src="http://ia.media-imdb.com/images/G/01/imdb/images/icons/hide-1061525577._CB358668250_.png" class="absmiddle" alt="Hide" width="18" height="16"></span>
+<span id="show-actorTV" class="show-link"
 style="display:inline;"
->Show&nbsp;<img src="http://ia.media-imdb.com/images/G/01/imdb/images/icons/show-582987296._V358668248_.png" class="absmiddle" alt="Show" width="18" height="16"></span>
-<a name="director">Director</a> (1 credit)
+>Show&nbsp;<img src="http://ia.media-imdb.com/images/G/01/imdb/images/icons/show-582987296._CB358668248_.png" class="absmiddle" alt="Show" width="18" height="16"></span>
+<a name="actorTV">Actor: TV</a> (4 credits)
 </div>
 <div class="filmo-category-section"
 style="display:none;"
 >
-<div class="filmo-row odd" id="director-tt2815892">
+<div class="filmo-row odd" id="actorTV-tt0094481">
+<span class="year_column">
+&nbsp;1997
+</span>
+<b><a href="/title/tt0094481/?ref_=nm_flmg_act_1" >Home and Away</a></b>
+(TV Series)
+<br/>
+<a href="/character/ch0050091/?ref_=nm_flmg_act_1" >Scott Irwin</a>
+<div class="filmo-episodes">
+- <a href="/title/tt1547764/?ref_=nm_flmg_act_1" >Episode #1.2168</a>
+(1997)
+... <a href="/character/ch0050091/?ref_=nm_flmg_act_1" >Scott Irwin</a>
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt1547763/?ref_=nm_flmg_act_1" >Episode #1.2167</a>
+(1997)
+... <a href="/character/ch0050091/?ref_=nm_flmg_act_1" >Scott Irwin</a>
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt1547762/?ref_=nm_flmg_act_1" >Episode #1.2166</a>
+(1997)
+... <a href="/character/ch0050091/?ref_=nm_flmg_act_1" >Scott Irwin</a>
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt1547761/?ref_=nm_flmg_act_1" >Episode #1.2163</a>
+(1997)
+... <a href="/character/ch0050091/?ref_=nm_flmg_act_1" >Scott Irwin</a>
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt1547760/?ref_=nm_flmg_act_1" >Episode #1.2162</a>
+(1997)
+... <a href="/character/ch0050091/?ref_=nm_flmg_act_1" >Scott Irwin</a>
+</div>
+<div id="more-episodes-tt0094481-actorTV" style="display:none;">
+<img src="http://ia.media-imdb.com/images/G/01/imdb/images/favorite_theater/spinner-3099941772._CB352275779_.gif" />
+</div>
+<div class="filmo-episodes">
+<a href="#"
+data-n="9"
+onclick="toggleSeeMoreEpisodes(this,'nm0005132','tt0094481','actor: TV',0); return false;">Show all 9 episodes</a>
+</div>
+</div>
+<div class="filmo-row even" id="actorTV-tt0118451">
+<span class="year_column">
+&nbsp;1997
+</span>
+<b><a href="/title/tt0118451/?ref_=nm_flmg_act_2" >Roar</a></b>
+(TV Series)
+<br/>
+<a href="/character/ch0041617/?ref_=nm_flmg_act_2" >Conor</a>
+<div class="filmo-episodes">
+- <a href="/title/tt0687257/?ref_=nm_flmg_act_2" >Traps</a>
+(1997)
+... <a href="/character/ch0041617/?ref_=nm_flmg_act_2" >Conor</a>
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt0687253/?ref_=nm_flmg_act_2" >The Cage</a>
+(1997)
+... <a href="/character/ch0041617/?ref_=nm_flmg_act_2" >Conor</a>
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt0687252/?ref_=nm_flmg_act_2" >Tash</a>
+(1997)
+... <a href="/character/ch0041617/?ref_=nm_flmg_act_2" >Conor</a>
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt0687251/?ref_=nm_flmg_act_2" >Sweet Bridget</a>
+(1997)
+... <a href="/character/ch0041617/?ref_=nm_flmg_act_2" >Conor</a>
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt0687246/?ref_=nm_flmg_act_2" >Daybreak</a>
+(1997)
+... <a href="/character/ch0041617/?ref_=nm_flmg_act_2" >Conor</a>
+</div>
+<div id="more-episodes-tt0118451-actorTV" style="display:none;">
+<img src="http://ia.media-imdb.com/images/G/01/imdb/images/favorite_theater/spinner-3099941772._CB352275779_.gif" />
+</div>
+<div class="filmo-episodes">
+<a href="#"
+data-n="13"
+onclick="toggleSeeMoreEpisodes(this,'nm0005132','tt0118451','actor: TV',1); return false;">Show all 13 episodes</a>
+</div>
+</div>
+<div class="filmo-row odd" id="actorTV-tt0115379">
+<span class="year_column">
+&nbsp;1996
+</span>
+<b><a href="/title/tt0115379/?ref_=nm_flmg_act_3" >Sweat</a></b>
+(TV Series)
+<br/>
+<a href="/character/ch0146678/?ref_=nm_flmg_act_3" >Snowy Bowles</a>
+<div class="filmo-episodes">
+- <a href="/title/tt1178446/?ref_=nm_flmg_act_3" >Episode #1.26</a>
+(1996)
+... <a href="/character/ch0146678/?ref_=nm_flmg_act_3" >Snowy Bowles</a>
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt1178445/?ref_=nm_flmg_act_3" >Episode #1.25</a>
+(1996)
+... <a href="/character/ch0146678/?ref_=nm_flmg_act_3" >Snowy Bowles</a>
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt1178444/?ref_=nm_flmg_act_3" >Episode #1.24</a>
+(1996)
+... <a href="/character/ch0146678/?ref_=nm_flmg_act_3" >Snowy Bowles</a>
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt1178443/?ref_=nm_flmg_act_3" >Episode #1.23</a>
+(1996)
+... <a href="/character/ch0146678/?ref_=nm_flmg_act_3" >Snowy Bowles</a>
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt1178442/?ref_=nm_flmg_act_3" >Episode #1.22</a>
+(1996)
+... <a href="/character/ch0146678/?ref_=nm_flmg_act_3" >Snowy Bowles</a>
+</div>
+<div id="more-episodes-tt0115379-actorTV" style="display:none;">
+<img src="http://ia.media-imdb.com/images/G/01/imdb/images/favorite_theater/spinner-3099941772._CB352275779_.gif" />
+</div>
+<div class="filmo-episodes">
+<a href="#"
+data-n="26"
+onclick="toggleSeeMoreEpisodes(this,'nm0005132','tt0115379','actor: TV',2); return false;">Show all 26 episodes</a>
+</div>
+</div>
+<div class="filmo-row even" id="actorTV-tt0165060">
+<span class="year_column">
+&nbsp;1993-1994
+</span>
+<b><a href="/title/tt0165060/?ref_=nm_flmg_act_4" >Ship to Shore</a></b>
+(TV Series)
+<br/>
+<a href="/character/ch0119050/?ref_=nm_flmg_act_4" >Cyclist</a>
+<div class="filmo-episodes">
+- <a href="/title/tt1464709/?ref_=nm_flmg_act_4" >Stranger Than Fiction</a>
+(1994)
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt1464719/?ref_=nm_flmg_act_4" >Worthy Opponents: Part 2</a>
+(1993)
+... <a href="/character/ch0119050/?ref_=nm_flmg_act_4" >Cyclist</a>
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt1464718/?ref_=nm_flmg_act_4" >Worthy Opponents: Part 1</a>
+(1993)
+... <a href="/character/ch0119050/?ref_=nm_flmg_act_4" >Cyclist</a>
+</div>
+</div>
+</div>
+<div id="filmo-head-directorVideo" class="head" data-category="directorVideo" onclick="toggleFilmoCategory(this);">
+<span id="hide-directorVideo" class="hide-link"
+style="display:none;"
+>Hide&nbsp;<img src="http://ia.media-imdb.com/images/G/01/imdb/images/icons/hide-1061525577._CB358668250_.png" class="absmiddle" alt="Hide" width="18" height="16"></span>
+<span id="show-directorVideo" class="show-link"
+style="display:inline;"
+>Show&nbsp;<img src="http://ia.media-imdb.com/images/G/01/imdb/images/icons/show-582987296._CB358668248_.png" class="absmiddle" alt="Show" width="18" height="16"></span>
+<a name="director"></a>
+<a name="directorVideo">Director: Video</a> (1 credit)
+</div>
+<div class="filmo-category-section"
+style="display:none;"
+>
+<div class="filmo-row odd" id="directorVideo-tt2815892">
 <span class="year_column">
 &nbsp;2009
 </span>
@@ -1531,19 +1553,20 @@ style="display:none;"
 <br/>
 </div>
 </div>
-<div id="filmo-head-thanks" class="head" data-category="thanks" onclick="toggleFilmoCategory(this);">
-<span id="hide-thanks" class="hide-link"
+<div id="filmo-head-thanksMovie" class="head" data-category="thanksMovie" onclick="toggleFilmoCategory(this);">
+<span id="hide-thanksMovie" class="hide-link"
 style="display:none;"
->Hide&nbsp;<img src="http://ia.media-imdb.com/images/G/01/imdb/images/icons/hide-1061525577._V358668250_.png" class="absmiddle" alt="Hide" width="18" height="16"></span>
-<span id="show-thanks" class="show-link"
+>Hide&nbsp;<img src="http://ia.media-imdb.com/images/G/01/imdb/images/icons/hide-1061525577._CB358668250_.png" class="absmiddle" alt="Hide" width="18" height="16"></span>
+<span id="show-thanksMovie" class="show-link"
 style="display:inline;"
->Show&nbsp;<img src="http://ia.media-imdb.com/images/G/01/imdb/images/icons/show-582987296._V358668248_.png" class="absmiddle" alt="Show" width="18" height="16"></span>
-<a name="thanks">Thanks</a> (5 credits)
+>Show&nbsp;<img src="http://ia.media-imdb.com/images/G/01/imdb/images/icons/show-582987296._CB358668248_.png" class="absmiddle" alt="Show" width="18" height="16"></span>
+<a name="thanks"></a>
+<a name="thanksMovie">Thanks: Movie</a> (5 credits)
 </div>
 <div class="filmo-category-section"
 style="display:none;"
 >
-<div class="filmo-row odd" id="thanks-tt2158355">
+<div class="filmo-row odd" id="thanksMovie-tt2158355">
 <span class="year_column">
 &nbsp;2011
 </span>
@@ -1551,7 +1574,7 @@ style="display:none;"
 (Short) (in memory of)
 <br/>
 </div>
-<div class="filmo-row even" id="thanks-tt1754231">
+<div class="filmo-row even" id="thanksMovie-tt1754231">
 <span class="year_column">
 &nbsp;2010
 </span>
@@ -1559,7 +1582,7 @@ style="display:none;"
 (Short) (special thanks)
 <br/>
 </div>
-<div class="filmo-row odd" id="thanks-tt1054606">
+<div class="filmo-row odd" id="thanksMovie-tt1054606">
 <span class="year_column">
 &nbsp;2009
 </span>
@@ -1567,7 +1590,7 @@ style="display:none;"
 (in memory of)
 <br/>
 </div>
-<div class="filmo-row even" id="thanks-tt0468569">
+<div class="filmo-row even" id="thanksMovie-tt0468569">
 <span class="year_column">
 &nbsp;2008
 </span>
@@ -1575,7 +1598,7 @@ style="display:none;"
 (in memory of)
 <br/>
 </div>
-<div class="filmo-row odd" id="thanks-tt1196613">
+<div class="filmo-row odd" id="thanksMovie-tt1196613">
 <span class="year_column">
 &nbsp;2008
 </span>
@@ -1584,19 +1607,20 @@ style="display:none;"
 <br/>
 </div>
 </div>
-<div id="filmo-head-self" class="head" data-category="self" onclick="toggleFilmoCategory(this);">
-<span id="hide-self" class="hide-link"
+<div id="filmo-head-selfTV" class="head" data-category="selfTV" onclick="toggleFilmoCategory(this);">
+<span id="hide-selfTV" class="hide-link"
 style="display:none;"
->Hide&nbsp;<img src="http://ia.media-imdb.com/images/G/01/imdb/images/icons/hide-1061525577._V358668250_.png" class="absmiddle" alt="Hide" width="18" height="16"></span>
-<span id="show-self" class="show-link"
+>Hide&nbsp;<img src="http://ia.media-imdb.com/images/G/01/imdb/images/icons/hide-1061525577._CB358668250_.png" class="absmiddle" alt="Hide" width="18" height="16"></span>
+<span id="show-selfTV" class="show-link"
 style="display:inline;"
->Show&nbsp;<img src="http://ia.media-imdb.com/images/G/01/imdb/images/icons/show-582987296._V358668248_.png" class="absmiddle" alt="Show" width="18" height="16"></span>
-<a name="self">Self</a> (50 credits)
+>Show&nbsp;<img src="http://ia.media-imdb.com/images/G/01/imdb/images/icons/show-582987296._CB358668248_.png" class="absmiddle" alt="Show" width="18" height="16"></span>
+<a name="self"></a>
+<a name="selfTV">Self: TV</a> (42 credits)
 </div>
 <div class="filmo-category-section"
 style="display:none;"
 >
-<div class="filmo-row odd" id="self-tt0081857">
+<div class="filmo-row odd" id="selfTV-tt0081857">
 <span class="year_column">
 &nbsp;2007
 </span>
@@ -1610,7 +1634,7 @@ Himself
 ... Himself
 </div>
 </div>
-<div class="filmo-row even" id="self-tt1434322">
+<div class="filmo-row even" id="selfTV-tt1434322">
 <span class="year_column">
 &nbsp;2007
 </span>
@@ -1624,7 +1648,7 @@ Himself
 ... Himself
 </div>
 </div>
-<div class="filmo-row odd" id="self-tt0430836">
+<div class="filmo-row odd" id="selfTV-tt0430836">
 <span class="year_column">
 &nbsp;2007
 </span>
@@ -1643,204 +1667,204 @@ Himself
 ... Himself
 </div>
 </div>
-<div class="filmo-row even" id="self-tt0463397">
+<div class="filmo-row even" id="selfTV-tt0980929">
+<span class="year_column">
+&nbsp;2006
+</span>
+<b><a href="/title/tt0980929/?ref_=nm_flmg_slf_4" >The 2006 Australian Film Institute Awards</a></b>
+(TV Movie)
+<br/>
+Himself
+</div>
+<div class="filmo-row odd" id="selfTV-tt0463397">
 <span class="year_column">
 &nbsp;2005-2006
 </span>
-<b><a href="/title/tt0463397/?ref_=nm_flmg_slf_4" >Corazón de...</a></b>
+<b><a href="/title/tt0463397/?ref_=nm_flmg_slf_5" >Corazón de...</a></b>
 (TV Series)
 <br/>
 Himself
 <div class="filmo-episodes">
-- <a href="/title/tt0859919/?ref_=nm_flmg_slf_4" >Episode dated 12 September 2006</a>
+- <a href="/title/tt0859919/?ref_=nm_flmg_slf_5" >Episode dated 12 September 2006</a>
 (2006)
 ... Himself
 </div>
 <div class="filmo-episodes">
-- <a href="/title/tt0773856/?ref_=nm_flmg_slf_4" >Episode dated 6 March 2006</a>
+- <a href="/title/tt0773856/?ref_=nm_flmg_slf_5" >Episode dated 6 March 2006</a>
 (2006)
 ... Himself
 </div>
 <div class="filmo-episodes">
-- <a href="/title/tt0545992/?ref_=nm_flmg_slf_4" >Episode dated 16 January 2006</a>
+- <a href="/title/tt0545992/?ref_=nm_flmg_slf_5" >Episode dated 16 January 2006</a>
 (2006)
 ... Himself
 </div>
 <div class="filmo-episodes">
-- <a href="/title/tt0545928/?ref_=nm_flmg_slf_4" >Episode dated 6 September 2005</a>
+- <a href="/title/tt0545928/?ref_=nm_flmg_slf_5" >Episode dated 6 September 2005</a>
 (2005)
 ... Himself
 </div>
 </div>
-<div class="filmo-row odd" id="self-tt0090493">
+<div class="filmo-row even" id="selfTV-tt0090493">
 <span class="year_column">
 &nbsp;2006
 </span>
-<b><a href="/title/tt0090493/?ref_=nm_flmg_slf_5" >The Oprah Winfrey Show</a></b>
+<b><a href="/title/tt0090493/?ref_=nm_flmg_slf_6" >The Oprah Winfrey Show</a></b>
 (TV Series)
 <br/>
 Himself
 <div class="filmo-episodes">
-- <a href="/title/tt0913042/?ref_=nm_flmg_slf_5" >Oprah's After-Oscar Party 2006</a>
+- <a href="/title/tt0913042/?ref_=nm_flmg_slf_6" >Oprah's After-Oscar Party 2006</a>
 (2006)
 ... Himself
 </div>
 <div class="filmo-episodes">
-- <a href="/title/tt0759226/?ref_=nm_flmg_slf_5" >Episode dated 27 January 2006</a>
+- <a href="/title/tt0759226/?ref_=nm_flmg_slf_6" >Episode dated 27 January 2006</a>
 (2006)
 ... Himself
 </div>
 </div>
-<div class="filmo-row even" id="self-tt0497318">
+<div class="filmo-row odd" id="selfTV-tt0497318">
 <span class="year_column">
 &nbsp;2006
 </span>
-<b><a href="/title/tt0497318/?ref_=nm_flmg_slf_6" >The 78th Annual Academy Awards</a></b>
+<b><a href="/title/tt0497318/?ref_=nm_flmg_slf_7" >The 78th Annual Academy Awards</a></b>
 (TV Special)
 <br/>
 Himself - Nominee: Best Actor in a Leading Role
 </div>
-<div class="filmo-row odd" id="self-tt0770704">
+<div class="filmo-row even" id="selfTV-tt0770704">
 <span class="year_column">
 &nbsp;2006
 </span>
-<b><a href="/title/tt0770704/?ref_=nm_flmg_slf_7" >2006 Independent Spirit Awards</a></b>
+<b><a href="/title/tt0770704/?ref_=nm_flmg_slf_8" >2006 Independent Spirit Awards</a></b>
 (TV Movie documentary)
 <br/>
 Himself
 </div>
-<div class="filmo-row even" id="self-tt0379623">
+<div class="filmo-row odd" id="selfTV-tt0379623">
 <span class="year_column">
 &nbsp;2004-2006
 </span>
-<b><a href="/title/tt0379623/?ref_=nm_flmg_slf_8" >Ellen: The Ellen DeGeneres Show</a></b>
+<b><a href="/title/tt0379623/?ref_=nm_flmg_slf_9" >Ellen: The Ellen DeGeneres Show</a></b>
 (TV Series)
 <br/>
 Himself
 <div class="filmo-episodes">
-- <a href="/title/tt0760654/?ref_=nm_flmg_slf_8" >Episode dated 13 February 2006</a>
+- <a href="/title/tt0760654/?ref_=nm_flmg_slf_9" >Episode dated 13 February 2006</a>
 (2006)
 ... Himself
 </div>
 <div class="filmo-episodes">
-- <a href="/title/tt0570176/?ref_=nm_flmg_slf_8" >Episode dated 25 March 2004</a>
+- <a href="/title/tt0570176/?ref_=nm_flmg_slf_9" >Episode dated 25 March 2004</a>
 (2004)
 ... Himself
 </div>
 </div>
-<div class="filmo-row odd" id="self-tt0930831">
+<div class="filmo-row even" id="selfTV-tt0930831">
 <span class="year_column">
 &nbsp;2006
 </span>
-<b><a href="/title/tt0930831/?ref_=nm_flmg_slf_9" >Gomorron</a></b>
+<b><a href="/title/tt0930831/?ref_=nm_flmg_slf_10" >Gomorron</a></b>
 (TV Series)
 <br/>
 Himself
 <div class="filmo-episodes">
-- <a href="/title/tt1237721/?ref_=nm_flmg_slf_9" >Om filmen 'Brokeback Mountain'</a>
+- <a href="/title/tt1237721/?ref_=nm_flmg_slf_10" >Om filmen 'Brokeback Mountain'</a>
 (2006)
 ... Himself
 </div>
 </div>
-<div class="filmo-row even" id="self-tt0770700">
+<div class="filmo-row odd" id="selfTV-tt0770700">
 <span class="year_column">
 &nbsp;2006
 </span>
-<b><a href="/title/tt0770700/?ref_=nm_flmg_slf_10" >12th Annual Screen Actors Guild Awards</a></b>
+<b><a href="/title/tt0770700/?ref_=nm_flmg_slf_11" >12th Annual Screen Actors Guild Awards</a></b>
 (TV Special)
 <br/>
 Himself
 </div>
-<div class="filmo-row odd" id="self-tt0103569">
+<div class="filmo-row even" id="selfTV-tt0103569">
 <span class="year_column">
 &nbsp;2000-2006
 </span>
-<b><a href="/title/tt0103569/?ref_=nm_flmg_slf_11" >The Tonight Show with Jay Leno</a></b>
+<b><a href="/title/tt0103569/?ref_=nm_flmg_slf_12" >The Tonight Show with Jay Leno</a></b>
 (TV Series)
 <br/>
 Himself
 <div class="filmo-episodes">
-- <a href="/title/tt0729132/?ref_=nm_flmg_slf_11" >Episode #14.11</a>
+- <a href="/title/tt0729132/?ref_=nm_flmg_slf_12" >Episode #14.11</a>
 (2006)
 ... Himself
 </div>
 <div class="filmo-episodes">
-- <a href="/title/tt0728987/?ref_=nm_flmg_slf_11" >Episode #13.91</a>
+- <a href="/title/tt0728987/?ref_=nm_flmg_slf_12" >Episode #13.91</a>
 (2005)
 ... Himself
 </div>
 <div class="filmo-episodes">
-- <a href="/title/tt0728790/?ref_=nm_flmg_slf_11" >Episode #12.52</a>
+- <a href="/title/tt0728790/?ref_=nm_flmg_slf_12" >Episode #12.52</a>
 (2004)
 ... Himself
 </div>
 <div class="filmo-episodes">
-- <a href="/title/tt2364395/?ref_=nm_flmg_slf_11" >Episode #10.146</a>
+- <a href="/title/tt2364395/?ref_=nm_flmg_slf_12" >Episode #10.146</a>
 (2002)
 ... Himself
 </div>
 <div class="filmo-episodes">
-- <a href="/title/tt0884873/?ref_=nm_flmg_slf_11" >Episode dated 27 June 2000</a>
+- <a href="/title/tt0884873/?ref_=nm_flmg_slf_12" >Episode dated 27 June 2000</a>
 (2000)
 ... Himself
 </div>
 </div>
-<div class="filmo-row even" id="self-tt0770708">
+<div class="filmo-row odd" id="selfTV-tt0770708">
 <span class="year_column">
 &nbsp;2006
 </span>
-<b><a href="/title/tt0770708/?ref_=nm_flmg_slf_12" >The 63rd Annual Golden Globe Awards</a></b>
+<b><a href="/title/tt0770708/?ref_=nm_flmg_slf_13" >The 63rd Annual Golden Globe Awards</a></b>
 (TV Movie documentary)
 <br/>
 Himself - Nominee: Best Actor in a Motion Picture - Drama
 </div>
-<div class="filmo-row odd" id="self-tt0270116">
+<div class="filmo-row even" id="selfTV-tt0270116">
 <span class="year_column">
 &nbsp;2005
 </span>
-<b><a href="/title/tt0270116/?ref_=nm_flmg_slf_13" >Charlie Rose</a></b>
+<b><a href="/title/tt0270116/?ref_=nm_flmg_slf_14" >Charlie Rose</a></b>
 (TV Series)
 <br/>
 Himself
 <div class="filmo-episodes">
-- <a href="/title/tt0539113/?ref_=nm_flmg_slf_13" >Episode dated 7 December 2005</a>
+- <a href="/title/tt0539113/?ref_=nm_flmg_slf_14" >Episode dated 7 December 2005</a>
 (2005)
 ... Himself
 </div>
 </div>
-<div class="filmo-row even" id="self-tt0757252">
+<div class="filmo-row odd" id="selfTV-tt0757252">
 <span class="year_column">
 &nbsp;2005
 </span>
-<b><a href="/title/tt0757252/?ref_=nm_flmg_slf_14" >Logo Movie Special: 'Brokeback Mountain'</a></b>
+<b><a href="/title/tt0757252/?ref_=nm_flmg_slf_15" >Logo Movie Special: 'Brokeback Mountain'</a></b>
 (TV Movie documentary)
 <br/>
 Himself
 </div>
-<div class="filmo-row odd" id="self-tt0192897">
+<div class="filmo-row even" id="selfTV-tt0192897">
 <span class="year_column">
 &nbsp;2005
 </span>
-<b><a href="/title/tt0192897/?ref_=nm_flmg_slf_15" >Film 2014</a></b>
+<b><a href="/title/tt0192897/?ref_=nm_flmg_slf_16" >Film 2014</a></b>
 (TV Series)
 <br/>
 Himself
 <div class="filmo-episodes">
-- <a href="/title/tt0579319/?ref_=nm_flmg_slf_15" >Episode dated 31 October 2005</a>
+- <a href="/title/tt0579319/?ref_=nm_flmg_slf_16" >Episode dated 31 October 2005</a>
 (2005)
 ... Himself
 </div>
 </div>
-<div class="filmo-row even" id="self-tt0834929">
-<span class="year_column">
-&nbsp;2005
-</span>
-<b><a href="/title/tt0834929/?ref_=nm_flmg_slf_16" >The Making of 'Lords of Dogtown'</a></b>
-(Video documentary short)
-<br/>
-Himself
-</div>
-<div class="filmo-row odd" id="self-tt0480949">
+<div class="filmo-row odd" id="selfTV-tt0480949">
 <span class="year_column">
 &nbsp;2005
 </span>
@@ -1849,7 +1873,7 @@ Himself
 <br/>
 Himself
 </div>
-<div class="filmo-row even" id="self-tt0475467">
+<div class="filmo-row even" id="selfTV-tt0475467">
 <span class="year_column">
 &nbsp;2005
 </span>
@@ -1863,7 +1887,7 @@ Himself
 ... Himself
 </div>
 </div>
-<div class="filmo-row odd" id="self-tt0106052">
+<div class="filmo-row odd" id="selfTV-tt0106052">
 <span class="year_column">
 &nbsp;2005
 </span>
@@ -1877,7 +1901,7 @@ Himself
 ... Himself
 </div>
 </div>
-<div class="filmo-row even" id="self-tt0096636">
+<div class="filmo-row even" id="selfTV-tt0096636">
 <span class="year_column">
 &nbsp;2005
 </span>
@@ -1891,7 +1915,7 @@ Himself
 ... Himself
 </div>
 </div>
-<div class="filmo-row odd" id="self-tt0044298">
+<div class="filmo-row odd" id="selfTV-tt0044298">
 <span class="year_column">
 &nbsp;2005
 </span>
@@ -1905,7 +1929,7 @@ Himself
 ... Himself
 </div>
 </div>
-<div class="filmo-row even" id="self-tt0123366">
+<div class="filmo-row even" id="selfTV-tt0123366">
 <span class="year_column">
 &nbsp;2005
 </span>
@@ -1919,708 +1943,752 @@ Himself
 ... Himself
 </div>
 </div>
-<div class="filmo-row odd" id="self-tt1584925">
-<span class="year_column">
-&nbsp;2005
-</span>
-<b><a href="/title/tt1584925/?ref_=nm_flmg_slf_23" >Los Angeles</a></b>
-(Documentary short)
-<br/>
-Himself
-</div>
-<div class="filmo-row even" id="self-tt0865926">
-<span class="year_column">
-&nbsp;2005
-</span>
-<b><a href="/title/tt0865926/?ref_=nm_flmg_slf_24" >On Being a Cowboy</a></b>
-(Video short)
-<br/>
-Himself
-</div>
-<div class="filmo-row odd" id="self-tt0320037">
+<div class="filmo-row odd" id="selfTV-tt0320037">
 <span class="year_column">
 &nbsp;2004
 </span>
-<b><a href="/title/tt0320037/?ref_=nm_flmg_slf_25" >Jimmy Kimmel Live!</a></b>
+<b><a href="/title/tt0320037/?ref_=nm_flmg_slf_23" >Jimmy Kimmel Live!</a></b>
 (TV Series)
 <br/>
 Himself
 <div class="filmo-episodes">
-- <a href="/title/tt1479928/?ref_=nm_flmg_slf_25" >Episode #3.64</a>
+- <a href="/title/tt1479928/?ref_=nm_flmg_slf_23" >Episode #3.64</a>
 (2004)
 ... Himself
 </div>
 </div>
-<div class="filmo-row even" id="self-tt0381851">
+<div class="filmo-row even" id="selfTV-tt0381851">
 <span class="year_column">
 &nbsp;2004
 </span>
-<b><a href="/title/tt0381851/?ref_=nm_flmg_slf_26" >The 76th Annual Academy Awards</a></b>
+<b><a href="/title/tt0381851/?ref_=nm_flmg_slf_24" >The 76th Annual Academy Awards</a></b>
 (TV Special)
 <br/>
 Himself - Audience Member
 </div>
-<div class="filmo-row odd" id="self-tt0403828">
+<div class="filmo-row odd" id="selfTV-tt0403828">
 <span class="year_column">
 &nbsp;2004
 </span>
-<b><a href="/title/tt0403828/?ref_=nm_flmg_slf_27" >10th Annual Screen Actors Guild Awards</a></b>
+<b><a href="/title/tt0403828/?ref_=nm_flmg_slf_25" >10th Annual Screen Actors Guild Awards</a></b>
 (TV Special)
 <br/>
 Himself
 </div>
-<div class="filmo-row even" id="self-tt0403595">
+<div class="filmo-row even" id="selfTV-tt0403595">
 <span class="year_column">
 &nbsp;2004
 </span>
-<b><a href="/title/tt0403595/?ref_=nm_flmg_slf_28" >Terry's Wrap Up Party</a></b>
+<b><a href="/title/tt0403595/?ref_=nm_flmg_slf_26" >Terry's Wrap Up Party</a></b>
 (TV Movie documentary short)
 <br/>
 Himself
 </div>
-<div class="filmo-row odd" id="self-tt0358316">
+<div class="filmo-row odd" id="selfTV-tt0358316">
 <span class="year_column">
 &nbsp;2003
 </span>
-<b><a href="/title/tt0358316/?ref_=nm_flmg_slf_29" >Enough Rope with Andrew Denton</a></b>
+<b><a href="/title/tt0358316/?ref_=nm_flmg_slf_27" >Enough Rope with Andrew Denton</a></b>
 (TV Series)
 <br/>
 Himself
 <div class="filmo-episodes">
-- <a href="/title/tt0571994/?ref_=nm_flmg_slf_29" >Episode #1.2</a>
+- <a href="/title/tt0571994/?ref_=nm_flmg_slf_27" >Episode #1.2</a>
 (2003)
 ... Himself
 </div>
 </div>
-<div class="filmo-row even" id="self-tt0395334">
+<div class="filmo-row even" id="selfTV-tt0395334">
 <span class="year_column">
 &nbsp;2003
 </span>
-<b><a href="/title/tt0395334/?ref_=nm_flmg_slf_30" >Cartaz Cultural</a></b>
+<b><a href="/title/tt0395334/?ref_=nm_flmg_slf_28" >Cartaz Cultural</a></b>
 (TV Series)
 <br/>
 Himself (2007)
 </div>
-<div class="filmo-row odd" id="self-tt0349057">
+<div class="filmo-row odd" id="selfTV-tt0349057">
 <span class="year_column">
 &nbsp;2003
 </span>
-<b><a href="/title/tt0349057/?ref_=nm_flmg_slf_31" >The 60th Annual Golden Globe Awards</a></b>
+<b><a href="/title/tt0349057/?ref_=nm_flmg_slf_29" >The 60th Annual Golden Globe Awards</a></b>
 (TV Special)
 <br/>
 Himself - Presenter: Film clip of "The Lord of the Rings: The Two Towers"
 </div>
-<div class="filmo-row even" id="self-tt0317028">
+<div class="filmo-row even" id="selfTV-tt0317028">
 <span class="year_column">
 &nbsp;2002
 </span>
-<b><a href="/title/tt0317028/?ref_=nm_flmg_slf_32" >V Graham Norton</a></b>
+<b><a href="/title/tt0317028/?ref_=nm_flmg_slf_30" >V Graham Norton</a></b>
 (TV Series)
 <br/>
 Himself
 <div class="filmo-episodes">
-- <a href="/title/tt0738330/?ref_=nm_flmg_slf_32" >Episode #2.18</a>
+- <a href="/title/tt0738330/?ref_=nm_flmg_slf_30" >Episode #2.18</a>
 (2002)
 ... Himself
 </div>
 </div>
-<div class="filmo-row odd" id="self-tt0332226">
+<div class="filmo-row odd" id="selfTV-tt0332226">
 <span class="year_column">
 &nbsp;2002
 </span>
-<b><a href="/title/tt0332226/?ref_=nm_flmg_slf_33" >MTV Video Music Awards 2002</a></b>
+<b><a href="/title/tt0332226/?ref_=nm_flmg_slf_31" >MTV Video Music Awards 2002</a></b>
 (TV Special)
 <br/>
 Himself
 </div>
-<div class="filmo-row even" id="self-tt0372963">
+<div class="filmo-row even" id="selfTV-tt0373120">
 <span class="year_column">
 &nbsp;2001
 </span>
-<b><a href="/title/tt0372963/?ref_=nm_flmg_slf_34" >Heath Ledger Profile</a></b>
-(Video documentary short)
-<br/>
-Himself
-</div>
-<div class="filmo-row odd" id="self-tt0373302">
-<span class="year_column">
-&nbsp;2001
-</span>
-<b><a href="/title/tt0373302/?ref_=nm_flmg_slf_35" >Sexy Armor and a Rock Band on Tour</a></b>
-(Video documentary short)
-<br/>
-Himself
-</div>
-<div class="filmo-row even" id="self-tt0373120">
-<span class="year_column">
-&nbsp;2001
-</span>
-<b><a href="/title/tt0373120/?ref_=nm_flmg_slf_36" >The Making of 'A Knight's Tale'</a></b>
+<b><a href="/title/tt0373120/?ref_=nm_flmg_slf_32" >The Making of 'A Knight's Tale'</a></b>
 (TV Movie documentary short)
 <br/>
 Himself
 </div>
-<div class="filmo-row odd" id="self-tt0373129">
+<div class="filmo-row odd" id="selfTV-tt0297611">
 <span class="year_column">
 &nbsp;2001
 </span>
-<b><a href="/title/tt0373129/?ref_=nm_flmg_slf_37" >The Marquee Event</a></b>
-(Video documentary short)
-<br/>
-Himself
-</div>
-<div class="filmo-row even" id="self-tt0373271">
-<span class="year_column">
-&nbsp;2001
-</span>
-<b><a href="/title/tt0373271/?ref_=nm_flmg_slf_38" >The Rock Music Scene in 1370</a></b>
-(Video documentary short)
-<br/>
-Himself
-</div>
-<div class="filmo-row odd" id="self-tt0373276">
-<span class="year_column">
-&nbsp;2001
-</span>
-<b><a href="/title/tt0373276/?ref_=nm_flmg_slf_39" >The Rules of Love</a></b>
-(Video documentary short)
-<br/>
-Himself
-</div>
-<div class="filmo-row even" id="self-tt0297611">
-<span class="year_column">
-&nbsp;2001
-</span>
-<b><a href="/title/tt0297611/?ref_=nm_flmg_slf_40" >The Ray Martin Show</a></b>
+<b><a href="/title/tt0297611/?ref_=nm_flmg_slf_33" >The Ray Martin Show</a></b>
 (TV Series)
 <br/>
 Himself
 <div class="filmo-episodes">
-- <a href="/title/tt0683251/?ref_=nm_flmg_slf_40" >Episode #1.5</a>
+- <a href="/title/tt0683251/?ref_=nm_flmg_slf_33" >Episode #1.5</a>
 (2001)
 ... Himself
 </div>
 </div>
-<div class="filmo-row odd" id="self-tt0140756">
+<div class="filmo-row even" id="selfTV-tt0140756">
 <span class="year_column">
 &nbsp;1999-2001
 </span>
-<b><a href="/title/tt0140756/?ref_=nm_flmg_slf_41" >The Panel</a></b>
+<b><a href="/title/tt0140756/?ref_=nm_flmg_slf_34" >The Panel</a></b>
 (TV Series)
 <br/>
 Himself
 <div class="filmo-episodes">
-- <a href="/title/tt0669045/?ref_=nm_flmg_slf_41" >Episode #4.23</a>
+- <a href="/title/tt0669045/?ref_=nm_flmg_slf_34" >Episode #4.23</a>
 (2001)
 ... Himself
 </div>
 <div class="filmo-episodes">
-- <a href="/title/tt0668973/?ref_=nm_flmg_slf_41" >Episode #2.19</a>
+- <a href="/title/tt0668973/?ref_=nm_flmg_slf_34" >Episode #2.19</a>
 (1999)
 ... Himself
 </div>
 </div>
-<div class="filmo-row even" id="self-tt0827791">
+<div class="filmo-row odd" id="selfTV-tt0827791">
 <span class="year_column">
 &nbsp;2001
 </span>
-<b><a href="/title/tt0827791/?ref_=nm_flmg_slf_42" >A.J. After Hours</a></b>
+<b><a href="/title/tt0827791/?ref_=nm_flmg_slf_35" >A.J. After Hours</a></b>
 (TV Series)
 <br/>
 Himself
 <div class="filmo-episodes">
-- <a href="/title/tt1107400/?ref_=nm_flmg_slf_42" >Episode dated 31 May 2001</a>
+- <a href="/title/tt1107400/?ref_=nm_flmg_slf_35" >Episode dated 31 May 2001</a>
 (2001)
 ... Himself
 </div>
 </div>
-<div class="filmo-row odd" id="self-tt0115147">
+<div class="filmo-row even" id="selfTV-tt0115147">
 <span class="year_column">
 &nbsp;2001
 </span>
-<b><a href="/title/tt0115147/?ref_=nm_flmg_slf_43" >The Daily Show with Jon Stewart</a></b>
+<b><a href="/title/tt0115147/?ref_=nm_flmg_slf_36" >The Daily Show with Jon Stewart</a></b>
 (TV Series)
 <br/>
 Himself
 <div class="filmo-episodes">
-- <a href="/title/tt1267550/?ref_=nm_flmg_slf_43" >Heath Ledger</a>
+- <a href="/title/tt1267550/?ref_=nm_flmg_slf_36" >Heath Ledger</a>
 (2001)
 ... Himself
 </div>
 </div>
-<div class="filmo-row even" id="self-tt0261489">
+<div class="filmo-row odd" id="selfTV-tt0261489">
 <span class="year_column">
 &nbsp;2001
 </span>
-<b><a href="/title/tt0261489/?ref_=nm_flmg_slf_44" >Rove Live</a></b>
+<b><a href="/title/tt0261489/?ref_=nm_flmg_slf_37" >Rove Live</a></b>
 (TV Series)
 <br/>
 Himself
 <div class="filmo-episodes">
-- <a href="/title/tt0690534/?ref_=nm_flmg_slf_44" >Episode #2.10</a>
+- <a href="/title/tt0690534/?ref_=nm_flmg_slf_37" >Episode #2.10</a>
 (2001)
 ... Himself
 </div>
 </div>
-<div class="filmo-row odd" id="self-tt0318220">
+<div class="filmo-row even" id="selfTV-tt0318220">
 <span class="year_column">
 &nbsp;2000-2001
 </span>
-<b><a href="/title/tt0318220/?ref_=nm_flmg_slf_45" >HBO First Look</a></b>
+<b><a href="/title/tt0318220/?ref_=nm_flmg_slf_38" >HBO First Look</a></b>
 (TV Series documentary)
 <br/>
 Himself
 <div class="filmo-episodes">
-- <a href="/title/tt0594803/?ref_=nm_flmg_slf_45" >The Making of 'A Knight's Tale'</a>
+- <a href="/title/tt0594803/?ref_=nm_flmg_slf_38" >The Making of 'A Knight's Tale'</a>
 (2001)
 ... Himself
 </div>
 <div class="filmo-episodes">
-- <a href="/title/tt0594937/?ref_=nm_flmg_slf_45" >The Patriot</a>
+- <a href="/title/tt0594937/?ref_=nm_flmg_slf_38" >The Patriot</a>
 (2000)
 ... Himself
 </div>
 </div>
-<div class="filmo-row even" id="self-tt0372772">
+<div class="filmo-row odd" id="selfTV-tt0278884">
 <span class="year_column">
 &nbsp;2000
 </span>
-<b><a href="/title/tt0372772/?ref_=nm_flmg_slf_46" >The Art of War</a></b>
-(Video documentary short)
-<br/>
-Himself
-</div>
-<div class="filmo-row odd" id="self-tt0278884">
-<span class="year_column">
-&nbsp;2000
-</span>
-<b><a href="/title/tt0278884/?ref_=nm_flmg_slf_47" >2000 MTV Movie Awards</a></b>
+<b><a href="/title/tt0278884/?ref_=nm_flmg_slf_39" >2000 MTV Movie Awards</a></b>
 (TV Special documentary)
 <br/>
 Himself
 </div>
-<div class="filmo-row even" id="self-tt0343328">
+<div class="filmo-row even" id="selfTV-tt0343328">
 <span class="year_column">
 &nbsp;2000
 </span>
-<b><a href="/title/tt0343328/?ref_=nm_flmg_slf_48" >2000 Blockbuster Entertainment Awards</a></b>
+<b><a href="/title/tt0343328/?ref_=nm_flmg_slf_40" >2000 Blockbuster Entertainment Awards</a></b>
 (TV Special documentary)
 <br/>
 Himself
 </div>
-<div class="filmo-row odd" id="self-tt0498255">
+<div class="filmo-row odd" id="selfTV-tt0498255">
 <span class="year_column">
 &nbsp;1999
 </span>
-<b><a href="/title/tt0498255/?ref_=nm_flmg_slf_49" >The Teen Choice Awards 1999</a></b>
+<b><a href="/title/tt0498255/?ref_=nm_flmg_slf_41" >The Teen Choice Awards 1999</a></b>
 (TV Movie)
 <br/>
 Himself
 </div>
-<div class="filmo-row even" id="self-tt0322662">
+<div class="filmo-row even" id="selfTV-tt0322662">
 <span class="year_column">
 &nbsp;1997
 </span>
-<b><a href="/title/tt0322662/?ref_=nm_flmg_slf_50" >Roar: The Making of</a></b>
+<b><a href="/title/tt0322662/?ref_=nm_flmg_slf_42" >Roar: The Making of</a></b>
 (TV Special documentary)
 <br/>
-<a href="/character/ch0041617/?ref_=nm_flmg_slf_50" >Conor</a>
+<a href="/character/ch0041617/?ref_=nm_flmg_slf_42" >Conor</a>
+</div>
+</div>
+<div id="filmo-head-selfVideo" class="head" data-category="selfVideo" onclick="toggleFilmoCategory(this);">
+<span id="hide-selfVideo" class="hide-link"
+style="display:none;"
+>Hide&nbsp;<img src="http://ia.media-imdb.com/images/G/01/imdb/images/icons/hide-1061525577._CB358668250_.png" class="absmiddle" alt="Hide" width="18" height="16"></span>
+<span id="show-selfVideo" class="show-link"
+style="display:inline;"
+>Show&nbsp;<img src="http://ia.media-imdb.com/images/G/01/imdb/images/icons/show-582987296._CB358668248_.png" class="absmiddle" alt="Show" width="18" height="16"></span>
+<a name="selfVideo">Self: Video</a> (8 credits)
+</div>
+<div class="filmo-category-section"
+style="display:none;"
+>
+<div class="filmo-row odd" id="selfVideo-tt0834929">
+<span class="year_column">
+&nbsp;2005
+</span>
+<b><a href="/title/tt0834929/?ref_=nm_flmg_slf_1" >The Making of 'Lords of Dogtown'</a></b>
+(Video documentary short)
+<br/>
+Himself
+</div>
+<div class="filmo-row even" id="selfVideo-tt0865926">
+<span class="year_column">
+&nbsp;2005
+</span>
+<b><a href="/title/tt0865926/?ref_=nm_flmg_slf_2" >On Being a Cowboy</a></b>
+(Video short)
+<br/>
+Himself
+</div>
+<div class="filmo-row odd" id="selfVideo-tt0372963">
+<span class="year_column">
+&nbsp;2001
+</span>
+<b><a href="/title/tt0372963/?ref_=nm_flmg_slf_3" >Heath Ledger Profile</a></b>
+(Video documentary short)
+<br/>
+Himself
+</div>
+<div class="filmo-row even" id="selfVideo-tt0373302">
+<span class="year_column">
+&nbsp;2001
+</span>
+<b><a href="/title/tt0373302/?ref_=nm_flmg_slf_4" >Sexy Armor and a Rock Band on Tour</a></b>
+(Video documentary short)
+<br/>
+Himself
+</div>
+<div class="filmo-row odd" id="selfVideo-tt0373129">
+<span class="year_column">
+&nbsp;2001
+</span>
+<b><a href="/title/tt0373129/?ref_=nm_flmg_slf_5" >The Marquee Event</a></b>
+(Video documentary short)
+<br/>
+Himself
+</div>
+<div class="filmo-row even" id="selfVideo-tt0373271">
+<span class="year_column">
+&nbsp;2001
+</span>
+<b><a href="/title/tt0373271/?ref_=nm_flmg_slf_6" >The Rock Music Scene in 1370</a></b>
+(Video documentary short)
+<br/>
+Himself
+</div>
+<div class="filmo-row odd" id="selfVideo-tt0373276">
+<span class="year_column">
+&nbsp;2001
+</span>
+<b><a href="/title/tt0373276/?ref_=nm_flmg_slf_7" >The Rules of Love</a></b>
+(Video documentary short)
+<br/>
+Himself
+</div>
+<div class="filmo-row even" id="selfVideo-tt0372772">
+<span class="year_column">
+&nbsp;2000
+</span>
+<b><a href="/title/tt0372772/?ref_=nm_flmg_slf_8" >The Art of War</a></b>
+(Video documentary short)
+<br/>
+Himself
+</div>
+</div>
+<div id="filmo-head-selfMovie" class="head" data-category="selfMovie" onclick="toggleFilmoCategory(this);">
+<span id="hide-selfMovie" class="hide-link"
+style="display:none;"
+>Hide&nbsp;<img src="http://ia.media-imdb.com/images/G/01/imdb/images/icons/hide-1061525577._CB358668250_.png" class="absmiddle" alt="Hide" width="18" height="16"></span>
+<span id="show-selfMovie" class="show-link"
+style="display:inline;"
+>Show&nbsp;<img src="http://ia.media-imdb.com/images/G/01/imdb/images/icons/show-582987296._CB358668248_.png" class="absmiddle" alt="Show" width="18" height="16"></span>
+<a name="selfMovie">Self: Movie</a> (1 credit)
+</div>
+<div class="filmo-category-section"
+style="display:none;"
+>
+<div class="filmo-row odd" id="selfMovie-tt1584925">
+<span class="year_column">
+&nbsp;2005
+</span>
+<b><a href="/title/tt1584925/?ref_=nm_flmg_slf_1" >Los Angeles</a></b>
+(Documentary short)
+<br/>
+Himself
 </div>
 </div>
 <div id="filmo-head-archive_footage" class="head" data-category="archive_footage" onclick="toggleFilmoCategory(this);">
 <span id="hide-archive_footage" class="hide-link"
 style="display:none;"
->Hide&nbsp;<img src="http://ia.media-imdb.com/images/G/01/imdb/images/icons/hide-1061525577._V358668250_.png" class="absmiddle" alt="Hide" width="18" height="16"></span>
+>Hide&nbsp;<img src="http://ia.media-imdb.com/images/G/01/imdb/images/icons/hide-1061525577._CB358668250_.png" class="absmiddle" alt="Hide" width="18" height="16"></span>
 <span id="show-archive_footage" class="show-link"
 style="display:inline;"
->Show&nbsp;<img src="http://ia.media-imdb.com/images/G/01/imdb/images/icons/show-582987296._V358668248_.png" class="absmiddle" alt="Show" width="18" height="16"></span>
-<a name="archive_footage">Archive footage</a> (24 credits)
+>Show&nbsp;<img src="http://ia.media-imdb.com/images/G/01/imdb/images/icons/show-582987296._CB358668248_.png" class="absmiddle" alt="Show" width="18" height="16"></span>
+<a name="archive_footage">Archive footage</a> (25 credits)
 </div>
 <div class="filmo-category-section"
 style="display:none;"
 >
-<div class="filmo-row odd" id="archive_footage-tt2241422">
+<div class="filmo-row odd" id="archive_footage-tt3138282">
+<span class="year_column">
+&nbsp;2013
+</span>
+<b><a href="/title/tt3138282/?ref_=nm_flmg_arf_1" >The Fire Rises: The Creation and Impact of the Dark Knight Trilogy</a></b>
+(Video documentary)
+<br/>
+Himself
+</div>
+<div class="filmo-row even" id="archive_footage-tt2241422">
 <span class="year_column">
 &nbsp;2012
 </span>
-<b><a href="/title/tt2241422/?ref_=nm_flmg_arf_1" >Too Young to Die</a></b>
+<b><a href="/title/tt2241422/?ref_=nm_flmg_arf_2" >Too Young to Die</a></b>
 (TV Series documentary)
 <br/>
 Himself
 <div class="filmo-episodes">
-- <a href="/title/tt2323004/?ref_=nm_flmg_arf_1" >Heath Ledger: Liebling der Götter</a>
+- <a href="/title/tt2323004/?ref_=nm_flmg_arf_2" >Heath Ledger: Liebling der Götter</a>
 (2012)
 ... Himself
 </div>
 </div>
-<div class="filmo-row even" id="archive_footage-tt0381753">
+<div class="filmo-row odd" id="archive_footage-tt0381753">
 <span class="year_column">
 &nbsp;2012
 </span>
-<b><a href="/title/tt0381753/?ref_=nm_flmg_arf_2" >Fantástico</a></b>
+<b><a href="/title/tt0381753/?ref_=nm_flmg_arf_3" >Fantástico</a></b>
 (TV Series documentary)
 <br/>
-<a href="/character/ch0000180/?ref_=nm_flmg_arf_2" >Joker</a>
+<a href="/character/ch0000180/?ref_=nm_flmg_arf_3" >Joker</a>
 <div class="filmo-episodes">
-- <a href="/title/tt2272492/?ref_=nm_flmg_arf_2" >Episode dated 15 July 2012</a>
+- <a href="/title/tt2272492/?ref_=nm_flmg_arf_3" >Episode dated 15 July 2012</a>
 (2012)
-... <a href="/character/ch0000180/?ref_=nm_flmg_arf_2" >Joker</a>
+... <a href="/character/ch0000180/?ref_=nm_flmg_arf_3" >Joker</a>
 </div>
 </div>
-<div class="filmo-row odd" id="archive_footage-tt0111920">
+<div class="filmo-row even" id="archive_footage-tt0111920">
 <span class="year_column">
 &nbsp;2008-2010
 </span>
-<b><a href="/title/tt0111920/?ref_=nm_flmg_arf_3" >Cinema 3</a></b>
+<b><a href="/title/tt0111920/?ref_=nm_flmg_arf_4" >Cinema 3</a></b>
 (TV Series)
 <br/>
 Himself
 <div class="filmo-episodes">
-- <a href="/title/tt1608833/?ref_=nm_flmg_arf_3" >Episode dated 27 February 2010</a>
+- <a href="/title/tt1608833/?ref_=nm_flmg_arf_4" >Episode dated 27 February 2010</a>
 (2010)
 ... Himself
 </div>
 <div class="filmo-episodes">
-- <a href="/title/tt1178223/?ref_=nm_flmg_arf_3" >Episode dated 26 January 2008</a>
+- <a href="/title/tt1178223/?ref_=nm_flmg_arf_4" >Episode dated 26 January 2008</a>
 (2008)
 ... Himself
 </div>
 </div>
-<div class="filmo-row even" id="archive_footage-tt1438483">
+<div class="filmo-row odd" id="archive_footage-tt1438483">
 <span class="year_column">
 &nbsp;2009
 </span>
-<b><a href="/title/tt1438483/?ref_=nm_flmg_arf_4" >World Film Report</a></b>
+<b><a href="/title/tt1438483/?ref_=nm_flmg_arf_5" >World Film Report</a></b>
 (TV Series)
 <br/>
 Himself
 <div class="filmo-episodes">
-- <a href="/title/tt1525910/?ref_=nm_flmg_arf_4" >Heath Ledger zhou nian ji, si suo bei shang zai guang ying liu zhuan zhong man man pin chang</a>
+- <a href="/title/tt1525910/?ref_=nm_flmg_arf_5" >Heath Ledger zhou nian ji, si suo bei shang zai guang ying liu zhuan zhong man man pin chang</a>
 (2009)
 ... Himself
 </div>
 </div>
-<div class="filmo-row odd" id="archive_footage-tt1219288">
+<div class="filmo-row even" id="archive_footage-tt1219288">
 <span class="year_column">
 &nbsp;2009
 </span>
-<b><a href="/title/tt1219288/?ref_=nm_flmg_arf_5" >The 81st Annual Academy Awards</a></b>
+<b><a href="/title/tt1219288/?ref_=nm_flmg_arf_6" >The 81st Annual Academy Awards</a></b>
 (TV Special)
 <br/>
-<a href="/character/ch0000180/?ref_=nm_flmg_arf_5" >Joker</a>
+<a href="/character/ch0000180/?ref_=nm_flmg_arf_6" >Joker</a>
 </div>
-<div class="filmo-row even" id="archive_footage-tt0824229">
+<div class="filmo-row odd" id="archive_footage-tt0824229">
 <span class="year_column">
 &nbsp;2009
 </span>
-<b><a href="/title/tt0824229/?ref_=nm_flmg_arf_6" >Today Tonight</a></b>
+<b><a href="/title/tt0824229/?ref_=nm_flmg_arf_7" >Today Tonight</a></b>
 (TV Series)
 <br/>
 Himself
-/ <a href="/character/ch0000180/?ref_=nm_flmg_arf_6" >The Joker</a>
+/ <a href="/character/ch0000180/?ref_=nm_flmg_arf_7" >The Joker</a>
 <div class="filmo-episodes">
-- <a href="/title/tt1388726/?ref_=nm_flmg_arf_6" >Episode dated 26 January 2009</a>
+- <a href="/title/tt1388726/?ref_=nm_flmg_arf_7" >Episode dated 26 January 2009</a>
 (2009)
 ... Himself
-/ <a href="/character/ch0000180/?ref_=nm_flmg_arf_6" >The Joker</a>
+/ <a href="/character/ch0000180/?ref_=nm_flmg_arf_7" >The Joker</a>
 (uncredited)
 </div>
 </div>
-<div class="filmo-row odd" id="archive_footage-tt0081857">
+<div class="filmo-row even" id="archive_footage-tt0081857">
 <span class="year_column">
 &nbsp;2008
 </span>
-<b><a href="/title/tt0081857/?ref_=nm_flmg_arf_7" >Entertainment Tonight</a></b>
+<b><a href="/title/tt0081857/?ref_=nm_flmg_arf_8" >Entertainment Tonight</a></b>
 (TV Series)
 <br/>
 Himself
 <div class="filmo-episodes">
-- <a href="/title/tt1346023/?ref_=nm_flmg_arf_7" >Episode dated 30 December 2008</a>
+- <a href="/title/tt1346023/?ref_=nm_flmg_arf_8" >Episode dated 30 December 2008</a>
 (2008)
 ... Himself
 </div>
 <div class="filmo-episodes">
-- <a href="/title/tt1265374/?ref_=nm_flmg_arf_7" >Episode dated 21 July 2008</a>
+- <a href="/title/tt1265374/?ref_=nm_flmg_arf_8" >Episode dated 21 July 2008</a>
 (2008)
 ... Himself
 </div>
 <div class="filmo-episodes">
-- <a href="/title/tt1178798/?ref_=nm_flmg_arf_7" >Episode dated 29 January 2008</a>
+- <a href="/title/tt1178798/?ref_=nm_flmg_arf_8" >Episode dated 29 January 2008</a>
 (2008)
 ... Himself
 </div>
 <div class="filmo-episodes">
-- <a href="/title/tt1176986/?ref_=nm_flmg_arf_7" >Episode dated 25 January 2008</a>
+- <a href="/title/tt1176986/?ref_=nm_flmg_arf_8" >Episode dated 25 January 2008</a>
 (2008)
 ... Himself
 </div>
 <div class="filmo-episodes">
-- <a href="/title/tt1176985/?ref_=nm_flmg_arf_7" >Episode dated 24 January 2008</a>
+- <a href="/title/tt1176985/?ref_=nm_flmg_arf_8" >Episode dated 24 January 2008</a>
 (2008)
 ... Himself
 </div>
 <div id="more-episodes-tt0081857-archive_footage" style="display:none;">
-<img src="http://ia.media-imdb.com/images/G/01/imdb/images/favorite_theater/spinner-3099941772._V379388743_.gif" />
+<img src="http://ia.media-imdb.com/images/G/01/imdb/images/favorite_theater/spinner-3099941772._CB352275779_.gif" />
 </div>
 <div class="filmo-episodes">
 <a href="#"
 data-n="7"
-onclick="toggleSeeMoreEpisodes(this,'nm0005132','tt0081857','archive_footage',6); return false;">Show all 7 episodes</a>
+onclick="toggleSeeMoreEpisodes(this,'nm0005132','tt0081857','archive_footage',7); return false;">Show all 7 episodes</a>
 </div>
 </div>
-<div class="filmo-row even" id="archive_footage-tt0092322">
+<div class="filmo-row odd" id="archive_footage-tt0092322">
 <span class="year_column">
 &nbsp;2008
 </span>
-<b><a href="/title/tt0092322/?ref_=nm_flmg_arf_8" >Biography</a></b>
+<b><a href="/title/tt0092322/?ref_=nm_flmg_arf_9" >Biography</a></b>
 (TV Series documentary)
 <br/>
 Conor
 <div class="filmo-episodes">
-- <a href="/title/tt1326334/?ref_=nm_flmg_arf_8" >Shaun Cassidy</a>
+- <a href="/title/tt1326334/?ref_=nm_flmg_arf_9" >Shaun Cassidy</a>
 (2008)
 ... Conor
 </div>
 </div>
-<div class="filmo-row odd" id="archive_footage-tt0463399">
+<div class="filmo-row even" id="archive_footage-tt0463399">
 <span class="year_column">
 &nbsp;2005-2008
 </span>
-<b><a href="/title/tt0463399/?ref_=nm_flmg_arf_9" >E! True Hollywood Story</a></b>
+<b><a href="/title/tt0463399/?ref_=nm_flmg_arf_10" >E! True Hollywood Story</a></b>
 (TV Series documentary)
 <br/>
 Himself
 <div class="filmo-episodes">
-- <a href="/title/tt1257689/?ref_=nm_flmg_arf_9" >Heath Ledger</a>
+- <a href="/title/tt1257689/?ref_=nm_flmg_arf_10" >Heath Ledger</a>
 (2008)
 ... Himself
 </div>
 <div class="filmo-episodes">
-- <a href="/title/tt0933772/?ref_=nm_flmg_arf_9" >Kids of Dawson's Creek</a>
+- <a href="/title/tt0933772/?ref_=nm_flmg_arf_10" >Kids of Dawson's Creek</a>
 (2005)
 ... Himself
 </div>
 </div>
-<div class="filmo-row even" id="archive_footage-tt1606206">
+<div class="filmo-row odd" id="archive_footage-tt1606206">
 <span class="year_column">
 &nbsp;2008
 </span>
-<b><a href="/title/tt1606206/?ref_=nm_flmg_arf_10" >Dr. Drew's Celebrity Addiction Special</a></b>
+<b><a href="/title/tt1606206/?ref_=nm_flmg_arf_11" >Dr. Drew's Celebrity Addiction Special</a></b>
 (TV Movie documentary)
 <br/>
 Himself
 </div>
-<div class="filmo-row odd" id="archive_footage-tt0284767">
+<div class="filmo-row even" id="archive_footage-tt0284767">
 <span class="year_column">
 &nbsp;2008
 </span>
-<b><a href="/title/tt0284767/?ref_=nm_flmg_arf_11" >The O'Reilly Factor</a></b>
+<b><a href="/title/tt0284767/?ref_=nm_flmg_arf_12" >The O'Reilly Factor</a></b>
 (TV Series)
 <br/>
 Himself
 <div class="filmo-episodes">
-- <a href="/title/tt1220423/?ref_=nm_flmg_arf_11" >Episode dated 15 April 2008</a>
+- <a href="/title/tt1220423/?ref_=nm_flmg_arf_12" >Episode dated 15 April 2008</a>
 (2008)
 ... Himself
 </div>
 <div class="filmo-episodes">
-- <a href="/title/tt1202450/?ref_=nm_flmg_arf_11" >Episode dated 12 March 2008</a>
+- <a href="/title/tt1202450/?ref_=nm_flmg_arf_12" >Episode dated 12 March 2008</a>
 (2008)
 ... Himself
 </div>
 <div class="filmo-episodes">
-- <a href="/title/tt1183592/?ref_=nm_flmg_arf_11" >Episode dated 8 February 2008</a>
+- <a href="/title/tt1183592/?ref_=nm_flmg_arf_12" >Episode dated 8 February 2008</a>
 (2008)
 ... Himself
 </div>
 <div class="filmo-episodes">
-- <a href="/title/tt1183036/?ref_=nm_flmg_arf_11" >Episode dated 6 February 2008</a>
+- <a href="/title/tt1183036/?ref_=nm_flmg_arf_12" >Episode dated 6 February 2008</a>
 (2008)
 ... Himself
 </div>
 <div class="filmo-episodes">
-- <a href="/title/tt1180253/?ref_=nm_flmg_arf_11" >Episode dated 1 February 2008</a>
+- <a href="/title/tt1180253/?ref_=nm_flmg_arf_12" >Episode dated 1 February 2008</a>
 (2008)
 ... Himself
 </div>
 <div id="more-episodes-tt0284767-archive_footage" style="display:none;">
-<img src="http://ia.media-imdb.com/images/G/01/imdb/images/favorite_theater/spinner-3099941772._V379388743_.gif" />
+<img src="http://ia.media-imdb.com/images/G/01/imdb/images/favorite_theater/spinner-3099941772._CB352275779_.gif" />
 </div>
 <div class="filmo-episodes">
 <a href="#"
 data-n="10"
-onclick="toggleSeeMoreEpisodes(this,'nm0005132','tt0284767','archive_footage',10); return false;">Show all 10 episodes</a>
+onclick="toggleSeeMoreEpisodes(this,'nm0005132','tt0284767','archive_footage',11); return false;">Show all 10 episodes</a>
 </div>
 </div>
-<div class="filmo-row even" id="archive_footage-tt1103965">
+<div class="filmo-row odd" id="archive_footage-tt1103965">
 <span class="year_column">
 &nbsp;2008
 </span>
-<b><a href="/title/tt1103965/?ref_=nm_flmg_arf_12" >The 80th Annual Academy Awards</a></b>
+<b><a href="/title/tt1103965/?ref_=nm_flmg_arf_13" >The 80th Annual Academy Awards</a></b>
 (TV Special)
 <br/>
 Ennis del Mar Memorial Tribute
 </div>
-<div class="filmo-row odd" id="archive_footage-tt1183149">
+<div class="filmo-row even" id="archive_footage-tt1183149">
 <span class="year_column">
 &nbsp;2008
 </span>
-<b><a href="/title/tt1183149/?ref_=nm_flmg_arf_13" >Oscar, que empiece el espectáculo</a></b>
+<b><a href="/title/tt1183149/?ref_=nm_flmg_arf_14" >Oscar, que empiece el espectáculo</a></b>
 (TV Movie documentary)
 <br/>
 Himself
 </div>
-<div class="filmo-row even" id="archive_footage-tt1190909">
+<div class="filmo-row odd" id="archive_footage-tt1190909">
 <span class="year_column">
 &nbsp;2008
 </span>
-<b><a href="/title/tt1190909/?ref_=nm_flmg_arf_14" >14th Annual Screen Actors Guild Awards</a></b>
+<b><a href="/title/tt1190909/?ref_=nm_flmg_arf_15" >14th Annual Screen Actors Guild Awards</a></b>
 (TV Movie)
 <br/>
 Himself - Memorial Tribute
 </div>
-<div class="filmo-row odd" id="archive_footage-tt0190177">
+<div class="filmo-row even" id="archive_footage-tt0190177">
 <span class="year_column">
 &nbsp;2008
 </span>
-<b><a href="/title/tt0190177/?ref_=nm_flmg_arf_15" >A Current Affair</a></b>
+<b><a href="/title/tt0190177/?ref_=nm_flmg_arf_16" >A Current Affair</a></b>
 (TV Series)
 <br/>
 Himself
 <div class="filmo-episodes">
-- <a href="/title/tt1179528/?ref_=nm_flmg_arf_15" >Heath Ledger Special</a>
+- <a href="/title/tt1179528/?ref_=nm_flmg_arf_16" >Heath Ledger Special</a>
 (2008)
 ... Himself
 </div>
 </div>
-<div class="filmo-row even" id="archive_footage-tt0463397">
+<div class="filmo-row odd" id="archive_footage-tt0463397">
 <span class="year_column">
 &nbsp;2005-2008
 </span>
-<b><a href="/title/tt0463397/?ref_=nm_flmg_arf_16" >Corazón de...</a></b>
+<b><a href="/title/tt0463397/?ref_=nm_flmg_arf_17" >Corazón de...</a></b>
 (TV Series)
 <br/>
 Himself
 / Ennis del Mar
-/ <a href="/character/ch0033702/?ref_=nm_flmg_arf_16" >Casanova</a>
+/ <a href="/character/ch0033702/?ref_=nm_flmg_arf_17" >Casanova</a>
 <div class="filmo-episodes">
-- <a href="/title/tt1175806/?ref_=nm_flmg_arf_16" >Episode dated 23 January 2008</a>
+- <a href="/title/tt1175806/?ref_=nm_flmg_arf_17" >Episode dated 23 January 2008</a>
 (2008)
 ... Himself
 </div>
 <div class="filmo-episodes">
-- <a href="/title/tt0545977/?ref_=nm_flmg_arf_16" >Episode dated 1 December 2005</a>
+- <a href="/title/tt0545977/?ref_=nm_flmg_arf_17" >Episode dated 1 December 2005</a>
 (2005)
 ... Ennis del Mar
 </div>
 <div class="filmo-episodes">
-- <a href="/title/tt0545966/?ref_=nm_flmg_arf_16" >Episode dated 15 November 2005</a>
+- <a href="/title/tt0545966/?ref_=nm_flmg_arf_17" >Episode dated 15 November 2005</a>
 (2005)
-... <a href="/character/ch0033702/?ref_=nm_flmg_arf_16" >Casanova</a>
+... <a href="/character/ch0033702/?ref_=nm_flmg_arf_17" >Casanova</a>
 </div>
 <div class="filmo-episodes">
-- <a href="/title/tt0545927/?ref_=nm_flmg_arf_16" >Episode dated 5 September 2005</a>
+- <a href="/title/tt0545927/?ref_=nm_flmg_arf_17" >Episode dated 5 September 2005</a>
 (2005)
 ... Himself
 </div>
 </div>
-<div class="filmo-row odd" id="archive_footage-tt0379623">
+<div class="filmo-row even" id="archive_footage-tt0379623">
 <span class="year_column">
 &nbsp;2008
 </span>
-<b><a href="/title/tt0379623/?ref_=nm_flmg_arf_17" >Ellen: The Ellen DeGeneres Show</a></b>
+<b><a href="/title/tt0379623/?ref_=nm_flmg_arf_18" >Ellen: The Ellen DeGeneres Show</a></b>
 (TV Series)
 <br/>
 Himself
 <div class="filmo-episodes">
-- <a href="/title/tt1174219/?ref_=nm_flmg_arf_17" >Episode dated 23 January 2008</a>
+- <a href="/title/tt1174219/?ref_=nm_flmg_arf_18" >Episode dated 23 January 2008</a>
 (2008)
 ... Himself
 </div>
 </div>
-<div class="filmo-row even" id="archive_footage-tt0930831">
+<div class="filmo-row odd" id="archive_footage-tt0930831">
 <span class="year_column">
 &nbsp;2008
 </span>
-<b><a href="/title/tt0930831/?ref_=nm_flmg_arf_18" >Gomorron</a></b>
+<b><a href="/title/tt0930831/?ref_=nm_flmg_arf_19" >Gomorron</a></b>
 (TV Series)
 <br/>
 Himself
 <div class="filmo-episodes">
-- <a href="/title/tt1490282/?ref_=nm_flmg_arf_18" >Episode dated 22 January 2008</a>
+- <a href="/title/tt1490282/?ref_=nm_flmg_arf_19" >Episode dated 22 January 2008</a>
 (2008)
 ... Himself
 </div>
 </div>
-<div class="filmo-row odd" id="archive_footage-tt0949771">
+<div class="filmo-row even" id="archive_footage-tt0949771">
 <span class="year_column">
 &nbsp;2007
 </span>
-<b><a href="/title/tt0949771/?ref_=nm_flmg_arf_19" >Here's Looking at You, Boy</a></b>
+<b><a href="/title/tt0949771/?ref_=nm_flmg_arf_20" >Here's Looking at You, Boy</a></b>
 (Documentary)
 <br/>
 Ennis Del Mar
 (uncredited)
 </div>
-<div class="filmo-row even" id="archive_footage-tt0969243">
+<div class="filmo-row odd" id="archive_footage-tt0969243">
 <span class="year_column">
 &nbsp;2007
 </span>
-<b><a href="/title/tt0969243/?ref_=nm_flmg_arf_20" >Cómo conseguir un papel en Hollywood</a></b>
+<b><a href="/title/tt0969243/?ref_=nm_flmg_arf_21" >Cómo conseguir un papel en Hollywood</a></b>
 (TV Movie documentary)
 <br/>
 Himself
 </div>
-<div class="filmo-row odd" id="archive_footage-tt0094481">
+<div class="filmo-row even" id="archive_footage-tt0094481">
 <span class="year_column">
 &nbsp;2006
 </span>
-<b><a href="/title/tt0094481/?ref_=nm_flmg_arf_21" >Kodus ja võõrsil</a></b>
+<b><a href="/title/tt0094481/?ref_=nm_flmg_arf_22" >Home and Away</a></b>
 (TV Series)
 <br/>
-<a href="/character/ch0050091/?ref_=nm_flmg_arf_21" >Scott Irwin</a>
+<a href="/character/ch0050091/?ref_=nm_flmg_arf_22" >Scott Irwin</a>
 <div class="filmo-episodes">
-- <a href="/title/tt0912928/?ref_=nm_flmg_arf_21" >Episode #1.4330</a>
+- <a href="/title/tt0912928/?ref_=nm_flmg_arf_22" >Episode #1.4330</a>
 (2006)
-... <a href="/character/ch0050091/?ref_=nm_flmg_arf_21" >Scott Irwin</a>
+... <a href="/character/ch0050091/?ref_=nm_flmg_arf_22" >Scott Irwin</a>
 (uncredited)
 </div>
 </div>
-<div class="filmo-row even" id="archive_footage-tt0760167">
+<div class="filmo-row odd" id="archive_footage-tt0760167">
 <span class="year_column">
 &nbsp;2006
 </span>
-<b><a href="/title/tt0760167/?ref_=nm_flmg_arf_22" >Fabulous! The Story of Queer Cinema</a></b>
+<b><a href="/title/tt0760167/?ref_=nm_flmg_arf_23" >Fabulous! The Story of Queer Cinema</a></b>
 (Documentary)
 <br/>
 Himself
 / Ennis Del Mar
 </div>
-<div class="filmo-row odd" id="archive_footage-tt0929761">
+<div class="filmo-row even" id="archive_footage-tt0929761">
 <span class="year_column">
 &nbsp;2005
 </span>
-<b><a href="/title/tt0929761/?ref_=nm_flmg_arf_23" >Home and Away: Romances</a></b>
+<b><a href="/title/tt0929761/?ref_=nm_flmg_arf_24" >Home and Away: Romances</a></b>
 (Video)
 <br/>
-<a href="/character/ch0050091/?ref_=nm_flmg_arf_23" >Scott Irwin</a>
+<a href="/character/ch0050091/?ref_=nm_flmg_arf_24" >Scott Irwin</a>
 (uncredited)
 </div>
-<div class="filmo-row even" id="archive_footage-tt0403738">
+<div class="filmo-row odd" id="archive_footage-tt0403738">
 <span class="year_column">
 &nbsp;2003-2004
 </span>
-<b><a href="/title/tt0403738/?ref_=nm_flmg_arf_24" >Celebrities Uncensored</a></b>
+<b><a href="/title/tt0403738/?ref_=nm_flmg_arf_25" >Celebrities Uncensored</a></b>
 (TV Series)
 <br/>
 Himself
 <div class="filmo-episodes">
-- <a href="/title/tt0537896/?ref_=nm_flmg_arf_24" >Episode #2.6</a>
+- <a href="/title/tt0537896/?ref_=nm_flmg_arf_25" >Episode #2.6</a>
 (2004)
 ... Himself
 </div>
 <div class="filmo-episodes">
-- <a href="/title/tt0537881/?ref_=nm_flmg_arf_24" >Episode #1.15</a>
+- <a href="/title/tt0537881/?ref_=nm_flmg_arf_25" >Episode #1.15</a>
 (2003)
 ... Himself
 </div>
@@ -2638,14 +2706,14 @@ Himself
 
 
 
-<a href="/video/imdb/vi944374297?ref_=nm_rvd_vi_1" title="The Imaginarium of Doctor Parnassus -- A story-telling doctor's deal with the devil sends him scrambling to save his daughter on the eve of her 16th birthday." alt="The Imaginarium of Doctor Parnassus -- A story-telling doctor's deal with the devil sends him scrambling to save his daughter on the eve of her 16th birthday." class="video-colorbox" data-video="vi944374297" data-context="imdb" data-rid="1M8XXA3DJZTWV0CVCENZ" widget-context="nameMaindetails" itemprop="url" ><img height="150" width="200" alt="The Imaginarium of Doctor Parnassus -- A story-telling doctor's deal with the devil sends him scrambling to save his daughter on the eve of her 16th birthday." title="The Imaginarium of Doctor Parnassus -- A story-telling doctor's deal with the devil sends him scrambling to save his daughter on the eve of her 16th birthday."src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/no-video-slate-856072904._V379390253_.png"class="loadlate hidden video" loadlate="http://ia.media-imdb.com/images/M/MV5BMTU5NDYxNDQ0MF5BMl5BanBnXkFtZTcwNjY3NTA5Mg@@._V1_SP330,330,0,C,0,0,0_CR65,90,200,150_PIimdb-blackband-204-14,TopLeft,0,0_PIimdb-blackband-204-28,BottomLeft,0,1_CR0,0,200,150_PIimdb-bluebutton-big,BottomRight,-1,-1_ZATrailer,4,121,16,196,verdenab,8,255,255,255,1_ZAon%2520IMDb,4,1,14,196,verdenab,7,255,255,255,1_ZA01:44,164,1,14,36,verdenab,7,255,255,255,1_ZAThe%2520Imaginarium%2520of%2520Doctor%2520Parn...,4,136,14,196,arialbd,7,255,255,255,1_.jpg" itemprop='image' viconst="vi944374297" /></a>            </span>
+<a href="/video/imdb/vi944374297?ref_=nm_rvd_vi_1" title="The Imaginarium of Doctor Parnassus -- A story-telling doctor's deal with the devil sends him scrambling to save his daughter on the eve of her 16th birthday." alt="The Imaginarium of Doctor Parnassus -- A story-telling doctor's deal with the devil sends him scrambling to save his daughter on the eve of her 16th birthday." class="video-colorbox" data-video="vi944374297" data-context="imdb" data-rid="0YWX4ZG7PNJMVMX6QGH1" widget-context="nameMaindetails" itemprop="url" ><img height="150" width="200" alt="The Imaginarium of Doctor Parnassus -- A story-telling doctor's deal with the devil sends him scrambling to save his daughter on the eve of her 16th birthday." title="The Imaginarium of Doctor Parnassus -- A story-telling doctor's deal with the devil sends him scrambling to save his daughter on the eve of her 16th birthday."src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/no-video-slate-856072904._CB379390253_.png"class="loadlate hidden video" loadlate="http://ia.media-imdb.com/images/M/MV5BMTU5NDYxNDQ0MF5BMl5BanBnXkFtZTcwNjY3NTA5Mg@@._V1_SP330,330,0,C,0,0,0_CR65,90,200,150_PIimdb-blackband-204-14,TopLeft,0,0_PIimdb-blackband-204-28,BottomLeft,0,1_CR0,0,200,150_PIimdb-bluebutton-big,BottomRight,-1,-1_ZATrailer,4,121,16,196,verdenab,8,255,255,255,1_ZAon%2520IMDb,4,1,14,196,verdenab,7,255,255,255,1_ZA01:44,164,1,14,36,verdenab,7,255,255,255,1_ZAThe%2520Imaginarium%2520of%2520Doctor%2520Parn...,4,136,14,196,arialbd,7,255,255,255,1_.jpg" itemprop='image' viconst="vi944374297" /></a>            </span>
                 <span class="video_slate_last" itemscope itemtype="http://schema.org/videoObject">
                 <meta itemprop="duration" content="T1M7S" />
 
 
 
 
-<a href="/video/imdb/vi2746286361?ref_=nm_rvd_vi_2" title="I'm Not There. -- I'm Not There - Trailer" alt="I'm Not There. -- I'm Not There - Trailer" class="video-colorbox" data-video="vi2746286361" data-context="imdb" data-rid="1M8XXA3DJZTWV0CVCENZ" widget-context="nameMaindetails" itemprop="url" ><img height="150" width="200" alt="I'm Not There. -- I'm Not There - Trailer" title="I'm Not There. -- I'm Not There - Trailer"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/no-video-slate-856072904._V379390253_.png"class="loadlate hidden video" loadlate="http://ia.media-imdb.com/images/M/MV5BMTI0NTA3MjA3MV5BMl5BanBnXkFtZTYwNTg3MDky._V1_SP330,330,0,C,0,0,0_CR65,90,200,150_PIimdb-blackband-204-14,TopLeft,0,0_PIimdb-blackband-204-28,BottomLeft,0,1_CR0,0,200,150_PIimdb-bluebutton-big,BottomRight,-1,-1_ZATrailer,4,121,16,196,verdenab,8,255,255,255,1_ZAon%2520IMDb,4,1,14,196,verdenab,7,255,255,255,1_ZA01:07,164,1,14,36,verdenab,7,255,255,255,1_ZAI'm%2520Not%2520There.,4,136,14,196,arialbd,7,255,255,255,1_.jpg" itemprop='image' viconst="vi2746286361" /></a>            </span>
+<a href="/video/imdb/vi2746286361?ref_=nm_rvd_vi_2" title="I'm Not There. -- I'm Not There - Trailer" alt="I'm Not There. -- I'm Not There - Trailer" class="video-colorbox" data-video="vi2746286361" data-context="imdb" data-rid="0YWX4ZG7PNJMVMX6QGH1" widget-context="nameMaindetails" itemprop="url" ><img height="150" width="200" alt="I'm Not There. -- I'm Not There - Trailer" title="I'm Not There. -- I'm Not There - Trailer"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/no-video-slate-856072904._CB379390253_.png"class="loadlate hidden video" loadlate="http://ia.media-imdb.com/images/M/MV5BMTI0NTA3MjA3MV5BMl5BanBnXkFtZTYwNTg3MDky._V1_SP330,330,0,C,0,0,0_CR65,90,200,150_PIimdb-blackband-204-14,TopLeft,0,0_PIimdb-blackband-204-28,BottomLeft,0,1_CR0,0,200,150_PIimdb-bluebutton-big,BottomRight,-1,-1_ZATrailer,4,121,16,196,verdenab,8,255,255,255,1_ZAon%2520IMDb,4,1,14,196,verdenab,7,255,255,255,1_ZA01:07,164,1,14,36,verdenab,7,255,255,255,1_ZAI'm%2520Not%2520There.,4,136,14,196,arialbd,7,255,255,255,1_.jpg" itemprop='image' viconst="vi2746286361" /></a>            </span>
     </div>
 
         </div>
@@ -2692,7 +2760,7 @@ Was interviewed in "Talking Movies" (2006).        </div>
     <h2>Did You Know?</h2>
         <div id="dyk-personal-quote" class="see-more inline canwrap">
                 <h4 class="inline">Personal Quote:</h4>
-I never studied acting in Australia. I never had an empty stage and black pajamas to run around and express myself.                    <span class="see-more inline">
+I start to get bored, not with the choices I was making, because I didn't really have a choice. The choices were being made for me -- I was being thrown into projects. So I kind of put the brakes on that. In a sense, I destroyed my career to rebuild it again.                    <span class="see-more inline">
                         <a href="/name/nm0005132/bio?ref_=nm_dyk_qt_sm#quotes" >See more</a> 
                     </span>
                     &raquo;
@@ -2700,7 +2768,7 @@ I never studied acting in Australia. I never had an empty stage and black pajama
             <hr/>
         <div id="dyk-trivia" class="see-more inline canwrap">
                 <h4 class="inline">Trivia:</h4>
-Was good friends with <a href="/name/nm0001618/?ref_=nm_dyk_trv1">Joaquin Phoenix</a> and <a href="/name/nm0000354/?ref_=nm_dyk_trv2">Matt Damon</a>.                    <span class="see-more inline">
+Played the character of Scott Irwin in the long-running Australian soap opera <a href="/title/tt0094481/?ref_=nm_dyk_trv1">Home and Away</a> (1988) for 10 episodes in 1997. Scott was a local bad boy who took advantage of Sally Fletcher. It is said that the producers wanted to extend his stay with the show but Heath opted not to.                    <span class="see-more inline">
                         <a href="/name/nm0005132/bio?ref_=nm_dyk_trv_sm#trivia" >See more</a>
                     </span>
                     &raquo;
@@ -2710,7 +2778,7 @@ Was good friends with <a href="/name/nm0001618/?ref_=nm_dyk_trv1">Joaquin Phoeni
         <div id="dyk-trademark" class="see-more inline canwrap">
 
                 <h4 class="inline">Trademark:</h4>
-Deep husky voice                    <span class="see-more inline">
+His warm smile                    <span class="see-more inline">
                         <a href="/name/nm0005132/bio?ref_=nm_dyk_tm_sm#trademark" >See more</a>
                     </span>
                     &raquo;
@@ -2761,18 +2829,18 @@ Deep husky voice                    <span class="see-more inline">
                     </tr>
                     <tr class="even">
                         <td>
-                            <a href="/name/nm0005132/board/nest/199101128?ref_=nm_bd_4" >Would he have won the Oscar if he was alive?</a>
+                            <a href="/name/nm0005132/board/nest/224255703?ref_=nm_bd_4" >Can you believe that it'll be 6 years already since he died?</a>
                         </td>
                         <td>
-                            <a href="/user/ur24465682/?ref_=nm_bd_4" >oreoman389</a>
+                            <a href="/user/ur31143408/?ref_=nm_bd_4" >GuyfromCanada</a>
                         </td>
                     </tr>
                     <tr class="odd">
                         <td>
-                            <a href="/name/nm0005132/board/nest/224255703?ref_=nm_bd_5" >Can you believe that it'll be 6 years already since he died?</a>
+                            <a href="/name/nm0005132/board/nest/227950332?ref_=nm_bd_5" >04th April - HEATH'S BIRTHDAY</a>
                         </td>
                         <td>
-                            <a href="/user/ur31143408/?ref_=nm_bd_5" >GuyfromCanada</a>
+                            <a href="/user/ur13687613/?ref_=nm_bd_5" >sel365</a>
                         </td>
                     </tr>
                     <tr class="even">
@@ -2895,10 +2963,7 @@ href="/helpdesk/contact"
 onclick="(new Image()).src='/rg/jobs/footer/images/b.gif?link=/jobs';"
 href="/jobs"
 >Jobs</a>
-        | <a
-onclick="(new Image()).src='/rg/IMDbFooter/prosystem/images/b.gif?link=https://secure.imdb.com/r/IMDbFooter/register/subscribe?c=a394d4442664f6f6475627';"
-href="https://secure.imdb.com/r/IMDbFooter/register/subscribe?c=a394d4442664f6f6475627"
->IMDbPro</a>
+        | <a href="http://pro.imdb.com/signup/index.html?rf=cons_ft_hm&ref_=cons_ft_hm" >IMDbPro</a>
         | <a
 onclick="(new Image()).src='/rg/BOXOFFICEMOJO/FOOTER/images/b.gif?link=http://www.boxofficemojo.com/';"
 href="http://www.boxofficemojo.com/"
@@ -3027,11 +3092,11 @@ href="//www.amazon.com/InterestBasedAds"
             </div>
         </div>
 
-<script type="text/javascript" src="http://ia.media-imdb.com/images/G/01/imdb/js/collections/name-4188885337._V341754501_.js"></script>
+<script type="text/javascript" src="http://ia.media-imdb.com/images/G/01/imdb/js/collections/name-2197611473._CB349291295_.js"></script>
 
 <script type="text/imdblogin-js" id="login">
 jQuery(document).ready(function(){
-    window.imdb.login_lightbox("https://secure.imdb.com", "http://www.imdb.com/name/nm0005132/");
+    window.imdb.login_lightbox("https://secure.imdb.com", "http://www.imdb.com/name/nm0005132/?nmdp=1");
 });
 </script>
 
@@ -3075,19 +3140,22 @@ jQuery(document).ready(function(){
                 );
                 jQuery(
                              function() {
-           var facebookTheme = (window.custom && window.custom.full_page && window.custom.full_page.theme) ? window.custom.full_page.theme : "light",
-               url = "http://www.facebook.com/widgets/like.php?width=280&show_faces=1&layout=standard&href=http%3A%2F%2Fwww.imdb.com%2Fname%2Fnm0005132%2F&colorscheme=" + facebookTheme,
+           var isAdvertisingThemed = !!(window.custom && window.custom.full_page && window.custom.full_page.theme),
+               url = "http://www.facebook.com/widgets/like.php?width=280&show_faces=1&layout=standard&href=http%3A%2F%2Fwww.imdb.com%2Fname%2Fnm0005132%2F&colorscheme=light",
                like = document.getElementById('iframe_like');
-           if (like) {
+
+           if (!isAdvertisingThemed && like) {
               like.src = url;
               like.onload = function () { generic.monitoring.stop_timing('facebook_like_iframe', '', false); };
+           } else if (isAdvertisingThemed) {
+              $('.social_networking_like').closest('.aux-content-widget-2').hide();
            }
         }
 
                 );
         </script>
 
-<div id="servertime" time="58"/>
+<div id="servertime" time="67"/>
 
 
 

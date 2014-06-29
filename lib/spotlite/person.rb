@@ -87,10 +87,46 @@ module Spotlite
       end
     end
     
+    # Returns either a hash or an array of movies comprising person's filmography
+    # Returns array if `flatten = true`, returns hash if `flatten = false`.
+    # Hash keys are symbols of either 4 basic jobs (director, actor/actress, writer, producer)
+    #   or person's all available jobs
+    # `extended = true` will return all available jobs, `extended = false` will return
+    #   movies under those 4 basic jobs
+    def filmography(extended = false, flatten = true)
+      hash = {}
+      jobs = extended ? available_jobs : %w(director actor actress writer producer)
+      
+      jobs.map do |job|
+        hash[job.to_sym] = parse_movies(job) if available_jobs.include?(job)
+      end
+      
+      flatten ? hash.values.flatten : hash
+    end
+    
     private
     
+    # Returns a list of all jobs a person took part in movies as an array of strings
+    # Used to retrieve person's filmography
+    def available_jobs
+      details.at('#filmography').css("div[data-category$='Movie']").map{ |job| job['data-category'].gsub('Movie', '') }
+    end
+    
+    # Returns a list of movies that fall under a certain job type, as an array of +Spotlite::Movie+
+    def parse_movies(job)
+      details.css("div[id^='#{job}Movie-tt']").map do |row|
+        imdb_id = row.at("a[href^='/title/tt']")['href'].parse_imdb_id
+        title   = row.at('a').text.strip
+        year    = row.at('.year_column').text.parse_year
+      
+        [imdb_id, title, year]
+      end.map do |values|
+        Spotlite::Movie.new(*values)
+      end
+    end
+    
     def details # :nodoc:
-      @details ||= open_page
+      @details ||= open_page('?nmdp=1')
     end
     
     def open_page(page = nil) # :nodoc:

@@ -1,15 +1,16 @@
 HTTP/1.1 200 OK
-Date: Fri, 04 Apr 2014 14:11:03 GMT
+Date: Sun, 29 Jun 2014 14:26:31 GMT
 Server: Server
 X-Frame-Options: SAMEORIGIN
 Content-Type: text/html;charset=UTF-8
 Content-Language: en-US
 Vary: Accept-Encoding,User-Agent
-Set-Cookie: uu=BCYks9PnY2RqA8O7jgVJhUncBf77Oa1nDm3jD50OP3-qNyjBQDflbMKi6vZD1sYqUTTAmSQjO6Dw%0D%0AXRmkTjHkeqWFaAZaiAPcvV_EEpi84wI3WMLoVO2sny95lFW4fdY33nTedvI1M4UnQwlTOl-rrGlz%0D%0AMKAwiklBX9BzXnr_wrmRtxp1L4-WzNzgUzrt3mmbMo4CrBMSQ6OYIeU16s3-kC1SUoap-GeHH7s-%0D%0A42VMBJ6ZV2eST4ehmPFy2lxaRay5EsnUZyWOM3odZWQgeehjaCFlgA%0D%0A; Domain=.imdb.com; Expires=Wed, 22-Apr-2082 17:25:10 GMT; Path=/
-Set-Cookie: session-id=000-0000000-0000000; Domain=.imdb.com; Expires=Wed, 22-Apr-2082 17:25:10 GMT; Path=/
-Set-Cookie: session-id-time=1554300663; Domain=.imdb.com; Expires=Wed, 22-Apr-2082 17:25:10 GMT; Path=/
-P3P: policyref="http://i.imdb.com/images/p3p.xml",CP="CAO DSP LAW CUR ADM IVAo IVDo CONo OTPo OUR DELi PUBi OTRi BUS PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA HEA PRE LOC GOV OTC "
+Set-Cookie: uu=BCYgQ90PTLXYQ8FRNh-MNliegCBqNzTMVBeXUyysvumVsanhHeMmQ_5A8sKy_m-j-ie1kf7smAtq%0D%0AZoY66dDFUt-kEogJI3FA0Ek0sA41lRtgQ-fHqwkEqt-OT3hEDksUT2adh7GLv1oC4eMxkLk8NGU5%0D%0AKX2PBY_HNqiZx8xPxYxjVw12zSXnB1Vx4x55-v7fC4NsIoHOg5PSL3uiYRVQkbP3YeRHVo5hPgM4%0D%0Anwrh-20B4a1Nd1Ggams2xhSO5DWPxFrub0wX9yy3YezA_WBXtRsdlw%0D%0A; Domain=.imdb.com; Expires=Fri, 17-Jul-2082 17:40:38 GMT; Path=/
+Set-Cookie: session-id=000-0000000-0000000; Domain=.imdb.com; Expires=Fri, 17-Jul-2082 17:40:38 GMT; Path=/
+Set-Cookie: session-id-time=1561731991; Domain=.imdb.com; Expires=Fri, 17-Jul-2082 17:40:38 GMT; Path=/
+P3p: policyref="http://i.imdb.com/images/p3p.xml",CP="CAO DSP LAW CUR ADM IVAo IVDo CONo OTPo OUR DELi PUBi OTRi BUS PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA HEA PRE LOC GOV OTC "
 Transfer-Encoding: chunked
+Connection: keep-alive
 
 
 
@@ -25,7 +26,7 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
                 var ue_sn = "www.imdb.com";  
                 var ue_furl = "fls-na.amazon.com";
                 var ue_sid = "000-0000000-0000000";
-                var ue_id = "13T4V3C9M3KGZDHHNYHF";
+                var ue_id = "0104GGVFSDPGHQVJ89BF";
                 (function(e){var c=e,a={main_scope:"mainscopecsm",q:[],t0:c.ue_t0||+new Date(),d:g};function g(h){return +new Date()-(h?0:a.t0)}function d(h){return function(){a.q.push({n:h,a:arguments,t:a.d()})}}function b(k,j,h){var i={m:k,f:j,l:h,fromOnError:1,args:arguments};c.ueLogError(i);return false}b.skipTrace=1;e.onerror=b;function f(){c.uex("ld")}if(e.addEventListener){e.addEventListener("load",f,false)}else{if(e.attachEvent){e.attachEvent("onload",f)}}a.tag=d("tag");a.log=d("log");a.reset=d("rst");c.ue_csm=c;c.ue=a;c.ueLogError=d("err");c.ues=d("ues");c.uet=d("uet");c.uex=d("uex");c.uet("ue")})(window);(function(e,d){var a=e.ue||{};function c(g){if(!g){return}var f=d.head||d.getElementsByTagName("head")[0]||d.documentElement,h=d.createElement("script");h.async="async";h.src=g;f.insertBefore(h,f.firstChild)}function b(){var k=e.ue_cdn||"z-ecx.images-amazon.com",g=e.ue_cdns||"images-na.ssl-images-amazon.com",j="/images/G/01/csminstrumentation/",h=e.ue_file||"ue-full-ef584a44e8ea58e3d4d928956600a9b6._V1_.js",f,i;if(h.indexOf("NSTRUMENTATION_FIL")>=0){return}if("ue_https" in e){f=e.ue_https}else{f=e.location&&e.location.protocol=="https:"?1:0}i=f?"https://":"http://";i+=f?g:k;i+=j;i+=h;c(i)}if(!e.ue_inline){b()}a.uels=c;e.ue=a})(window,document);
             </script>
  
@@ -42,18 +43,18 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
             <meta property="og:url" content="http://www.imdb.com/name/nm0864666/" />
         
   <script>(function(t){ (t.events = t.events || {})["csm_head_pre_icon"] = new Date().getTime(); })(IMDbTimer);</script>
-        <link rel="icon" type="image/ico" href="http://ia.media-imdb.com/images/G/01/imdb/images/favicon-2165806970._V379387995_.ico" />
-        <link rel="shortcut icon" type="image/x-icon" href="http://ia.media-imdb.com/images/G/01/imdb/images/desktop-favicon-2165806970._V379390718_.ico" />
-        <link href="http://ia.media-imdb.com/images/G/01/imdb/images/mobile/apple-touch-icon-web-4151659188._V361295786_.png" rel="apple-touch-icon"> 
-        <link href="http://ia.media-imdb.com/images/G/01/imdb/images/mobile/apple-touch-icon-web-76x76-53536248._V361295462_.png" rel="apple-touch-icon" sizes="76x76"> 
-        <link href="http://ia.media-imdb.com/images/G/01/imdb/images/mobile/apple-touch-icon-web-120x120-2442878471._V361295428_.png" rel="apple-touch-icon" sizes="120x120"> 
-        <link href="http://ia.media-imdb.com/images/G/01/imdb/images/mobile/apple-touch-icon-web-152x152-1475823641._V361295368_.png" rel="apple-touch-icon" sizes="152x152"> 
-        <link rel="search" type="application/opensearchdescription+xml" href="http://ia.media-imdb.com/images/G/01/imdb/images/imdbsearch-3349468880._V379388505_.xml" title="IMDb" />
+        <link rel="icon" type="image/ico" href="http://ia.media-imdb.com/images/G/01/imdb/images/favicon-2165806970._CB379387995_.ico" />
+        <link rel="shortcut icon" type="image/x-icon" href="http://ia.media-imdb.com/images/G/01/imdb/images/desktop-favicon-2165806970._CB379390718_.ico" />
+        <link href="http://ia.media-imdb.com/images/G/01/imdb/images/mobile/apple-touch-icon-web-4151659188._CB361295786_.png" rel="apple-touch-icon"> 
+        <link href="http://ia.media-imdb.com/images/G/01/imdb/images/mobile/apple-touch-icon-web-76x76-53536248._CB361295462_.png" rel="apple-touch-icon" sizes="76x76"> 
+        <link href="http://ia.media-imdb.com/images/G/01/imdb/images/mobile/apple-touch-icon-web-120x120-2442878471._CB361295428_.png" rel="apple-touch-icon" sizes="120x120"> 
+        <link href="http://ia.media-imdb.com/images/G/01/imdb/images/mobile/apple-touch-icon-web-152x152-1475823641._CB361295368_.png" rel="apple-touch-icon" sizes="152x152"> 
+        <link rel="search" type="application/opensearchdescription+xml" href="http://ia.media-imdb.com/images/G/01/imdb/images/imdbsearch-3349468880._CB379388505_.xml" title="IMDb" />
   <script>(function(t){ (t.events = t.events || {})["csm_head_post_icon"] = new Date().getTime(); })(IMDbTimer);</script>
         
     
-        <link rel='image_src' href="http://ia.media-imdb.com/images/G/01/imdb/images/logos/imdb_fb_logo-1730868325._V379391653_.png">
-        <meta property='og:image' content="http://ia.media-imdb.com/images/G/01/imdb/images/logos/imdb_fb_logo-1730868325._V379391653_.png" />
+        <link rel='image_src' href="http://ia.media-imdb.com/images/G/01/imdb/images/logos/imdb_fb_logo-1730868325._CB379391653_.png">
+        <meta property='og:image' content="http://ia.media-imdb.com/images/G/01/imdb/images/logos/imdb_fb_logo-1730868325._CB379391653_.png" />
     
         <meta property='og:type' content="actor" />
     <meta property='fb:app_id' content='115109575169727' />
@@ -63,13 +64,16 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
         <meta name="description" content="Natalie Tjen, Actress: The Matrix. Natalie Tjen was born on August 31, 1987 in Sydney, New South Wales, Australia. She is an actress, known for The Matrix (1999) and Sabo (2009)." />
         <meta property="og:description" content="Natalie Tjen, Actress: The Matrix. Natalie Tjen was born on August 31, 1987 in Sydney, New South Wales, Australia. She is an actress, known for The Matrix (1999) and Sabo (2009)." />
         <meta name="keywords" content="Biography, Photos, Awards, News, Message Boards" />
-        <meta name="request_id" content="13T4V3C9M3KGZDHHNYHF" />
+        <meta name="request_id" content="0104GGVFSDPGHQVJ89BF" />
         
   <script>(function(t){ (t.events = t.events || {})["csm_head_pre_css"] = new Date().getTime(); })(IMDbTimer);</script>
-<!-- h=ics-http-1a-c1xl-i-e34b1fc2.us-east-1 -->
+<!-- h=ics-http-1d-c1xl-i-f1c59cdf.us-east-1 -->
 
-            <link rel="stylesheet" type="text/css" href="http://ia.media-imdb.com/images/G/01/imdb/css/collections/name-4035136485._V340779923_.css" />
-            <link rel="stylesheet" type="text/css" href="http://ia.media-imdb.com/images/G/01/imdb/css/site/consumer-navbar-mega-3538633082._V355276482_.css" />
+            <link rel="stylesheet" type="text/css" href="http://ia.media-imdb.com/images/G/01/imdb/css/collections/name-3310168318._CB349420926_.css" />
+            <link rel="stylesheet" type="text/css" href="http://ia.media-imdb.com/images/G/01/imdb/css/site/consumer-navbar-mega-3538633082._CB355276482_.css" />
+        <noscript>
+            <link rel="stylesheet" type="text/css" href="http://ia.media-imdb.com/images/G/01/imdb/css/wheel/nojs-2627072490._CB343672767_.css">
+        </noscript>
   <script>(function(t){ (t.events = t.events || {})["csm_head_post_css"] = new Date().getTime(); })(IMDbTimer);</script>
         
   <script>(function(t){ (t.events = t.events || {})["csm_head_pre_ads"] = new Date().getTime(); })(IMDbTimer);</script>
@@ -122,9 +126,9 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
 </div>
   <div id="navbar" class="navbarSprite">
 <noscript>
-  <link rel="stylesheet" type="text/css" href="http://ia.media-imdb.com/images/G/01/imdb/css/site/consumer-navbar-no-js-4175877511._V379390803_.css" />
+  <link rel="stylesheet" type="text/css" href="http://ia.media-imdb.com/images/G/01/imdb/css/site/consumer-navbar-no-js-4175877511._CB379390803_.css" />
 </noscript>
-<!--[if IE]><link rel="stylesheet" type="text/css" href="http://ia.media-imdb.com/images/G/01/imdb/css/site/consumer-navbar-ie-470687728._V379390980_.css"><![endif]-->
+<!--[if IE]><link rel="stylesheet" type="text/css" href="http://ia.media-imdb.com/images/G/01/imdb/css/site/consumer-navbar-ie-470687728._CB379390980_.css"><![endif]-->
 <span id="home_img_holder">
 <a href="/?ref_=nv_home" title="Home" class="navbarSprite" id="home_img" ></a>  <span class="alt_logo">
     <a href="/?ref_=nv_home" title="Home" >IMDb</a>
@@ -152,7 +156,6 @@ onsubmit="(new Image()).src='/rg/SEARCH-BOX/HEADER/images/b.gif?link=/find';"
         <option value="co" >Companies</option>
         <option value="kw" >Keywords</option>
         <option value="ch" >Characters</option>
-        <option value="vi" >Videos</option>
         <option value="qu" >Quotes</option>
         <option value="bi" >Bios</option>
         <option value="pl" >Plots</option>
@@ -201,9 +204,9 @@ onsubmit="(new Image()).src='/rg/SEARCH-BOX/HEADER/images/b.gif?link=/find';"
                     </ul>
                     <h5>SPECIAL FEATURES</h5>
                     <ul>
-                        <li><a href="/oscars/?ref_=nv_sf_rto_1" >Road to the Oscars 2014</a></li>
-                        <li><a href="/x-ray/?ref_=nv_sf_xray_2" >X-Ray for Movies & TV</a></li>
-                        <li><a href="/poll/?ref_=nv_sf_pl_3" >Polls</a></li>
+                        <li><a href="/imdbpicks/?ref_=nv_sf_pks_1" >IMDb Picks</a></li>
+                        <li><a href="/poll/?ref_=nv_sf_pl_2" >Polls</a></li>
+                        <li><a href="/x-ray/?ref_=nv_sf_xray_3" >X-Ray for Movies & TV</a></li>
                     </ul>
                 </div>
             </div>
@@ -220,7 +223,7 @@ onsubmit="(new Image()).src='/rg/SEARCH-BOX/HEADER/images/b.gif?link=/find';"
                 <div class="subNavListContainer">
                     <h5>CELEBS</h5>
                     <ul>
-                            <li><a href="/search/name?birth_monthday=04-04&refine=birth_monthday&ref_=nv_cel_brn_1" >Born Today</a></li>
+                            <li><a href="/search/name?birth_monthday=06-29&refine=birth_monthday&ref_=nv_cel_brn_1" >Born Today</a></li>
                         <li><a href="/news/celebrity?ref_=nv_cel_nw_2" >Celebrity News</a></li>
                         <li><a href="/search/name?gender=male,female&ref_=nv_cel_m_3" >Most Popular Celebs</a></li>
                     </ul>
@@ -260,19 +263,19 @@ onsubmit="(new Image()).src='/rg/SEARCH-BOX/HEADER/images/b.gif?link=/find';"
                         <h5>LATEST HEADLINES</h5>
     <ul>
                 <li itemprop="headline">
-<a href="/news/ni57021836/?ref_=nv_nw_tn_1" > David Letterman to Retire from CBS in 2015
+<a href="/news/ni57424075/?ref_=nv_nw_tn_1" > 'Transformers' On Track for Over $100 Million This Weekend
 </a><br />
-                        <span class="time">17 hours ago</span>
+                        <span class="time">27 June 2014</span>
                 </li>
                 <li itemprop="headline">
-<a href="/news/ni57021039/?ref_=nv_nw_tn_2" > ‘Batman-Superman’ Pic Adds Holly Hunter, ’300′s Callan Mulvey, Tao Okamoto
+<a href="/news/ni57424046/?ref_=nv_nw_tn_2" > ‘Transformers: Age of Extinction’ Set to Break China Opening Weekend Record (Exclusive)
 </a><br />
-                        <span class="time">21 hours ago</span>
+                        <span class="time">22 hours ago</span>
                 </li>
                 <li itemprop="headline">
-<a href="/news/ni57020046/?ref_=nv_nw_tn_3" > OWN Slate Features Toni Braxton in Network's First Scripted Film, Octavia Spencer in Miniseries
+<a href="/news/ni57423916/?ref_=nv_nw_tn_3" > Aereo Hits ‘Pause’ On Service In Wake of Supreme Court Loss
 </a><br />
-                        <span class="time">3 April 2014</span>
+                        <span class="time">23 hours ago</span>
                 </li>
     </ul>
                     </div>
@@ -313,15 +316,15 @@ onsubmit="(new Image()).src='/rg/SEARCH-BOX/HEADER/images/b.gif?link=/find';"
     window.imdb.watchlistTeaserData = [
                 {
                         href : "/list/watchlist",
-                src : "http://ia.media-imdb.com/images/G/01/imdb/images/navbar/watchlist_slot1_logged_out-1670046337._V360061167_.jpg"
+                src : "http://ia.media-imdb.com/images/G/01/imdb/images/navbar/watchlist_slot1_logged_out-1670046337._CB360061167_.jpg"
                 },
                 {
                     href : "/search/title?count=100&title_type=feature,tv_series",
-                src : "http://ia.media-imdb.com/images/G/01/imdb/images/navbar/watchlist_slot2_popular-4090757197._V360060945_.jpg"
+                src : "http://ia.media-imdb.com/images/G/01/imdb/images/navbar/watchlist_slot2_popular-4090757197._CB360060945_.jpg"
                 },
                 {
                     href : "/chart/top",
-                src : "http://ia.media-imdb.com/images/G/01/imdb/images/navbar/watchlist_slot3_top250-575799966._V360061165_.jpg"
+                src : "http://ia.media-imdb.com/images/G/01/imdb/images/navbar/watchlist_slot3_top250-575799966._CB360061165_.jpg"
                 }
     ];
     </script>
@@ -343,27 +346,20 @@ window.imdb.navbarAdSlots = {
     <ul id="nb_extra_nav" class="main_nav">
         <li class="css_nav_item" id="navProMenu">
             <p class="navCategory">
-<a
-onclick="(new Image()).src='/rg/imdbprohome/navbar/images/b.gif?link=/r/IMDbTabNV/';"
-href="/r/IMDbTabNV/"
-> <img alt="IMDbPro Menu" src="http://ia.media-imdb.com/images/G/01/imdb/images/navbar/imdbpro_logo_nb-720143162._V377744227_.png" />
+<a href="http://pro.imdb.com/signup/index.html?rf=cons_nb_hm&ref_=cons_nb_hm" > <img alt="IMDbPro Menu" src="http://ia.media-imdb.com/images/G/01/imdb/images/navbar/imdbpro_logo_nb-720143162._CB377744227_.png" />
 </a>            </p>
             <span class="downArrow"></span>
             <div id="navMenuPro" class="sub_nav">
-<a
-onclick="(new Image()).src='/rg/imdbprohome/navbar/images/b.gif?link=/r/IMDbTabNV/';"
-href="/r/IMDbTabNV/"
-id="proLink"
-> <div id="proAd">
+<a href="http://pro.imdb.com/signup/index.html?rf=cons_nb_hm&ref_=cons_nb_hm" id="proLink" > <div id="proAd">
 <script>
 if (!('imdb' in window)) { window.imdb = {}; }
 window.imdb.proMenuTeaser = {
-imageUrl : "http://ia.media-imdb.com/images/G/01/imdb/images/navbar/imdbpro_menu_user-2082544740._V377744226_.jpg"
+imageUrl : "http://ia.media-imdb.com/images/G/01/imdb/images/navbar/imdbpro_menu_user-2082544740._CB377744226_.jpg"
 };
 </script>
 </div>
 <div class="subNavListContainer">
-<img alt="Go to IMDbPro" title="Go to IMDbPro" src="http://ia.media-imdb.com/images/G/01/imdb/images/navbar/imdbpro_logo_menu-2185879182._V377744253_.png" />
+<img alt="Go to IMDbPro" title="Go to IMDbPro" src="http://ia.media-imdb.com/images/G/01/imdb/images/navbar/imdbpro_logo_menu-2185879182._CB377744253_.png" />
 <h5>GET INFORMED</h5>
 <p>Industry information at your fingertips</p>
 <h5>GET CONNECTED</h5>
@@ -452,7 +448,7 @@ width="52px"
 height="70px"
 alt="No photo available. Represent Natalie Tjen? Add or change photos at IMDbPro"
 title="No photo available. Represent Natalie Tjen? Add or change photos at IMDbPro"
-src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/medium/name-2135195744._V379389549_.png" /></a>
+src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/medium/name-2135195744._CB379389549_.png" /></a>
                                 <div class="no-pic-text-column">
 
 
@@ -464,22 +460,15 @@ src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/medium/name-2135
                 <div id="prometer" class="meter-collapsed down">
                     <div id="meterHeaderBox">
                         <div class="meterToggleOnHover">STARmeter</div>
-<a
-onclick="(new Image()).src='/rg/nm_starmeter_why/prosystem/images/b.gif?link=/r/nm_starmeter_why/name/nm0864666';"
-href="/r/nm_starmeter_why/name/nm0864666"
-id="meterRank"
->SEE RANK</a>
+<a href="http://pro.imdb.com/name/nm0864666?rf=cons_nm_meter&ref_=cons_nm_meter" id="meterRank" >SEE RANK</a>
                     </div>
                     <div id="meterChangeRow" class="meterToggleOnHover">
                             <span>Down</span>
-                        <span id="meterChange">80,056</span>
+                        <span id="meterChange">104,619</span>
                         <span>this week</span>
                     </div>
                     <div id="meterSeeMoreRow" class="meterToggleOnHover">
-<a
-onclick="(new Image()).src='/rg/nm_starmeter_why/prosystem/images/b.gif?link=/r/nm_starmeter_why/name/nm0864666';"
-href="/r/nm_starmeter_why/name/nm0864666"
->View rank on IMDbPro</a>            
+<a href="http://pro.imdb.com/name/nm0864666?rf=cons_nm_meter&ref_=cons_nm_meter" >View rank on IMDbPro</a>
                         <span>&raquo;</span>
                     </div>
                 </div>
@@ -531,10 +520,10 @@ Natalie Tjen was born on August 31, 1987 in Sydney, New South Wales, Australia. 
                 <tr>
                    <td id="overview-middle">
         <div id="name-pro-info" class="pro-list">
-            <span class="pro-list-title"><a href="/r/nm_header_moreatpro/name/nm0864666" >More at IMDbPro</a> &raquo;</span>
+            <span class="pro-list-title"><a href="http://pro.imdb.com/name/nm0864666?rf=cons_nm_more&ref_=cons_nm_more" >More at IMDbPro</a> &raquo;</span>
             
             
-<a href="/r/nm_ovrview_chgphoto/name/nm0864666" ><img class="absmiddle" width="13" height="13" src="http://ia.media-imdb.com/images/G/01/imdb/images/icons/profile-152317997._V379391798_.png" alt="Add or change photos on IMDbPro"/ ></a>                <strong>Represent Natalie Tjen?</strong> <a href="/r/nm_ovrview_chgphoto/name/nm0864666" >Add or change photos</a>
+<a href="http://pro.imdb.com/name/nm0864666?rf=cons_nm_photo&ref_=cons_nm_photo" ><img class="absmiddle" width="13" height="13" src="http://ia.media-imdb.com/images/G/01/imdb/images/icons/profile-152317997._CB379391798_.png" alt="Add or change photos on IMDbPro"/ ></a>                <strong>Represent Natalie Tjen?</strong> <a href="http://pro.imdb.com/name/nm0864666?rf=cons_nm_photo&ref_=cons_nm_photo" >Add or change photos</a>
         </div>
                         
                    </td>
@@ -778,12 +767,12 @@ Natalie Tjen was born on August 31, 1987 in Sydney, New South Wales, Australia. 
                 </li>
                 <li class="subnav_item_main">
                     <span class="nobr-only">
-<a href="/r/nm_ovrview_chgphoto/name/nm0864666?ref_=nm_ql_pro_2" class="link" >Add or change photos</a>
+<a href="http://pro.imdb.com/name/nm0864666?ref_=nm_ql_pro_2" class="link" >Add or change photos</a>
                     </span>
                 </li>
                 <li class="subnav_item_main">
                     <span class="nobr-only">
-<a href="/r/nm_footer_moreatpro/name/nm0864666?ref_=nm_ql_pro_3" class="link" >Get more at IMDbPro</a>
+<a href="http://pro.imdb.com/name/nm0864666?ref_=nm_ql_pro_3" class="link" >Get more at IMDbPro</a>
                     </span>
                 </li>
     </ul>
@@ -802,8 +791,8 @@ Natalie Tjen was born on August 31, 1987 in Sydney, New South Wales, Australia. 
     <div class="social">
       <div class="social_networking"> 
        <span><strong>Share</strong> this page:</span>
-  <a onclick="window.open('http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.imdb.com%2Fname%2Fnm0864666%2F', 'newWindow', 'width=626, height=436'); return false;" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.imdb.com%2Fname%2Fnm0864666%2F" target="_blank" title="Share on Facebook" class="share_icon facebook"></a>
-  <a onclick="window.open('http://twitter.com/intent/tweet?text=Natalie%20Tjen%20-%20http%3A%2F%2Fwww.imdb.com%2Fname%2Fnm0864666%2F', 'newWindow', 'width=815, height=436'); return false;" href="http://twitter.com/intent/tweet?text=Natalie%20Tjen%20-%20http%3A%2F%2Fwww.imdb.com%2Fname%2Fnm0864666%2F" target="_blank" title="Share on Twitter" class="share_icon twitter"></a>
+  <a onclick="window.open(&quot;http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.imdb.com%2Fname%2Fnm0864666%2F&quot;, 'newWindow', 'width=626, height=436'); return false;" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.imdb.com%2Fname%2Fnm0864666%2F" target="_blank" title="Share on Facebook" class="share_icon facebook"></a>
+  <a onclick="window.open(&quot;http://twitter.com/intent/tweet?text=Natalie%20Tjen%20-%20http%3A%2F%2Fwww.imdb.com%2Fname%2Fnm0864666%2F&quot;, 'newWindow', 'width=815, height=436'); return false;" href="http://twitter.com/intent/tweet?text=Natalie%20Tjen%20-%20http%3A%2F%2Fwww.imdb.com%2Fname%2Fnm0864666%2F" target="_blank" title="Share on Twitter" class="share_icon twitter"></a>
   <a onclick="$('div.social input[name=share-link]').show().select(); return false;" title="Share the page" class="share_icon share_url_link" href="http://www.imdb.com/name/nm0864666/"></a>
       </div>
       <input type="text" name="share-link" value="http://www.imdb.com/name/nm0864666/" readonly>
@@ -831,6 +820,7 @@ Natalie Tjen was born on August 31, 1987 in Sydney, New South Wales, Australia. 
 
 
 
+
         
         
 
@@ -848,7 +838,7 @@ Natalie Tjen was born on August 31, 1987 in Sydney, New South Wales, Australia. 
 
 
 
-<a href="/video/user/vi3091568921?ref_=nm_demo_1" title="David H. Lawrence, XVII - Drama -- On-camera drama reel featuring David H. Lawrence XVII, in scenes from Heroes, The Unit, LOST, and more" alt="David H. Lawrence, XVII - Drama -- On-camera drama reel featuring David H. Lawrence XVII, in scenes from Heroes, The Unit, LOST, and more" class="video-colorbox" data-video="vi3091568921" data-context="user" data-rid="" widget-context="nameDemoreels" itemprop="url" ><img height="90" width="120" alt="David H. Lawrence, XVII - Drama -- On-camera drama reel featuring David H. Lawrence XVII, in scenes from Heroes, The Unit, LOST, and more" title="David H. Lawrence, XVII - Drama -- On-camera drama reel featuring David H. Lawrence XVII, in scenes from Heroes, The Unit, LOST, and more"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/no-video-slate-856072904._V379390253_.png"class="loadlate hidden video" loadlate="http://ia.media-imdb.com/images/M/MV5BMjk5Mjc4MDM5OV5BMl5BanBnXkFtZTcwNTc2NzExNA@@._V1_SP229,229,0,C,0,0,0_CR45,62,139,105_PIimdb-blackband-204-14,TopLeft,0,0_PIimdb-blackband-204-28,BottomLeft,0,1_CR0,0,139,105_PIimdb-bluebutton-big,BottomRight,-1,-1_ZA01:20,103,1,14,36,verdenab,7,255,255,255,1_PIimdb-HDIconMiniWhite,BottomLeft,2,-2_.jpg" itemprop='image' viconst="vi3091568921" /></a>
+<a href="/video/user/vi3091568921?ref_=nm_demo_1" title="David H. Lawrence, XVII - Drama -- On-camera drama reel featuring David H. Lawrence XVII, in scenes from Heroes, The Unit, LOST, and more" alt="David H. Lawrence, XVII - Drama -- On-camera drama reel featuring David H. Lawrence XVII, in scenes from Heroes, The Unit, LOST, and more" class="video-colorbox" data-video="vi3091568921" data-context="user" data-rid="" widget-context="nameDemoreels" itemprop="url" ><img height="90" width="120" alt="David H. Lawrence, XVII - Drama -- On-camera drama reel featuring David H. Lawrence XVII, in scenes from Heroes, The Unit, LOST, and more" title="David H. Lawrence, XVII - Drama -- On-camera drama reel featuring David H. Lawrence XVII, in scenes from Heroes, The Unit, LOST, and more"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/no-video-slate-856072904._CB379390253_.png"class="loadlate hidden video" loadlate="http://ia.media-imdb.com/images/M/MV5BMjk5Mjc4MDM5OV5BMl5BanBnXkFtZTcwNTc2NzExNA@@._V1_SP229,229,0,C,0,0,0_CR45,62,139,105_PIimdb-blackband-204-14,TopLeft,0,0_PIimdb-blackband-204-28,BottomLeft,0,1_CR0,0,139,105_PIimdb-bluebutton-big,BottomRight,-1,-1_ZA01:20,103,1,14,36,verdenab,7,255,255,255,1_PIimdb-HDIconMiniWhite,BottomLeft,2,-2_.jpg" itemprop='image' viconst="vi3091568921" /></a>
 
 
 
@@ -877,7 +867,7 @@ Thank You! Franklin" title="Franklin Ojeda Smith - -- &quot;...back in the day t
 3)Cayman Went - Aniston Turnkey
 4)Letting Go -Therapist
 5)Footsteps in the Sand - Jim.
-Thank You! Franklin"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/no-video-slate-856072904._V379390253_.png"class="loadlate hidden video" loadlate="http://ia.media-imdb.com/images/M/MV5BMjIxMTA1MjEzNV5BMl5BanBnXkFtZTcwMjQ2MjYyNA@@._V1_SP229,229,0,C,0,0,0_CR45,62,139,105_PIimdb-blackband-204-14,TopLeft,0,0_PIimdb-blackband-204-28,BottomLeft,0,1_CR0,0,139,105_PIimdb-bluebutton-big,BottomRight,-1,-1_ZA05:58,103,1,14,36,verdenab,7,255,255,255,1_PIimdb-HDIconMiniWhite,BottomLeft,2,-2_.jpg" itemprop='image' viconst="vi2695404313" /></a>
+Thank You! Franklin"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/no-video-slate-856072904._CB379390253_.png"class="loadlate hidden video" loadlate="http://ia.media-imdb.com/images/M/MV5BMjIxMTA1MjEzNV5BMl5BanBnXkFtZTcwMjQ2MjYyNA@@._V1_SP229,229,0,C,0,0,0_CR45,62,139,105_PIimdb-blackband-204-14,TopLeft,0,0_PIimdb-blackband-204-28,BottomLeft,0,1_CR0,0,139,105_PIimdb-bluebutton-big,BottomRight,-1,-1_ZA05:58,103,1,14,36,verdenab,7,255,255,255,1_PIimdb-HDIconMiniWhite,BottomLeft,2,-2_.jpg" itemprop='image' viconst="vi2695404313" /></a>
 
 
 
@@ -886,14 +876,11 @@ Thank You! Franklin"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopict
 " alt="My Demo Reel -- Includes clips from GLORY DAZE, COMMUNITY and horror film URBAN EXPLORER.
 " class="video-colorbox" data-video="vi4067727897" data-context="user" data-rid="" widget-context="nameDemoreels" itemprop="url" ><img height="90" width="120" alt="My Demo Reel -- Includes clips from GLORY DAZE, COMMUNITY and horror film URBAN EXPLORER.
 " title="My Demo Reel -- Includes clips from GLORY DAZE, COMMUNITY and horror film URBAN EXPLORER.
-"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/no-video-slate-856072904._V379390253_.png"class="loadlate hidden video" loadlate="http://ia.media-imdb.com/images/M/MV5BMTcyNTgxMDMyNF5BMl5BanBnXkFtZTcwNTkxOTQ0NA@@._V1_SP229,229,0,C,0,0,0_CR45,62,139,105_PIimdb-blackband-204-14,TopLeft,0,0_PIimdb-blackband-204-28,BottomLeft,0,1_CR0,0,139,105_PIimdb-bluebutton-big,BottomRight,-1,-1_ZA03:00,103,1,14,36,verdenab,7,255,255,255,1_.jpg" itemprop='image' viconst="vi4067727897" /></a>
+"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/no-video-slate-856072904._CB379390253_.png"class="loadlate hidden video" loadlate="http://ia.media-imdb.com/images/M/MV5BMTcyNTgxMDMyNF5BMl5BanBnXkFtZTcwNTkxOTQ0NA@@._V1_SP229,229,0,C,0,0,0_CR45,62,139,105_PIimdb-blackband-204-14,TopLeft,0,0_PIimdb-blackband-204-28,BottomLeft,0,1_CR0,0,139,105_PIimdb-bluebutton-big,BottomRight,-1,-1_ZA03:00,103,1,14,36,verdenab,7,255,255,255,1_.jpg" itemprop='image' viconst="vi4067727897" /></a>
              </div>
         </div>
         <div id="pro_demo_reel_link">
-<a
-onclick="(new Image()).src='/rg/DemoReels/prosystem/images/b.gif?link=/r/DemoReels/demoreels/list';"
-href="/r/DemoReels/demoreels/list"
->Find out more at IMDb Pro</a> &raquo;
+<a href="http://pro.imdb.com/demoreels/list?rf=cons_nm_demoreel&ref_=cons_nm_demoreel" >Find out more at IMDb Pro</a> &raquo;
         </div>
     </div>
         
@@ -931,17 +918,17 @@ href="/r/DemoReels/demoreels/list"
     <h3>User Polls</h3>
     <ul>
         <li>
-<a href="/poll/b3zBT1SMKjE/?ref_=nm_po_i1" ><img height="86" width="86" alt="poll image" title="poll image"src="http://i.imdb.com/images/nopicture/140x209/unknown.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTMwMDY0MTYyMF5BMl5BanBnXkFtZTcwMzI2NDkxNA@@._V1_SX86_CR0,0,86,86_.jpg" /></a>        <a href="/poll/b3zBT1SMKjE/?ref_=nm_po_q1" >Which of these sunglasses-sporting movie characters looks the coolest?</a>
+<a href="/poll/HHnbNGbQf3Y/?ref_=nm_po_i1" ><img height="86" width="86" alt="poll image" title="poll image"src="http://i.imdb.com/images/nopicture/140x209/unknown.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTY3MDY1MzE1Nl5BMl5BanBnXkFtZTcwNzc5OTEzMw@@._V1_SX86_CR0,0,86,86_.jpg" /></a>        <a href="/poll/HHnbNGbQf3Y/?ref_=nm_po_q1" >Morpheus vs. Nick Fury</a>
         <li>
-<a href="/poll/XaJAl07MYYk/?ref_=nm_po_i2" ><img height="86" width="86" alt="poll image" title="poll image"src="http://i.imdb.com/images/nopicture/140x209/unknown.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTg2MzkyODIwOF5BMl5BanBnXkFtZTcwMDY1MjcxNA@@._V1_SX86_CR0,0,86,86_.jpg" /></a>        <a href="/poll/XaJAl07MYYk/?ref_=nm_po_q2" >Favorite movie computer genius?</a>
+<a href="/poll/LjB4TvpJIPk/?ref_=nm_po_i2" ><img height="86" width="86" alt="poll image" title="poll image"src="http://i.imdb.com/images/nopicture/140x209/unknown.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTA4MDQxNTk2NDheQTJeQWpwZ15BbWU3MDE2NjIyODk@._V1_SX86_CR0,0,86,86_.jpg" /></a>        <a href="/poll/LjB4TvpJIPk/?ref_=nm_po_q2" >Bleakest dystopian films</a>
         <li>
-<a href="/poll/IyZeUraZGwE/?ref_=nm_po_i3" ><img height="86" width="86" alt="poll image" title="poll image"src="http://i.imdb.com/images/nopicture/140x209/unknown.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTYxNjY1ODQ3MF5BMl5BanBnXkFtZTcwMjgwMjk2Mw@@._V1_SY86_CR21,0,86,86_.jpg" /></a>        <a href="/poll/IyZeUraZGwE/?ref_=nm_po_q3" >The Chosen Ones</a>
+<a href="/poll/q-PwPY2Ku-E/?ref_=nm_po_i3" ><img height="86" width="86" alt="poll image" title="poll image"src="http://i.imdb.com/images/nopicture/140x209/unknown.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMjEzOTYxODc4Nl5BMl5BanBnXkFtZTcwNjkxMjUzMg@@._V1_SY86_CR21,0,86,86_.jpg" /></a>        <a href="/poll/q-PwPY2Ku-E/?ref_=nm_po_q3" >The best kickass female characters of Fantasy/Sci-Fi</a>
         <li>
-<a href="/poll/7o9OxVLKWTE/?ref_=nm_po_i4" ><img height="86" width="86" alt="poll image" title="poll image"src="http://i.imdb.com/images/nopicture/140x209/unknown.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMjE4NTc0ODA3Ml5BMl5BanBnXkFtZTcwNTgwODU2NA@@._V1_SX86_CR0,0,86,86_.jpg" /></a>        <a href="/poll/7o9OxVLKWTE/?ref_=nm_po_q4" >Favorite film character made of flesh and metal?</a>
+<a href="/poll/pUAIzEjzH5U/?ref_=nm_po_i4" ><img height="86" width="86" alt="poll image" title="poll image"src="http://i.imdb.com/images/nopicture/140x209/unknown.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTc4MTg1Mjg1Ml5BMl5BanBnXkFtZTYwNjI1Mzk2._V1_SY86_CR21,0,86,86_.jpg" /></a>        <a href="/poll/pUAIzEjzH5U/?ref_=nm_po_q4" >I want to quit my corporate day-job just like...</a>
         <li>
-<a href="/poll/tRgM9WEmTPs/?ref_=nm_po_i5" ><img height="86" width="86" alt="poll image" title="poll image"src="http://i.imdb.com/images/nopicture/140x209/unknown.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTQzMDYxNzUxNl5BMl5BanBnXkFtZTgwMjgxNjkxMTE@._V1_SX86_CR0,0,86,86_.jpg" /></a>        <a href="/poll/tRgM9WEmTPs/?ref_=nm_po_q5" >Most Ground-Breaking Visual Effects in Films</a>
+<a href="/poll/Cm-rQEntufM/?ref_=nm_po_i5" ><img height="86" width="86" alt="poll image" title="poll image"src="http://i.imdb.com/images/nopicture/140x209/unknown.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BNDIwNjM4Nzk0NF5BMl5BanBnXkFtZTcwMDcxMTY2Mw@@._V1_SX86_CR0,0,86,86_.jpg" /></a>        <a href="/poll/Cm-rQEntufM/?ref_=nm_po_q5" >Greatest Mentor</a>
         <li>
-<a href="/poll/vkl6tcWZV1k/?ref_=nm_po_i6" ><img height="86" width="86" alt="poll image" title="poll image"src="http://i.imdb.com/images/nopicture/140x209/unknown.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTk2NzI5MTU4Ml5BMl5BanBnXkFtZTcwNjk3NjgyMw@@._V1_SY86_CR22,0,86,86_.jpg" /></a>        <a href="/poll/vkl6tcWZV1k/?ref_=nm_po_q6" >Most Giftable Movie Series?</a>
+<a href="/poll/hwZX7Pk17UA/?ref_=nm_po_i6" ><img height="86" width="86" alt="poll image" title="poll image"src="http://i.imdb.com/images/nopicture/140x209/unknown.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMjAxMzQ4NjY3NF5BMl5BanBnXkFtZTYwMzM2NzI3._V1_SX86_CR0,0,86,86_.jpg" /></a>        <a href="/poll/hwZX7Pk17UA/?ref_=nm_po_q6" >Movie Robot Therapy</a>
     </ul>
     <div class="see-more"><a href="/poll/?ref_=nm_po_sm" >See more polls &raquo;</a></div>
 </div>
@@ -962,18 +949,18 @@ href="/r/DemoReels/demoreels/list"
 <span class="filmo-show-hide-all"
 style="display: none;"
 onclick="showOrHideAll();">
-<img src="http://ia.media-imdb.com/images/G/01/imdb/images/icons/show_mini-603933165._V358668251_.png" alt="Show" width="14" height="12" class="absmiddle">&nbsp;Show all
+<img src="http://ia.media-imdb.com/images/G/01/imdb/images/icons/show_mini-603933165._CB358668251_.png" alt="Show" width="14" height="12" class="absmiddle">&nbsp;Show all
 </span>
 <span class="filmo-show-hide-all"
 style="display: inline;"
 onclick="showOrHideAll();">
-<img src="http://ia.media-imdb.com/images/G/01/imdb/images/icons/hide_mini-3743750714._V358668245_.png" alt="Hide" width="14" height="12" class="absmiddle">&nbsp;Hide all
+<img src="http://ia.media-imdb.com/images/G/01/imdb/images/icons/hide_mini-3743750714._CB358668245_.png" alt="Hide" width="14" height="12" class="absmiddle">&nbsp;Hide all
 </span>
 &nbsp;<span>|</span>&nbsp;
 <form name="navform" method="get" action="filmosummary" id="filmoform">
 <select name="sort" class="fixed">
 <option value="">Show by...</option>
-<option value="?nmdp=1">Job</option>
+<option value="?nmdp=1" disabled="disabled">Job (shown)</option>
 <option value="/filmosearch?sort=year&explore=title_type&role=nm0864666">Year &raquo;</option>
 <option value="/filmosearch?sort=user_rating&explore=title_type&role=nm0864666">Ratings &raquo;</option>
 <option value="/filmosearch?sort=num_votes&explore=title_type&role=nm0864666">Votes &raquo;</option>
@@ -985,17 +972,23 @@ onclick="showOrHideAll();">
 <a href="/updates?edit=nm0864666/filmography&ref_=nm_flmg_edt" > Edit
 </a> </div>
 <h2>Filmography</h2>
+<div class="message_box small">
+<div class="info">
+<p>To always display TV and movie credits separately, <a href="/register-imdb/siteprefs">edit your site preferences</a>.</p>
+</div>
+</div>
 <div id="filmography">
-<div id="filmo-head-actress" class="head" data-category="actress" onclick="toggleFilmoCategory(this);">
-<span id="hide-actress" class="hide-link"
->Hide&nbsp;<img src="http://ia.media-imdb.com/images/G/01/imdb/images/icons/hide-1061525577._V358668250_.png" class="absmiddle" alt="Hide" width="18" height="16"></span>
-<span id="show-actress" class="show-link"
->Show&nbsp;<img src="http://ia.media-imdb.com/images/G/01/imdb/images/icons/show-582987296._V358668248_.png" class="absmiddle" alt="Show" width="18" height="16"></span>
-<a name="actress">Actress</a> (2 credits)
+<div id="filmo-head-actressMovie" class="head" data-category="actressMovie" onclick="toggleFilmoCategory(this);">
+<span id="hide-actressMovie" class="hide-link"
+>Hide&nbsp;<img src="http://ia.media-imdb.com/images/G/01/imdb/images/icons/hide-1061525577._CB358668250_.png" class="absmiddle" alt="Hide" width="18" height="16"></span>
+<span id="show-actressMovie" class="show-link"
+>Show&nbsp;<img src="http://ia.media-imdb.com/images/G/01/imdb/images/icons/show-582987296._CB358668248_.png" class="absmiddle" alt="Show" width="18" height="16"></span>
+<a name="actress"></a>
+<a name="actressMovie">Actress: Movie</a> (2 credits)
 </div>
 <div class="filmo-category-section"
 >
-<div class="filmo-row odd" id="actress-tt1391857">
+<div class="filmo-row odd" id="actressMovie-tt1391857">
 <span class="year_column">
 &nbsp;2009
 </span>
@@ -1004,7 +997,7 @@ onclick="showOrHideAll();">
 <br/>
 Jo
 </div>
-<div class="filmo-row even" id="actress-tt0133093">
+<div class="filmo-row even" id="actressMovie-tt0133093">
 <span class="year_column">
 &nbsp;1999
 </span>
@@ -1025,7 +1018,7 @@ Potential
 
 
 
-<a href="/video/withoutabox/vi3488023577?ref_=nm_rvd_vi_1" title="Sabo -- A guy sees a local witch doctor and ends up committing a murder" alt="Sabo -- A guy sees a local witch doctor and ends up committing a murder" class=" " data-video="vi3488023577" data-context="withoutabox" data-rid="13T4V3C9M3KGZDHHNYHF" widget-context="nameMaindetails" itemprop="url" ><img height="150" width="200" alt="Sabo -- A guy sees a local witch doctor and ends up committing a murder" title="Sabo -- A guy sees a local witch doctor and ends up committing a murder"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/no-video-slate-856072904._V379390253_.png"class="loadlate hidden video" loadlate="http://ia.media-imdb.com/images/M/MV5BOTY4OTE0NDQ3Nl5BMl5BanBnXkFtZTcwMDg0MjIxMw@@._V1_SP330,330,0,C,0,0,0_CR65,90,200,150_PIimdb-blackband-204-14,TopLeft,0,0_PIimdb-blackband-204-28,BottomLeft,0,1_CR0,0,200,150_PIimdb-bluebutton-big,BottomRight,-1,-1_ZATrailer,4,121,16,196,verdenab,8,255,255,255,1_ZAon%2520IMDb,4,1,14,196,verdenab,7,255,255,255,1_ZA00:37,164,1,14,36,verdenab,7,255,255,255,1_ZASabo,4,136,14,196,arialbd,7,255,255,255,1_.jpg" itemprop='image' viconst="vi3488023577" /></a>            </span>
+<a href="/video/withoutabox/vi3488023577?ref_=nm_rvd_vi_1" title="Sabo -- A guy sees a local witch doctor and ends up committing a murder" alt="Sabo -- A guy sees a local witch doctor and ends up committing a murder" class=" " data-video="vi3488023577" data-context="withoutabox" data-rid="0104GGVFSDPGHQVJ89BF" widget-context="nameMaindetails" itemprop="url" ><img height="150" width="200" alt="Sabo -- A guy sees a local witch doctor and ends up committing a murder" title="Sabo -- A guy sees a local witch doctor and ends up committing a murder"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/no-video-slate-856072904._CB379390253_.png"class="loadlate hidden video" loadlate="http://ia.media-imdb.com/images/M/MV5BOTY4OTE0NDQ3Nl5BMl5BanBnXkFtZTcwMDg0MjIxMw@@._V1_SP330,330,0,C,0,0,0_CR65,90,200,150_PIimdb-blackband-204-14,TopLeft,0,0_PIimdb-blackband-204-28,BottomLeft,0,1_CR0,0,200,150_PIimdb-bluebutton-big,BottomRight,-1,-1_ZATrailer,4,121,16,196,verdenab,8,255,255,255,1_ZAon%2520IMDb,4,1,14,196,verdenab,7,255,255,255,1_ZA00:37,164,1,14,36,verdenab,7,255,255,255,1_ZASabo,4,136,14,196,arialbd,7,255,255,255,1_.jpg" itemprop='image' viconst="vi3488023577" /></a>            </span>
     </div>
 
         </div>
@@ -1075,7 +1068,7 @@ Potential
         
 
         <div class="button-box">
-            <a onclick="(new Image()).src='/rg/resume/prosystem/images/b.gif?link=http%3A%2F%2Fpro.imdb.com%2Fwidget%2Fresume_redirect%2F';" href="http://pro.imdb.com/widget/resume_redirect/" class="btn large">Add resume</a>
+            <a href="http://pro.imdb.com/widget/resume_redirect/?rf=cons_nm_contr_res&ref_=cons_nm_contr_res" class="btn large" >Add resume</a>
         </div>
     </div>
 
@@ -1163,10 +1156,7 @@ href="/helpdesk/contact"
 onclick="(new Image()).src='/rg/jobs/footer/images/b.gif?link=/jobs';"
 href="/jobs"
 >Jobs</a>
-        | <a
-onclick="(new Image()).src='/rg/IMDbFooter/prosystem/images/b.gif?link=https://secure.imdb.com/r/IMDbFooter/register/subscribe?c=a394d4442664f6f6475627';"
-href="https://secure.imdb.com/r/IMDbFooter/register/subscribe?c=a394d4442664f6f6475627"
->IMDbPro</a>
+        | <a href="http://pro.imdb.com/signup/index.html?rf=cons_ft_hm&ref_=cons_ft_hm" >IMDbPro</a>
         | <a
 onclick="(new Image()).src='/rg/BOXOFFICEMOJO/FOOTER/images/b.gif?link=http://www.boxofficemojo.com/';"
 href="http://www.boxofficemojo.com/"
@@ -1295,11 +1285,11 @@ href="//www.amazon.com/InterestBasedAds"
             </div>
         </div>
 
-<script type="text/javascript" src="http://ia.media-imdb.com/images/G/01/imdb/js/collections/name-4188885337._V341754501_.js"></script>
+<script type="text/javascript" src="http://ia.media-imdb.com/images/G/01/imdb/js/collections/name-2197611473._CB349291295_.js"></script>
 
 <script type="text/imdblogin-js" id="login">
 jQuery(document).ready(function(){
-    window.imdb.login_lightbox("https://secure.imdb.com", "http://www.imdb.com/name/nm0864666/");
+    window.imdb.login_lightbox("https://secure.imdb.com", "http://www.imdb.com/name/nm0864666/?nmdp=1");
 });
 </script>
 
@@ -1343,19 +1333,22 @@ jQuery(document).ready(function(){
                 );
                 jQuery(
                              function() {
-           var facebookTheme = (window.custom && window.custom.full_page && window.custom.full_page.theme) ? window.custom.full_page.theme : "light",
-               url = "http://www.facebook.com/widgets/like.php?width=280&show_faces=1&layout=standard&href=http%3A%2F%2Fwww.imdb.com%2Fname%2Fnm0864666%2F&colorscheme=" + facebookTheme,
+           var isAdvertisingThemed = !!(window.custom && window.custom.full_page && window.custom.full_page.theme),
+               url = "http://www.facebook.com/widgets/like.php?width=280&show_faces=1&layout=standard&href=http%3A%2F%2Fwww.imdb.com%2Fname%2Fnm0864666%2F&colorscheme=light",
                like = document.getElementById('iframe_like');
-           if (like) {
+
+           if (!isAdvertisingThemed && like) {
               like.src = url;
               like.onload = function () { generic.monitoring.stop_timing('facebook_like_iframe', '', false); };
+           } else if (isAdvertisingThemed) {
+              $('.social_networking_like').closest('.aux-content-widget-2').hide();
            }
         }
 
                 );
         </script>
 
-<div id="servertime" time="106"/>
+<div id="servertime" time="47"/>
 
 
 
