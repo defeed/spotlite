@@ -39,39 +39,11 @@ Or install it yourself as:
     > movie.cast[0..2]
     => [#<Spotlite::Person:0x007f96a19521a0 @imdb_id="0000206", @name="Keanu Reeves", @url="http://www.imdb.com/name/nm0000206/", @credits_category="Cast", @credits_text="Neo">, #<Spotlite::Person:0x007f96a1951c28 @imdb_id="0000401", @name="Laurence Fishburne", @url="http://www.imdb.com/name/nm0000401/", @credits_category="Cast", @credits_text="Morpheus">, #<Spotlite::Person:0x007f96a1951a70 @imdb_id="0005251", @name="Carrie-Anne Moss", @url="http://www.imdb.com/name/nm0005251/", @credits_category="Cast", @credits_text="Trinity">]
     
-### IMDb Top 250
-
-    > list = Spotlite::Top.new.movies
-
-### Movies opening this week
-
-    > list = Spotlite::OpeningThisWeek.new.movies
-
-### This week's box office top 10
-
-    > list = Spotlite::BoxOfficeTop.new.movies
-
-### Movies that are coming soon
-
-    > list = Spotlite::ComingSoon.new.movies
-
 ## Important notice
 
 Movie titles will be localized if movie has an alternative title specific to your country.
 Example: _The Great Gatsby_ (http://www.imdb.com/title/tt1343092) has an alternative title _Gatsby le magnifique_ `France (imdb display title)` and will be localized accordingly based on your IP address, if you reside in France. Non-localized title is still avaliable with `original_title` method.
 Sorry, there is nothing I can do about it at the moment.
-
-## Class tree
-    
-    Spotlite
-    |
-    |- Movie
-    |- Person
-    `- List
-       |- Top
-       `- InTheaters
-          |- OpeningThisWeek
-          `- BoxOfficeTop
 
 ## Contributing
 
@@ -126,7 +98,7 @@ It will run through all elements of `IMDB_SAMPLES` hash to get fresh data.
 
 ## License
 
-Copyright (c) 2013 Artem Pakk
+Copyright (c) 2013-2014 Artem Pakk
 
 MIT License
 
