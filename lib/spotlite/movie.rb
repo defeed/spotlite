@@ -134,8 +134,7 @@ module Spotlite
     
     # Returns runtime (length) in minutes as an integer
     def runtime
-      details.at("time[itemprop='duration']").text.to_i rescue nil ||
-      details.at('#overview-top .infobar').text.strip[/\d{2,3} min/].to_i rescue nil
+      details.at("time[itemprop='duration']").text.gsub(',', '').to_i rescue nil
     end
     
     # Returns primary poster URL as a string
