@@ -320,6 +320,22 @@ module Spotlite
       array
     end
     
+    # Returns technical information like film length, aspect ratio, cameras, etc. as a hash of arrays of strings
+    def technical
+      hash = {}
+      table = technical_info.at_css('#technical_content table') rescue nil
+      
+      table.css('tr').map do |row|
+        hash[row.css('td').first.text.strip] = row.css('td').last.children.
+          map(&:text).
+          map(&:strip_whitespace).
+          reject(&:empty?).
+          reject{|i| i == '|'}
+      end unless table.nil?
+      
+      hash
+    end
+    
     private
     
     def details # :nodoc:
@@ -348,6 +364,10 @@ module Spotlite
     
     def still_frames # :nodoc:
       @still_frames ||= open_page('mediaindex?refine=still_frame')
+    end
+    
+    def technical_info
+      @technical_info ||= open_page('technical')
     end
     
     def open_page(page = nil) # :nodoc:

@@ -183,6 +183,15 @@ describe "Spotlite::Movie" do
       )
     end
     
+    it "should return technical information" do
+      hash = @movie.technical
+      hash.should be_a(Hash)
+      hash.should include("Runtime" => ["2 hr 16 min (136 min)"])
+      hash.should include("Sound Mix" => ["DTS", "Dolby Digital", "SDDS"])
+      hash.should include("Cinematographic Process" => ["Super 35", "VistaVision (effects shots)"])
+      hash.should include("Film Length" => ["3,735 m (Sweden)"])
+    end
+    
     it "should return an array of still frames URLs" do
       @movie.images.should be_an(Array)
       @movie.images.size.should eql(12)

@@ -17,6 +17,7 @@ IMDB_SAMPLES = {
   'http://www.imdb.com/title/tt0133093/releaseinfo'                   => 'tt0133093/releaseinfo',
   'http://www.imdb.com/title/tt0133093/trivia'                        => 'tt0133093/trivia',
   'http://www.imdb.com/title/tt0133093/criticreviews'                 => 'tt0133093/criticreviews',
+  'http://www.imdb.com/title/tt0133093/technical'                     => 'tt0133093/technical',
   'http://www.imdb.com/title/tt0317248/'                              => 'tt0317248/index',
   'http://www.imdb.com/title/tt0169547/'                              => 'tt0169547/index',
   'http://www.imdb.com/title/tt0112873/'                              => 'tt0112873/index',
