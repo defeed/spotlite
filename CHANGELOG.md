@@ -1,3 +1,17 @@
+## v0.8.0 06-Jul-2014
+
+* Added `Spotlite::Movie.search` class method to perform advanced search by parameters
+* Added `Spotlite::Movie.find` class method for simple title search
+* Added `technical` method for `Movie` class to get movie technical information
+* Added `alternative_titles` method for `Movie` class
+* Added `Spotlite::Person.search` class method to perform advanced search by parameters
+* Added `Spotlite::Person.find` class method for simple name search
+* Added `filmography` method for `Person` class
+* Moved task to refresh fixtures out of namespace. Now it can be called as `rake refresh_fixtures`
+* Added `rake console` task. It will automatically `require 'spotlite'`
+* Removed `Spotlite::List` class and all of its subclasses
+
+
 ## v0.7.2 15-Dec-2013
 
 * Fixes for updated Top 250 page
