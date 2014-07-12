@@ -255,4 +255,31 @@ describe "Spotlite::Movie" do
     
   end
   
+  describe "#find method" do
+    it "should return some movies" do
+      results = Spotlite::Movie.find("conan")
+      results.should be_an(Array)
+      results.size.should eql(200)
+      results.each{ |movie| movie.should be_a(Spotlite::Movie) }
+      first = results.first
+      first.title.should eql("Conan the Barbarian")
+      first.imdb_id.should eql("0816462")
+    end
+    
+    it "should return no results" do
+      results = Spotlite::Movie.find("wappadoozle swambling")
+      results.should be_an(Array)
+      results.size.should eql(0)
+    end
+  end
+  
+  describe "#search method" do
+    it "should return some movies" do
+      results = Spotlite::Movie.search({count: 50})
+      results.should be_an(Array)
+      results.size.should eql(50)
+      results.each{ |movie| movie.should be_a(Spotlite::Movie) }
+    end
+  end
+  
 end

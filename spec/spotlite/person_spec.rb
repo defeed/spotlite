@@ -105,4 +105,31 @@ describe "Spotlite::Person" do
     end
   end
   
+  describe "#find method" do
+    it "should return some people" do
+      results = Spotlite::Person.find("conan")
+      results.should be_an(Array)
+      results.size.should eql(200)
+      results.each{ |movie| movie.should be_a(Spotlite::Person) }
+      first = results.first
+      first.name.should eql("Alyssa Milano")
+      first.imdb_id.should eql("0000192")
+    end
+    
+    it "should return no results" do
+      results = Spotlite::Person.find("herpinson derpington")
+      results.should be_an(Array)
+      results.size.should eql(0)
+    end
+  end
+  
+  describe "#search method" do
+    it "should return some people" do
+      results = Spotlite::Person.search({count: 50})
+      results.should be_an(Array)
+      results.size.should eql(50)
+      results.each{ |person| person.should be_a(Spotlite::Person) }
+    end
+  end
+  
 end

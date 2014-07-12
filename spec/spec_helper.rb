@@ -28,6 +28,8 @@ IMDB_SAMPLES = {
   'http://www.imdb.com/find?q=wappadoozle+swambling&s=tt&ttype=ft'    => 'movie_find_no_results',
   'http://www.imdb.com/find?q=herpinson+derpington&s=nm'              => 'person_find_no_results',
   'http://www.imdb.com/find?q=conan&s=nm'                             => 'person_find_conan',
+  'http://www.imdb.com/search/title?count=50&title_type=feature&view=simple&start=1&sort=moviemeter,asc' => 'search_title_count_50',
+  'http://www.imdb.com/search/name?count=50&view=simple&start=1&gender=male,female&sort=starmeter,asc' => 'search_name_count_50',
   'http://www.imdb.com/name/nm0000233/?nmdp=1'                        => 'nm0000233/index',
   'http://www.imdb.com/name/nm0005132/?nmdp=1'                        => 'nm0005132/index',
   'http://www.imdb.com/name/nm1659547/?nmdp=1'                        => 'nm1659547/index',
