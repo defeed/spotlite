@@ -183,13 +183,15 @@ describe "Spotlite::Movie" do
       )
     end
     
-    it "should return technical information" do
+    it "should return technical information as a hash of arrays" do
+      @movie = Spotlite::Movie.new("0120338")
       hash = @movie.technical
       hash.should be_a(Hash)
-      hash.should include("Runtime" => ["2 hr 16 min (136 min)"])
-      hash.should include("Sound Mix" => ["DTS", "Dolby Digital", "SDDS"])
-      hash.should include("Cinematographic Process" => ["Super 35", "VistaVision (effects shots)"])
-      hash.should include("Film Length" => ["3,735 m (Sweden)"])
+      hash.each{|element| element.should be_an(Array)}
+      hash.should include("Runtime" => ["3 hr 14 min (194 min)"])
+      hash.should include("Sound Mix" => ["DTS 70 mm (70 mm prints)", "DTS", "Dolby Digital", "SDDS"])
+      hash.should include("Cinematographic Process" => ["Super 35", "Techniscope (underwater scenes)"])
+      hash.should include("Film Length" => ["5,340 m (Sweden)", "5,426 m (10 reels)"])
     end
     
     it "should return an array of still frames URLs" do
