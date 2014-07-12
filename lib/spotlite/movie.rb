@@ -331,7 +331,8 @@ module Spotlite
           map(&:strip_whitespace).
           reject(&:empty?).
           reject{|i| i == '|'}.
-          slice_before{|i| /^[^\(]/.match i}.map{|i| i.join(' ')}
+          slice_before{|i| /^[^\(]/.match i}.
+          map{|i| i.join(' ')}
       end unless table.nil?
       
       hash
