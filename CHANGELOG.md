@@ -1,3 +1,8 @@
+## v0.8.1 12-Jul-2014
+
+* Added specs for `#find` and `#search` of `Movie` and `Person` classes
+* Fix in `Spotlite::Movie#technical`
+
 ## v0.8.0 06-Jul-2014
 
 * Added `Spotlite::Movie.search` class method to perform advanced search by parameters
