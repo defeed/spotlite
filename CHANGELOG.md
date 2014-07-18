@@ -1,3 +1,7 @@
+## v0.8.2 18-Jul-2014
+
+* Clean some junk from credits text (particularly writers credits)
+
 ## v0.8.1 12-Jul-2014
 
 * Added specs for `#find` and `#search` of `Movie` and `Person` classes
