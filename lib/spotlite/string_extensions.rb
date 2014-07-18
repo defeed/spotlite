@@ -47,6 +47,10 @@ class String
     gsub("\n", '').gsub(') (', ', ').gsub('(', '').gsub(')', '')
   end
   
+  def clean_credits_text
+    gsub(' and', '').gsub(' &', '').gsub(') (', ', ').gsub('(', '').gsub(')', '')
+  end
+  
   # Strips "See full summary" and "Written by" in movie description and storyline
   def clean_description
     gsub(/((?:\sWritten by)(?!.*(?:\sWritten by)).*)/m, '').gsub(/((?:\sSee full summary)(?!.*(?:\sSee full summary)).*)/m, '').strip

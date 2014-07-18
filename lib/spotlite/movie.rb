@@ -234,7 +234,7 @@ module Spotlite
         end.map do |row|
           imdb_id = row.first_element_child.at('a')['href'].parse_imdb_id
           name = row.first_element_child.at('a').text.strip_whitespace
-          credits_text = row.last_element_child.text.strip_whitespace
+          credits_text = row.last_element_child.text.strip_whitespace.clean_credits_text
           
           [imdb_id, name, category, credits_text]
         end.map do |values|
