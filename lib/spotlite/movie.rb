@@ -148,7 +148,13 @@ module Spotlite
     
     # Returns an array of recommended movies as an array of initialized objects of +Movie+ class
     def recommended_movies
-      details.css('.rec-title').map do |node|
+      details.css('.rec-title').reject do |node|
+        # reject movies that don't have a release year yet
+        node.at('span').nil?
+      end.reject do |node|
+        # reject TV series
+        /\d{4}-\d{4}/.match(node.at('span').text) || /Series/.match(node.at('span').text)
+      end.map do |node|
         imdb_id = node.at("a[href^='/title/tt']")['href'].parse_imdb_id
         title   = node.at('a').text.strip
         year    = node.at('span').text.parse_year
