@@ -1,5 +1,3 @@
-require 'cgi'
-
 module Spotlite
   
   # Represents a person on IMDb.com
@@ -24,7 +22,7 @@ module Spotlite
     # Returns a list of people as an array of +Spotlite::Person+ objects
     # Takes single parameter and searches for people by names and nicknames
     def self.find(query)
-      results = Nokogiri::HTML open("http://www.imdb.com/find?q=#{CGI::escape(query)}&s=nm", 'Accept-Language' => 'en-us')
+      results = Spotlite::Client.get 'http://www.imdb.com/find', query: {q: query, s: 'nm'}
       results.css('.result_text').map do |result|
         imdb_id = result.at('a')['href'].parse_imdb_id
         name    = result.at('a').text.strip
@@ -40,14 +38,14 @@ module Spotlite
     # See https://github.com/defeed/spotlite/wiki/Advanced-person-search for details
     def self.search(params = {})
       defaults = {
-        :view       => 'simple',
-        :count      => 250,
-        :start      => 1,
-        :gender     => 'male,female',
-        :sort       => 'starmeter,asc'
+        view: 'simple',
+        count: 250,
+        start: 1,
+        gender: 'male,female',
+        sort: 'starmeter,asc'
       }
-      params = defaults.merge(params).map{ |k, v| "#{k}=#{v}" }.join('&')
-      results = Nokogiri::HTML open("http://www.imdb.com/search/name?#{params}", 'Accept-Language' => 'en-us')
+      params = defaults.merge(params)
+      results = Spotlite::Client.get 'http://www.imdb.com/search/name', query: params
       results.css('td.name').map do |result|
         imdb_id = result.at('a')['href'].parse_imdb_id
         name    = result.at('a').text.strip
@@ -126,11 +124,11 @@ module Spotlite
     end
     
     def details # :nodoc:
-      @details ||= open_page('?nmdp=1')
+      @details ||= open_page(nil, {nmdp: 1})
     end
     
-    def open_page(page = nil) # :nodoc:
-      Nokogiri::HTML open("#{@url}#{page}", 'Accept-Language' => 'en-us')
+    def open_page(page = nil, query = {}) # :nodoc:
+      Spotlite::Client.get("#{@url}#{page}", query: query)
     end
   end
 end

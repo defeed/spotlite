@@ -1,5 +1,3 @@
-require 'cgi'
-
 module Spotlite
   # Represents a movie on IMDb.com
   class Movie
@@ -24,7 +22,7 @@ module Spotlite
     # Returns a list of movies as an array of +Spotlite::Movie+ objects
     # Takes single parameter and searches for movies by title and alternative titles
     def self.find(query)
-      results = Nokogiri::HTML open("http://www.imdb.com/find?q=#{CGI::escape(query)}&s=tt&ttype=ft", 'Accept-Language' => 'en-us')
+      results = Spotlite::Client.get 'http://www.imdb.com/find', query: {q: query, s: 'tt', ttype: 'ft'}
       results.css('.result_text').map do |result|
         imdb_id = result.at('a')['href'].parse_imdb_id
         title   = result.at('a').text.strip
@@ -41,14 +39,14 @@ module Spotlite
     # See https://github.com/defeed/spotlite/wiki/Advanced-movie-search for details
     def self.search(params = {})
       defaults = {
-        :title_type => 'feature',
-        :view       => 'simple',
-        :count      => 250,
-        :start      => 1,
-        :sort       => 'moviemeter,asc'
+        title_type: 'feature',
+        view: 'simple',
+        count: 250,
+        start: 1,
+        sort: 'moviemeter,asc'
       }
-      params = defaults.merge(params).map{ |k, v| "#{k}=#{v}" }.join('&')
-      results = Nokogiri::HTML open("http://www.imdb.com/search/title?#{params}", 'Accept-Language' => 'en-us')
+      params = defaults.merge(params)
+      results = Spotlite::Client.get 'http://www.imdb.com/search/title', query: params
       results.css('td.title').map do |result|
         imdb_id = result.at('a')['href'].parse_imdb_id
         title   = result.at('a').text.strip
@@ -371,15 +369,15 @@ module Spotlite
     end
     
     def still_frames # :nodoc:
-      @still_frames ||= open_page('mediaindex?refine=still_frame')
+      @still_frames ||= open_page('mediaindex', {refine: 'still_frame'})
     end
     
     def technical_info
       @technical_info ||= open_page('technical')
     end
     
-    def open_page(page = nil) # :nodoc:
-      Nokogiri::HTML open("#{@url}#{page}", 'Accept-Language' => 'en-us')
+    def open_page(page = nil, query = {}) # :nodoc:
+      Spotlite::Client.get "#{@url}#{page}", query: query
     end
   end
 

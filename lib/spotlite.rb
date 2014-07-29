@@ -2,10 +2,11 @@ $:.unshift(File.dirname(__FILE__)) unless
   $:.include?(File.dirname(__FILE__)) || $:.include?(File.expand_path(File.dirname(__FILE__)))
 
 require "rubygems"
-require "open-uri"
+require "httparty"
 require "nokogiri"
 
 require "spotlite/version"
+require "spotlite/http_client"
 require "spotlite/movie"
 require "spotlite/person"
 require "spotlite/string_extensions"
