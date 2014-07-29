@@ -27,8 +27,7 @@ describe "Spotlite::Movie" do
     
     it "should return alternative titles" do
       @movie.alternative_titles.should be_an(Array)
-      @movie.alternative_titles.size.should eql(35)
-      @movie.alternative_titles.should include({:title => "The Matrix", :comment => "(original title)"})
+      @movie.alternative_titles.size.should eql(34)
       @movie.alternative_titles.should include({:title => "Maatriks", :comment => "Estonia"})
       @movie.alternative_titles.should include({:title => "Матрица", :comment => "Russia"})
     end
@@ -190,7 +189,7 @@ describe "Spotlite::Movie" do
       hash.each{|element| element.should be_an(Array)}
       hash.should include("Runtime" => ["3 hr 14 min (194 min)"])
       hash.should include("Sound Mix" => ["DTS 70 mm (70 mm prints)", "DTS", "Dolby Digital", "SDDS"])
-      hash.should include("Cinematographic Process" => ["Super 35", "Techniscope (underwater scenes)"])
+      hash.should include("Cinematographic Process" => ["Digital Intermediate (4k) (2012 re-release)", "Super 35", "Techniscope (underwater scenes)"])
       hash.should include("Film Length" => ["5,340 m (Sweden)", "5,426 m (10 reels)"])
     end
     
