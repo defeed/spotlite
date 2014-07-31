@@ -51,9 +51,9 @@ class String
     gsub(' and', '').gsub(' &', '').gsub(') (', ', ').gsub('(', '').gsub(')', '')
   end
   
-  # Strips "See full summary" and "Written by" in movie description and storyline
+  # Strips "See full summary", "Written by", and "Add a plot" in movie description and storyline
   def clean_description
-    gsub(/((?:\sWritten by)(?!.*(?:\sWritten by)).*)/m, '').gsub(/((?:\sSee full summary)(?!.*(?:\sSee full summary)).*)/m, '').strip
+    gsub(/((?:\sWritten by)(?!.*(?:\sWritten by)).*)/m, '').gsub(/((?:\sSee full summary)(?!.*(?:\sSee full summary)).*)/m, '').gsub('Add a Plot', '').strip
   end
 
 end
