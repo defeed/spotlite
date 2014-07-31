@@ -1,7 +1,7 @@
 module Spotlite
   # Represents a movie on IMDb.com
   class Movie
-    attr_accessor :imdb_id, :url
+    attr_accessor :imdb_id, :url, :response
     
     # Initialize a new movie object by its IMDb ID as a string
     #
@@ -378,7 +378,8 @@ module Spotlite
     end
     
     def open_page(page = nil, query = {}) # :nodoc:
-      Spotlite::Client.get "#{@url}#{page}", query: query
+      response = Spotlite::Client.get "#{@url}#{page}", query: query
+      @response = { code: response.code, message: response.message } and response
     end
   end
 
