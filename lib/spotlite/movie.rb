@@ -373,7 +373,7 @@ module Spotlite
       @still_frames ||= open_page('mediaindex', {refine: 'still_frame'})
     end
     
-    def technical_info
+    def technical_info # :nodoc:
       @technical_info ||= open_page('technical')
     end
     
