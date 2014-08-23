@@ -116,9 +116,9 @@ describe "Spotlite::Movie" do
       @movie.recommended_movies.should be_an(Array)
       @movie.recommended_movies.size.should eql(12)
       @movie.recommended_movies.each {|movie| movie.should be_a(Spotlite::Movie)}
-      @movie.recommended_movies.first.imdb_id.should eql("0234215")
-      @movie.recommended_movies.first.title.should eql("The Matrix Reloaded")
-      @movie.recommended_movies.first.year.should eql(2003)
+      @movie.recommended_movies.first.imdb_id.should eql("1375666")
+      @movie.recommended_movies.first.title.should eql("Inception")
+      @movie.recommended_movies.first.year.should eql(2010)
     end
     
     it "should return plot keywords" do
@@ -141,7 +141,7 @@ describe "Spotlite::Movie" do
         @movie = Spotlite::Movie.new("0047396")
         @movie.release_dates.should be_an(Array)
         @movie.release_dates.size.should be_within(10).of(50)
-        @movie.release_dates.should include({:code => "us", :region => "USA", :date => Date.new(1954,8,1), :comment => "New York City, New York, premiere"})
+        @movie.release_dates.should include({:code => "us", :region => "USA", :date => Date.new(1954,8,4), :comment => "New York City, New York, premiere"})
         @movie.release_dates.should include({:code => "jp", :region => "Japan", :date => Date.new(1955,1,29), :comment => nil})
         @movie.release_dates.should include({:code => "tr", :region => "Turkey", :date => Date.new(1956,4,1), :comment => nil})
         @movie.release_dates.detect{ |r| r[:region] == "France" }.should eql({:code => "fr", :region => "France", :date => Date.new(1955,4,1), :comment => nil})

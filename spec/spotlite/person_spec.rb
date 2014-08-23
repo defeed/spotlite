@@ -52,9 +52,9 @@ describe "Spotlite::Person" do
       end
       
       context "with basic jobs (director, actor, writer, producer), flattened to array" do
-        it "should return an array of 76..86 movies" do
+        it "should return an array of 75..85 movies" do
           @person.filmography.should be_an(Array)
-          @person.filmography.size.should be_within(5).of(81)
+          @person.filmography.size.should be_within(5).of(80)
           @person.filmography.each{ |movie| movie.should be_a(Spotlite::Movie) }
           @person.filmography.last.title.should eql("My Best Friend's Birthday")
           @person.filmography.last.imdb_id.should eql("0359715")
@@ -78,9 +78,9 @@ describe "Spotlite::Person" do
       end
       
       context "with all available jobs, flattened to array" do
-        it "should return an array of 176..196 movies" do
+        it "should return an array of 175..195 movies" do
           @person.filmography(true, true).should be_an(Array)
-          @person.filmography(true, true).size.should be_within(10).of(186)
+          @person.filmography(true, true).size.should be_within(10).of(185)
           @person.filmography(true, true).each{ |movie| movie.should be_a(Spotlite::Movie) }
           @person.filmography(true, true).last.title.should eql("The Typewriter, the Rifle & the Movie Camera")
           @person.filmography(true, true).last.imdb_id.should eql("0118004")
@@ -91,7 +91,7 @@ describe "Spotlite::Person" do
         it "should return a hash of 11 arrays" do
           @person.filmography(true, false).should be_an(Hash)
           @person.filmography(true, false).size.should eql(11)
-          @person.filmography(true, false).keys.should eql([:writer, :actor, :director, :producer, :miscellaneous, :soundtrack, :cinematographer, :music_department, :editor, :thanks, :self])
+          @person.filmography(true, false).keys.should eql([:writer, :actor, :producer, :director, :miscellaneous, :soundtrack, :cinematographer, :music_department, :editor, :thanks, :self])
         end
         
         it "should be able to retrieve an array of +Spotlite::Movie+ objects by a hash key" do
