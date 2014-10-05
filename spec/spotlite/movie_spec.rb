@@ -116,9 +116,9 @@ describe "Spotlite::Movie" do
       @movie.recommended_movies.should be_an(Array)
       @movie.recommended_movies.size.should eql(12)
       @movie.recommended_movies.each {|movie| movie.should be_a(Spotlite::Movie)}
-      @movie.recommended_movies.first.imdb_id.should eql("1375666")
-      @movie.recommended_movies.first.title.should eql("Inception")
-      @movie.recommended_movies.first.year.should eql(2010)
+      @movie.recommended_movies.first.imdb_id.should eql("0167261")
+      @movie.recommended_movies.first.title.should eql("The Lord of the Rings: The Two Towers")
+      @movie.recommended_movies.first.year.should eql(2002)
     end
     
     it "should return plot keywords" do
@@ -183,12 +183,13 @@ describe "Spotlite::Movie" do
     end
     
     it "should return technical information as a hash of arrays" do
+      # Titanic (1997)
       @movie = Spotlite::Movie.new("0120338")
       hash = @movie.technical
       hash.should be_a(Hash)
       hash.each{|element| element.should be_an(Array)}
       hash.should include("Runtime" => ["3 hr 14 min (194 min)"])
-      hash.should include("Sound Mix" => ["DTS 70 mm (70 mm prints)", "DTS", "Dolby Digital", "SDDS"])
+      hash.should include("Sound Mix" => ["Dolby Digital (Dolby Digital 5.1) (5.1 Surround Sound) (L-R)", "DTS (DTS 5.1) (5.1 Surround Sound) (L-R)", "DTS 70 mm (70 mm prints) (5.1 Surround Sound) (L-R)", "SDDS (8 channels) (L-R)"])
       hash.should include("Cinematographic Process" => ["Digital Intermediate (4k) (2012 re-release)", "Super 35", "Techniscope (underwater scenes)"])
       hash.should include("Film Length" => ["5,340 m (Sweden)", "5,426 m (10 reels)"])
     end
