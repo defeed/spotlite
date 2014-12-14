@@ -151,8 +151,9 @@ module Spotlite
         # reject movies that don't have a release year yet
         node.at('span').nil?
       end.reject do |node|
-        # reject TV series
-        /\d{4}-\d{4}/.match(node.at('span').text) || /Series/.match(node.at('span').text)
+        # reject everything other than featured film
+        /\d{4}-\d{4}/.match(node.at('span').text) ||
+          /Series|Episode|Video|Documentary|Movie|Special|Short|Game|Unknown/.match(node.at('span').text)
       end.map do |node|
         imdb_id = node.at("a[href^='/title/tt']")['href'].parse_imdb_id
         title   = node.at('a').text.strip
