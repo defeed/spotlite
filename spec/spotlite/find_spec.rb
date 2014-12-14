@@ -11,14 +11,14 @@ describe "Find feature" do
       first.title.should eql("Conan the Barbarian")
       first.year.should eql(2011)
     end
-    
+
     it "should return emtpy array with no results" do
       results = Spotlite::Movie.find("wappadoozle swambling")
       results.should be_an(Array)
       results.should be_empty
     end
   end
-  
+
   context "Person" do
     it "should find people" do
       results = Spotlite::Person.find("conan")
@@ -28,7 +28,7 @@ describe "Find feature" do
       first.imdb_id.should eql("0000192")
       first.name.should eql("Alyssa Milano")
     end
-    
+
     it "should return emtpy array with no results" do
       results = Spotlite::Person.find("herpinson derpington")
       results.should be_an(Array)
