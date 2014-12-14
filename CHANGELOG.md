@@ -1,3 +1,9 @@
+## v0.8.3 14-Dec-2014
+
+* Spotlite now uses HTTParty as HTTP client, adding `response` attribute to Movie instance
+* Fixed #parse_crew method failing when crew category was missing
+* Recommended movies will now include only feature films
+
 ## v0.8.2 18-Jul-2014
 
 * Clean some junk from credits text (particularly writers credits)
