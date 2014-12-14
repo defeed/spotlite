@@ -1,16 +1,16 @@
 HTTP/1.1 200 OK
-Date: Sat, 23 Aug 2014 12:06:34 GMT
+Date: Sun, 14 Dec 2014 11:01:07 GMT
 Server: Server
 X-Frame-Options: SAMEORIGIN
 Content-Type: text/html;charset=UTF-8
 Content-Language: en-US
 Vary: Accept-Encoding,User-Agent
-Set-Cookie: uu=BCYljtUSZBmuKABAu4BAIPpoGK-_VtIGWdKOCPmzMweaQvT3aBNC6HlCkZ6ObBOtFT_5z0B3-PKQ%0D%0AW_6xDzo387R7oQb1SLcW_r0lxlpCiQ41Hq0Z-N_9hZ8kJuIauiVCXHuAPjWztkYhvtdkOB7Yk1zn%0D%0AopMejsTAw1BYRevJlkAYqjWq5ThS-NyWg06XaLwpaz-MdvHt_Yi2XkhSBeAyCKy-eJ-UAlfI4EyU%0D%0Aa-SmEjHiakaKmo2YR6OfWrDUFZzUj-Z_hFzAMFtLxuPiHAyt_7kNoQ%0D%0A; Domain=.imdb.com; Expires=Thu, 10-Sep-2082 15:20:41 GMT; Path=/
-Set-Cookie: session-id=000-0000000-0000000; Domain=.imdb.com; Expires=Thu, 10-Sep-2082 15:20:41 GMT; Path=/
-Set-Cookie: session-id-time=1566475594; Domain=.imdb.com; Expires=Thu, 10-Sep-2082 15:20:41 GMT; Path=/
+Set-Cookie: uu=BCYmIEwWa-SVm0IqX9eAXvR4VVTS5Y0Q662nh9RhKJ41xbYZ5U7o7t36FKf8Ce6N3Y90EJz80sPZ%0D%0Az5DyFvrGufC82UxJhy9NqP-8D0WuU1F3-XOReX0b8Xej0uv8h3A2D-YPRdCLJqHcY_E6iMhnNP3v%0D%0AYj21pvY-uFGdtla8Ap7Ht3qny3q8ar2hZIpLHCrtlltw_tVRAU64UAulJHJhPtS9xgIB6LORRqEI%0D%0Ag5XZdjK-WhGNjmCgjl8tRRJ6MHRGb3ToyMjwEoGQmsOD2ozuPckHMw%0D%0A; Domain=.imdb.com; Expires=Fri, 01-Jan-2083 14:15:15 GMT; Path=/
+Set-Cookie: session-id=000-0000000-0000000; Domain=.imdb.com; Expires=Fri, 01-Jan-2083 14:15:15 GMT; Path=/
+Set-Cookie: session-id-time=1576234868; Domain=.imdb.com; Expires=Fri, 01-Jan-2083 14:15:15 GMT; Path=/
 P3P: policyref="http://i.imdb.com/images/p3p.xml",CP="CAO DSP LAW CUR ADM IVAo IVDo CONo OTPo OUR DELi PUBi OTRi BUS PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA HEA PRE LOC GOV OTC "
+Cneonction: close
 Transfer-Encoding: chunked
-Connection: keep-alive
 
 
 
@@ -20,14 +20,19 @@ Connection: keep-alive
 xmlns:og="http://ogp.me/ns#"
 xmlns:fb="http://www.facebook.com/2008/fbml">
     <head>
+
+        
+    
             <script type="text/javascript">var ue_t0=window.ue_t0||+new Date();</script>
             <script type="text/javascript">
                 var ue_mid = "A1EVAM02EL8SFB"; 
                 var ue_sn = "www.imdb.com";  
                 var ue_furl = "fls-na.amazon.com";
                 var ue_sid = "000-0000000-0000000";
-                var ue_id = "07QGVD9PB8XK1N5JEJ7H";
+                var ue_id = "0BEP0AE9HXSVJ8JB6RVV";
                 (function(e){var c=e;var a=c.ue||{};a.main_scope="mainscopecsm";a.q=[];a.t0=c.ue_t0||+new Date();a.d=g;function g(h){return +new Date()-(h?0:a.t0)}function d(h){return function(){a.q.push({n:h,a:arguments,t:a.d()})}}function b(m,l,h,j,i){var k={m:m,f:l,l:h,c:""+j,err:i,fromOnError:1,args:arguments};c.ueLogError(k);return false}b.skipTrace=1;e.onerror=b;function f(){c.uex("ld")}if(e.addEventListener){e.addEventListener("load",f,false)}else{if(e.attachEvent){e.attachEvent("onload",f)}}a.tag=d("tag");a.log=d("log");a.reset=d("rst");c.ue_csm=c;c.ue=a;c.ueLogError=d("err");c.ues=d("ues");c.uet=d("uet");c.uex=d("uex");c.uet("ue")})(window);(function(e,d){var a=e.ue||{};function c(g){if(!g){return}var f=d.head||d.getElementsByTagName("head")[0]||d.documentElement,h=d.createElement("script");h.async="async";h.src=g;f.insertBefore(h,f.firstChild)}function b(){var k=e.ue_cdn||"z-ecx.images-amazon.com",g=e.ue_cdns||"images-na.ssl-images-amazon.com",j="/images/G/01/csminstrumentation/",h=e.ue_file||"ue-full-68a7f4a0ab6cb5214d209156b26b64ce._V1_.js",f,i;if(h.indexOf("NSTRUMENTATION_FIL")>=0){return}if("ue_https" in e){f=e.ue_https}else{f=e.location&&e.location.protocol=="https:"?1:0}i=f?"https://":"http://";i+=f?g:k;i+=j;i+=h;c(i)}if(!e.ue_inline){if(a.loadUEFull){a.loadUEFull()}else{b()}}a.uels=c;e.ue=a})(window,document);
+                if (!('CS' in window)) { window.CS = {}; }
+                    window.CS.loginSecureHost = "https://secure.imdb.com";
             </script>
  
 
@@ -53,24 +58,25 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
   <script>(function(t){ (t.events = t.events || {})["csm_head_post_icon"] = new Date().getTime(); })(IMDbTimer);</script>
         
     
-        <link rel='image_src' href="http://ia.media-imdb.com/images/M/MV5BMjIwOTY5NDgzNV5BMl5BanBnXkFtZTcwNjE3NjQxMw@@._V1_SY400_SX286_AL_.jpg">
-        <meta property='og:image' content="http://ia.media-imdb.com/images/M/MV5BMjIwOTY5NDgzNV5BMl5BanBnXkFtZTcwNjE3NjQxMw@@._V1_SY400_SX286_AL_.jpg" />
+        <link rel='image_src' href="http://ia.media-imdb.com/images/M/MV5BMjIwOTY5NDgzNV5BMl5BanBnXkFtZTcwNjE3NjQxMw@@._V1_.jpg">
+        <meta property='og:image' content="http://ia.media-imdb.com/images/M/MV5BMjIwOTY5NDgzNV5BMl5BanBnXkFtZTcwNjE3NjQxMw@@._V1_.jpg" />
     
         <meta property='og:type' content="actor" />
     <meta property='fb:app_id' content='115109575169727' />
     <meta property='og:title' content="Quentin Tarantino" />
     <meta property='og:site_name' content='IMDb' />
     <meta name="title" content="Quentin Tarantino - IMDb" />
-        <meta name="description" content="Quentin Tarantino, Writer: Pulp Fiction. In January of 1992, Reservoir Dogs (1992) appeared at the Sundance Film Festival, by first-time writer-director Quentin Tarantino. The film garnered critical acclaim and the director became a legend immediately. Two years later, he followed up Dogs success with Pulp Fiction (1994) which premiered at the Cannes film festival, winning the coveted Palme D'Or Award. At the 1995 Academy Awards, it was..." />
-        <meta property="og:description" content="Quentin Tarantino, Writer: Pulp Fiction. In January of 1992, Reservoir Dogs (1992) appeared at the Sundance Film Festival, by first-time writer-director Quentin Tarantino. The film garnered critical acclaim and the director became a legend immediately. Two years later, he followed up Dogs success with Pulp Fiction (1994) which premiered at the Cannes film festival, winning the coveted Palme D'Or Award. At the 1995 Academy Awards, it was..." />
+        <meta name="description" content="Quentin Tarantino, Writer: Pulp Fiction. Quentin Tarantino was born in Knoxville, Tennessee, to Connie McHugh, a nurse, and Tony Tarantino, an Italian-American actor and musician from New York. Quentin moved with his mother to Torrance, California, when he was four years old. In January of 1992, first-time writer-director Tarantino's Reservoir Dogs (1992) appeared at the Sundance Film Festival. The film garnered critical acclaim and the ..." />
+        <meta property="og:description" content="Quentin Tarantino, Writer: Pulp Fiction. Quentin Tarantino was born in Knoxville, Tennessee, to Connie McHugh, a nurse, and Tony Tarantino, an Italian-American actor and musician from New York. Quentin moved with his mother to Torrance, California, when he was four years old. In January of 1992, first-time writer-director Tarantino's Reservoir Dogs (1992) appeared at the Sundance Film Festival. The film garnered critical acclaim and the ..." />
         <meta name="keywords" content="Biography, Photos, Awards, News, Message Boards" />
-        <meta name="request_id" content="07QGVD9PB8XK1N5JEJ7H" />
+        <meta name="request_id" content="0BEP0AE9HXSVJ8JB6RVV" />
         
   <script>(function(t){ (t.events = t.events || {})["csm_head_pre_css"] = new Date().getTime(); })(IMDbTimer);</script>
-<!-- h=ics-http-1e-c1xl-i-a79f9587.us-east-1 -->
+<!-- h=ics-http-1a-c1xl-i-c05307e1.us-east-1 -->
 
-            <link rel="stylesheet" type="text/css" href="http://ia.media-imdb.com/images/G/01/imdb/css/collections/name-1529926917._CB345393821_.css" />
-            <link rel="stylesheet" type="text/css" href="http://ia.media-imdb.com/images/G/01/imdb/css/site/consumer-navbar-mega-3538633082._CB355276482_.css" />
+            <link rel="stylesheet" type="text/css" href="http://ia.media-imdb.com/images/G/01/imdb/css/collections/name-3420571405._CB335098813_.css" />
+            <link rel="stylesheet" type="text/css" href="http://ia.media-imdb.com/images/G/01/imdb/css/collections/title-flat-182035588._CB335098815_.css" />
+            <link rel="stylesheet" type="text/css" href="http://ia.media-imdb.com/images/G/01/imdb/css/site/consumer-navbar-mega-1801187020._CB325753108_.css" />
         <noscript>
             <link rel="stylesheet" type="text/css" href="http://ia.media-imdb.com/images/G/01/imdb/css/wheel/nojs-2627072490._CB343672767_.css">
         </noscript>
@@ -147,6 +153,7 @@ onsubmit="(new Image()).src='/rg/SEARCH-BOX/HEADER/images/b.gif?link=/find';"
   <div id="nb_search">
     <noscript><div id="more_if_no_javascript"><a href="/search/">More</a></div></noscript>
     <button id="navbar-submit-button" class="primary btn" type="submit"><div class="magnifyingglass navbarSprite"></div></button>
+    <input type="hidden" name="ref_" value="nv_sr_fn" />
     <input type="text" autocomplete="off" value="" name="q" id="navbar-query" placeholder="Find Movies, TV shows, Celebrities and more...">
     <div class="quicksearch_dropdown_wrapper">
       <select name="s" id="quicksearch" class="quicksearch_dropdown navbarSprite"
@@ -224,13 +231,15 @@ onsubmit="(new Image()).src='/rg/SEARCH-BOX/HEADER/images/b.gif?link=/find';"
                     </ul>
                     <h5>SPECIAL FEATURES</h5>
                     <ul>
-                        <li><a href="/imdbpicks/?ref_=nv_sf_pks_1"
+                        <li><a href="/academymuseum/?ref_=nv_sf_am_1"
+>Academy Museum</a></li>
+                        <li><a href="/imdbpicks/?ref_=nv_sf_pks_2"
 >IMDb Picks</a></li>
-                        <li><a href="/poll/?ref_=nv_sf_pl_2"
->Polls</a></li>
-                        <li><a href="/x-ray/?ref_=nv_sf_xray_3"
+                        <li><a href="/best-of/?ref_=nv_sf_bo_3"
+>Best of 2014</a></li>
+                        <li><a href="/x-ray/?ref_=nv_sf_xray_4"
 >X-Ray for Movies & TV</a></li>
-                        <li><a href="/whattowatch/?ref_=nv_sf_wtw_4"
+                        <li><a href="/whattowatch/?ref_=nv_sf_wtw_5"
 >What to Watch</a></li>
                     </ul>
                 </div>
@@ -251,7 +260,7 @@ onsubmit="(new Image()).src='/rg/SEARCH-BOX/HEADER/images/b.gif?link=/find';"
                 <div class="subNavListContainer">
                     <h5>CELEBS</h5>
                     <ul>
-                            <li><a href="/search/name?birth_monthday=08-23&refine=birth_monthday&ref_=nv_cel_brn_1"
+                            <li><a href="/search/name?birth_monthday=12-14&refine=birth_monthday&ref_=nv_cel_brn_1"
 >Born Today</a></li>
                         <li><a href="/news/celebrity?ref_=nv_cel_nw_2"
 >Celebrity News</a></li>
@@ -266,30 +275,32 @@ onsubmit="(new Image()).src='/rg/SEARCH-BOX/HEADER/images/b.gif?link=/find';"
 >Latest Posters</a></li>
                         <li><a href="/sections/photos/premieres/?ref_=nv_ph_prem_3"
 >Movie & TV Premieres</a></li>
-                        <li><a href="/sections/photos/red_carpet/?ref_=nv_ph_red_4"
->On the Red Carpet</a></li>
-                        <li><a href="/sections/photos/special_galleries/?ref_=nv_ph_sp_5"
->Special Galleries</a></li>
+                        <li><a href="/media/index/rg2465176320?ref_=nv_ph_lv_4"
+>Photos We Love</a></li>
                     </ul>
                 </div>
                 <div class="subNavListContainer">
                     <h5>EVENTS</h5>
                     <ul>
-                        <li><a href="/sxsw/?ref_=nv_ev_sxsw_1"
+                        <li><a href="/awards-central/?ref_=nv_ev_awrd_1"
+>Awards Central</a></li>
+                        <li><a href="/toronto/?ref_=nv_ev_tff_2"
+>Toronto Film Festival</a></li>
+                        <li><a href="/venice/?ref_=nv_ev_venice_3"
+>Venice Film Festival</a></li>
+                        <li><a href="/sxsw/?ref_=nv_ev_sxsw_4"
 >SXSW Film Festival</a></li>
-                        <li><a href="/oscars/?ref_=nv_ev_rto_2"
->Road to the Oscars</a></li>
-                        <li><a href="/emmys/?ref_=nv_ev_rte_3"
+                        <li><a href="/emmys/?ref_=nv_ev_rte_5"
 >Road to the Emmys</a></li>
-                        <li><a href="/comic-con/?ref_=nv_ev_comic_4"
+                        <li><a href="/comic-con/?ref_=nv_ev_comic_6"
 >Comic-Con</a></li>
-                        <li><a href="/cannes/?ref_=nv_ev_can_5"
+                        <li><a href="/cannes/?ref_=nv_ev_can_7"
 >Cannes</a></li>
-                        <li><a href="/tribeca/?ref_=nv_ev_tri_6"
+                        <li><a href="/tribeca/?ref_=nv_ev_tri_8"
 >Tribeca</a></li>
-                        <li><a href="/sundance/?ref_=nv_ev_sun_7"
+                        <li><a href="/sundance/?ref_=nv_ev_sun_9"
 >Sundance</a></li>
-                        <li><a href="/event/?ref_=nv_ev_all_8"
+                        <li><a href="/event/?ref_=nv_ev_all_10"
 >More Popular Events</a></li>
                     </ul>
                 </div>
@@ -309,22 +320,22 @@ onsubmit="(new Image()).src='/rg/SEARCH-BOX/HEADER/images/b.gif?link=/find';"
                         <h5>LATEST HEADLINES</h5>
     <ul>
                 <li itemprop="headline">
-<a href="/news/ni57646157/?ref_=nv_nw_tn_1"
-> 'Bates Motel's' Freddie Highmore, Kerry Ehrin Sell Comedy to NBC
-</a><br />
-                        <span class="time">14 hours ago</span>
-                </li>
-                <li itemprop="headline">
-<a href="/news/ni57644316/?ref_=nv_nw_tn_2"
-> Jason Reitman’s ‘Men, Women and Children’ Set for Awards Season Release
-</a><br />
-                        <span class="time">19 hours ago</span>
-                </li>
-                <li itemprop="headline">
-<a href="/news/ni57644618/?ref_=nv_nw_tn_3"
-> Katherine Heigl, Mindy Kaling, Ricky Gervais Among Stars Added to Emmy Presenters List
+<a href="/news/ni58109254/?ref_=nv_nw_tn_1"
+> 'Exodus' Rules Friday Box Office with $8.6 Million
 </a><br />
                         <span class="time">18 hours ago</span>
+                </li>
+                <li itemprop="headline">
+<a href="/news/ni58108550/?ref_=nv_nw_tn_2"
+> Angelina Jolie to Miss ‘Unbroken’ Premiere Due to Chicken Pox
+</a><br />
+                        <span class="time">13 December 2014 1:41 AM, UTC</span>
+                </li>
+                <li itemprop="headline">
+<a href="/news/ni58108734/?ref_=nv_nw_tn_3"
+> Oscars issue list of 114 music scores in the race; 'Birdman' and 'Whiplash' snubbed
+</a><br />
+                        <span class="time">13 December 2014 4:52 AM, UTC</span>
                 </li>
     </ul>
                     </div>
@@ -445,8 +456,9 @@ imageUrl : "http://ia.media-imdb.com/images/G/01/imdb/images/navbar/imdbpro_menu
 </div>
 <div id="nb_personal">
     <ul id="consumer_user_nav" class="main_nav">
+
         <li class="css_nav_menu" id="navUserMenu">
-            <p class="navCategory singleLine">        
+            <p class="navCategory singleLine">
                 <a href="/register/login?ref_=nv_usr_lgin_1"
 rel="login" id="nblogin" >Login</a>
             </p>
@@ -529,7 +541,7 @@ id="meterRank" >Top 500</a>
                     </div>
                     <div id="meterChangeRow" class="meterToggleOnHover">
                             <span>Down</span>
-                        <span id="meterChange">56</span>
+                        <span id="meterChange">23</span>
                         <span>this week</span>
                     </div>
                     <div id="meterSeeMoreRow" class="meterToggleOnHover">
@@ -568,7 +580,7 @@ Producer</span></a>
 <div class="txt-block" id="name-bio-text">
         <div class="name-trivia-bio-text">
                       <div class="inline" itemprop="description">
-In January of 1992, <a href="/title/tt0105236?ref_=nm">Reservoir Dogs</a> (1992) appeared at the Sundance Film Festival, by first-time writer-director Quentin Tarantino. The film garnered critical acclaim and the director became a legend immediately. Two years later, he followed up Dogs success with <a href="/title/tt0110912?ref_=nm">Pulp Fiction</a> (1994) which premiered at the Cannes film festival, winning the coveted ...            <span class="see-more inline nobr-only">
+Quentin Tarantino was born in Knoxville, Tennessee, to Connie McHugh, a nurse, and Tony Tarantino, an Italian-American actor and musician from New York. Quentin moved with his mother to Torrance, California, when he was four years old. In January of 1992, first-time writer-director Tarantino's <a href="/title/tt0105236?ref_=nm_ov_bio_lk1">Reservoir Dogs</a> (1992) appeared at the Sundance Film ...            <span class="see-more inline nobr-only">
                     <a href="/name/nm0000233/bio?ref_=nm_ov_bio_sm"
 >See full bio</a> &raquo;
             </span>
@@ -623,30 +635,30 @@ In January of 1992, <a href="/title/tt0105236?ref_=nm">Reservoir Dogs</a> (1992)
         <div class="mediastrip_container">
         <div class="mediastrip">
                 
-<a href="/media/rm1480966912/nm0000233?ref_=nm_phs_md_1"
-itemprop='thumbnailUrl'><img height="99" width="99" alt="Quentin Tarantino" title="Quentin Tarantino"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/unknown-1394846836._CB379391227_.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMjAwNTg2ODU0N15BMl5BanBnXkFtZTgwNjk1NDAzMjE@._V1_SX99_CR0,0,99,99_AL_.jpg" itemprop='image' /></a>                
+<a href="/media/rm4181784832/nm0000233?ref_=nm_phs_md_1"
+itemprop='thumbnailUrl'><img height="99" width="99" alt="Quentin Tarantino and Christoph Waltz" title="Quentin Tarantino and Christoph Waltz"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/unknown-1394846836._CB379391227_.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMjAzODkxODkxMV5BMl5BanBnXkFtZTgwMzc0Mjg1MzE@._V1_SY99_CR16,0,99,99_AL_.jpg" itemprop='image' /></a>                
 <a href="/media/rm1937820672/nm0000233?ref_=nm_phs_md_2"
 itemprop='thumbnailUrl'><img height="99" width="99" alt="Still of Quentin Tarantino and John Travolta in Pulp Fiction (1994)" title="Still of Quentin Tarantino and John Travolta in Pulp Fiction (1994)"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/unknown-1394846836._CB379391227_.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTAwNDE5MzkyNzZeQTJeQWpwZ15BbWU4MDAwMDM4OTEx._V1_SY99_CR25,0,99,99_AL_.jpg" itemprop='image' /></a>                
-<a href="/media/rm1806412544/nm0000233?ref_=nm_phs_md_3"
-itemprop='thumbnailUrl'><img height="99" width="99" alt="Quentin Tarantino" title="Quentin Tarantino"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/unknown-1394846836._CB379391227_.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BNTIxODA5MDYyNV5BMl5BanBnXkFtZTcwOTY1NzIxOA@@._V1_SX99_CR0,0,99,99_AL_.jpg" itemprop='image' /></a>                
-<a href="/media/rm1702792960/nm0000233?ref_=nm_phs_md_4"
-itemprop='thumbnailUrl'><img height="99" width="99" alt="Quentin Tarantino" title="Quentin Tarantino"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/unknown-1394846836._CB379391227_.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTYyODI3MTU2OV5BMl5BanBnXkFtZTcwMTI1MTkxMw@@._V1_SX99_CR0,0,99,99_AL_.jpg" itemprop='image' /></a>                
-<a href="/media/rm3022105856/nm0000233?ref_=nm_phs_md_5"
-itemprop='thumbnailUrl'><img height="99" width="99" alt="Quentin Tarantino and Christoph Waltz at event of Django Unchained (2012)" title="Quentin Tarantino and Christoph Waltz at event of Django Unchained (2012)"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/unknown-1394846836._CB379391227_.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTAxOTE2MTE3NTheQTJeQWpwZ15BbWU3MDgzMzI0OTg@._V1_SX99_CR0,0,99,99_AL_.jpg" itemprop='image' /></a>                
-<a href="/media/rm1413585408/nm0000233?ref_=nm_phs_md_6"
-itemprop='thumbnailUrl'><img height="99" width="99" alt="Quentin Tarantino at event of The Wackness (2008)" title="Quentin Tarantino at event of The Wackness (2008)"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/unknown-1394846836._CB379391227_.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTkwMTkyMDQ1Ml5BMl5BanBnXkFtZTcwNDE2MTc1MQ@@._V1_SX99_CR0,0,99,99_AL_.jpg" itemprop='image' /></a>        </div>
+<a href="/media/rm2196934400/nm0000233?ref_=nm_phs_md_3"
+itemprop='thumbnailUrl'><img height="99" width="99" alt="Quentin Tarantino and Kristin Chenoweth" title="Quentin Tarantino and Kristin Chenoweth"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/unknown-1394846836._CB379391227_.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTg5MDcwNDQ4MV5BMl5BanBnXkFtZTcwOTA5NzIxMw@@._V1_SX99_CR0,0,99,99_AL_.jpg" itemprop='image' /></a>                
+<a href="/media/rm678285312/nm0000233?ref_=nm_phs_md_4"
+itemprop='thumbnailUrl'><img height="99" width="99" alt="Quentin Tarantino" title="Quentin Tarantino"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/unknown-1394846836._CB379391227_.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTQyNDUxMTM0Nl5BMl5BanBnXkFtZTgwMjIyMTg3MDE@._V1_SX99_CR0,0,99,99_AL_.jpg" itemprop='image' /></a>                
+<a href="/media/rm3009389056/nm0000233?ref_=nm_phs_md_5"
+itemprop='thumbnailUrl'><img height="99" width="99" alt="Quentin Tarantino" title="Quentin Tarantino"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/unknown-1394846836._CB379391227_.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTg2NDQyOTIxMl5BMl5BanBnXkFtZTcwNTkwMjQwOQ@@._V1_SY99_CR21,0,99,99_AL_.jpg" itemprop='image' /></a>                
+<a href="/media/rm125082112/nm0000233?ref_=nm_phs_md_6"
+itemprop='thumbnailUrl'><img height="99" width="99" alt="Quentin Tarantino at event of Kill Bill: Vol. 2 (2004)" title="Quentin Tarantino at event of Kill Bill: Vol. 2 (2004)"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/unknown-1394846836._CB379391227_.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTM5NjQ4MzYxNl5BMl5BanBnXkFtZTYwNDY3NjMz._V1_SX99_CR0,0,99,99_AL_.jpg" itemprop='image' /></a>        </div>
             
             <div class="see-more">
 <a href="/name/nm0000233/mediaindex?ref_=nm_phs_md_sm"
 ><span class="titlePageSprite showAllVidsAndPics"></span></a>
 <a href="/name/nm0000233/mediaindex?ref_=nm_phs_md_sm"
->458 photos</a>                
+>465 photos</a>                
 <span class="ghost">|</span>        
 <a href="/name/nm0000233/videogallery?ref_=nm_phs_vi"
 >23 videos</a>                
 <span class="ghost">|</span>        
 <a href="/name/nm0000233/news?ref_=nm_phs_nw"
->14297 news articles</a> &raquo;            </div>
+>14796 news articles</a> &raquo;            </div>
         </div>
         
     </div>
@@ -677,6 +689,8 @@ itemprop='thumbnailUrl'><img height="99" width="99" alt="Quentin Tarantino at ev
 	<!-- no content received for slot: top_rhs -->
 	
 
+                
+                
 
     
     
@@ -924,48 +938,10 @@ class="link" >Get more at IMDbPro</a>
         <div class="show_less"><span class="titlePageSprite arrows hide"></span>Show Less</div>
     </div>
 
-        <div class="ab_editorial aux-content-widget-2">
-                <h3>Editors' Spotlight</h3>
-                <h4>IMDb: What to Watch - The One I Love</h4>
-                <p>Interview with Charlie McDowell and Mark Duplass</p>
-                        <div class="image-left">
-<a href="http://www.imdb.com/whattowatch/?ref_=nm_edw_wtw_i_1"
-class="pull-left" > <img itemprop="image"
-height="86"
-width="86"
-title="The One I Love"
-alt="The One I Love"
-src="http://ia.media-imdb.com/images/M/MV5BMTgzODMyMjcyOV5BMl5BanBnXkFtZTgwMTAyMjMyMjE@._V1_SX86_CR0,0,86,86_AL_.jpg"
-data-src-x2="http://ia.media-imdb.com/images/M/MV5BMTgzODMyMjcyOV5BMl5BanBnXkFtZTgwMTAyMjMyMjE@._V1_SX172_CR0,0,172,172_AL_.jpg" />
-</a>            </div>
-                        <div class="image-left">
-<a href="http://www.imdb.com/whattowatch/?ref_=nm_edw_wtw_i_2"
-class="pull-left" > <img itemprop="image"
-height="86"
-width="86"
-title="Charlie McDowell"
-alt="Charlie McDowell"
-src="http://ia.media-imdb.com/images/M/MV5BMTg5MjczMzc2OF5BMl5BanBnXkFtZTgwODA4OTk4MDE@._V1_SX86_CR0,0,86,86_AL_.jpg"
-data-src-x2="http://ia.media-imdb.com/images/M/MV5BMTg5MjczMzc2OF5BMl5BanBnXkFtZTgwODA4OTk4MDE@._V1_SX172_CR0,0,172,172_AL_.jpg" />
-</a>            </div>
-                        <div class="image-left-end">
-<a href="http://www.imdb.com/whattowatch/?ref_=nm_edw_wtw_i_3"
-class="pull-left" > <img itemprop="image"
-height="86"
-width="86"
-title="Mark Duplass"
-alt="Mark Duplass"
-src="http://ia.media-imdb.com/images/M/MV5BMTY0Nzc0NjgxMF5BMl5BanBnXkFtZTgwMDgxODQ0MjE@._V1_SX86_CR0,0,86,86_AL_.jpg"
-data-src-x2="http://ia.media-imdb.com/images/M/MV5BMTY0Nzc0NjgxMF5BMl5BanBnXkFtZTgwMDgxODQ0MjE@._V1_SX172_CR0,0,172,172_AL_.jpg" />
-</a>            </div>
-                <br class="clear" />
-            <div class="see-more">
-                <a href="http://www.imdb.com/whattowatch/?ref_=nm_edw_wtw_sm"
->IMDb: What to Watch - The One I Love</a>&nbsp;&raquo;
-            </div>
-        </div>
+                
 
 
+                
 
   <div class="aux-content-widget-2" id="social-share-widget"> 
     
@@ -993,11 +969,13 @@ data-src-x2="http://ia.media-imdb.com/images/M/MV5BMTY0Nzc0NjgxMF5BMl5BanBnXkFtZ
   </div>
   </div>
 
+                
 
 	
 	<!-- no content received for slot: rhs_cornerstone -->
 	
 
+                
 
 
       <div class="aux-content-widget-2" >
@@ -1009,13 +987,13 @@ data-src-x2="http://ia.media-imdb.com/images/M/MV5BMTY0Nzc0NjgxMF5BMl5BanBnXkFtZ
                     
                     <div class="news_item odd" >
                         <span itemprop="headline" >
-                            <a href="/name/nm0000233/news?ref_=nm_nwr_1#ni57645578"
->Jennifer Lawrence rumoured to be in talks for Quentin Tarantino’s The Hateful Eight</a>
+                            <a href="/name/nm0000233/news?ref_=nm_nwr_1#ni58108986"
+>The Muppets take on the films of Quentin Tarantino</a>
                         </span>
                         
                         <br /><small>
                                 <span itemprop="datePublished">
-                                  16 hours ago
+                                  23 hours ago
                                 </span>
                             
                                 <span class="ghost">|</span><span itemprop="provider" >
@@ -1029,18 +1007,18 @@ data-src-x2="http://ia.media-imdb.com/images/M/MV5BMTY0Nzc0NjgxMF5BMl5BanBnXkFtZ
                     
                     <div class="news_item even" >
                         <span itemprop="headline" >
-                            <a href="/name/nm0000233/news?ref_=nm_nwr_2#ni57645508"
->The Parks and Recreation Blooper Reel Is a Lot of Awesome</a>
+                            <a href="/name/nm0000233/news?ref_=nm_nwr_2#ni58108987"
+>Movie Review – Exodus: Gods and Kings (2014)</a>
                         </span>
                         
                         <br /><small>
                                 <span itemprop="datePublished">
-                                  16 hours ago
+                                  13 December 2014 12:27 PM, +02:00
                                 </span>
                             
                                 <span class="ghost">|</span><span itemprop="provider" >
-                                        <a href="/news/ns0000676?ref_=nm_nwr_2"
->BuzzSugar</a>
+                                        <a href="/news/ns0003561?ref_=nm_nwr_2"
+>Flickeringmyth</a>
                                 </span>
                         </small>
                     </div>
@@ -1049,32 +1027,34 @@ data-src-x2="http://ia.media-imdb.com/images/M/MV5BMTY0Nzc0NjgxMF5BMl5BanBnXkFtZ
                     
                     <div class="news_item odd" >
                         <span itemprop="headline" >
-                            <a href="/name/nm0000233/news?ref_=nm_nwr_3#ni57645124"
->Catch a stolen glance at Quentin Tarantino's 'The Hateful Eight' teaser</a>
+                            <a href="/name/nm0000233/news?ref_=nm_nwr_3#ni58107856"
+>Netflix's Fun New Marco Polo Is All About the Wrath of Kublai Khan</a>
                         </span>
                         
                         <br /><small>
                                 <span itemprop="datePublished">
-                                  17 hours ago
+                                  12 December 2014 10:05 PM, +02:00
                                 </span>
                             
                                 <span class="ghost">|</span><span itemprop="provider" >
-                                        <a href="/news/ns0000278?ref_=nm_nwr_3"
->EW - Inside Movies</a>
+                                        <a href="/news/ns0000018?ref_=nm_nwr_3"
+>PEOPLE.com</a>
                                 </span>
                         </small>
                     </div>
        
             <div class="see-more">
                 <a href="/name/nm0000233/news?ref_=nm_nwr_sm"
->See all 14297 related articles</a>&nbsp;&raquo;
+>See all 14796 related articles</a>&nbsp;&raquo;
             </div>
 
       </div>
 
+                
 
 
 
+                
 
             <div class="aux-content-widget-2" >
     <h3>Projects In Development <a href="/help/show_leaf?proindevelopment"
@@ -1089,6 +1069,7 @@ class="titlePageSprite helpInSprite" ></a></h3>
     </div>
             </div>
 
+                
 
         <div class="aux-content-widget-2">
             <div id="relatedListsWidget">
@@ -1101,71 +1082,71 @@ class="titlePageSprite helpInSprite" ></a></h3>
 
     <div class="list-preview even">
         <div class="list-preview-item-narrow">
-<a href="/list/ls000695982?ref_=nm_rls_1"
+<a href="/list/ls003995818?ref_=nm_rls_1"
 ><img height="86" width="86" alt="list image" title="list image"src="/images/nopicture/medium/name.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMjIwOTY5NDgzNV5BMl5BanBnXkFtZTcwNjE3NjQxMw@@._V1_SX86_CR0,0,86,86_AL_.jpg" /></a>        </div>
         <div class="list_name">
-            <strong><a href="/list/ls000695982?ref_=nm_rls_1"
->Top 30 Directors</a></strong>
+            <strong><a href="/list/ls003995818?ref_=nm_rls_1"
+>Best Directors of Hollywood</a></strong>
         </div>
         <div class="list_meta">
-            a list of 30 people
-            <br />created 17&nbsp;May&nbsp;2011
+            a list of 21 people
+            <br />created 11&nbsp;Nov&nbsp;2011
         </div>
         <div class="clear">&nbsp;</div>
     </div>
     <div class="list-preview odd">
         <div class="list-preview-item-narrow">
-<a href="/list/ls000963261?ref_=nm_rls_2"
-><img height="86" width="86" alt="list image" title="list image"src="/images/nopicture/medium/name.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTIwMzAwMzg1MV5BMl5BanBnXkFtZTYwMjc4ODQ2._V1_SX86_CR0,0,86,86_AL_.jpg" /></a>        </div>
-        <div class="list_name">
-            <strong><a href="/list/ls000963261?ref_=nm_rls_2"
->Top 50 Directors</a></strong>
-        </div>
-        <div class="list_meta">
-            a list of 30 people
-            <br />created 25&nbsp;Jun&nbsp;2011
-        </div>
-        <div class="clear">&nbsp;</div>
-    </div>
-    <div class="list-preview even">
-        <div class="list-preview-item-narrow">
-<a href="/list/ls004877579?ref_=nm_rls_3"
+<a href="/list/ls006803639?ref_=nm_rls_2"
 ><img height="86" width="86" alt="list image" title="list image"src="/images/nopicture/medium/name.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTY1NjAzNzE1MV5BMl5BanBnXkFtZTYwNTk0ODc0._V1_SX86_CR0,0,86,86_AL_.jpg" /></a>        </div>
         <div class="list_name">
-            <strong><a href="/list/ls004877579?ref_=nm_rls_3"
->Directores</a></strong>
+            <strong><a href="/list/ls006803639?ref_=nm_rls_2"
+>Greatest Directors EVER!</a></strong>
         </div>
         <div class="list_meta">
-            a list of 48 people
-            <br />created 25&nbsp;May&nbsp;2012
-        </div>
-        <div class="clear">&nbsp;</div>
-    </div>
-    <div class="list-preview odd">
-        <div class="list-preview-item-narrow">
-<a href="/list/ls051044663?ref_=nm_rls_4"
-><img height="86" width="86" alt="list image" title="list image"src="/images/nopicture/medium/name.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTc1NDkwMTQ2MF5BMl5BanBnXkFtZTcwMzY0ODkyMg@@._V1_SX86_CR0,0,86,86_AL_.jpg" /></a>        </div>
-        <div class="list_name">
-            <strong><a href="/list/ls051044663?ref_=nm_rls_4"
->My favorite directors</a></strong>
-        </div>
-        <div class="list_meta">
-            a list of 34 people
-            <br />created 23&nbsp;Mar&nbsp;2013
+            a list of 27 people
+            <br />created 17&nbsp;Jan&nbsp;2012
         </div>
         <div class="clear">&nbsp;</div>
     </div>
     <div class="list-preview even">
         <div class="list-preview-item-narrow">
-<a href="/list/ls054660932?ref_=nm_rls_5"
-><img height="86" width="86" alt="list image" title="list image"src="/images/nopicture/medium/name.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTIwMzAwMzg1MV5BMl5BanBnXkFtZTYwMjc4ODQ2._V1_SX86_CR0,0,86,86_AL_.jpg" /></a>        </div>
+<a href="/list/ls054238653?ref_=nm_rls_3"
+><img height="86" width="86" alt="list image" title="list image"src="/images/nopicture/medium/name.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTcyNDA4Nzk3N15BMl5BanBnXkFtZTcwNDYzMjMxMw@@._V1_SX86_CR0,0,86,86_AL_.jpg" /></a>        </div>
         <div class="list_name">
-            <strong><a href="/list/ls054660932?ref_=nm_rls_5"
->Top 30 Best Directors of All Time</a></strong>
+            <strong><a href="/list/ls054238653?ref_=nm_rls_3"
+>Favourite Directors</a></strong>
         </div>
         <div class="list_meta">
-            a list of 30 people
-            <br />created 8&nbsp;months&nbsp;ago
+            a list of 25 people
+            <br />created 11&nbsp;months&nbsp;ago
+        </div>
+        <div class="clear">&nbsp;</div>
+    </div>
+    <div class="list-preview odd">
+        <div class="list-preview-item-narrow">
+<a href="/list/ls054857249?ref_=nm_rls_4"
+><img height="86" width="86" alt="list image" title="list image"src="/images/nopicture/medium/name.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTg5MzQ0MDA4MF5BMl5BanBnXkFtZTcwNzUwOTk4OQ@@._V1_SX86_CR0,0,86,86_AL_.jpg" /></a>        </div>
+        <div class="list_name">
+            <strong><a href="/list/ls054857249?ref_=nm_rls_4"
+>My favourite Directors</a></strong>
+        </div>
+        <div class="list_meta">
+            a list of 24 people
+            <br />created 11&nbsp;months&nbsp;ago
+        </div>
+        <div class="clear">&nbsp;</div>
+    </div>
+    <div class="list-preview even">
+        <div class="list-preview-item-narrow">
+<a href="/list/ls058099061?ref_=nm_rls_5"
+><img height="86" width="86" alt="list image" title="list image"src="/images/nopicture/medium/name.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTQyNTA0NTU2OV5BMl5BanBnXkFtZTcwMjg2MDgxOA@@._V1_SX86_CR0,0,86,86_AL_.jpg" /></a>        </div>
+        <div class="list_name">
+            <strong><a href="/list/ls058099061?ref_=nm_rls_5"
+>best directors</a></strong>
+        </div>
+        <div class="list_meta">
+            a list of 41 people
+            <br />created 9&nbsp;months&nbsp;ago
         </div>
         <div class="clear">&nbsp;</div>
     </div>
@@ -1176,6 +1157,7 @@ class="titlePageSprite helpInSprite" ></a></h3>
             </div>
         </div>
 
+                
 
     <div class="aux-content-widget-2">
         <h3>Do you have a demo reel?</h3>
@@ -1186,7 +1168,7 @@ class="titlePageSprite helpInSprite" ></a></h3>
 
 
 <a href="/video/user/vi3091568921?ref_=nm_demo_1"
-title="David H. Lawrence, XVII - Drama -- On-camera drama reel featuring David H. Lawrence XVII, in scenes from Heroes, The Unit, LOST, and more" alt="David H. Lawrence, XVII - Drama -- On-camera drama reel featuring David H. Lawrence XVII, in scenes from Heroes, The Unit, LOST, and more" class="video-colorbox" data-video="vi3091568921" data-context="user" data-rid="" widget-context="nameDemoreels" itemprop="url" ><img height="90" width="120" alt="David H. Lawrence, XVII - Drama -- On-camera drama reel featuring David H. Lawrence XVII, in scenes from Heroes, The Unit, LOST, and more" title="David H. Lawrence, XVII - Drama -- On-camera drama reel featuring David H. Lawrence XVII, in scenes from Heroes, The Unit, LOST, and more"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/no-video-slate-856072904._CB379390253_.png"class="loadlate hidden video" loadlate="http://ia.media-imdb.com/images/M/MV5BMjk5Mjc4MDM5OV5BMl5BanBnXkFtZTcwNTc2NzExNA@@._V1_SP229,229,0,C,0,0,0_CR45,62,139,105_PIimdb-blackband-204-14,TopLeft,0,0_PIimdb-blackband-204-28,BottomLeft,0,1_CR0,0,139,105_PIimdb-bluebutton-big,BottomRight,-1,-1_ZA01:20,103,1,14,36,verdenab,7,255,255,255,1_PIimdb-HDIconMiniWhite,BottomLeft,2,-2_.jpg" itemprop='image' viconst="vi3091568921" /></a>
+title="David H. Lawrence, XVII - Drama -- On-camera drama reel featuring David H. Lawrence XVII, in scenes from Heroes, The Unit, LOST, and more" alt="David H. Lawrence, XVII - Drama -- On-camera drama reel featuring David H. Lawrence XVII, in scenes from Heroes, The Unit, LOST, and more" class="video-colorbox" data-video="vi3091568921" data-context="user" data-rid="" widget-context="nameDemoreels" itemprop="url" ><img height="90" width="120" alt="David H. Lawrence, XVII - Drama -- On-camera drama reel featuring David H. Lawrence XVII, in scenes from Heroes, The Unit, LOST, and more" title="David H. Lawrence, XVII - Drama -- On-camera drama reel featuring David H. Lawrence XVII, in scenes from Heroes, The Unit, LOST, and more"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/no-video-slate-856072904._CB379390253_.png"class="loadlate hidden video" loadlate="http://ia.media-imdb.com/images/M/MV5BMjI0NDMxOTE4MV5BMl5BanBnXkFtZTgwODI5MzczMzE@._V1_SP229,229,0,C,0,0,0_CR45,62,139,105_PIimdb-blackband-204-14,TopLeft,0,0_PIimdb-blackband-204-28,BottomLeft,0,1_CR0,0,139,105_PIimdb-bluebutton-big,BottomRight,-1,-1_ZA01:21,103,1,14,36,verdenab,7,255,255,255,1_PIimdb-HDIconMiniWhite,BottomLeft,2,-2_.jpg" itemprop='image' viconst="vi3091568921" /></a>
 
 <a href="/video/user/vi4067727897?ref_=nm_demo_2"
 title="My Demo Reel -- Includes clips from GLORY DAZE, COMMUNITY and horror film URBAN EXPLORER.
@@ -1202,6 +1184,7 @@ title="My Demo Reel -- Includes clips from GLORY DAZE, COMMUNITY and horror film
         </div>
     </div>
 
+                
 
     <div class="aux-content-widget-2">
         <h3>Connect with IMDb</h3>
@@ -1220,14 +1203,15 @@ title="My Demo Reel -- Includes clips from GLORY DAZE, COMMUNITY and horror film
             id="twitterIframe"></iframe>
     </div>
 
+                
 
-<div class="aux-content-widget-2 play_quiz_widget">
-    <h3>Take The Quiz!</h3>
-<a href="/games/guess/nm0000233?ref_=nm_qz"
-class="icon" ></a><span>Test your knowledge of <a href="/games/guess/nm0000233?ref_=nm_qz"
->Quentin Tarantino</a>.</span>
+<div class="aux-content-widget-2 ">
+    <h3>How Much Have You Seen?</h3>
+How much of <a href="/seen/nm0000233/?ref_=nm_se"
+>Quentin Tarantino's work</a> have you seen?
 </div>
 
+                
 
 <div class="aux-content-widget-2 poll-widget-rhs ">
     <style>
@@ -1238,39 +1222,41 @@ class="icon" ></a><span>Test your knowledge of <a href="/games/guess/nm0000233?r
     <h3>User Polls</h3>
     <ul>
         <li>
-<a href="/poll/LQXvFAc-EcQ/?ref_=nm_po_i1"
-><img height="86" width="86" alt="poll image" title="poll image"src="http://i.imdb.com/images/nopicture/140x209/unknown.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTQ2NjM5NjE5NF5BMl5BanBnXkFtZTYwNTk3MjUz._V1_SX86_CR0,0,86,86_.jpg" /></a>        <a href="/poll/LQXvFAc-EcQ/?ref_=nm_po_q1"
->Possible Titles for Hollywood Biographies ...</a>
-        <li>
-<a href="/poll/-3L6EyvTJjQ/?ref_=nm_po_i2"
-><img height="86" width="86" alt="poll image" title="poll image"src="http://i.imdb.com/images/nopicture/140x209/unknown.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BNTAzMzc4ODM4Nl5BMl5BanBnXkFtZTYwNTQ1NDc2._V1_SX86_CR0,0,86,86_.jpg" /></a>        <a href="/poll/-3L6EyvTJjQ/?ref_=nm_po_q2"
->Movie Fan movie characters</a>
-        <li>
-<a href="/poll/04KGYbfkW7E/?ref_=nm_po_i3"
-><img height="86" width="86" alt="poll image" title="poll image"src="http://i.imdb.com/images/nopicture/140x209/unknown.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMjIwOTY5NDgzNV5BMl5BanBnXkFtZTcwNjE3NjQxMw@@._V1_SX86_CR0,0,86,86_.jpg" /></a>        <a href="/poll/04KGYbfkW7E/?ref_=nm_po_q3"
+<a href="/poll/04KGYbfkW7E/?ref_=nm_po_i1"
+><img height="86" width="86" alt="poll image" title="poll image"src="http://i.imdb.com/images/nopicture/140x209/unknown.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMjIwOTY5NDgzNV5BMl5BanBnXkFtZTcwNjE3NjQxMw@@._V1_SX86_CR0,0,86,86_.jpg" /></a>        <a href="/poll/04KGYbfkW7E/?ref_=nm_po_q1"
 >Friday Face-Off : QT vs. Woody ...</a>
         <li>
-<a href="/poll/hCUmwK68b7o/?ref_=nm_po_i4"
-><img height="86" width="86" alt="poll image" title="poll image"src="http://i.imdb.com/images/nopicture/140x209/unknown.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTkyMjI1ODA5NF5BMl5BanBnXkFtZTcwODU2OTA3OA@@._V1_SX86_CR0,0,86,86_.jpg" /></a>        <a href="/poll/hCUmwK68b7o/?ref_=nm_po_q4"
->Who is the most attractive Tarantino lady?</a>
+<a href="/poll/jk9ewske5Uo/?ref_=nm_po_i2"
+><img height="86" width="86" alt="poll image" title="poll image"src="http://i.imdb.com/images/nopicture/140x209/unknown.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMjEwMDk2MDU1MF5BMl5BanBnXkFtZTYwNTcyOTQ3._V1_SY86_CR22,0,86,86_.jpg" /></a>        <a href="/poll/jk9ewske5Uo/?ref_=nm_po_q2"
+>Pulp Fiction - A busy few days!</a>
         <li>
-<a href="/poll/-b6FJ5eQW8A/?ref_=nm_po_i5"
-><img height="86" width="86" alt="poll image" title="poll image"src="http://i.imdb.com/images/nopicture/140x209/unknown.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTQxOTg3ODc2NV5BMl5BanBnXkFtZTYwNTg0NTU2._V1_SX86_CR0,0,86,86_.jpg" /></a>        <a href="/poll/-b6FJ5eQW8A/?ref_=nm_po_q5"
+<a href="/poll/-b6FJ5eQW8A/?ref_=nm_po_i3"
+><img height="86" width="86" alt="poll image" title="poll image"src="http://i.imdb.com/images/nopicture/140x209/unknown.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTQxOTg3ODc2NV5BMl5BanBnXkFtZTYwNTg0NTU2._V1_SX86_CR0,0,86,86_.jpg" /></a>        <a href="/poll/-b6FJ5eQW8A/?ref_=nm_po_q3"
 >Imdb Top 250 Directors</a>
         <li>
-<a href="/poll/PBfYZziX2SU/?ref_=nm_po_i6"
-><img height="86" width="86" alt="poll image" title="poll image"src="http://i.imdb.com/images/nopicture/140x209/unknown.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTM5NDU3OTgyNV5BMl5BanBnXkFtZTcwMzQxODA0NA@@._V1_SX86_CR0,0,86,86_.jpg" /></a>        <a href="/poll/PBfYZziX2SU/?ref_=nm_po_q6"
+<a href="/poll/PBfYZziX2SU/?ref_=nm_po_i4"
+><img height="86" width="86" alt="poll image" title="poll image"src="http://i.imdb.com/images/nopicture/140x209/unknown.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTM5NDU3OTgyNV5BMl5BanBnXkFtZTcwMzQxODA0NA@@._V1_SX86_CR0,0,86,86_.jpg" /></a>        <a href="/poll/PBfYZziX2SU/?ref_=nm_po_q4"
 >Director's Crime Film Resume</a>
+        <li>
+<a href="/poll/-3L6EyvTJjQ/?ref_=nm_po_i5"
+><img height="86" width="86" alt="poll image" title="poll image"src="http://i.imdb.com/images/nopicture/140x209/unknown.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BNTAzMzc4ODM4Nl5BMl5BanBnXkFtZTYwNTQ1NDc2._V1_SX86_CR0,0,86,86_.jpg" /></a>        <a href="/poll/-3L6EyvTJjQ/?ref_=nm_po_q5"
+>Movie Fan movie characters</a>
+        <li>
+<a href="/poll/LQXvFAc-EcQ/?ref_=nm_po_i6"
+><img height="86" width="86" alt="poll image" title="poll image"src="http://i.imdb.com/images/nopicture/140x209/unknown.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTQ2NjM5NjE5NF5BMl5BanBnXkFtZTYwNTk3MjUz._V1_SX86_CR0,0,86,86_.jpg" /></a>        <a href="/poll/LQXvFAc-EcQ/?ref_=nm_po_q6"
+>Possible Titles for Hollywood Biographies ...</a>
     </ul>
     <div class="see-more"><a href="/poll/?ref_=nm_po_sm"
 >See more polls &raquo;</a></div>
 </div>
 
+                
 
 	
 	<!-- no content received for slot: btf_rhs2 -->
 	
 
+                
 
     </div>
 
@@ -1279,7 +1265,7 @@ class="icon" ></a><span>Test your knowledge of <a href="/games/guess/nm0000233?r
     <div id="maindetails_center_bottom" class="maindetails_center">
             <div class="article highlighted">
         <span itemprop="awards"><b>Won 2 Oscars.</b></span>
-        <span itemprop="awards">Another 110 wins & 95 nominations.</span>
+        <span itemprop="awards">Another 115 wins & 98 nominations.</span>
     <span class="see-more inline">
 <a href="/name/nm0000233/awards?ref_=nm_awd"
 >See more awards</a>&nbsp;&raquo;    </span>
@@ -1454,7 +1440,7 @@ onclick="handleFilmoJumpto(this);" data-category="archive_footage">Archive foota
 </span>
 <b><a href="/title/tt3460252/?ref_=nm_flmg_wr_2"
 >The Hateful Eight</a></b>
-(written by) (<a href="/r/legacy-inprod-name/title/tt3460252" class="in_production">pre-production</a>)
+(written by) (<a href="/r/legacy-inprod-name/title/tt3460252" class="in_production">filming</a>)
 <br/>
 </div>
 <div class="filmo-row odd" id="writerMovie-tt2717098">
@@ -1753,7 +1739,8 @@ The LeQuint Dickey Mining Co. Employee
 >Inglourious Basterds</a></b>
 <br/>
 First Scalped Nazi
-/ American Soldier in 'Pride of Nation'
+/ <a href="/character/ch0492620/?ref_=nm_flmg_act_2"
+>American Soldier in 'Pride of Nation'</a>
 (uncredited)
 </div>
 <div class="filmo-row odd" id="actorMovie-tt0848557">
@@ -2357,7 +2344,7 @@ style="display:none;"
 </span>
 <b><a href="/title/tt3460252/?ref_=nm_flmg_dr_1"
 >The Hateful Eight</a></b>
-(<a href="/r/legacy-inprod-name/title/tt3460252" class="in_production">pre-production</a>)
+(<a href="/r/legacy-inprod-name/title/tt3460252" class="in_production">filming</a>)
 <br/>
 </div>
 <div class="filmo-row even" id="directorMovie-tt1853728">
@@ -2587,7 +2574,7 @@ style="display:none;"
 &nbsp;2002
 </span>
 <b><a href="/title/tt0299977/?ref_=nm_flmg_msc_7"
->Hero</a></b>
+>Kangelane</a></b>
 (presenter - US version)
 <br/>
 </div>
@@ -2827,94 +2814,94 @@ style="display:none;"
 (Short) (very special thanks) (<a href="/r/legacy-inprod-name/title/tt2416194" class="in_production">post-production</a>)
 <br/>
 </div>
-<div class="filmo-row even" id="thanksMovie-tt3120430">
-<span class="year_column">
-&nbsp;2014
-</span>
-<b><a href="/title/tt3120430/?ref_=nm_flmg_tk_4"
->Mantus</a></b>
-(very special thanks) (<a href="/r/legacy-inprod-name/title/tt3120430" class="in_production">completed</a>)
-<br/>
-</div>
-<div class="filmo-row odd" id="thanksMovie-tt2783934">
+<div class="filmo-row even" id="thanksMovie-tt2783934">
 <span class="year_column">
 &nbsp;2013
 </span>
-<b><a href="/title/tt2783934/?ref_=nm_flmg_tk_5"
+<b><a href="/title/tt2783934/?ref_=nm_flmg_tk_4"
 >American Federale</a></b>
 (Documentary) (special thanks) (<a href="/r/legacy-inprod-name/title/tt2783934" class="in_production">completed</a>)
-<br/>
-</div>
-<div class="filmo-row even" id="thanksMovie-tt3072216">
-<span class="year_column">
-&nbsp;2013
-</span>
-<b><a href="/title/tt3072216/?ref_=nm_flmg_tk_6"
->Silence Speaks</a></b>
-(special thanks) (<a href="/r/legacy-inprod-name/title/tt3072216" class="in_production">completed</a>)
 <br/>
 </div>
 <div class="filmo-row odd" id="thanksMovie-tt2049634">
 <span class="year_column">
 &nbsp;
 </span>
-<b><a href="/title/tt2049634/?ref_=nm_flmg_tk_7"
+<b><a href="/title/tt2049634/?ref_=nm_flmg_tk_5"
 >Coleman</a></b>
 (very special thanks) (<a href="/r/legacy-inprod-name/title/tt2049634" class="in_production">announced</a>)
 <br/>
 </div>
-<div class="filmo-row even" id="thanksMovie-tt3275198">
+<div class="filmo-row even" id="thanksMovie-tt3120430">
+<span class="year_column">
+&nbsp;2014
+</span>
+<b><a href="/title/tt3120430/?ref_=nm_flmg_tk_6"
+>Mantus</a></b>
+(very special thanks)
+<br/>
+</div>
+<div class="filmo-row odd" id="thanksMovie-tt3275198">
 <span class="year_column">
 &nbsp;2013
 </span>
-<b><a href="/title/tt3275198/?ref_=nm_flmg_tk_8"
+<b><a href="/title/tt3275198/?ref_=nm_flmg_tk_7"
 >I Am a Free Man, Not a Slave</a></b>
 (Short) (very special thanks)
 <br/>
 </div>
-<div class="filmo-row odd" id="thanksMovie-tt3060600">
+<div class="filmo-row even" id="thanksMovie-tt3060600">
 <span class="year_column">
 &nbsp;2013/I
 </span>
-<b><a href="/title/tt3060600/?ref_=nm_flmg_tk_9"
+<b><a href="/title/tt3060600/?ref_=nm_flmg_tk_8"
 >Elle</a></b>
 (Documentary) (special thanks)
 <br/>
 </div>
-<div class="filmo-row even" id="thanksMovie-tt1213663">
+<div class="filmo-row odd" id="thanksMovie-tt1213663">
 <span class="year_column">
 &nbsp;2013
 </span>
-<b><a href="/title/tt1213663/?ref_=nm_flmg_tk_10"
+<b><a href="/title/tt1213663/?ref_=nm_flmg_tk_9"
 >The World's End</a></b>
 (special thanks)
 <br/>
 </div>
-<div class="filmo-row odd" id="thanksMovie-tt2442038">
+<div class="filmo-row even" id="thanksMovie-tt2442038">
 <span class="year_column">
 &nbsp;2013/II
 </span>
-<b><a href="/title/tt2442038/?ref_=nm_flmg_tk_11"
+<b><a href="/title/tt2442038/?ref_=nm_flmg_tk_10"
 >Bad Romance</a></b>
 (thanks: Ian del Carmen)
 <br/>
 </div>
-<div class="filmo-row even" id="thanksMovie-tt1608368">
+<div class="filmo-row odd" id="thanksMovie-tt1608368">
 <span class="year_column">
 &nbsp;2013
 </span>
-<b><a href="/title/tt1608368/?ref_=nm_flmg_tk_12"
+<b><a href="/title/tt1608368/?ref_=nm_flmg_tk_11"
 >House Hunting</a></b>
 (special thanks)
 <br/>
 </div>
-<div class="filmo-row odd" id="thanksMovie-tt2229499">
+<div class="filmo-row even" id="thanksMovie-tt2229499">
 <span class="year_column">
 &nbsp;2013
 </span>
-<b><a href="/title/tt2229499/?ref_=nm_flmg_tk_13"
+<b><a href="/title/tt2229499/?ref_=nm_flmg_tk_12"
 >Don Jon</a></b>
 (the producers would like to thank)
+<br/>
+</div>
+<div class="filmo-row odd" id="thanksMovie-tt3072216">
+<span class="year_column">
+&nbsp;2013
+</span>
+<b><a href="/title/tt3072216/?ref_=nm_flmg_tk_13"
+>Silence Speaks</a></b>
+(special thanks)
 <br/>
 </div>
 <div class="filmo-row even" id="thanksMovie-tt2182216">
@@ -3516,7 +3503,7 @@ style="display:none;"
 style="display:inline;"
 >Show&nbsp;<img src="http://ia.media-imdb.com/images/G/01/imdb/images/icons/show-582987296._CB358668248_.png" class="absmiddle" alt="Show" width="18" height="16"></span>
 <a name="self"></a>
-<a name="selfTV">Self: TV</a> (147 credits)
+<a name="selfTV">Self: TV</a> (148 credits)
 </div>
 <div class="filmo-category-section"
 style="display:none;"
@@ -3537,65 +3524,105 @@ Himself
 ... Himself
 </div>
 </div>
-<div class="filmo-row even" id="selfTV-tt0341901">
+<div class="filmo-row even" id="selfTV-tt0437729">
+<span class="year_column">
+&nbsp;2007-2014
+</span>
+<b><a href="/title/tt0437729/?ref_=nm_flmg_slf_2"
+>The Late Late Show with Craig Ferguson</a></b>
+(TV Series)
+<br/>
+Himself
+<div class="filmo-episodes">
+- <a href="/title/tt4125512/?ref_=nm_flmg_slf_2"
+>Quentin Tarantino/Ross Mathews</a>
+(2014)
+... Himself
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt2568046/?ref_=nm_flmg_slf_2"
+>Episode #8.370</a>
+(2012)
+... Himself
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt1609721/?ref_=nm_flmg_slf_2"
+>Episode #6.108</a>
+(2010)
+... Himself
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt1532805/?ref_=nm_flmg_slf_2"
+>Episode #6.2</a>
+(2009)
+... Himself
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt1239784/?ref_=nm_flmg_slf_2"
+>Episode #4.50</a>
+(2007)
+... Himself
+</div>
+</div>
+<div class="filmo-row odd" id="selfTV-tt0341901">
 <span class="year_column">
 &nbsp;2011-2014
 </span>
-<b><a href="/title/tt0341901/?ref_=nm_flmg_slf_2"
+<b><a href="/title/tt0341901/?ref_=nm_flmg_slf_3"
 >La nuit des Césars</a></b>
 (TV Series documentary)
 <br/>
 Himself
 / Himself - César d'honneur
 <div class="filmo-episodes">
-- <a href="/title/tt3569062/?ref_=nm_flmg_slf_2"
+- <a href="/title/tt3569062/?ref_=nm_flmg_slf_3"
 >39ème nuit des Césars</a>
 (2014)
 ... Himself
 </div>
 <div class="filmo-episodes">
-- <a href="/title/tt1850106/?ref_=nm_flmg_slf_2"
+- <a href="/title/tt1850106/?ref_=nm_flmg_slf_3"
 >36e cérémonie des César</a>
 (2011)
 ... Himself - César d'honneur
 </div>
 </div>
-<div class="filmo-row odd" id="selfTV-tt0103569">
+<div class="filmo-row even" id="selfTV-tt0103569">
 <span class="year_column">
 &nbsp;1992-2013
 </span>
-<b><a href="/title/tt0103569/?ref_=nm_flmg_slf_3"
+<b><a href="/title/tt0103569/?ref_=nm_flmg_slf_4"
 >The Tonight Show with Jay Leno</a></b>
 (TV Series)
 <br/>
 Himself
 / Himself - Guest
 <div class="filmo-episodes">
-- <a href="/title/tt3331428/?ref_=nm_flmg_slf_3"
+- <a href="/title/tt3331428/?ref_=nm_flmg_slf_4"
 >Episode #22.42</a>
 (2013)
 ... Himself - Guest
 </div>
 <div class="filmo-episodes">
-- <a href="/title/tt2559374/?ref_=nm_flmg_slf_3"
+- <a href="/title/tt2559374/?ref_=nm_flmg_slf_4"
 >Episode #21.60</a>
 (2012)
 ... Himself - Guest
 </div>
 <div class="filmo-episodes">
-- <a href="/title/tt0993586/?ref_=nm_flmg_slf_3"
+- <a href="/title/tt0993586/?ref_=nm_flmg_slf_4"
 >Episode #15.54</a>
 (2007)
 ... Himself
 </div>
 <div class="filmo-episodes">
-- <a href="/title/tt2435936/?ref_=nm_flmg_slf_3"
+- <a href="/title/tt2435936/?ref_=nm_flmg_slf_4"
 >Episode #12.131</a>
 (2004)
 ... Himself
 </div>
 <div class="filmo-episodes">
-- <a href="/title/tt2386264/?ref_=nm_flmg_slf_3"
+- <a href="/title/tt2386264/?ref_=nm_flmg_slf_4"
 >Episode #12.61</a>
 (2004)
 ... Himself
@@ -3606,152 +3633,152 @@ Himself
 <div class="filmo-episodes">
 <a href="#"
 data-n="12"
-onclick="toggleSeeMoreEpisodes(this,'nm0000233','tt0103569','self: TV',2); return false;">Show all 12 episodes</a>
+onclick="toggleSeeMoreEpisodes(this,'nm0000233','tt0103569','self: TV',3); return false;">Show all 12 episodes</a>
 </div>
 </div>
-<div class="filmo-row even" id="selfTV-tt2371784">
+<div class="filmo-row odd" id="selfTV-tt2371784">
 <span class="year_column">
 &nbsp;2013
 </span>
-<b><a href="/title/tt2371784/?ref_=nm_flmg_slf_4"
+<b><a href="/title/tt2371784/?ref_=nm_flmg_slf_5"
 >Dann Firestorm: I Am Film</a></b>
 (TV Mini-Series)
 <br/>
 Himself
 <div class="filmo-episodes">
-- <a href="/title/tt2702702/?ref_=nm_flmg_slf_4"
+- <a href="/title/tt2702702/?ref_=nm_flmg_slf_5"
 >Episode #1.2</a>
 (2013)
 ... Himself
 </div>
 </div>
-<div class="filmo-row odd" id="selfTV-tt2733390">
+<div class="filmo-row even" id="selfTV-tt2733390">
 <span class="year_column">
 &nbsp;2013
 </span>
-<b><a href="/title/tt2733390/?ref_=nm_flmg_slf_5"
+<b><a href="/title/tt2733390/?ref_=nm_flmg_slf_6"
 >Live from the Red Carpet: The 2013 Academy Awards</a></b>
 (TV Special)
 <br/>
 Himself
 </div>
-<div class="filmo-row even" id="selfTV-tt2461862">
+<div class="filmo-row odd" id="selfTV-tt2461862">
 <span class="year_column">
 &nbsp;2013
 </span>
-<b><a href="/title/tt2461862/?ref_=nm_flmg_slf_6"
+<b><a href="/title/tt2461862/?ref_=nm_flmg_slf_7"
 >The Oscars</a></b>
 (TV Special)
 <br/>
-Himself - Winner
+Himself - Winner: Best Original Screenplay
 </div>
-<div class="filmo-row odd" id="selfTV-tt0439979">
+<div class="filmo-row even" id="selfTV-tt0439979">
 <span class="year_column">
 &nbsp;2013
 </span>
-<b><a href="/title/tt0439979/?ref_=nm_flmg_slf_7"
+<b><a href="/title/tt0439979/?ref_=nm_flmg_slf_8"
 >Waratte iitomo!</a></b>
 (TV Series)
 <br/>
 Himself
 <div class="filmo-episodes">
-- <a href="/title/tt2710926/?ref_=nm_flmg_slf_7"
+- <a href="/title/tt2710926/?ref_=nm_flmg_slf_8"
 >Quentin Tarantino</a>
 (2013)
 ... Himself
 </div>
 </div>
-<div class="filmo-row even" id="selfTV-tt3110888">
+<div class="filmo-row odd" id="selfTV-tt3110888">
 <span class="year_column">
 &nbsp;2013
 </span>
-<b><a href="/title/tt3110888/?ref_=nm_flmg_slf_8"
+<b><a href="/title/tt3110888/?ref_=nm_flmg_slf_9"
 >Vivir de cine</a></b>
 (TV Series)
 <br/>
 Himself
 <div class="filmo-episodes">
-- <a href="/title/tt3142470/?ref_=nm_flmg_slf_8"
+- <a href="/title/tt3142470/?ref_=nm_flmg_slf_9"
 >Episode #1.14</a>
 (2013)
 ... Himself
 </div>
 </div>
-<div class="filmo-row odd" id="selfTV-tt2604420">
+<div class="filmo-row even" id="selfTV-tt2604420">
 <span class="year_column">
 &nbsp;2013
 </span>
-<b><a href="/title/tt2604420/?ref_=nm_flmg_slf_9"
+<b><a href="/title/tt2604420/?ref_=nm_flmg_slf_10"
 >70th Golden Globe Awards</a></b>
 (TV Special)
 <br/>
 Himself - Winner: Best Screenplay & Nominee: Best Director
 </div>
-<div class="filmo-row even" id="selfTV-tt0924651">
+<div class="filmo-row odd" id="selfTV-tt0924651">
 <span class="year_column">
 &nbsp;2013
 </span>
-<b><a href="/title/tt0924651/?ref_=nm_flmg_slf_10"
+<b><a href="/title/tt0924651/?ref_=nm_flmg_slf_11"
 >The Graham Norton Show</a></b>
 (TV Series)
 <br/>
 Himself - Guest
 <div class="filmo-episodes">
-- <a href="/title/tt2629318/?ref_=nm_flmg_slf_10"
+- <a href="/title/tt2629318/?ref_=nm_flmg_slf_11"
 >Quentin Tarantino/James McAvoy/Alan Davies/Emeli Sandé</a>
 (2013)
 ... Himself - Guest
 </div>
 </div>
-<div class="filmo-row odd" id="selfTV-tt0192897">
+<div class="filmo-row even" id="selfTV-tt0192897">
 <span class="year_column">
 &nbsp;2013
 </span>
-<b><a href="/title/tt0192897/?ref_=nm_flmg_slf_11"
+<b><a href="/title/tt0192897/?ref_=nm_flmg_slf_12"
 >Film 2014</a></b>
 (TV Series)
 <br/>
 Himself - Interviewee
 <div class="filmo-episodes">
-- <a href="/title/tt2623884/?ref_=nm_flmg_slf_11"
+- <a href="/title/tt2623884/?ref_=nm_flmg_slf_12"
 >Episode dated 9 January 2013</a>
 (2013)
 ... Himself - Interviewee
 </div>
 </div>
-<div class="filmo-row even" id="selfTV-tt0426701">
+<div class="filmo-row odd" id="selfTV-tt0426701">
 <span class="year_column">
 &nbsp;2008-2013
 </span>
-<b><a href="/title/tt0426701/?ref_=nm_flmg_slf_12"
+<b><a href="/title/tt0426701/?ref_=nm_flmg_slf_13"
 >Le grand journal de Canal+</a></b>
 (TV Series)
 <br/>
 Himself
 <div class="filmo-episodes">
-- <a href="/title/tt2617832/?ref_=nm_flmg_slf_12"
+- <a href="/title/tt2617832/?ref_=nm_flmg_slf_13"
 >Episode dated 7 January 2013</a>
 (2013)
 ... Himself
 </div>
 <div class="filmo-episodes">
-- <a href="/title/tt1517972/?ref_=nm_flmg_slf_12"
+- <a href="/title/tt1517972/?ref_=nm_flmg_slf_13"
 >Episode dated 22 May 2009</a>
 (2009)
 ... Himself
 </div>
 <div class="filmo-episodes">
-- <a href="/title/tt1287069/?ref_=nm_flmg_slf_12"
+- <a href="/title/tt1287069/?ref_=nm_flmg_slf_13"
 >Episode dated 22 May 2008</a>
 (2008)
 ... Himself
 </div>
 </div>
-<div class="filmo-row odd" id="selfTV-tt0270116">
+<div class="filmo-row even" id="selfTV-tt0270116">
 <span class="year_column">
 &nbsp;1994-2012
 </span>
-<b><a href="/title/tt0270116/?ref_=nm_flmg_slf_13"
+<b><a href="/title/tt0270116/?ref_=nm_flmg_slf_14"
 >Charlie Rose</a></b>
 (TV Series)
 <br/>
@@ -3760,31 +3787,31 @@ Himself - Guest
 / Himself - Director
 / ...
 <div class="filmo-episodes">
-- <a href="/title/tt2562536/?ref_=nm_flmg_slf_13"
+- <a href="/title/tt2562536/?ref_=nm_flmg_slf_14"
 >Episode dated 21 December 2012</a>
 (2012)
 ... Himself - Guest
 </div>
 <div class="filmo-episodes">
-- <a href="/title/tt1499093/?ref_=nm_flmg_slf_13"
+- <a href="/title/tt1499093/?ref_=nm_flmg_slf_14"
 >Episode dated 21 August 2009</a>
 (2009)
 ... Himself - Guest
 </div>
 <div class="filmo-episodes">
-- <a href="/title/tt1654451/?ref_=nm_flmg_slf_13"
+- <a href="/title/tt1654451/?ref_=nm_flmg_slf_14"
 >Episode dated 5 April 2007</a>
 (2007)
 ... Himself - Guest
 </div>
 <div class="filmo-episodes">
-- <a href="/title/tt1167093/?ref_=nm_flmg_slf_13"
+- <a href="/title/tt1167093/?ref_=nm_flmg_slf_14"
 >Quentin Tarantino 2003</a>
 (2003)
 ... Himself - Guest
 </div>
 <div class="filmo-episodes">
-- <a href="/title/tt0538931/?ref_=nm_flmg_slf_13"
+- <a href="/title/tt0538931/?ref_=nm_flmg_slf_14"
 >Episode dated 26 December 1997</a>
 (1997)
 ... Himself
@@ -3795,41 +3822,7 @@ Himself - Guest
 <div class="filmo-episodes">
 <a href="#"
 data-n="8"
-onclick="toggleSeeMoreEpisodes(this,'nm0000233','tt0270116','self: TV',12); return false;">Show all 8 episodes</a>
-</div>
-</div>
-<div class="filmo-row even" id="selfTV-tt0437729">
-<span class="year_column">
-&nbsp;2007-2012
-</span>
-<b><a href="/title/tt0437729/?ref_=nm_flmg_slf_14"
->The Late Late Show with Craig Ferguson</a></b>
-(TV Series)
-<br/>
-Himself
-<div class="filmo-episodes">
-- <a href="/title/tt2568046/?ref_=nm_flmg_slf_14"
->Episode #8.370</a>
-(2012)
-... Himself
-</div>
-<div class="filmo-episodes">
-- <a href="/title/tt1609721/?ref_=nm_flmg_slf_14"
->Episode #6.108</a>
-(2010)
-... Himself
-</div>
-<div class="filmo-episodes">
-- <a href="/title/tt1532805/?ref_=nm_flmg_slf_14"
->Episode #6.2</a>
-(2009)
-... Himself
-</div>
-<div class="filmo-episodes">
-- <a href="/title/tt1239784/?ref_=nm_flmg_slf_14"
->Episode #4.50</a>
-(2007)
-... Himself
+onclick="toggleSeeMoreEpisodes(this,'nm0000233','tt0270116','self: TV',13); return false;">Show all 8 episodes</a>
 </div>
 </div>
 <div class="filmo-row odd" id="selfTV-tt0456031">
@@ -4879,13 +4872,13 @@ Himself
 </div>
 <div class="filmo-episodes">
 - <a href="/title/tt0627779/?ref_=nm_flmg_slf_77"
->Episode dated 4 January 2006</a>
+>Episode #13.69</a>
 (2006)
 ... Himself
 </div>
 <div class="filmo-episodes">
 - <a href="/title/tt0627778/?ref_=nm_flmg_slf_77"
->Episode dated 3 January 2006</a>
+>Episode #13.68</a>
 (2006)
 ... Himself
 </div>
@@ -5806,11 +5799,27 @@ Himself - Winner: Best Screenplay & Nominee: Best Director
 <br/>
 Himself - Winner: Best Director
 </div>
-<div class="filmo-row odd" id="selfTV-tt1753591">
+<div class="filmo-row odd" id="selfTV-tt0200358">
+<span class="year_column">
+&nbsp;1994
+</span>
+<b><a href="/title/tt0200358/?ref_=nm_flmg_slf_147"
+>Omnibus</a></b>
+(TV Series documentary)
+<br/>
+Himself
+<div class="filmo-episodes">
+- <a href="/title/tt1994954/?ref_=nm_flmg_slf_147"
+>Quentin Tarantino: Hollywood's Boy Wonder</a>
+(1994)
+... Himself
+</div>
+</div>
+<div class="filmo-row even" id="selfTV-tt1753591">
 <span class="year_column">
 &nbsp;1993
 </span>
-<b><a href="/title/tt1753591/?ref_=nm_flmg_slf_147"
+<b><a href="/title/tt1753591/?ref_=nm_flmg_slf_148"
 >Cinefile: Made in the USA</a></b>
 (TV Movie documentary)
 <br/>
@@ -5824,196 +5833,205 @@ style="display:none;"
 <span id="show-selfMovie" class="show-link"
 style="display:inline;"
 >Show&nbsp;<img src="http://ia.media-imdb.com/images/G/01/imdb/images/icons/show-582987296._CB358668248_.png" class="absmiddle" alt="Show" width="18" height="16"></span>
-<a name="selfMovie">Self: Movie</a> (19 credits)
+<a name="selfMovie">Self: Movie</a> (20 credits)
 </div>
 <div class="filmo-category-section"
 style="display:none;"
 >
-<div class="filmo-row odd" id="selfMovie-tt2292591">
+<div class="filmo-row odd" id="selfMovie-tt1767372">
+<span class="year_column">
+&nbsp;2014
+</span>
+<b><a href="/title/tt1767372/?ref_=nm_flmg_slf_1"
+>She's Funny That Way</a></b>
+<br/>
+Himself
+</div>
+<div class="filmo-row even" id="selfMovie-tt2292591">
 <span class="year_column">
 &nbsp;2012
 </span>
-<b><a href="/title/tt2292591/?ref_=nm_flmg_slf_1"
+<b><a href="/title/tt2292591/?ref_=nm_flmg_slf_2"
 >Bar25</a></b>
 (Documentary)
 <br/>
 Himself
 (uncredited)
 </div>
-<div class="filmo-row even" id="selfMovie-tt1743720">
+<div class="filmo-row odd" id="selfMovie-tt1743720">
 <span class="year_column">
 &nbsp;2011
 </span>
-<b><a href="/title/tt1743720/?ref_=nm_flmg_slf_2"
+<b><a href="/title/tt1743720/?ref_=nm_flmg_slf_3"
 >The Greatest Movie Ever Sold</a></b>
 (Documentary)
 <br/>
 Himself
 </div>
-<div class="filmo-row odd" id="selfMovie-tt1185371">
+<div class="filmo-row even" id="selfMovie-tt1185371">
 <span class="year_column">
 &nbsp;2011
 </span>
-<b><a href="/title/tt1185371/?ref_=nm_flmg_slf_3"
+<b><a href="/title/tt1185371/?ref_=nm_flmg_slf_4"
 >Corman's World: Exploits of a Hollywood Rebel</a></b>
 (Documentary)
 <br/>
 Himself
 </div>
-<div class="filmo-row even" id="selfMovie-tt1707243">
+<div class="filmo-row odd" id="selfMovie-tt1707243">
 <span class="year_column">
 &nbsp;2010
 </span>
-<b><a href="/title/tt1707243/?ref_=nm_flmg_slf_4"
+<b><a href="/title/tt1707243/?ref_=nm_flmg_slf_5"
 >Michel Ciment, le cinéma en partage</a></b>
 (Documentary)
 <br/>
 Himself
 </div>
-<div class="filmo-row odd" id="selfMovie-tt1372711">
+<div class="filmo-row even" id="selfMovie-tt1372711">
 <span class="year_column">
 &nbsp;2010
 </span>
-<b><a href="/title/tt1372711/?ref_=nm_flmg_slf_5"
+<b><a href="/title/tt1372711/?ref_=nm_flmg_slf_6"
 >Hollywood Don't Surf!</a></b>
 (Documentary)
 <br/>
 Himself
 </div>
-<div class="filmo-row even" id="selfMovie-tt0996966">
+<div class="filmo-row odd" id="selfMovie-tt0996966">
 <span class="year_column">
 &nbsp;2008
 </span>
-<b><a href="/title/tt0996966/?ref_=nm_flmg_slf_6"
+<b><a href="/title/tt0996966/?ref_=nm_flmg_slf_7"
 >Not Quite Hollywood: The Wild, Untold Story of Ozploitation!</a></b>
 (Documentary)
 <br/>
 Himself
 </div>
-<div class="filmo-row odd" id="selfMovie-tt0852951">
+<div class="filmo-row even" id="selfMovie-tt0852951">
 <span class="year_column">
 &nbsp;2008
 </span>
-<b><a href="/title/tt0852951/?ref_=nm_flmg_slf_7"
+<b><a href="/title/tt0852951/?ref_=nm_flmg_slf_8"
 >Dead On: The Life and Cinema of George A. Romero</a></b>
 (Documentary)
 <br/>
 Himself
 </div>
-<div class="filmo-row even" id="selfMovie-tt1093837">
+<div class="filmo-row odd" id="selfMovie-tt1093837">
 <span class="year_column">
 &nbsp;2007
 </span>
-<b><a href="/title/tt1093837/?ref_=nm_flmg_slf_8"
+<b><a href="/title/tt1093837/?ref_=nm_flmg_slf_9"
 >Pierre Rissient: Man of Cinema</a></b>
 (Documentary)
 <br/>
 Himself
 </div>
-<div class="filmo-row odd" id="selfMovie-tt0441848">
+<div class="filmo-row even" id="selfMovie-tt0441848">
 <span class="year_column">
 &nbsp;2004
 </span>
-<b><a href="/title/tt0441848/?ref_=nm_flmg_slf_9"
+<b><a href="/title/tt0441848/?ref_=nm_flmg_slf_10"
 >Celluloid Horror</a></b>
 (Documentary)
 <br/>
 Himself
 </div>
-<div class="filmo-row even" id="selfMovie-tt0290808">
+<div class="filmo-row odd" id="selfMovie-tt0290808">
 <span class="year_column">
 &nbsp;2004
 </span>
-<b><a href="/title/tt0290808/?ref_=nm_flmg_slf_10"
+<b><a href="/title/tt0290808/?ref_=nm_flmg_slf_11"
 >Planet of the Pitts</a></b>
 <br/>
 Himself
 </div>
-<div class="filmo-row odd" id="selfMovie-tt0428441">
+<div class="filmo-row even" id="selfMovie-tt0428441">
 <span class="year_column">
 &nbsp;2004
 </span>
-<b><a href="/title/tt0428441/?ref_=nm_flmg_slf_11"
+<b><a href="/title/tt0428441/?ref_=nm_flmg_slf_12"
 >The Cutting Edge: The Magic of Movie Editing</a></b>
 (Documentary)
 <br/>
 Himself
 </div>
-<div class="filmo-row even" id="selfMovie-tt0378194">
+<div class="filmo-row odd" id="selfMovie-tt0378194">
 <span class="year_column">
 &nbsp;2004
 </span>
-<b><a href="/title/tt0378194/?ref_=nm_flmg_slf_12"
+<b><a href="/title/tt0378194/?ref_=nm_flmg_slf_13"
 >Kill Bill: Vol. 2</a></b>
 <br/>
 Himself
 (voice, uncredited)
 </div>
-<div class="filmo-row odd" id="selfMovie-tt0365135">
+<div class="filmo-row even" id="selfMovie-tt0365135">
 <span class="year_column">
 &nbsp;2004
 </span>
-<b><a href="/title/tt0365135/?ref_=nm_flmg_slf_13"
+<b><a href="/title/tt0365135/?ref_=nm_flmg_slf_14"
 >Double Dare</a></b>
 (Documentary)
 <br/>
 Himself
 </div>
-<div class="filmo-row even" id="selfMovie-tt0321150">
+<div class="filmo-row odd" id="selfMovie-tt0321150">
 <span class="year_column">
 &nbsp;2002
 </span>
-<b><a href="/title/tt0321150/?ref_=nm_flmg_slf_14"
+<b><a href="/title/tt0321150/?ref_=nm_flmg_slf_15"
 >All the Love You Cannes!</a></b>
 (Documentary)
 <br/>
 Himself
 </div>
-<div class="filmo-row odd" id="selfMovie-tt0365807">
+<div class="filmo-row even" id="selfMovie-tt0365807">
 <span class="year_column">
 &nbsp;2002
 </span>
-<b><a href="/title/tt0365807/?ref_=nm_flmg_slf_15"
+<b><a href="/title/tt0365807/?ref_=nm_flmg_slf_16"
 >Sundance 20</a></b>
 (Documentary)
 <br/>
 Himself
 </div>
-<div class="filmo-row even" id="selfMovie-tt0119207">
+<div class="filmo-row odd" id="selfMovie-tt0119207">
 <span class="year_column">
 &nbsp;1998
 </span>
-<b><a href="/title/tt0119207/?ref_=nm_flmg_slf_16"
+<b><a href="/title/tt0119207/?ref_=nm_flmg_slf_17"
 >God Said, 'Ha!'</a></b>
 <br/>
 Himself
 </div>
-<div class="filmo-row odd" id="selfMovie-tt0158831">
+<div class="filmo-row even" id="selfMovie-tt0158831">
 <span class="year_column">
 &nbsp;1997
 </span>
-<b><a href="/title/tt0158831/?ref_=nm_flmg_slf_17"
+<b><a href="/title/tt0158831/?ref_=nm_flmg_slf_18"
 >Off the Menu: The Last Days of Chasen's</a></b>
 (Documentary)
 <br/>
 Himself
 (uncredited)
 </div>
-<div class="filmo-row even" id="selfMovie-tt0119165">
+<div class="filmo-row odd" id="selfMovie-tt0119165">
 <span class="year_column">
 &nbsp;1997
 </span>
-<b><a href="/title/tt0119165/?ref_=nm_flmg_slf_18"
+<b><a href="/title/tt0119165/?ref_=nm_flmg_slf_19"
 >Full Tilt Boogie</a></b>
 (Documentary)
 <br/>
 Himself - 'Richie Gecko'
 </div>
-<div class="filmo-row odd" id="selfMovie-tt0118004">
+<div class="filmo-row even" id="selfMovie-tt0118004">
 <span class="year_column">
 &nbsp;1996
 </span>
-<b><a href="/title/tt0118004/?ref_=nm_flmg_slf_19"
+<b><a href="/title/tt0118004/?ref_=nm_flmg_slf_20"
 >The Typewriter, the Rifle & the Movie Camera</a></b>
 (Documentary)
 <br/>
@@ -6138,7 +6156,7 @@ Himself
 </span>
 <b><a href="/title/tt0379417/?ref_=nm_flmg_slf_11"
 >Once Upon a Time: Sergio Leone</a></b>
-(Video documentary short)
+(Video documentary)
 <br/>
 Himself
 </div>
@@ -6155,31 +6173,44 @@ style="display:inline;"
 <div class="filmo-category-section"
 style="display:none;"
 >
-<div class="filmo-row odd" id="archive_footage-tt0924651">
+<div class="filmo-row odd" id="archive_footage-tt1743990">
+<span class="year_column">
+&nbsp;2007-2013
+</span>
+<b><a href="/title/tt1743990/?ref_=nm_flmg_arf_1"
+>Cinemassacre's Monster Madness</a></b>
+(TV Series documentary)
+<br/>
+Newsreader
+/ Richard Gecko
+<div class="filmo-episodes">
+- <a href="/title/tt3296886/?ref_=nm_flmg_arf_1"
+>Diary of the Dead</a>
+(2013)
+... Newsreader
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt1744969/?ref_=nm_flmg_arf_1"
+>From Dusk Till Dawn</a>
+(2007)
+... Richard Gecko
+</div>
+</div>
+<div class="filmo-row even" id="archive_footage-tt0924651">
 <span class="year_column">
 &nbsp;2013
 </span>
-<b><a href="/title/tt0924651/?ref_=nm_flmg_arf_1"
+<b><a href="/title/tt0924651/?ref_=nm_flmg_arf_2"
 >The Graham Norton Show</a></b>
 (TV Series)
 <br/>
 Himself
 <div class="filmo-episodes">
-- <a href="/title/tt2826268/?ref_=nm_flmg_arf_1"
+- <a href="/title/tt2826268/?ref_=nm_flmg_arf_2"
 >Compilation</a>
 (2013)
 ... Himself
 </div>
-</div>
-<div class="filmo-row even" id="archive_footage-tt2815638">
-<span class="year_column">
-&nbsp;2013
-</span>
-<b><a href="/title/tt2815638/?ref_=nm_flmg_arf_2"
->On the Set: Inside Hollywood Movies</a></b>
-(Documentary)
-<br/>
-Himself - Panelist
 </div>
 <div class="filmo-row odd" id="archive_footage-tt0456031">
 <span class="year_column">
@@ -6341,7 +6372,7 @@ Himself
 </span>
 <b><a href="/title/tt0488301/?ref_=nm_flmg_arf_14"
 >Histoires de festival</a></b>
-(Short)
+(TV Short)
 <br/>
 Himself
 </div>
@@ -6398,20 +6429,20 @@ Himself
         <h2>Related Videos</h2>
     <div class="mediastrip_big">
                 <span class="video_slate" itemscope itemtype="http://schema.org/videoObject">
-                <meta itemprop="duration" content="T1M12S" />
+                <meta itemprop="duration" content="T1M13S" />
 
 <a href="/video/imdb/vi77267481?ref_=nm_rvd_vi_1"
-title="Inglourious Basterds -- Jail cell clip" alt="Inglourious Basterds -- Jail cell clip" class="video-colorbox" data-video="vi77267481" data-context="imdb" data-rid="07QGVD9PB8XK1N5JEJ7H" widget-context="nameMaindetails" itemprop="url" ><img height="150" width="200" alt="Inglourious Basterds -- Jail cell clip" title="Inglourious Basterds -- Jail cell clip"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/no-video-slate-856072904._CB379390253_.png"class="loadlate hidden video" loadlate="http://ia.media-imdb.com/images/M/MV5BMTc2ODU5MTg0N15BMl5BanBnXkFtZTcwODIxNzg1Mg@@._V1_SP330,330,0,C,0,0,0_CR65,90,200,150_PIimdb-blackband-204-14,TopLeft,0,0_PIimdb-blackband-204-28,BottomLeft,0,1_CR0,0,200,150_PIimdb-bluebutton-big,BottomRight,-1,-1_ZAClip,4,121,16,196,verdenab,8,255,255,255,1_ZAon%2520IMDb,4,1,14,196,verdenab,7,255,255,255,1_ZA01:12,164,1,14,36,verdenab,7,255,255,255,1_ZAInglourious%2520Basterds,4,136,14,196,arialbd,7,255,255,255,1_.jpg" itemprop='image' viconst="vi77267481" /></a>            </span>
+title="Inglourious Basterds -- Jail cell clip" alt="Inglourious Basterds -- Jail cell clip" class="video-colorbox" data-video="vi77267481" data-context="imdb" data-rid="0BEP0AE9HXSVJ8JB6RVV" widget-context="nameMaindetails" itemprop="url" ><img height="150" width="200" alt="Inglourious Basterds -- Jail cell clip" title="Inglourious Basterds -- Jail cell clip"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/no-video-slate-856072904._CB379390253_.png"class="loadlate hidden video" loadlate="http://ia.media-imdb.com/images/M/MV5BMjA2NDk2ODMzNl5BMl5BanBnXkFtZTgwMjI2MDQ4MjE@._V1_SP330,330,0,C,0,0,0_CR65,90,200,150_PIimdb-blackband-204-14,TopLeft,0,0_PIimdb-blackband-204-28,BottomLeft,0,1_CR0,0,200,150_PIimdb-bluebutton-big,BottomRight,-1,-1_ZAClip,4,121,16,196,verdenab,8,255,255,255,1_ZAon%2520IMDb,4,1,14,196,verdenab,7,255,255,255,1_ZA01:13,164,1,14,36,verdenab,7,255,255,255,1_ZAInglourious%2520Basterds,4,136,14,196,arialbd,7,255,255,255,1_.jpg" itemprop='image' viconst="vi77267481" /></a>            </span>
                 <span class="video_slate" itemscope itemtype="http://schema.org/videoObject">
-                <meta itemprop="duration" content="T1M59S" />
+                <meta itemprop="duration" content="T2M0S" />
 
 <a href="/video/imdb/vi2110325273?ref_=nm_rvd_vi_2"
-title="Inglourious Basterds -- Interviews on the red carpet in London, with the cast and crew, includes clips" alt="Inglourious Basterds -- Interviews on the red carpet in London, with the cast and crew, includes clips" class="video-colorbox" data-video="vi2110325273" data-context="imdb" data-rid="07QGVD9PB8XK1N5JEJ7H" widget-context="nameMaindetails" itemprop="url" ><img height="150" width="200" alt="Inglourious Basterds -- Interviews on the red carpet in London, with the cast and crew, includes clips" title="Inglourious Basterds -- Interviews on the red carpet in London, with the cast and crew, includes clips"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/no-video-slate-856072904._CB379390253_.png"class="loadlate hidden video" loadlate="http://ia.media-imdb.com/images/M/MV5BNTcxMzY0NTUyN15BMl5BanBnXkFtZTcwNjc3MzM3Mg@@._V1_SP330,330,0,C,0,0,0_CR65,90,200,150_PIimdb-blackband-204-14,TopLeft,0,0_PIimdb-blackband-204-28,BottomLeft,0,1_CR0,0,200,150_PIimdb-bluebutton-big,BottomRight,-1,-1_ZAInterview,4,121,16,196,verdenab,8,255,255,255,1_ZAon%2520IMDb,4,1,14,196,verdenab,7,255,255,255,1_ZA01:59,164,1,14,36,verdenab,7,255,255,255,1_ZAInglourious%2520Basterds,4,136,14,196,arialbd,7,255,255,255,1_.jpg" itemprop='image' viconst="vi2110325273" /></a>            </span>
+title="Inglourious Basterds -- Interviews on the red carpet in London, with the cast and crew, includes clips" alt="Inglourious Basterds -- Interviews on the red carpet in London, with the cast and crew, includes clips" class="video-colorbox" data-video="vi2110325273" data-context="imdb" data-rid="0BEP0AE9HXSVJ8JB6RVV" widget-context="nameMaindetails" itemprop="url" ><img height="150" width="200" alt="Inglourious Basterds -- Interviews on the red carpet in London, with the cast and crew, includes clips" title="Inglourious Basterds -- Interviews on the red carpet in London, with the cast and crew, includes clips"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/no-video-slate-856072904._CB379390253_.png"class="loadlate hidden video" loadlate="http://ia.media-imdb.com/images/M/MV5BMjAxMDcwNjU0N15BMl5BanBnXkFtZTgwNTA4MDU4MjE@._V1_SP330,330,0,C,0,0,0_CR65,90,200,150_PIimdb-blackband-204-14,TopLeft,0,0_PIimdb-blackband-204-28,BottomLeft,0,1_CR0,0,200,150_PIimdb-bluebutton-big,BottomRight,-1,-1_ZAInterview,4,121,16,196,verdenab,8,255,255,255,1_ZAon%2520IMDb,4,1,14,196,verdenab,7,255,255,255,1_ZA02:00,164,1,14,36,verdenab,7,255,255,255,1_ZAInglourious%2520Basterds,4,136,14,196,arialbd,7,255,255,255,1_.jpg" itemprop='image' viconst="vi2110325273" /></a>            </span>
                 <span class="video_slate_last" itemscope itemtype="http://schema.org/videoObject">
                 <meta itemprop="duration" content="T1M25S" />
 
 <a href="/video/imdb/vi2291574553?ref_=nm_rvd_vi_3"
-title="Django Unchained -- With the help of his mentor, a slave-turned-bounty hunter sets out to rescue his wife from a brutal Mississippi plantation owner." alt="Django Unchained -- With the help of his mentor, a slave-turned-bounty hunter sets out to rescue his wife from a brutal Mississippi plantation owner." class="video-colorbox" data-video="vi2291574553" data-context="imdb" data-rid="07QGVD9PB8XK1N5JEJ7H" widget-context="nameMaindetails" itemprop="url" ><img height="150" width="200" alt="Django Unchained -- With the help of his mentor, a slave-turned-bounty hunter sets out to rescue his wife from a brutal Mississippi plantation owner." title="Django Unchained -- With the help of his mentor, a slave-turned-bounty hunter sets out to rescue his wife from a brutal Mississippi plantation owner."src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/no-video-slate-856072904._CB379390253_.png"class="loadlate hidden video" loadlate="http://ia.media-imdb.com/images/M/MV5BMTUzNzExOTMyNF5BMl5BanBnXkFtZTcwNDU1NTk3OA@@._V1_SP330,330,0,C,0,0,0_CR65,90,200,150_PIimdb-blackband-204-14,TopLeft,0,0_PIimdb-blackband-204-28,BottomLeft,0,1_CR0,0,200,150_PIimdb-bluebutton-big,BottomRight,-1,-1_ZATrailer,4,121,16,196,verdenab,8,255,255,255,1_ZAon%2520IMDb,4,1,14,196,verdenab,7,255,255,255,1_ZA01:25,164,1,14,36,verdenab,7,255,255,255,1_PIimdb-HDIconMiniWhite,BottomLeft,4,-2_ZADjango%2520Unchained,24,136,14,176,arialbd,7,255,255,255,1_.jpg" itemprop='image' viconst="vi2291574553" /></a>            </span>
+title="Django Unchained -- With the help of his mentor, a slave-turned-bounty hunter sets out to rescue his wife from a brutal Mississippi plantation owner." alt="Django Unchained -- With the help of his mentor, a slave-turned-bounty hunter sets out to rescue his wife from a brutal Mississippi plantation owner." class="video-colorbox" data-video="vi2291574553" data-context="imdb" data-rid="0BEP0AE9HXSVJ8JB6RVV" widget-context="nameMaindetails" itemprop="url" ><img height="150" width="200" alt="Django Unchained -- With the help of his mentor, a slave-turned-bounty hunter sets out to rescue his wife from a brutal Mississippi plantation owner." title="Django Unchained -- With the help of his mentor, a slave-turned-bounty hunter sets out to rescue his wife from a brutal Mississippi plantation owner."src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/no-video-slate-856072904._CB379390253_.png"class="loadlate hidden video" loadlate="http://ia.media-imdb.com/images/M/MV5BMTUzNzExOTMyNF5BMl5BanBnXkFtZTcwNDU1NTk3OA@@._V1_SP330,330,0,C,0,0,0_CR65,90,200,150_PIimdb-blackband-204-14,TopLeft,0,0_PIimdb-blackband-204-28,BottomLeft,0,1_CR0,0,200,150_PIimdb-bluebutton-big,BottomRight,-1,-1_ZATrailer,4,121,16,196,verdenab,8,255,255,255,1_ZAon%2520IMDb,4,1,14,196,verdenab,7,255,255,255,1_ZA01:25,164,1,14,36,verdenab,7,255,255,255,1_PIimdb-HDIconMiniWhite,BottomLeft,4,-2_ZADjango%2520Unchained,24,136,14,176,arialbd,7,255,255,255,1_.jpg" itemprop='image' viconst="vi2291574553" /></a>            </span>
     </div>
 
                 <div class="see-more">
@@ -6429,7 +6460,7 @@ title="Django Unchained -- With the help of his mentor, a slave-turned-bounty hu
     <h2>Personal Details</h2>
         <div id="details-other-works" class="see-more inline canwrap">
                 <h4 class="inline">Other Works:</h4>
-Uncredited dialogue "punch-ups" in <a href="/title/tt0112740?ref_=nm">Crimson Tide</a> (1995).                    <span class="see-more inline">
+TV commercial for PerfecTV! (1996)                    <span class="see-more inline">
                         <a href="/name/nm0000233/otherworks?ref_=nm_pdt_wrk_sm"
 >See more</a> 
                     </span>
@@ -6455,7 +6486,7 @@ Uncredited dialogue "punch-ups" in <a href="/title/tt0112740?ref_=nm">Crimson Ti
         <div id="details-official-sites" class="see-more inline canwrap">
             <h4 class="inline">Official Sites:</h4>
                 
-    <a href="/offsite/?page-action=imdb&token=BCYmKy4CC60KZqeNejh08Uh6PbQEP6oohEgyOYMMNTU1quiQmEmrFvWMMhT782jYbBOiRhgKzJH1%0D%0AktPQe451sajpJfkZjhhjm_WauwN7KEAjTi7MHgrGgJKSUeFyWPr3aMFJvhMSq9MIRqd9o51vLFrZ%0D%0A8kN03B5DlwmoixbfWss7C6GttSsYas6BiI0HAbCO7dAjygiHS_4w7aHqKkjUdVjchB1zMQd5gp-4%0D%0ALku6k9IA2jI%0D%0A&ref_=nm_pdt_ofs_offsite_0"
+    <a href="/offsite/?page-action=offsite-facebook&token=BCYgMNu7iG5UlgNPh84lZGwua6PDZSDySWy6MlqdhH33BagQpv9Xq8sbYuIsLzaom5Y4E4ufnmBk%0D%0Au6ANFTBJ46wkvNJwLFziyi7G2mvWjPbZnn2D7fEIVBj0sMlKY8EoONOI-3nO-Nv4PPQtKIV-fyZs%0D%0AN16cGg6pimyXEJTpJW79ETy5cogZb5FmWAA5lHWPuAHMafTVk4_3pml91dB6RztyrqZC-M0HKuP4%0D%0AKK82eYyu3hs%0D%0A&ref_=nm_pdt_ofs_offsite_0"
 rel="nofollow" itemprop='url'>Official Facebook</a>
         </div>
     
@@ -6478,7 +6509,7 @@ rel="nofollow" itemprop='url'>Official Facebook</a>
     <h2>Did You Know?</h2>
         <div id="dyk-personal-quote" class="see-more inline canwrap">
                 <h4 class="inline">Personal Quote:</h4>
-When I give props to these movies, you have to understand - it's not like they were all good. There's an expression: You have to drink a lot of milk before you can appreciate cream. Well, with exploitation movies, you have to drink a lot of milk-gone-bad before you can even appreciate milk! That's what part of the love of these movies is - going through the rummage bin and finding the jewels.                    <span class="see-more inline">
+[on the death of <a href="/name/nm0001016?ref_=nm_dyk_qt1">David Carradine</a>] He was a dream to direct, a fantastic actor, a great character actor and really one of Hollywood's great mad geniuses.                    <span class="see-more inline">
                         <a href="/name/nm0000233/bio?ref_=nm_dyk_qt_sm#quotes"
 >See more</a> 
                     </span>
@@ -6487,7 +6518,7 @@ When I give props to these movies, you have to understand - it's not like they w
             <hr/>
         <div id="dyk-trivia" class="see-more inline canwrap">
                 <h4 class="inline">Trivia:</h4>
-Two of Tarantino's favorite films are <a href="/title/tt0060666?ref_=nm">Manos: The Hands of Fate</a> (1966) (which he owns a 35mm copy of) and <a href="/title/tt0084726?ref_=nm">Star Trek II: The Wrath of Khan</a> (1982), which he references in <a href="/title/tt0266697?ref_=nm">Kill Bill: Vol. 1</a> (2003).                    <span class="see-more inline">
+After his parents divorced, his mother married Curtis Zastoupil.                    <span class="see-more inline">
                         <a href="/name/nm0000233/bio?ref_=nm_dyk_trv_sm#trivia"
 >See more</a>
                     </span>
@@ -6498,7 +6529,7 @@ Two of Tarantino's favorite films are <a href="/title/tt0060666?ref_=nm">Manos: 
         <div id="dyk-trademark" class="see-more inline canwrap">
 
                 <h4 class="inline">Trademark:</h4>
-Often frames characters with doorways and shows them opening and closing doors.                    <span class="see-more inline">
+Scenes are more often than not loaded with homages or visual references to other director's works                    <span class="see-more inline">
                         <a href="/name/nm0000233/bio?ref_=nm_dyk_tm_sm#trademark"
 >See more</a>
                     </span>
@@ -6527,62 +6558,62 @@ Often frames characters with doorways and shows them opening and closing doors. 
             <table class="boards">
                     <tr class="odd">
                         <td>
-                            <a href="/name/nm0000233/board/nest/228180606?ref_=nm_bd_1"
->MOVIE ELIMINATION GAME</a>
+                            <a href="/name/nm0000233/board/nest/233435231?ref_=nm_bd_1"
+>Top 5 Directors</a>
                         </td>
                         <td>
-                            <a href="/user/ur45404454/?ref_=nm_bd_1"
->peterjs_95</a>
+                            <a href="/user/ur48337820/?ref_=nm_bd_1"
+>matthewb6273</a>
                         </td>
                     </tr>
                     <tr class="even">
                         <td>
-                            <a href="/name/nm0000233/board/nest/231936101?ref_=nm_bd_2"
+                            <a href="/name/nm0000233/board/nest/228180606?ref_=nm_bd_2"
+>MOVIE ELIMINATION GAME</a>
+                        </td>
+                        <td>
+                            <a href="/user/ur45404454/?ref_=nm_bd_2"
+>peterjs_95</a>
+                        </td>
+                    </tr>
+                    <tr class="odd">
+                        <td>
+                            <a href="/name/nm0000233/board/nest/234509958?ref_=nm_bd_3"
+>Who is the most attractive women to star in one of his films?</a>
+                        </td>
+                        <td>
+                            <a href="/user/ur24556707/?ref_=nm_bd_3"
+>jamesh5</a>
+                        </td>
+                    </tr>
+                    <tr class="even">
+                        <td>
+                            <a href="/name/nm0000233/board/nest/231936101?ref_=nm_bd_4"
 >Does Tarantino like Hitchcock Movies?</a>
                         </td>
                         <td>
-                            <a href="/user/ur53459828/?ref_=nm_bd_2"
+                            <a href="/user/ur53459828/?ref_=nm_bd_4"
 >jameskane9000</a>
                         </td>
                     </tr>
                     <tr class="odd">
                         <td>
-                            <a href="/name/nm0000233/board/nest/224714695?ref_=nm_bd_3"
+                            <a href="/name/nm0000233/board/nest/224714695?ref_=nm_bd_5"
 >What do you hate about Tarantino?</a>
                         </td>
                         <td>
-                            <a href="/user/ur44698849/?ref_=nm_bd_3"
+                            <a href="/user/ur44698849/?ref_=nm_bd_5"
 >Tuamamma1997</a>
                         </td>
                     </tr>
                     <tr class="even">
                         <td>
-                            <a href="/name/nm0000233/board/nest/226972921?ref_=nm_bd_4"
+                            <a href="/name/nm0000233/board/nest/226972921?ref_=nm_bd_6"
 >Reservoir Dogs is a total rip-off</a>
                         </td>
                         <td>
-                            <a href="/user/ur41317628/?ref_=nm_bd_4"
+                            <a href="/user/ur41317628/?ref_=nm_bd_6"
 >moviesexpert</a>
-                        </td>
-                    </tr>
-                    <tr class="odd">
-                        <td>
-                            <a href="/name/nm0000233/board/nest/225107850?ref_=nm_bd_5"
->Isn't he paying 'too much homage' now?</a>
-                        </td>
-                        <td>
-                            <a href="/user/ur32353666/?ref_=nm_bd_5"
->wercide</a>
-                        </td>
-                    </tr>
-                    <tr class="even">
-                        <td>
-                            <a href="/name/nm0000233/board/nest/224475353?ref_=nm_bd_6"
->Still pissed he's not giving us a Thirs Kill Bill movie like he promised</a>
-                        </td>
-                        <td>
-                            <a href="/user/ur23737430/?ref_=nm_bd_6"
->sands-821-414469</a>
                         </td>
                     </tr>
             </table>
@@ -6642,105 +6673,59 @@ class="btn large" >Add resume</a>
 	
     <p class="footer" align="center">
     
-        <a
-onclick="(new Image()).src='/rg/home/footer/images/b.gif?link=/';"
-href="/"
+          <a href="/?ref_=ft_hm"
 >Home</a>
-        | <a
-onclick="(new Image()).src='/rg/search/footer/images/b.gif?link=/search';"
-href="/search"
+        | <a href="/search?ref_=ft_sr"
 >Search</a>
-        | <a
-onclick="(new Image()).src='/rg/siteindex/footer/images/b.gif?link=/a2z';"
-href="/a2z"
+        | <a href="/a2z?ref_=ft_si"
 >Site Index</a>
-        | <a
-onclick="(new Image()).src='/rg/intheaters/footer/images/b.gif?link=/movies-in-theaters/';"
-href="/movies-in-theaters/"
+        | <a href="/movies-in-theaters/?ref_=ft_inth"
 >In Theaters</a>
-        | <a
-onclick="(new Image()).src='/rg/comingsoon/footer/images/b.gif?link=/movies-coming-soon/';"
-href="/movies-coming-soon/"
+        | <a href="/movies-coming-soon/?ref_=ft_cs"
 >Coming Soon</a>
-        | <a
-onclick="(new Image()).src='/rg/topmovies/footer/images/b.gif?link=/chart/';"
-href="/chart/"
+        | <a href="/chart/?ref_=ft_cht"
 >Top Movies</a>
-        | <a
-onclick="(new Image()).src='/rg/top250/footer/images/b.gif?link=/chart/top';"
-href="/chart/top"
+        | <a href="/chart/top?ref_=ft_250"
 >Top 250</a>
-        | <a
-onclick="(new Image()).src='/rg/tv/footer/images/b.gif?link=/sections/tv/';"
-href="/sections/tv/"
+        | <a href="/sections/tv/?ref_=ft_tv"
 >TV</a>
-        | <a
-onclick="(new Image()).src='/rg/news/footer/images/b.gif?link=/news/';"
-href="/news/"
+        | <a href="/news/?ref_=ft_nw"
 >News</a>
-        | <a
-onclick="(new Image()).src='/rg/messageboards/footer/images/b.gif?link=/boards/';"
-href="/boards/"
+        | <a href="/boards/?ref_=ft_mb"
 >Message Boards</a>
-        | <a
-onclick="(new Image()).src='/rg/pressroom/footer/images/b.gif?link=/pressroom/';"
-href="/pressroom/"
+        | <a href="/pressroom/?ref_=ft_pr"
 >Press Room</a>
         <br>
 
-        <a
-onclick="(new Image()).src='/rg/register-v2/footer/images/b.gif?link=https://secure.imdb.com/register-imdb/form-v2';"
-href="https://secure.imdb.com/register-imdb/form-v2"
+        <a href="https://secure.imdb.com/register-imdb/form-v2?ref_=ft_reg"
 >Register</a>
-        | <a
-onclick="(new Image()).src='/rg/advertising/footer/images/b.gif?link=/advertising/';"
-href="/advertising/"
+        | <a href="/advertising/?ref_=ft_ad"
 >Advertising</a>
-        | <a
-onclick="(new Image()).src='/rg/helpdesk/footer/images/b.gif?link=/helpdesk/contact';"
-href="/helpdesk/contact"
+        | <a href="/helpdesk/contact?ref_=ft_con"
 >Contact Us</a>
-        | <a
-onclick="(new Image()).src='/rg/jobs/footer/images/b.gif?link=/jobs';"
-href="/jobs"
+        | <a href="/jobs?ref_=ft_jb"
 >Jobs</a>
         | <a href="http://pro.imdb.com/signup/index.html?rf=cons_ft_hm&ref_=cons_ft_hm"
 >IMDbPro</a>
-        | <a
-onclick="(new Image()).src='/rg/BOXOFFICEMOJO/FOOTER/images/b.gif?link=http://www.boxofficemojo.com/';"
-href="http://www.boxofficemojo.com/"
->Box Office Mojo</a>
-        | <a
-onclick="(new Image()).src='/rg/WITHOUTABOX/FOOTER/images/b.gif?link=http://www.withoutabox.com/';"
-href="http://www.withoutabox.com/"
->Withoutabox</a>
+        |     <a href="/offsite/?page-action=ft-mojo&token=BCYrnG0jru8Gon9vSEtB280Y3WosbGXXbxMJ8KpBGPj9Pku-7a1sEiozV4C8jaJoHlTxg3zijdBR%0D%0Ah7IVR6V1A-SdSLCZRir3NYPIjeQiKnmByopvx0OeTP2zoxRrTETlQtseiCp61DtI7FYoK5NKttIs%0D%0AWTsFbH1P0tPX2e1oXgStOkjmE-95YCptJPWsPnk-tdyS%0D%0A" >Box Office Mojo</a>
+
+        |     <a href="/offsite/?page-action=ft-wab&token=BCYhxbVc5wBH-hkdn2MYZKAk8scAD42eujjCJRQB833IGbiO3nt8XwwllQ22h0k2apP9bqovgnoo%0D%0AKTplpiNUrt7p_ssBFu6gUJfCLNUHNZCTsAUk_84FV1VX1QPu7t8jsUJSs6a1WrUy_ARVBkPpe-ot%0D%0ArDZsuwB0U1xZgdVj-gMGcyz4tPr061NCU9DAkolDjT2J%0D%0A" >Withoutabox</a>
+
         <br /><br />
         IMDb Mobile:
-          <a
-onclick="(new Image()).src='/rg/mobile-ios/footer/images/b.gif?link=/apps/ios/';"
-href="/apps/ios/"
+          <a href="/apps/ios/?ref_=ft_ios"
 >iPhone/iPad</a>
-        | <a
-onclick="(new Image()).src='/rg/mobile-android/footer/images/b.gif?link=/android';"
-href="/android"
+        | <a href="/android?ref_=ft_and"
 >Android</a>
-        | <a
-onclick="(new Image()).src='/rg/mobile-web/footer/images/b.gif?link=http://m.imdb.com';"
-href="http://m.imdb.com"
+        | <a href="http://m.imdb.com?ref_=ft_mdot"
 >Mobile site</a>
-        | <a
-onclick="(new Image()).src='/rg/mobile-win7/footer/images/b.gif?link=/windowsphone';"
-href="/windowsphone"
+        | <a href="/windowsphone?ref_=ft_win"
 >Windows Phone 7</a>
         | IMDb Social:
-          <a
-onclick="(new Image()).src='/rg/facebook/footer/images/b.gif?link=http://www.facebook.com/imdb';"
-href="http://www.facebook.com/imdb"
->Facebook</a>
-        | <a
-onclick="(new Image()).src='/rg/twitter/footer/images/b.gif?link=http://twitter.com/imdb';"
-href="http://twitter.com/imdb"
->Twitter</a>
+              <a href="/offsite/?page-action=ft-fb&token=BCYiFDzm9FV3KxG0V1XDG_i5EJkU2Rn87tdoTRtuXWOpSosnvT8SaK1FBuMf__4I-HNQk9PktW51%0D%0ANW_1jd9P8__SkjhK4wSNoL6PfXBSeRkfYyqL_LQSWLscoGZ0ezWItb-PzynKXYfzCQpjiCM88RA9%0D%0AbdV1-IlBlDUK1-qEEE5Qw4hXEGJpBIpSfjo_ING1KpG1%0D%0A" >Facebook</a>
+
+        |     <a href="/offsite/?page-action=ft-twt&token=BCYvEY53jpkIRLUaBMxDAkfV8MTMtbszoHrAqLzHrKY3pLZNn7dSp_JUDKq2c7Y870YYHAdaAB2B%0D%0ArRBOc-li1rVjIJVtdFm9QLaZfHHL1Bssl0TdRJT5Hbhp8R_BGzq-qgluYy1-u6eiBRguI-IeNI4C%0D%0Aq18l-7lXT2w_6jEkucR86FM%0D%0A" >Twitter</a>
+
        <br /><br />
     </p>
   
@@ -6754,16 +6739,12 @@ onclick="(new Image()).src='/rg/help/footer/images/b.gif?link=/help/';"
 href="/help/"
 >IMDb.com, Inc.</a>
         <br>
-        <a
-onclick="(new Image()).src='/rg/help/footer/images/b.gif?link=/help/show_article?conditions';"
-href="/help/show_article?conditions"
->Conditions of Use</a> | <a
-onclick="(new Image()).src='/rg/help/footer/images/b.gif?link=/privacy';"
-href="/privacy"
->Privacy Policy</a> | <a
-onclick="(new Image()).src='/rg/help/footer/images/b.gif?link=//www.amazon.com/InterestBasedAds';"
-href="//www.amazon.com/InterestBasedAds"
->Interest-Based Ads</a>
+          <a href="/help/show_article?conditions&ref_=ft_cou"
+>Conditions of Use</a>
+        | <a href="/privacy?ref_=ft_pvc"
+>Privacy Policy</a>
+        |     <a href="/offsite/?page-action=ft-iba&token=BCYuofyw1BpXVd2uxaIDEUchMDgS9I1sEx6ZbusO9jOQHcmfZBQtbs9lW9-yzdf5GhDeDTaiqXcO%0D%0A1JqTOlV2ZSU0UvzaH_HWAUhQ-5bJyUdb-x5ck3jb8QH1x4nKA34qE2csCTNu6Vobhl2HMyohDGn6%0D%0Aby60GNUnGrHYHbFX_hAdrzTc7C0dRGvyy1-q44f56vMY%0D%0A" >Interest-Based Ads</a>
+
         <br>
         An <span id="amazon_logo" class="footer_logo" align="middle"></span> company.
     </p>
@@ -6778,55 +6759,45 @@ href="//www.amazon.com/InterestBasedAds"
       </td>
     </tr>
     <tr>
-      <td class="amazon-affiliate-site-first">
-       
-        <a class="amazon-affiliate-site-link" href="http://www.amazon.com/b?ie=UTF8&node=2676882011&tag=imdbpr1-20">
-          <span class="amazon-affiliate-site-name">Amazon Instant Video</span><br>
+    <td class="amazon-affiliate-site-item-nth">
+    <a href="/offsite/?page-action=ft-aiv&token=BCYsilywtYBiG5Fjgx_O18fvcwAwt6L8uMBCgoczywPcsh7dINA4-HX3SmXVDLMYcKIf_SCtPsv7%0D%0Ah75T4KYEh7rqb_lrojpjTlmV2wgZbGSqtdSy6gr-QBnM_BPXAbD2NJiqMGBVDh625uk09bek2nw3%0D%0AT1TyvMzzEEb6WVLN80Qv9dLr7lmjV_xx_RcXuWxbsKDdd0l-e2MG3XKFJljxuI_d0N3XPd_Ge2wD%0D%0AYjrONyLwxWk%0D%0A" class="amazon-affiliate-site-link">          <span class="amazon-affiliate-site-name">Amazon Instant Video</span><br>
           <span class="amazon-affiliate-site-desc">Watch Movies &<br>TV Online</span>
-        </a>
-      </td>
-     
+</a>
+    </td>
     <td class="amazon-affiliate-site-item-nth">
-        <a class="amazon-affiliate-site-link" href=http://www.amazon.com/b?ie=UTF8&node=2676882011&tag=imdbpr1-20 >
-          <span class="amazon-affiliate-site-name">Prime Instant Video</span><br>
+    <a href="/offsite/?page-action=ft-piv&token=BCYvkQekqIQ4yfRfjnEp8JvvArgpf4r4ijrBr8tAg3p0UxFQMo0yJPmRMC9uGFxJc30okuF3hYjz%0D%0AaABCQurGYD7FcLaI-FDx4Xvvuak9vUaHBy5lvTevrtxo7tnkCMwzxSUVIha8cKNXJLYmWhop4rSM%0D%0AvqWugTreXOOMPIXLduHAfXJpgtGx3SiejAzk_F3dRScp_bPwKQyfkG_6NQC8Zizj94_aGzUWg_Xj%0D%0AJE9d92fFDYs%0D%0A" class="amazon-affiliate-site-link">          <span class="amazon-affiliate-site-name">Prime Instant Video</span><br>
           <span class="amazon-affiliate-site-desc">Unlimited Streaming<br>of Movies & TV</span>
-        </a>
+</a>
     </td>
     <td class="amazon-affiliate-site-item-nth">
-        <a class="amazon-affiliate-site-link" href=http://www.amazon.de/b?ie=UTF8&node=284266&tag=imdbpr1-de-21 >
-          <span class="amazon-affiliate-site-name">Amazon Germany</span><br>
+    <a href="/offsite/?page-action=ft-amzn-de&token=BCYpvCGvTucWXeZ7MalxlaoMKkqe-a97u5sx1D2yPqjdFhYyuQjyNNkn0rxKeNmVYA_KeLI_1elT%0D%0Aa8zh9e1mSrBLP_r9yFskNsahNsp63_1tEDDsqX4HKmVk0pdCQsBWIriwxFB0FqeY6HC_QtOpj0AE%0D%0AbJ8GelxiuilMvibc7wXJ2HAx81N2zY2l4tA_b5M_6iSkMpAXvb7VBxdf1AjvslOP-5kwr1klCHwe%0D%0A4N4zm176zpA%0D%0A" class="amazon-affiliate-site-link">          <span class="amazon-affiliate-site-name">Amazon Germany</span><br>
           <span class="amazon-affiliate-site-desc">Buy Movies on<br>DVD & Blu-ray</span>
-        </a>
+</a>
     </td>
     <td class="amazon-affiliate-site-item-nth">
-        <a class="amazon-affiliate-site-link" href=http://www.amazon.it/b?ie=UTF8&node=412606031&tag=imdbpr1-it-21 >
-          <span class="amazon-affiliate-site-name">Amazon Italy</span><br>
+    <a href="/offsite/?page-action=ft-amzn-it&token=BCYq5Vz1VeIZsEY2CctNp2xM897rnqbhVoRjwx_hL1e-58K0DgxjfN4n4WBnvQOXqypcQmzIq5Gc%0D%0Azllcjukqg67SIdfFUjjS9I9D6FdbGzcenbRuyumWCDL3lDgyw0eBj5o-T9wwGkKjkbWh8EE2AoiN%0D%0A3N-F5b8W3wfnjYLQFMZKWfxGJAHeM6Uin2ls8OPOq4Few8JatKeB78zmRbgwIE4-tNI_50Fw7T_B%0D%0AyzIQF5fl3OM%0D%0A" class="amazon-affiliate-site-link">          <span class="amazon-affiliate-site-name">Amazon Italy</span><br>
           <span class="amazon-affiliate-site-desc">Buy Movies on<br>DVD & Blu-ray</span>
-        </a>
+</a>
     </td>
     <td class="amazon-affiliate-site-item-nth">
-        <a class="amazon-affiliate-site-link" href=http://www.amazon.fr/b?ie=UTF8&node=405322&tag=imdbpr1-fr-21 >
-          <span class="amazon-affiliate-site-name">Amazon France</span><br>
+    <a href="/offsite/?page-action=ft-amzn-fr&token=BCYnpNJJ9brLo10zO1Zy0SLaQhU3j6Z-wFaBGx9Zje73tuPmVusit9lLaKLK4xF9hOD-LAnOqelN%0D%0ADMvznLA-Sry2Dv-qnmf1n5y1r9HWK3wUcI8GJb4eTfkxI2LiA4zbw1BHhnLAg1rFnxOdTBLCWz2o%0D%0ARaO2wkeh2_8M8RXK7xNa3H-wJ4fyIdQdn3ws5u3D3o3vyUwQB5uNnOozFJeXL5CohSBQN0W5DHDv%0D%0AP-4lSNHB3xI%0D%0A" class="amazon-affiliate-site-link">          <span class="amazon-affiliate-site-name">Amazon France</span><br>
           <span class="amazon-affiliate-site-desc">Buy Movies on<br>DVD & Blu-ray</span>
-        </a>
+</a>
     </td>
     <td class="amazon-affiliate-site-item-nth">
-        <a class="amazon-affiliate-site-link" href=http://www.amazon.in/movies-tv-shows/b/?ie=UTF&node=976416031&tag=imdbpr1-in-21 >
-          <span class="amazon-affiliate-site-name">Amazon India</span><br>
+    <a href="/offsite/?page-action=ft-amzn-in&token=BCYs20AxGEPIQ5TMWRUl6uobzF1Nq8mmNYLGtb2zsdyUKZZlTv1gMpzEv-tPmJhPDMbaCqhnxWpv%0D%0AYjZlK6WwgK1bhu00lCOKwZnWcwDFgliD6g7nlRnU95tCYkne7hqBrv2xiNktjPjUaVsjYz_2Oeud%0D%0ALiHjPAY-SBJBh5qI0FGfe8o6qvlOlQaIaMbgUl9JHiWL1nvgt1rp6yvOORYD1mGOP73bYKlSygP3%0D%0AlhCmKfpSjuwFEj6Qqc755dAb1MTyVJCW%0D%0A" class="amazon-affiliate-site-link">          <span class="amazon-affiliate-site-name">Amazon India</span><br>
           <span class="amazon-affiliate-site-desc">Buy Movie and<br>TV Show DVDs</span>
-        </a>
+</a>
     </td>
     <td class="amazon-affiliate-site-item-nth">
-        <a class="amazon-affiliate-site-link" href=http://www.dpreview.com >
-          <span class="amazon-affiliate-site-name">DPReview</span><br>
+    <a href="/offsite/?page-action=ft-amzn-dpr&token=BCYlpoLJDB1tG9p8GQ5YWvo-dn97LEwgnEBYMyrlyeqbDtkC2Eo9mi05A1tBw91qdfiwaqtF9lEz%0D%0AgCaS94l4BEROIl5s0clQZl9ij740t_NiwCUFY2UbSA62K8Ij92BvdryFugGFm2ZbN7vPK-qNw-bj%0D%0AD5DCgdxvbCx6YJvP46YAS88c-VgJDQsNO7D6ITdkLI90%0D%0A" class="amazon-affiliate-site-link">          <span class="amazon-affiliate-site-name">DPReview</span><br>
           <span class="amazon-affiliate-site-desc">Digital<br>Photography</span>
-        </a>
+</a>
     </td>
     <td class="amazon-affiliate-site-item-nth">
-        <a class="amazon-affiliate-site-link" href=http://www.audible.com >
-          <span class="amazon-affiliate-site-name">Audible</span><br>
+    <a href="/offsite/?page-action=ft-amzn-aud&token=BCYmLHH7upJiaoG6E0VJRZS36nRewTk9jGCNZxFqzncDSTInIjNl0Y39HlNt2FRcqpVv76K_WpHo%0D%0ACNMn-YXOGoIghfNqUxoznT_0VwsWqZY4m0pD8rZR2EpwhMq6gMMOuDJ4mTnKU6FgcjawqSD8ckyt%0D%0Acv85EUnvWweoq2X_fv08r-5QQvg8xw5wQ1ywNG22EHqG%0D%0A" class="amazon-affiliate-site-link">          <span class="amazon-affiliate-site-name">Audible</span><br>
           <span class="amazon-affiliate-site-desc">Download<br>Audio Books</span>
-        </a>
+</a>
     </td>
     </tr>
   </table>
@@ -6834,12 +6805,13 @@ href="//www.amazon.com/InterestBasedAds"
             </div>
         </div>
 
-<script type="text/javascript" src="http://ia.media-imdb.com/images/G/01/imdb/js/collections/name-3498194041._CB344247413_.js"></script>
+<script type="text/javascript" src="http://ia.media-imdb.com/images/G/01/imdb/js/collections/name-2023680757._CB335192901_.js"></script>
 
 <script type="text/imdblogin-js" id="login">
 jQuery(document).ready(function(){
     window.imdb.login_lightbox("https://secure.imdb.com", "http://www.imdb.com/name/nm0000233/?nmdp=1");
 });
+
 </script>
 
         <script type="text/javascript">
@@ -6897,7 +6869,7 @@ jQuery(document).ready(function(){
                 );
         </script>
 
-<div id="servertime" time="61"/>
+<div id="servertime" time="51"/>
 
 
 

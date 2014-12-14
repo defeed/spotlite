@@ -27,7 +27,7 @@ describe "Spotlite::Movie" do
 
     it "should return alternative titles" do
       @movie.alternative_titles.should be_an(Array)
-      @movie.alternative_titles.size.should eql(34)
+      @movie.alternative_titles.size.should be_within(10).of(40)
       @movie.alternative_titles.should include({:title => "Maatriks", :comment => "Estonia"})
       @movie.alternative_titles.should include({:title => "Матрица", :comment => "Russia"})
     end
@@ -116,9 +116,6 @@ describe "Spotlite::Movie" do
       @movie.recommended_movies.should be_an(Array)
       @movie.recommended_movies.size.should eql(12)
       @movie.recommended_movies.each {|movie| movie.should be_a(Spotlite::Movie)}
-      @movie.recommended_movies.first.imdb_id.should eql("0167261")
-      @movie.recommended_movies.first.title.should eql("The Lord of the Rings: The Two Towers")
-      @movie.recommended_movies.first.year.should eql(2002)
     end
 
     it "should return plot keywords" do
@@ -213,7 +210,7 @@ describe "Spotlite::Movie" do
 
       it "should return movie cast" do
         @movie.cast.should be_an(Array)
-        @movie.cast.size.should eql(37)
+        @movie.cast.size.should be_within(10).of(37)
         @movie.cast.each{ |person| person.should be_a(Spotlite::Person) }
         first = @movie.cast.first
         first.name.should eql("Keanu Reeves")
@@ -224,7 +221,7 @@ describe "Spotlite::Movie" do
 
       it "should return movie crew" do
         @movie.crew.should be_an(Array)
-        @movie.crew.size.should eql(542)
+        @movie.crew.size.should be_within(50).of(550)
         @movie.crew.each{ |person| person.should be_a(Spotlite::Person) }
       end
 
