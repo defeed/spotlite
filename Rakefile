@@ -19,7 +19,7 @@ task :refresh_fixtures do
 
   IMDB_SAMPLES.each_pair do |url, fixture|
     page = `curl -isH "Accept-Language: en-us" '#{url}'`
-    
+
     File.open(File.expand_path(File.dirname(__FILE__) + "/spec/fixtures/#{fixture}"), 'w') do |f|
       f.write(page)
     end

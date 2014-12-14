@@ -38,7 +38,7 @@ Or install it yourself as:
     => [#<Spotlite::Person:0x007f96a092be70 @imdb_id="0905152", @name="Andy Wachowski", @url="http://www.imdb.com/name/nm0905152/", @credits_category="Directed by", @credits_text="(as The Wachowski Brothers)">, #<Spotlite::Person:0x007f96a092bda8 @imdb_id="0905154", @name="Lana Wachowski", @url="http://www.imdb.com/name/nm0905154/", @credits_category="Directed by", @credits_text="(as The Wachowski Brothers)">]
     > movie.cast[0..2]
     => [#<Spotlite::Person:0x007f96a19521a0 @imdb_id="0000206", @name="Keanu Reeves", @url="http://www.imdb.com/name/nm0000206/", @credits_category="Cast", @credits_text="Neo">, #<Spotlite::Person:0x007f96a1951c28 @imdb_id="0000401", @name="Laurence Fishburne", @url="http://www.imdb.com/name/nm0000401/", @credits_category="Cast", @credits_text="Morpheus">, #<Spotlite::Person:0x007f96a1951a70 @imdb_id="0005251", @name="Carrie-Anne Moss", @url="http://www.imdb.com/name/nm0005251/", @credits_category="Cast", @credits_text="Trinity">]
-    
+
 ## Important notice
 
 Movie titles will be localized if movie has an alternative title specific to your country.
@@ -60,11 +60,11 @@ Sorry, there is nothing I can do about it at the moment.
 Spotlite uses RSpec as a test framework. So, first make sure you have it installed
 
     $ gem install rspec
-    
+
 Run the tests
 
     $ rake
-    
+
 Spotlite uses gem FakeWeb in order to stub out HTTP responses from IMDb. These
 stubs are located in `spec/fixtures` directory.
 
@@ -76,7 +76,7 @@ If you want to make a new feature that uses data from a page which is not stubbe
 
     $ cd spotlite
     $ curl -isH "Accept-Language: en-us" http://www.imdb.com/title/tt[IMDB_ID]/ > spec/fixtures/tt[IMDB_ID]/index
-    
+
 or, for example:
 
     $ curl -isH "Accept-Language: en-us" http://www.imdb.com/title/tt[IMDB_ID]/fullcredits > spec/fixtures/tt[IMDB_ID]/fullcredits
@@ -89,7 +89,7 @@ expected data, or more likely, methods will return nil or empty arrays.
 First, run tests with `LIVE_TEST=true` environment variable:
 
     $ LIVE_TEST=true rake
-   
+
 Adjust methods that are failing, according to the new layout. And refresh fixtures:
 
     $ rake refresh_fixtures
