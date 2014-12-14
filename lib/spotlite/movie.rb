@@ -231,7 +231,7 @@ module Spotlite
     
     # Returns a list of crew members of a certain category as an array +Spotlite::Person+ objects
     def parse_crew(category)
-      table = full_credits.search("[text()^='#{category}']").first.next_element rescue []
+      table = full_credits.search("[text()^='#{category}']").first.next_element rescue nil
       if table && table.name == 'table'
         table.css('tr').reject do |row|
           # Skip empty table rows with one non-braking space
@@ -245,6 +245,8 @@ module Spotlite
         end.map do |values|
           Spotlite::Person.new(*values)
         end
+      else
+        []
       end
     end
     
