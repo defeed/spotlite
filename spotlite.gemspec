@@ -16,9 +16,10 @@ Gem::Specification.new do |gem|
   gem.files         = `git ls-files`.split($/)
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ['lib']
-  
+
   gem.add_dependency 'httparty'
   gem.add_dependency 'nokogiri', '~> 1.6'
   gem.add_development_dependency 'rspec', '~> 2.14'
   gem.add_development_dependency 'fakeweb', '~> 1.3'
+  gem.add_development_dependency 'pry'
 end
