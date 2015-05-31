@@ -101,7 +101,7 @@ module Spotlite
 
     # Returns content rating as a string
     def content_rating
-      details.at(".infobar span[itemprop='contentRating']")['title'] rescue nil
+      details.at(".infobar meta[itemprop='contentRating']")['content'] rescue nil
     end
 
     # Returns a list of genres as an array of strings
