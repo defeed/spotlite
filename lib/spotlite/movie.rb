@@ -22,7 +22,9 @@ module Spotlite
     # Returns a list of movies as an array of +Spotlite::Movie+ objects
     # Takes single parameter and searches for movies by title and alternative titles
     def self.find(query)
-      results = Spotlite::Client.get 'http://www.imdb.com/find', query: {q: query, s: 'tt', ttype: 'ft'}
+      results = Spotlite::Client.get(
+        'http://www.imdb.com/find', query: { q: query, s: 'tt', ttype: 'ft' }
+      )
       results.css('.result_text').map do |result|
         imdb_id = result.at('a')['href'].parse_imdb_id
         title   = result.at('a').text.strip
@@ -46,7 +48,9 @@ module Spotlite
         sort: 'moviemeter,asc'
       }
       params = defaults.merge(params)
-      results = Spotlite::Client.get 'http://www.imdb.com/search/title', query: params
+      results = Spotlite::Client.get(
+        'http://www.imdb.com/search/title', query: params
+      )
       results.css('td.title').map do |result|
         imdb_id = result.at('a')['href'].parse_imdb_id
         title   = result.at('a').text.strip
@@ -287,7 +291,7 @@ module Spotlite
         comment = cells.last.text.strip.clean_release_comment
         comment = nil if comment.empty?
 
-        array << {:code => code, :region => region, :date => date, :comment => comment}
+        array << { :code => code, :region => region, :date => date, :comment => comment }
       end unless table.nil?
 
       array
@@ -308,7 +312,7 @@ module Spotlite
         excerpt = review.at("div[itemprop='reviewbody']").text.strip
         score = review.at("span[itemprop='ratingValue']").text.to_i
 
-        array << {:source => source, :author => author, :excerpt => excerpt, :score => score}
+        array << { :source => source, :author => author, :excerpt => excerpt, :score => score }
       end
 
       array
