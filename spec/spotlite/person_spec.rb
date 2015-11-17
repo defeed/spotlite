@@ -35,7 +35,7 @@ describe "Spotlite::Person" do
       it "should return new style photo URL" do
         # Carey Mulligan
         @person = Spotlite::Person.new("1659547")
-        @person.photo_url.should eql("http://ia.media-imdb.com/images/M/MV5BMTQ2MTQyMzYzMV5BMl5BanBnXkFtZTcwODY0ODI4Mg@@.jpg")
+        @person.photo_url.should eql("http://ia.media-imdb.com/images/M/MV5BMTYyNDE1NTQ1M15BMl5BanBnXkFtZTcwMzg4Mzc3Nw@@.jpg")
       end
 
       it "should return nil if photo doesn't exist" do
@@ -52,9 +52,9 @@ describe "Spotlite::Person" do
       end
 
       context "with basic jobs (director, actor, writer, producer), flattened to array" do
-        it "should return an array of 75..85 movies" do
+        it "should return an array of 50..250 movies" do
           @person.filmography.should be_an(Array)
-          @person.filmography.size.should be_within(5).of(80)
+          @person.filmography.size.should be_within(150).of(200)
           @person.filmography.each{ |movie| movie.should be_a(Spotlite::Movie) }
           @person.filmography.last.title.should eql("My Best Friend's Birthday")
           @person.filmography.last.imdb_id.should eql("0359715")
@@ -70,20 +70,20 @@ describe "Spotlite::Person" do
 
         it "should be able to retrieve an array of +Spotlite::Movie+ objects by a hash key" do
           @person.filmography(false, false)[:actor].should be_an(Array)
-          @person.filmography(false, false)[:actor].size.should be_within(5).of(29)
+          @person.filmography(false, false)[:actor].size.should be_within(50).of(60)
           @person.filmography(false, false)[:actor].each{ |movie| movie.should be_a(Spotlite::Movie) }
-          @person.filmography(false, false)[:actor].last.title.should eql("Love Birds in Bondage")
-          @person.filmography(false, false)[:actor].last.imdb_id.should eql("1959459")
+          @person.filmography(false, false)[:actor].last.title.should eql("My Best Friend's Birthday")
+          @person.filmography(false, false)[:actor].last.imdb_id.should eql("0359715")
         end
       end
 
       context "with all available jobs, flattened to array" do
-        it "should return an array of 175..195 movies" do
+        it "should return an array of 50..350 movies" do
           @person.filmography(true, true).should be_an(Array)
-          @person.filmography(true, true).size.should be_within(10).of(185)
+          @person.filmography(true, true).size.should be_within(150).of(200)
           @person.filmography(true, true).each{ |movie| movie.should be_a(Spotlite::Movie) }
-          @person.filmography(true, true).last.title.should eql("The Typewriter, the Rifle & the Movie Camera")
-          @person.filmography(true, true).last.imdb_id.should eql("0118004")
+          @person.filmography(true, true).last.title.should eql("God Said, 'Ha!'")
+          @person.filmography(true, true).last.imdb_id.should eql("0119207")
         end
       end
 
@@ -96,7 +96,7 @@ describe "Spotlite::Person" do
 
         it "should be able to retrieve an array of +Spotlite::Movie+ objects by a hash key" do
           @person.filmography(true, false)[:thanks].should be_an(Array)
-          @person.filmography(true, false)[:thanks].size.should be_within(10).of(75)
+          @person.filmography(true, false)[:thanks].size.should be_within(90).of(100)
           @person.filmography(true, false)[:thanks].each{ |movie| movie.should be_a(Spotlite::Movie) }
           @person.filmography(true, false)[:thanks].last.title.should eql("White Man's Burden")
           @person.filmography(true, false)[:thanks].last.imdb_id.should eql("0114928")
