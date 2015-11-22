@@ -103,6 +103,11 @@ module Spotlite
       details.at("#titleStoryLine div[itemprop='description'] p").text.strip.clean_description rescue nil
     end
 
+    # Returns a list of plot summaries as an array of strings
+    def summaries
+      plot_summaries.css("p.plotSummary").map { |summary| summary.text.strip }
+    end
+
     # Returns content rating as a string
     def content_rating
       details.at(".infobar meta[itemprop='contentRating']")['content'] rescue nil
@@ -382,6 +387,10 @@ module Spotlite
 
     def technical_info # :nodoc:
       @technical_info ||= open_page('technical')
+    end
+
+    def plot_summaries # :nodoc:
+      @plot_summaries ||= open_page('plotsummary')
     end
 
     def open_page(page = nil, query = {}) # :nodoc:
