@@ -35,7 +35,7 @@ describe "Spotlite::Person" do
       it "should return new style photo URL" do
         # Carey Mulligan
         @person = Spotlite::Person.new("1659547")
-        @person.photo_url.should eql("http://ia.media-imdb.com/images/M/MV5BMTYyNDE1NTQ1M15BMl5BanBnXkFtZTcwMzg4Mzc3Nw@@.jpg")
+        @person.photo_url.should eql("http://ia.media-imdb.com/images/M/MV5BMTUzODM0OTY4OF5BMl5BanBnXkFtZTgwMTg3NDk0NzE@.jpg")
       end
 
       it "should return nil if photo doesn't exist" do
