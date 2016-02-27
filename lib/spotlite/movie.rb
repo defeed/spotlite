@@ -214,7 +214,7 @@ module Spotlite
 
     # Returns a list of starred actors as an array of +Spotlite::Person+ objects
     def stars
-      details.css("td#overview-top div[itemprop='actors'] a[href^='/name/nm']").map do |node|
+      details.css("div.plot_summary_wrapper span[itemprop='actors'] a[href^='/name/nm']").map do |node|
         imdb_id = node['href'].parse_imdb_id
         name = node.text.strip
 
