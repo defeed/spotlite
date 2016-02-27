@@ -85,7 +85,7 @@ module Spotlite
 
     # Returns Metascore rating as an integer
     def metascore
-      details.at("div.star-box-details a[href^=criticreviews]").text.strip.split('/').first.to_i rescue nil
+      details.at("div.titleReviewBar a[href^=criticreviews] span").text.to_i rescue nil
     end
 
     # Returns number of votes as an integer
