@@ -90,7 +90,7 @@ module Spotlite
 
     # Returns number of votes as an integer
     def votes
-      details.at("div.star-box-details span[itemprop='ratingCount']").text.gsub(/[^\d+]/, '').to_i rescue nil
+      details.at("div.imdbRating span[itemprop='ratingCount']").text.gsub(/[^\d+]/, '').to_i rescue nil
     end
 
     # Returns short description as a string
