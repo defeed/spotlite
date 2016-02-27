@@ -75,7 +75,7 @@ module Spotlite
 
     # Returns year of original release as an integer
     def year
-      @year ||= details.at("h1.header a[href^='/year/']").text.parse_year rescue nil
+      @year ||= details.at("h1[itemprop='name'] span#titleYear a").text.parse_year rescue nil
     end
 
     # Returns IMDb rating as a float
