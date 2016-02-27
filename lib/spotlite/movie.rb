@@ -64,7 +64,8 @@ module Spotlite
 
     # Returns title as a string
     def title
-      @title ||= details.at("h1.header span[itemprop='name']").text.strip rescue nil
+      # strip some non-breaking space at the end
+      @title ||= details.at("h1[itemprop='name']").children.first.text.strip.gsub(' ', '') rescue nil
     end
 
     # Returns original non-english title as a string
