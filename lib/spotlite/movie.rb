@@ -148,7 +148,7 @@ module Spotlite
 
     # Returns primary poster URL as a string
     def poster_url
-      src = details.at('#img_primary img')['src'] rescue nil
+      src = details.at('div.poster img')['src'] rescue nil
 
       if src =~ /^(http:.+@@)/ || src =~ /^(http:.+?)\.[^\/]+$/
         $1 + '.jpg'
