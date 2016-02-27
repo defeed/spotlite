@@ -95,7 +95,7 @@ module Spotlite
 
     # Returns short description as a string
     def description
-      desc = details.at("p[itemprop='description']").text.strip.clean_description rescue nil
+      desc = details.at("div.summary_text[itemprop='description']").text.strip.clean_description rescue nil
       (desc.nil? || desc.empty?) ? nil : desc
     end
 
