@@ -116,7 +116,7 @@ module Spotlite
 
     # Returns a list of genres as an array of strings
     def genres
-      details.css("div.infobar a[href^='/genre/']").map { |genre| genre.text } rescue []
+      details.css("div.subtext a[href^='/genre/']").map { |genre| genre.text } rescue []
     end
 
     # Returns a list of countries as an array of hashes
