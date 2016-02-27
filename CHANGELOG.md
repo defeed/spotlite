@@ -1,3 +1,15 @@
+## v0.8.6 27-Feb-2016
+
+* Numerous parsing fixes (title, original title, year, rating, metascore, votes, description, genres, runtime, content rating, starred actors)
+
+## v0.8.5 22-Nov-2015
+
+* Added `summaries` method for `Movie` class to get an array of plot summaries
+
+## v0.8.4 17-Nov-2015
+
+* Fixed content rating parsing
+
 ## v0.8.3 14-Dec-2014
 
 * Spotlite now uses HTTParty as HTTP client, adding `response` attribute to Movie instance
