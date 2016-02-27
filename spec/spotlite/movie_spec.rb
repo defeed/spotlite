@@ -127,7 +127,7 @@ describe "Spotlite::Movie" do
     it "should return trivia" do
       @movie.trivia.should be_an(Array)
       @movie.trivia.size.should be_within(100).of(200)
-      @movie.trivia.should include("Nicolas Cage turned down the part of Neo because of family commitments. Other actors considered for the role included Tom Cruise and Leonardo DiCaprio.")
+      @movie.trivia.should include("Nicolas Cage turned down the part of Neo because of family commitments. Tom Cruise was also considered.")
       @movie.trivia.should include("Carrie-Anne Moss twisted her ankle while shooting one of her scenes but decided not to tell anyone until after filming, so they wouldn't re-cast her.")
       @movie.trivia.should include("Gary Oldman was considered as Morpheus at one point, as well as Samuel L. Jackson.")
     end
