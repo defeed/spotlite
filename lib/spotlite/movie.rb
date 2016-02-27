@@ -80,7 +80,7 @@ module Spotlite
 
     # Returns IMDb rating as a float
     def rating
-      details.at("div.star-box-details span[itemprop='ratingValue']").text.to_f rescue nil
+      details.at("div.imdbRating span[itemprop='ratingValue']").text.to_f rescue nil
     end
 
     # Returns Metascore rating as an integer
