@@ -185,6 +185,11 @@ module Spotlite
       movie_trivia.css("div.sodatext").map { |node| node.text.strip } rescue []
     end
 
+    # Returns a list of taglines as an array of strings
+    def taglines
+      movie_taglines.css("#taglines_content .soda").map { |node| node.text.clean_tagline }
+    end
+
     # Returns a list of movie alternative titles as an array of hashes
     # with keys +title+ (string) and +comment+ (string)
     def alternative_titles
@@ -392,6 +397,10 @@ module Spotlite
 
     def plot_summaries # :nodoc:
       @plot_summaries ||= open_page('plotsummary')
+    end
+
+    def movie_taglines # :nodoc:
+      @taglines ||= open_page('taglines')
     end
 
     def open_page(page = nil, query = {}) # :nodoc:

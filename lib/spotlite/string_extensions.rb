@@ -42,6 +42,11 @@ class String
     gsub(/\u00A0/, '').gsub(/\s+/, ' ').strip
   end
 
+  # Removes tagline comment in braces
+  def clean_tagline
+    gsub(/\[(.*?)\]|\((.*?)\)/, '').strip
+  end
+
   # Strips parantheses from release date's comment
   def clean_release_comment
     gsub("\n", '').gsub(') (', ', ').gsub('(', '').gsub(')', '')

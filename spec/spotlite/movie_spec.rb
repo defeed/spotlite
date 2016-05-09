@@ -132,6 +132,14 @@ describe "Spotlite::Movie" do
       @movie.trivia.should include("Gary Oldman was considered as Morpheus at one point, as well as Samuel L. Jackson.")
     end
 
+    it "should return taglines" do
+      @movie.taglines.should be_an(Array)
+      @movie.taglines.size.should be_within(10).of(15)
+      @movie.taglines.should include("Free your mind")
+      @movie.taglines.should include("The Matrix has you.")
+      @movie.taglines.should include("The Future isn't user friendly...")
+    end
+
     describe "release dates" do
       it "should return release dates" do
         # Rear Window (1954)

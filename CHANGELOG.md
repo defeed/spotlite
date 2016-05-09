@@ -1,3 +1,7 @@
+## v0.8.7 09-May-2016
+
+* Added `taglines` method for `Movie` class to get an array of taglines
+
 ## v0.8.6 27-Feb-2016
 
 * Numerous parsing fixes (title, original title, year, rating, metascore, votes, description, genres, runtime, content rating, starred actors)
