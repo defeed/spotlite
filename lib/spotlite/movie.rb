@@ -187,7 +187,7 @@ module Spotlite
 
     # Returns a list of taglines as an array of strings
     def taglines
-      movie_taglines.css("#taglines_content .soda").map { |node| node.text.clean_tagline }
+      movie_taglines.css("#taglines_content > .soda").map { |node| node.text.clean_tagline }
     end
 
     # Returns a list of movie alternative titles as an array of hashes
