@@ -1,3 +1,7 @@
+## v0.8.8 22-May-2016
+
+* Ignore missing taglines placeholder
+
 ## v0.8.7 09-May-2016
 
 * Added `taglines` method for `Movie` class to get an array of taglines
