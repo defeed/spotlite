@@ -44,7 +44,7 @@ class String
 
   # Removes tagline comment in braces
   def clean_tagline
-    gsub(/\[(.*?)\]|\((.*?)\)/, '').strip
+    gsub(/\[(.*?)\]:?|\((.*?)\):?/, '').strip
   end
 
   # Strips parantheses from release date's comment
