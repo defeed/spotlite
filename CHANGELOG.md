@@ -1,3 +1,7 @@
+## v0.8.9 08-Jun-2016
+
+* Added critic review source URL parsing
+
 ## v0.8.8 22-May-2016
 
 * Ignore missing taglines placeholder
