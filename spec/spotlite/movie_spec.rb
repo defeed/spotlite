@@ -164,6 +164,7 @@ describe "Spotlite::Movie" do
         {
           :source => "Chicago Sun-Times",
           :author => "Roger Ebert",
+          :url => nil,
           :excerpt => "A visually dazzling cyberadventure, full of kinetic excitement, but it retreats to formula just when it's getting interesting.",
           :score => 75
         }
@@ -171,7 +172,8 @@ describe "Spotlite::Movie" do
       @movie.critic_reviews.should include(
         {
           :source => "Chicago Tribune",
-          :author => "",
+          :author => nil,
+          :url => "http://metromix.com/top/1,1419,M-Metromix-Home-X!ArticleDetail-3409,00.html?search_area=Articles&channel=Home",
           :excerpt => "The writing remains more intelligent than most thrillers, and the action is executed with such panache that even if you don't buy the reality of The Matrix, it's a helluva place to visit.",
           :score => 75
         }
@@ -181,6 +183,7 @@ describe "Spotlite::Movie" do
         {
           :source => "Los Angeles Times",
           :author => "Kenneth Turan",
+          :url => "http://www.calendarlive.com/top/1,1419,L-LATimes-Movies-X!ArticleDetail-5096,00.html?search_area=Movies&channel=Movies",
           :excerpt => "A wildly cinematic futuristic thriller that is determined to overpower the imagination, The Matrix combines traditional science-fiction premises with spanking new visual technology in a way that almost defies description.",
           :score => 90
         }

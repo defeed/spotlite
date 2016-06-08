@@ -320,10 +320,17 @@ module Spotlite
       reviews.css("tr[itemprop='reviews']").map do |review|
         source = review.at("b[itemprop='publisher'] span[itemprop='name']").text
         author = review.at("span[itemprop='author'] span[itemprop='name']").text
+        url = review.at("a[itemprop='url']")['href'] rescue nil
         excerpt = review.at("div[itemprop='reviewbody']").text.strip
         score = review.at("span[itemprop='ratingValue']").text.to_i
 
-        array << { :source => source, :author => author, :excerpt => excerpt, :score => score }
+        array << {
+          source: source.empty? ? nil : source,
+          author: author.empty? ? nil : author,
+          url: url,
+          excerpt: excerpt,
+          score: score
+        }
       end
 
       array
