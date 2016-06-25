@@ -1,3 +1,7 @@
+## v0.8.10 25-Jun-2016
+
+* Added `@response` to `Person` object when fetching data
+
 ## v0.8.9 08-Jun-2016
 
 * Added critic review source URL parsing
