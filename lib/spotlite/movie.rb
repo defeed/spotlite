@@ -101,6 +101,10 @@ module Spotlite
       @release_date ||= release_dates.first[:date] rescue nil
     end
 
+    def critic_reviews
+      @critic_reviews ||= parser.parse_critic_reviews
+    end
+
     private
 
     def parser
