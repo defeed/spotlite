@@ -110,8 +110,12 @@ module Spotlite
       end
     end
 
-    def parse_plot_summaries
+    def parse_summaries
       plot_summaries.css("[id^='summary-'] p").map { |summary| summary.text.strip }
+    end
+
+    def parse_keywords
+      plot_keywords.css("a[href^='/keyword/']").map { |keyword| keyword.text.strip }
     end
 
     private
@@ -122,6 +126,10 @@ module Spotlite
 
     def plot_summaries
       @plot_summaries ||= open_page("plotsummary")
+    end
+
+    def plot_keywords
+      @plot_keywords ||= open_page("keywords")
     end
 
     def open_page(page = nil, query = {})

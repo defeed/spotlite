@@ -74,7 +74,11 @@ module Spotlite
     end
 
     def plot_summaries
-      @plot_summaries ||= parser.parse_plot_summaries
+      @plot_summaries ||= parser.parse_summaries
+    end
+
+    def keywords
+      @keywords ||= parser.parse_keywords
     end
 
     private
