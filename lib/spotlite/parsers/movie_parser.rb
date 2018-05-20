@@ -105,9 +105,7 @@ module Spotlite
     def parse_poster_url
       src = details.at('div.poster img')['src'] rescue nil
 
-      if src =~ /^(https:.+@@)/ || src =~ /^(https:.+?)\.[^\/]+$/
-        $1 + '.jpg'
-      end
+      extract_image_url(src)
     end
 
     def parse_summaries
@@ -174,7 +172,23 @@ module Spotlite
       array
     end
 
+    def parse_images
+      array = []
+      still_frames.css('#media_index_thumbnail_grid img').map do |image|
+        src = image['src'] rescue nil
+        array << extract_image_url(src)
+      end
+
+      array
+    end
+
     private
+
+    def extract_image_url(src = nil)
+      if src =~ /^(https:.+@@)/ || src =~ /^(https:.+?)\.[^\/]+$/
+        $1 + ".jpg"
+      end
+    end
 
     def details
       @details ||= open_page
@@ -202,6 +216,10 @@ module Spotlite
 
     def critic_reviews
       @critic_reviews ||= open_page("criticreviews")
+    end
+
+    def still_frames
+      @still_frames ||= open_page("mediaindex", { refine: "still_frame" })
     end
 
     def open_page(page = nil, query = {})

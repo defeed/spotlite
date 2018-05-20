@@ -105,6 +105,10 @@ module Spotlite
       @critic_reviews ||= parser.parse_critic_reviews
     end
 
+    def images
+      @images ||= parser.parse_images
+    end
+
     private
 
     def parser
