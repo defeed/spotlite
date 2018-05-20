@@ -110,10 +110,18 @@ module Spotlite
       end
     end
 
+    def parse_plot_summaries
+      plot_summaries.css("[id^='summary-'] p").map { |summary| summary.text.strip }
+    end
+
     private
 
     def details
       @details ||= open_page
+    end
+
+    def plot_summaries
+      @plot_summaries ||= open_page("plotsummary")
     end
 
     def open_page(page = nil, query = {})

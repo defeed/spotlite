@@ -73,6 +73,10 @@ module Spotlite
       @poster_url ||= parser.parse_poster_url
     end
 
+    def plot_summaries
+      @plot_summaries ||= parser.parse_plot_summaries
+    end
+
     private
 
     def parser
