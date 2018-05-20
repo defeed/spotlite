@@ -2,6 +2,10 @@ module Spotlite
   class Movie
     attr_accessor :imdb_id
 
+    def self.search(params = {})
+      Spotlite::SearchParser.new(params).parse_search
+    end
+
     def initialize(imdb_id, title = nil, year = nil)
       @imdb_id = "%07d" % imdb_id.to_i
       @title   = title
