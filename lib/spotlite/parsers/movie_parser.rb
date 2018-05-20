@@ -118,6 +118,10 @@ module Spotlite
       plot_keywords.css("a[href^='/keyword/']").map { |keyword| keyword.text.strip }
     end
 
+    def parse_trivia
+      movie_trivia.css("div.sodatext").map { |node| node.text.strip } rescue []
+    end
+
     private
 
     def details
@@ -130,6 +134,10 @@ module Spotlite
 
     def plot_keywords
       @plot_keywords ||= open_page("keywords")
+    end
+
+    def movie_trivia
+      @movie_trivia ||= open_page("trivia")
     end
 
     def open_page(page = nil, query = {})

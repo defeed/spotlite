@@ -81,6 +81,10 @@ module Spotlite
       @keywords ||= parser.parse_keywords
     end
 
+    def trivia
+      @trivia ||= parser.parse_trivia
+    end
+
     private
 
     def parser
