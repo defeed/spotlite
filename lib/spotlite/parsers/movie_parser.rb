@@ -122,6 +122,10 @@ module Spotlite
       movie_trivia.css("div.sodatext").map { |node| node.text.strip } rescue []
     end
 
+    def parse_taglines
+      movie_taglines.css("#taglines_content > .soda").map { |node| node.text.strip }
+    end
+
     private
 
     def details
@@ -138,6 +142,10 @@ module Spotlite
 
     def movie_trivia
       @movie_trivia ||= open_page("trivia")
+    end
+
+    def movie_taglines
+      @movie_taglines ||= open_page("taglines")
     end
 
     def open_page(page = nil, query = {})

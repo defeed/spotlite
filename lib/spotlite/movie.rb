@@ -85,6 +85,10 @@ module Spotlite
       @trivia ||= parser.parse_trivia
     end
 
+    def taglines
+      @taglines ||= parser.parse_taglines
+    end
+
     private
 
     def parser
