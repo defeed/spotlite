@@ -182,12 +182,88 @@ module Spotlite
       array
     end
 
+    def parse_cast
+      array = []
+      full_credits.css('table.cast_list tr').reject do |row|
+        # Skip 'Rest of cast' row
+        row.children.size == 1
+      end.map do |row|
+        imdb_id = row.at('td:nth-child(2) a')['href'].parse_imdb_id
+        name = row.at('td:nth-child(2) a').text.strip_whitespace
+        credits_text = row.last_element_child.text.strip_whitespace
+
+        array << {
+          imdb_id: imdb_id,
+          name: name,
+          credit_category: "Cast",
+          credits_text: credits_text
+        }
+      end
+
+      array
+    end
+
+
+    def parse_crew
+      crew_categories.map{ |category| parse_crew_for(category) }.flatten
+    end
+
+    def parse_credits
+      parse_cast + parse_crew
+    end
+
+    def parse_directors
+      parse_crew_for('Directed by')
+    end
+
+    def parse_writers
+      parse_crew_for('Writing Credits')
+    end
+
+    def parse_producers
+      parse_crew_for('Produced by')
+    end
+
     private
 
     def extract_image_url(src = nil)
       if src =~ /^(https:.+@@)/ || src =~ /^(https:.+?)\.[^\/]+$/
         $1 + ".jpg"
       end
+    end
+
+    def crew_categories
+      array = []
+      full_credits.css('h4.dataHeaderWithBorder').reject{ |h| h['id'] == 'cast' }.map do |node|
+        array << (node.children.size > 1 ? node.children.first.text.strip_whitespace : node.children.text.strip_whitespace)
+      end
+
+      array
+    end
+
+    def parse_crew_for(category)
+      array = []
+      table = full_credits.search("[text()^='#{category}']").first.next_element rescue nil
+
+      if table && table.name == 'table'
+        table.css('tr').reject do |row|
+          # Skip empty table rows with one non-braking space
+          row.text.strip.size == 1
+        end.map do |row|
+          imdb_id = row.first_element_child.at('a')['href'].parse_imdb_id
+          name = row.first_element_child.at('a').text.strip_whitespace
+          credits_text = row.last_element_child.text.strip_whitespace.clean_credits_text
+
+          array << {
+            imdb_id: imdb_id,
+            name: name,
+            credits_category: category,
+            credits_text: credits_text
+          }
+        end
+      end
+
+      array
     end
 
     def details
@@ -220,6 +296,10 @@ module Spotlite
 
     def still_frames
       @still_frames ||= open_page("mediaindex", { refine: "still_frame" })
+    end
+
+    def full_credits
+      @full_credits ||= open_page("fullcredits")
     end
 
     def open_page(page = nil, query = {})

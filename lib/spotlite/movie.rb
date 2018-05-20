@@ -109,6 +109,30 @@ module Spotlite
       @images ||= parser.parse_images
     end
 
+    def cast
+      @cast ||= parser.parse_cast
+    end
+
+    def crew
+      @crew ||= parser.parse_crew
+    end
+
+    def credits
+      @credits ||= parser.parse_credits
+    end
+
+    def directors
+      @directors ||= parser.parse_directors
+    end
+
+    def writers
+      @writers ||= parser.parse_writers
+    end
+
+    def producers
+      @producers ||= parser.parse_producers
+    end
+
     private
 
     def parser
