@@ -89,6 +89,14 @@ module Spotlite
       @taglines ||= parser.parse_taglines
     end
 
+    def alternative_titles
+      @alternative_titles ||= parser.parse_alternative_titles
+    end
+
+    def release_dates
+      @release_dates ||= parser.parse_release_dates
+    end
+
     private
 
     def parser

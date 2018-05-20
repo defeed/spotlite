@@ -126,6 +126,33 @@ module Spotlite
       movie_taglines.css("#taglines_content > .soda").map { |node| node.text.strip }
     end
 
+    def parse_alternative_titles
+      array = []
+      release_info.css('#akas').css('tr').map do |row|
+        cells = row.css('td')
+        array << { title: cells.last.text.strip, comment: cells.first.text.strip }
+      end
+
+      array
+    end
+
+    def parse_release_dates
+      array = []
+      table = release_info.at('#release_dates')
+      table.css('tr').map do |row|
+        cells = row.css('td')
+        code = cells.first.at('a')['href'].clean_href.split('=').last.downcase rescue nil
+        region = cells.first.at('a').text rescue nil
+        date = cells.at('.release_date').text.strip.parse_date
+        comment = cells.last.text.strip.clean_release_comment
+        comment = nil if comment.empty?
+
+        array << { code: code, region: region, date: date, comment: comment }
+      end unless table.nil?
+
+      array
+    end
+
     private
 
     def details
@@ -146,6 +173,10 @@ module Spotlite
 
     def movie_taglines
       @movie_taglines ||= open_page("taglines")
+    end
+
+    def release_info
+      @release_info ||= open_page("releaseinfo")
     end
 
     def open_page(page = nil, query = {})
