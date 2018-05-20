@@ -143,7 +143,7 @@ module Spotlite
         cells = row.css('td')
         code = cells.first.at('a')['href'].clean_href.split('=').last.downcase rescue nil
         region = cells.first.at('a').text rescue nil
-        date = cells.at('.release_date').text.strip.parse_date
+        date = cells.at('.release_date').text.strip.parse_date.to_s
         comment = cells.last.text.strip.clean_release_comment
         comment = nil if comment.empty?
 
