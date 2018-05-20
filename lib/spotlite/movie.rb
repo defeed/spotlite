@@ -3,7 +3,7 @@ module Spotlite
     attr_accessor :imdb_id
 
     def self.search(params = {})
-      Spotlite::SearchParser.new(params).parse_search
+      Spotlite::MovieSearchParser.new(params).parse_search
     end
 
     def initialize(imdb_id, title = nil, year = nil)
