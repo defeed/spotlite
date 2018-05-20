@@ -1,0 +1,28 @@
+PATH
+  remote: .
+  specs:
+    spotlite (1.0.0)
+      httparty
+      nokogiri (~> 1.8.2)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    httparty (0.16.2)
+      multi_xml (>= 0.5.2)
+    mini_portile2 (2.3.0)
+    multi_xml (0.6.0)
+    nokogiri (1.8.2)
+      mini_portile2 (~> 2.3.0)
+    rake (10.5.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.16)
+  rake (~> 10.0)
+  spotlite!
+
+BUNDLED WITH
+   1.16.2
