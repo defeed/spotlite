@@ -1,7 +1,7 @@
 require_relative 'string_extensions'
 
 module Spotlite
-  class SearchParser
+  class MovieSearchParser
     def initialize(params = {})
       @params = params
     end
