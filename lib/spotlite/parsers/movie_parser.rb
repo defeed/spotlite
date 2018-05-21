@@ -94,7 +94,7 @@ module Spotlite
       end.map do |node|
         imdb_id = node.at("a[href^='/title/tt']")['href'].parse_imdb_id
         title   = node.at('a').text.strip
-        year    = node.at('span').text.parse_year
+        year    = node.css('span').last.text.parse_year
 
         array << { imdb_id: imdb_id, title: title, year: year }
       end
