@@ -195,7 +195,7 @@ module Spotlite
         array << {
           imdb_id: imdb_id,
           name: name,
-          credit_category: "Cast",
+          credits_category: "Cast",
           credits_text: credits_text
         }
       end
