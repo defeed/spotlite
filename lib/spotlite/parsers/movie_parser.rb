@@ -41,7 +41,8 @@ module Spotlite
     end
 
     def parse_content_rating
-      details.at("div.subtext meta[itemprop='contentRating']")['content'] rescue nil
+      ratings = ["G", "PG", "PG-13", "R", "NC-17"]
+      details.at(".titleBar .subtext").children.detect { |el| ratings.include?(el.text.strip)  }&.text&.strip
     end
 
     def parse_genres
