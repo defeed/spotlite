@@ -8,15 +8,15 @@ module Spotlite
     end
 
     def parse_title
-      details.at("h1[itemprop='name']").children.first.text.strip_whitespace rescue nil
+      details.at(".titleBar h1").children.first.text.strip_whitespace rescue nil
     end
 
     def parse_original_title
-      details.at("div.originalTitle").children.first.text.gsub('"', '').strip rescue nil
+      details.at(".titleBar .originalTitle").children.first.text.gsub('"', '').strip rescue nil
     end
 
     def parse_year
-      details.at("h1[itemprop='name'] span#titleYear a").text.parse_year rescue nil
+      details.at(".titleBar #titleYear a").text.parse_year rescue nil
     end
 
     def parse_rating
@@ -37,7 +37,7 @@ module Spotlite
     end
 
     def parse_storyline
-      details.at("#titleStoryLine span[itemprop='description']").text.strip rescue nil
+      details.at("#titleStoryLine h2").next_element.at_css("p span").text.strip rescue nil
     end
 
     def parse_content_rating
@@ -45,7 +45,7 @@ module Spotlite
     end
 
     def parse_genres
-      details.css("div.subtext a[href^='/genre/']").map(&:text) rescue []
+      details.css(".titleBar .subtext a[href^='/search/title?genres']").map(&:text) rescue []
     end
 
     def parse_countries
@@ -67,16 +67,19 @@ module Spotlite
     end
 
     def parse_runtime
-      details.at("div.subtext time[itemprop='duration']")['datetime'].gsub(/[^\d+]/, '').to_i rescue nil
+      details.at(".titleBar .subtext time")['datetime'].gsub(/[^\d+]/, '').to_i rescue nil
     end
 
     def parse_stars
       array = []
-      details.css("div.plot_summary_wrapper span[itemprop='actors'] a[href^='/name/nm']").map do |node|
-        imdb_id = node['href'].parse_imdb_id
-        name = node.text.strip
+      details
+        .css(".credit_summary_item")
+        .detect { |el| el.children.at_css("h4").text == 'Stars:' }
+        .css("a[href^='/name/nm']").map do |node|
+          imdb_id = node['href'].parse_imdb_id
+          name = node.text.strip
 
-        array << { imdb_id: imdb_id, name: name }
+          array << { imdb_id: imdb_id, name: name }
       end
 
       array
@@ -126,7 +129,7 @@ module Spotlite
 
     def parse_alternative_titles
       array = []
-      release_info.css('#akas').css('tr').map do |row|
+      release_info.css('tr.aka-item').css('tr').map do |row|
         cells = row.css('td')
         array << { title: cells.last.text.strip, comment: cells.first.text.strip }
       end
@@ -136,17 +139,14 @@ module Spotlite
 
     def parse_release_dates
       array = []
-      table = release_info.at('#release_dates')
-      table.css('tr').map do |row|
-        cells = row.css('td')
-        code = cells.first.at('a')['href'].clean_href.split('=').last.downcase rescue nil
-        region = cells.first.at('a').text rescue nil
-        date = cells.at('.release_date').text.strip.parse_date.to_s
-        comment = cells.last.text.strip.clean_release_comment
-        comment = nil if comment.empty?
+      release_info.css('tr.release-date-item').map do |row|
+        code = row.at('.release-date-item__country-name a')['href'].clean_href.split('=').last.downcase rescue nil
+        region = row.at('.release-date-item__country-name a')&.text&.strip
+        date = row.at('.release-date-item__date')&.text&.strip&.parse_date.to_s
+        comment = row.at('.release-date-item__attributes')&.text&.strip&.clean_release_comment
 
         array << { code: code, region: region, date: date, comment: comment }
-      end unless table.nil?
+      end
 
       array
     end
