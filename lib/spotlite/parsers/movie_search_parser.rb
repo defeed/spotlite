@@ -11,9 +11,14 @@ module Spotlite
         title_type: "feature",
         view: "simple",
         count: 250,
-        page: 1,
+        start: 1,
         sort: "moviemeter,asc"
       }
+
+      page = @params.delete(:page) || 1
+      count = @params[:count] || defaults[:count]
+
+      @params[:start] = count * (page - 1) + 1
 
       @params = defaults.merge(@params)
       results = Spotlite::Client.get(
