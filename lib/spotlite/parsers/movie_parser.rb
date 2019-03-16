@@ -117,7 +117,7 @@ module Spotlite
     end
 
     def parse_keywords
-      plot_keywords.css("a[href^='/keyword/']").map { |keyword| keyword.text.strip }
+      plot_keywords.css("a[href^='/search/keyword']").map { |keyword| keyword.text.strip }
     end
 
     def parse_trivia
