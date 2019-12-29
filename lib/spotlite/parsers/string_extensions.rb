@@ -1,6 +1,4 @@
 class String
-  require 'date' if RUBY_VERSION < "1.9.3"
-
   # Parses date from a string like '20 Jan 2013', 'Mar 2013', or '2013'.
   # Will return 01-Mar-2013 in case of 'Mar 2013'.
   # Will return 01-Jan-2013 in case of '2013'
@@ -58,7 +56,16 @@ class String
 
   # Strips "See full summary", "Written by", and "Add a plot" in movie description and storyline
   def clean_description
-    gsub(/((?:\sWritten by)(?!.*(?:\sWritten by)).*)/m, '').gsub(/((?:\sSee full summary)(?!.*(?:\sSee full summary)).*)/m, '').gsub('Add a Plot', '').strip
+    gsub(/((?:\sSee full summary)(?!.*(?:\sSee full summary)).*)/m, '').gsub('Add a Plot', '').strip
   end
 
+  def parse_language_code
+    hash = Hash[split("?").last.split("&").map { |e| e.split("=") }]
+    hash && hash["primary_language"]
+  end
+
+  def parse_country_code
+    hash = Hash[split("?").last.split("&").map { |e| e.split("=") }]
+    hash && hash["country_of_origin"]
+  end
 end

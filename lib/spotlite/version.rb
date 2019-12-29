@@ -1,3 +1,3 @@
 module Spotlite
-  VERSION = '0.8.10'
+  VERSION = "1.0.0"
 end
